@@ -21,26 +21,26 @@ def create_dinosaur_activity_book():
 
     # --- TITLE PAGE ---
     pdf.new_page()
-    pdf.add_centered_text(650, "AWESOME", font='HelveticaBold', size=32)
-    pdf.add_centered_text(600, "DINOSAUR", font='HelveticaBold', size=44)
-    pdf.add_centered_text(550, "ACTIVITY BOOK", font='HelveticaBold', size=32)
+    pdf.add_centered_text(650, "AWESOME", font='F2', size=32)
+    pdf.add_centered_text(600, "DINOSAUR", font='F2', size=44)
+    pdf.add_centered_text(550, "ACTIVITY BOOK", font='F2', size=32)
     pdf.add_line(150, 530, 462, 530, 2)
-    pdf.add_centered_text(490, "For Kids Ages 7-10", font='Helvetica', size=18)
-    pdf.add_centered_text(450, "Word Search | Mazes | Puzzles | Coloring | Trivia", font='Helvetica', size=12)
-    pdf.add_centered_text(410, "50+ Activities to Keep Young Dino Fans Busy!", font='Helvetica', size=12)
+    pdf.add_centered_text(490, "For Kids Ages 7-10", font='F1', size=18)
+    pdf.add_centered_text(450, "Word Search | Mazes | Puzzles | Coloring | Trivia", font='F1', size=12)
+    pdf.add_centered_text(410, "50+ Activities to Keep Young Dino Fans Busy!", font='F1', size=12)
     draw_simple_dino(pdf, 260, 250, 1.5)
-    pdf.add_centered_text(170, "By", font='Helvetica', size=12)
-    pdf.add_centered_text(145, "Daniel Tesfamariam", font='HelveticaBold', size=18)
-    pdf.add_centered_text(100, "Hours of Screen-Free Fun!", font='HelveticaBold', size=14)
+    pdf.add_centered_text(170, "By", font='F1', size=12)
+    pdf.add_centered_text(145, "Daniel Tesfamariam", font='F2', size=18)
+    pdf.add_centered_text(100, "Hours of Screen-Free Fun!", font='F2', size=14)
 
     # --- COPYRIGHT ---
     pdf.new_page()
-    pdf.add_centered_text(550, "Awesome Dinosaur Activity Book", font='HelveticaBold', size=14)
-    pdf.add_centered_text(525, "For Kids Ages 7-10", font='Helvetica', size=11)
-    pdf.add_centered_text(500, "By Daniel Tesfamariam", font='HelveticaBold', size=11)
-    pdf.add_centered_text(470, "Copyright 2026 Daniel Tesfamariam. All Rights Reserved.", font='Helvetica', size=9)
-    pdf.add_centered_text(445, "ISBN: _______________", font='Helvetica', size=9)
-    pdf.add_centered_text(420, "Published via Amazon KDP", font='Helvetica', size=9)
+    pdf.add_centered_text(550, "Awesome Dinosaur Activity Book", font='F2', size=14)
+    pdf.add_centered_text(525, "For Kids Ages 7-10", font='F1', size=11)
+    pdf.add_centered_text(500, "By Daniel Tesfamariam", font='F2', size=11)
+    pdf.add_centered_text(470, "Copyright 2026 Daniel Tesfamariam. All Rights Reserved.", font='F1', size=9)
+    pdf.add_centered_text(445, "ISBN: _______________", font='F1', size=9)
+    pdf.add_centered_text(420, "Published via Amazon KDP", font='F1', size=9)
 
     # --- WORD SEARCH PAGES (4 pages) ---
     dino_word_lists = [
@@ -56,8 +56,8 @@ def create_dinosaur_activity_book():
 
     for ws_idx, (title, words) in enumerate(dino_word_lists):
         pdf.new_page()
-        pdf.add_centered_text(750, f"Word Search: {title}", font='HelveticaBold', size=18)
-        pdf.add_centered_text(725, "Find all the hidden words!", font='Helvetica', size=11)
+        pdf.add_centered_text(750, f"Word Search: {title}", font='F2', size=18)
+        pdf.add_centered_text(725, "Find all the hidden words!", font='F1', size=11)
 
         grid_size = 14
         cell_size = 30
@@ -71,15 +71,15 @@ def create_dinosaur_activity_book():
                 y = start_y + (grid_size - 1 - row) * cell_size
                 pdf.add_rect(x, y, cell_size, cell_size, line_width=0.5)
                 letter = chr(random.randint(65, 90))
-                pdf.add_text(x + 10, y + 8, letter, font='Courier', size=14)
+                pdf.add_text(x + 10, y + 8, letter, font='F3', size=14)
 
-        pdf.add_text(80, start_y - 30, "Find these words:", font='HelveticaBold', size=11)
+        pdf.add_text(80, start_y - 30, "Find these words:", font='F2', size=11)
         for w_idx, word in enumerate(words):
             wx = 80 if w_idx < 4 else 320
             wy = start_y - 55 - (w_idx % 4) * 20
-            pdf.add_text(wx, wy, f"__ {word}", font='Courier', size=10)
+            pdf.add_text(wx, wy, f"__ {word}", font='F3', size=10)
 
-        pdf.add_centered_text(40, f"- {ws_idx + 3} -", font='Helvetica', size=9)
+        pdf.add_centered_text(40, f"- {ws_idx + 3} -", font='F1', size=9)
 
     # --- MAZE PAGES (3 pages) ---
     maze_themes = [
@@ -90,8 +90,8 @@ def create_dinosaur_activity_book():
 
     for maze_idx, maze_title in enumerate(maze_themes):
         pdf.new_page()
-        pdf.add_centered_text(750, f"Dino Maze #{maze_idx + 1}", font='HelveticaBold', size=20)
-        pdf.add_centered_text(725, maze_title, font='Helvetica', size=13)
+        pdf.add_centered_text(750, f"Dino Maze #{maze_idx + 1}", font='F2', size=20)
+        pdf.add_centered_text(725, maze_title, font='F1', size=13)
 
         random.seed(maze_idx * 50 + 7)
         maze_w, maze_h = 12, 12
@@ -100,8 +100,8 @@ def create_dinosaur_activity_book():
         my_start = 250
 
         pdf.add_rect(mx_start, my_start, maze_w * cell, maze_h * cell, line_width=2)
-        pdf.add_text(mx_start - 5, my_start + maze_h * cell + 10, "START ->", font='HelveticaBold', size=12)
-        pdf.add_text(mx_start + maze_w * cell - 50, my_start - 20, "-> END", font='HelveticaBold', size=12)
+        pdf.add_text(mx_start - 5, my_start + maze_h * cell + 10, "START ->", font='F2', size=12)
+        pdf.add_text(mx_start + maze_w * cell - 50, my_start - 20, "-> END", font='F2', size=12)
 
         for r in range(maze_h):
             for c in range(maze_w):
@@ -112,7 +112,7 @@ def create_dinosaur_activity_book():
                 if random.random() < 0.4 and c > 0:
                     pdf.add_line(x, y, x, y + cell, 1.5)
 
-        pdf.add_centered_text(40, f"- {maze_idx + 7} -", font='Helvetica', size=9)
+        pdf.add_centered_text(40, f"- {maze_idx + 7} -", font='F1', size=9)
 
     # --- TRIVIA (3 pages) ---
     trivia_sets = [
@@ -129,21 +129,21 @@ def create_dinosaur_activity_book():
 
     for t_idx, trivia in enumerate(trivia_sets):
         pdf.new_page()
-        pdf.add_centered_text(750, f"Dino Trivia Quiz #{t_idx + 1}", font='HelveticaBold', size=20)
-        pdf.add_centered_text(725, "Circle the correct answer!", font='Helvetica', size=12)
+        pdf.add_centered_text(750, f"Dino Trivia Quiz #{t_idx + 1}", font='F2', size=20)
+        pdf.add_centered_text(725, "Circle the correct answer!", font='F1', size=12)
         y = 680
         for q_idx, (question, a, b, c, d) in enumerate(trivia):
-            pdf.add_text(72, y, f"{q_idx + 1}. {question}", font='HelveticaBold', size=12)
+            pdf.add_text(72, y, f"{q_idx + 1}. {question}", font='F2', size=12)
             y -= 25
             for opt in [a, b, c, d]:
-                pdf.add_text(100, y, opt, font='Helvetica', size=11)
+                pdf.add_text(100, y, opt, font='F1', size=11)
                 y -= 20
             y -= 25
-        pdf.add_centered_text(40, f"- {t_idx + 10} -", font='Helvetica', size=9)
+        pdf.add_centered_text(40, f"- {t_idx + 10} -", font='F1', size=9)
 
     # --- DINO FACTS ---
     pdf.new_page()
-    pdf.add_centered_text(740, "Amazing Dinosaur Facts!", font='HelveticaBold', size=22)
+    pdf.add_centered_text(740, "Amazing Dinosaur Facts!", font='F2', size=22)
     pdf.add_line(150, 720, 462, 720, 1)
     facts = [
         "1. The word 'dinosaur' means 'terrible lizard' in Greek.",
@@ -159,16 +159,16 @@ def create_dinosaur_activity_book():
     ]
     y = 680
     for fact in facts:
-        pdf.add_text(72, y, fact, font='Helvetica', size=12)
+        pdf.add_text(72, y, fact, font='F1', size=12)
         y -= 40
 
     # --- ANSWER KEY ---
     pdf.new_page()
-    pdf.add_centered_text(740, "ANSWER KEY", font='HelveticaBold', size=22)
+    pdf.add_centered_text(740, "ANSWER KEY", font='F2', size=22)
     pdf.add_line(200, 720, 412, 720, 1)
-    pdf.add_text(72, 680, "Trivia Quiz #1:  1.B  2.B  3.C", font='Courier', size=12)
-    pdf.add_text(72, 645, "Trivia Quiz #2:  1.B  2.C  3.C", font='Courier', size=12)
-    pdf.add_text(72, 610, "Trivia Quiz #3:  1.A  2.C  3.B", font='Courier', size=12)
+    pdf.add_text(72, 680, "Trivia Quiz #1:  1.B  2.B  3.C", font='F3', size=12)
+    pdf.add_text(72, 645, "Trivia Quiz #2:  1.B  2.C  3.C", font='F3', size=12)
+    pdf.add_text(72, 610, "Trivia Quiz #3:  1.A  2.C  3.B", font='F3', size=12)
 
     pdf.save('/projects/sandbox/CLAUDE/kdp_books/Book4_Dinosaur_Activity_Book.pdf')
     print("Book 4 created: Book4_Dinosaur_Activity_Book.pdf")

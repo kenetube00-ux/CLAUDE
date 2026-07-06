@@ -70,7 +70,7 @@ def draw_illustration(pdf, theme, index):
             pdf.add_rect(px, 375, 60, 80)
             for s in range(4):
                 pdf.add_line(px + 30, 455, px + 15 + s*12, 500 + s*15, 1)
-            pdf.add_text(px + 10, 380, label, font='TimesRoman', size=9)
+            pdf.add_text(px + 10, 380, label, font='F4', size=9)
 
     elif theme == "bee":
         pdf.add_rect(280, 440, 52, 30)
@@ -175,26 +175,26 @@ def create_cottagecore_book():
 
     # --- TITLE PAGE ---
     pdf.new_page()
-    pdf.add_centered_text(650, "Cottagecore", font='TimesBold', size=48)
-    pdf.add_centered_text(590, "COLORING BOOK", font='TimesRoman', size=28)
-    pdf.add_centered_text(540, "A Peaceful Escape into Nature", font='TimesRoman', size=16)
+    pdf.add_centered_text(650, "Cottagecore", font='F5', size=48)
+    pdf.add_centered_text(590, "COLORING BOOK", font='F4', size=28)
+    pdf.add_centered_text(540, "A Peaceful Escape into Nature", font='F4', size=16)
     pdf.add_rect(50, 50, 512, 692, line_width=2)
-    pdf.add_centered_text(470, "30 Relaxing Illustrations", font='TimesRoman', size=14)
-    pdf.add_centered_text(440, "Wildflowers | Cottages | Gardens | Animals", font='TimesRoman', size=12)
-    pdf.add_centered_text(400, "Single-Sided Pages", font='TimesRoman', size=11)
+    pdf.add_centered_text(470, "30 Relaxing Illustrations", font='F4', size=14)
+    pdf.add_centered_text(440, "Wildflowers | Cottages | Gardens | Animals", font='F4', size=12)
+    pdf.add_centered_text(400, "Single-Sided Pages", font='F4', size=11)
     pdf.add_line(250, 370, 362, 370, 1)
-    pdf.add_centered_text(340, "For Adults & Teens", font='TimesRoman', size=13)
-    pdf.add_centered_text(240, "By", font='TimesRoman', size=12)
-    pdf.add_centered_text(215, "Daniel Tesfamariam", font='TimesBold', size=18)
-    pdf.add_centered_text(150, "Volume 1", font='TimesRoman', size=14)
+    pdf.add_centered_text(340, "For Adults & Teens", font='F4', size=13)
+    pdf.add_centered_text(240, "By", font='F4', size=12)
+    pdf.add_centered_text(215, "Daniel Tesfamariam", font='F5', size=18)
+    pdf.add_centered_text(150, "Volume 1", font='F4', size=14)
 
     # --- COPYRIGHT ---
     pdf.new_page()
-    pdf.add_centered_text(600, "Cottagecore Coloring Book - Volume 1", font='TimesBold', size=14)
-    pdf.add_centered_text(575, "By Daniel Tesfamariam", font='TimesBold', size=12)
-    pdf.add_centered_text(545, "Copyright 2026 Daniel Tesfamariam. All Rights Reserved.", font='TimesRoman', size=10)
-    pdf.add_centered_text(510, "ISBN: _______________", font='TimesRoman', size=10)
-    pdf.add_centered_text(485, "Published via Amazon KDP", font='TimesRoman', size=10)
+    pdf.add_centered_text(600, "Cottagecore Coloring Book - Volume 1", font='F5', size=14)
+    pdf.add_centered_text(575, "By Daniel Tesfamariam", font='F5', size=12)
+    pdf.add_centered_text(545, "Copyright 2026 Daniel Tesfamariam. All Rights Reserved.", font='F4', size=10)
+    pdf.add_centered_text(510, "ISBN: _______________", font='F4', size=10)
+    pdf.add_centered_text(485, "Published via Amazon KDP", font='F4', size=10)
 
     # --- COLORING PAGES ---
     themes = [
@@ -218,20 +218,20 @@ def create_cottagecore_book():
     for i, (title, theme) in enumerate(themes):
         # Blank back page
         pdf.new_page()
-        pdf.add_centered_text(396, "This page intentionally left blank.", font='TimesRoman', size=9, gray=0.5)
+        pdf.add_centered_text(396, "This page intentionally left blank.", font='F4', size=9, gray=0.5)
 
         # Coloring page
         pdf.new_page()
         pdf.add_rect(50, 50, 512, 692, line_width=1.5)
-        pdf.add_centered_text(65, title, font='TimesRoman', size=11)
+        pdf.add_centered_text(65, title, font='F4', size=11)
         draw_illustration(pdf, theme, i)
-        pdf.add_centered_text(35, f"{i + 1}", font='TimesRoman', size=9)
+        pdf.add_centered_text(35, f"{i + 1}", font='F4', size=9)
 
     # --- BACK MATTER ---
     pdf.new_page()
-    pdf.add_centered_text(500, "Thank You!", font='TimesBold', size=28)
-    pdf.add_centered_text(450, "If you enjoyed this book, please leave a review.", font='TimesRoman', size=12)
-    pdf.add_centered_text(420, "Your feedback helps create more books like this!", font='TimesRoman', size=12)
+    pdf.add_centered_text(500, "Thank You!", font='F5', size=28)
+    pdf.add_centered_text(450, "If you enjoyed this book, please leave a review.", font='F4', size=12)
+    pdf.add_centered_text(420, "Your feedback helps create more books like this!", font='F4', size=12)
 
     pdf.save('/projects/sandbox/CLAUDE/kdp_books/Book2_Cottagecore_Coloring_Book.pdf')
     print("Book 2 created: Book2_Cottagecore_Coloring_Book.pdf")

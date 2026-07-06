@@ -20,18 +20,18 @@ def create_cover():
 
     # Light header band
     pdf.add_filled_rect(50, 580, 332, 40, gray=0.88)
-    pdf.add_text(115, 593, "LARGE PRINT EDITION", font='HelveticaBold', size=16)
+    pdf.add_text(115, 593, "LARGE PRINT EDITION", font='F2', size=16)
 
     # Main title
-    pdf.add_centered_text(545, "PASSWORD", font='HelveticaBold', size=38)
-    pdf.add_centered_text(500, "LOG BOOK", font='HelveticaBold', size=38)
+    pdf.add_centered_text(545, "PASSWORD", font='F2', size=38)
+    pdf.add_centered_text(500, "LOG BOOK", font='F2', size=38)
 
     # Decorative line
     pdf.add_line(80, 485, 352, 485, 2)
 
     # Subtitle
-    pdf.add_centered_text(455, "Internet Address & Password Organizer", font='Helvetica', size=13)
-    pdf.add_centered_text(432, "Senior-Friendly Edition", font='Helvetica', size=13)
+    pdf.add_centered_text(455, "Internet Address & Password Organizer", font='F1', size=13)
+    pdf.add_centered_text(432, "Senior-Friendly Edition", font='F1', size=13)
 
     # Lock icon (central visual)
     draw_lock_icon(pdf, 216, 330, 3)
@@ -46,15 +46,15 @@ def create_cover():
     ]
     y = 280
     for feat in features:
-        pdf.add_centered_text(y, f">> {feat}", font='Helvetica', size=11)
+        pdf.add_centered_text(y, f">> {feat}", font='F1', size=11)
         y -= 20
 
     # "Keep Safe" badge
     pdf.add_rect(130, 148, 172, 28, line_width=1.5)
-    pdf.add_centered_text(155, "KEEP IN A SAFE PLACE", font='HelveticaBold', size=11)
+    pdf.add_centered_text(155, "KEEP IN A SAFE PLACE", font='F2', size=11)
 
     # Author
-    pdf.add_centered_text(100, "Daniel Tesfamariam", font='HelveticaBold', size=18)
+    pdf.add_centered_text(100, "Daniel Tesfamariam", font='F2', size=18)
 
     # Border
     pdf.add_rect(18, 18, 396, 612, line_width=2)

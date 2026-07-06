@@ -37,9 +37,9 @@ def create_cover():
             draw_cover_flower(pdf, fx, fy, 12)
 
     # Main title
-    pdf.add_centered_text(640, "Cottagecore", font='TimesBold', size=50)
-    pdf.add_centered_text(580, "COLORING BOOK", font='TimesRoman', size=30)
-    pdf.add_centered_text(535, "A Peaceful Escape into Nature", font='TimesRoman', size=16)
+    pdf.add_centered_text(640, "Cottagecore", font='F5', size=50)
+    pdf.add_centered_text(580, "COLORING BOOK", font='F4', size=30)
+    pdf.add_centered_text(535, "A Peaceful Escape into Nature", font='F4', size=16)
 
     # Divider
     pdf.add_line(180, 515, 432, 515, 1.5)
@@ -63,15 +63,15 @@ def create_cover():
     pdf.add_line(130, 240, 482, 240, 1)
 
     # Features text
-    pdf.add_centered_text(200, "30 Relaxing Illustrations | Single-Sided Pages", font='TimesRoman', size=12)
-    pdf.add_centered_text(180, "Wildflowers | Cottages | Gardens | Animals", font='TimesRoman', size=12)
+    pdf.add_centered_text(200, "30 Relaxing Illustrations | Single-Sided Pages", font='F4', size=12)
+    pdf.add_centered_text(180, "Wildflowers | Cottages | Gardens | Animals", font='F4', size=12)
 
     # For Adults badge
     pdf.add_rect(225, 130, 162, 28, line_width=1.5)
-    pdf.add_centered_text(138, "For Adults & Teens", font='TimesBold', size=14)
+    pdf.add_centered_text(138, "For Adults & Teens", font='F5', size=14)
 
     # Author
-    pdf.add_centered_text(80, "Daniel Tesfamariam", font='TimesBold', size=20)
+    pdf.add_centered_text(80, "Daniel Tesfamariam", font='F5', size=20)
     pdf.add_line(200, 70, 412, 70, 1)
 
     pdf.save('/projects/sandbox/CLAUDE/BOOK_COVERS/Cover2_Cottagecore_Coloring.pdf')

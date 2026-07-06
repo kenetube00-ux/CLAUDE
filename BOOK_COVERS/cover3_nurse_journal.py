@@ -14,13 +14,13 @@ def create_cover():
     pdf.add_filled_rect(0, 545, 432, 103, gray=0.88)
 
     # Title
-    pdf.add_text(155, 618, "THE", font='Helvetica', size=14)
-    pdf.add_centered_text(580, "NURSE'S", font='HelveticaBold', size=36)
-    pdf.add_centered_text(548, "GUIDED JOURNAL", font='HelveticaBold', size=22)
+    pdf.add_text(155, 618, "THE", font='F1', size=14)
+    pdf.add_centered_text(580, "NURSE'S", font='F2', size=36)
+    pdf.add_centered_text(548, "GUIDED JOURNAL", font='F2', size=22)
 
     # Subtitle
-    pdf.add_centered_text(510, "Reflections, Gratitude & Self-Care", font='Helvetica', size=14)
-    pdf.add_centered_text(488, "for Healthcare Heroes", font='Helvetica', size=14)
+    pdf.add_centered_text(510, "Reflections, Gratitude & Self-Care", font='F1', size=14)
+    pdf.add_centered_text(488, "for Healthcare Heroes", font='F1', size=14)
 
     # Decorative line
     pdf.add_line(100, 470, 332, 470, 1.5)
@@ -53,19 +53,19 @@ def create_cover():
     ]
     y = 220
     for feat in features:
-        pdf.add_centered_text(y, f"* {feat}", font='Helvetica', size=11)
+        pdf.add_centered_text(y, f"* {feat}", font='F1', size=11)
         y -= 20
 
     # Bottom quote
     pdf.add_rect(80, 120, 272, 25, line_width=1)
-    pdf.add_centered_text(128, "Because you deserve care too.", font='HelveticaBold', size=12)
+    pdf.add_centered_text(128, "Because you deserve care too.", font='F2', size=12)
 
     # Author
-    pdf.add_centered_text(80, "Daniel Tesfamariam", font='HelveticaBold', size=18)
+    pdf.add_centered_text(80, "Daniel Tesfamariam", font='F2', size=18)
 
     # Bottom accent
     pdf.add_filled_rect(0, 0, 432, 35, gray=0.88)
-    pdf.add_centered_text(12, "A Gift for Every Nurse", font='Helvetica', size=11)
+    pdf.add_centered_text(12, "A Gift for Every Nurse", font='F1', size=11)
 
     pdf.save('/projects/sandbox/CLAUDE/BOOK_COVERS/Cover3_Nurse_Guided_Journal.pdf')
     print("Cover 3 created: Cover3_Nurse_Guided_Journal.pdf")

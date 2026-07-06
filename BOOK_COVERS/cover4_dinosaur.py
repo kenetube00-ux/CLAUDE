@@ -37,17 +37,17 @@ def create_cover():
     pdf.add_filled_rect(0, 650, 612, 142, gray=0.9)
 
     # Main title
-    pdf.add_centered_text(755, "AWESOME", font='HelveticaBold', size=34)
-    pdf.add_centered_text(705, "DINOSAUR", font='HelveticaBold', size=48)
-    pdf.add_centered_text(660, "ACTIVITY BOOK", font='HelveticaBold', size=34)
+    pdf.add_centered_text(755, "AWESOME", font='F2', size=34)
+    pdf.add_centered_text(705, "DINOSAUR", font='F2', size=48)
+    pdf.add_centered_text(660, "ACTIVITY BOOK", font='F2', size=34)
 
     # Age badge
     pdf.add_rect(460, 590, 100, 45, line_width=2.5)
-    pdf.add_text(475, 605, "AGES", font='HelveticaBold', size=12)
-    pdf.add_text(510, 595, "7-10", font='HelveticaBold', size=20)
+    pdf.add_text(475, 605, "AGES", font='F2', size=12)
+    pdf.add_text(510, 595, "7-10", font='F2', size=20)
 
     # Subtitle
-    pdf.add_centered_text(615, "Word Search | Mazes | Puzzles | Coloring | Trivia", font='Helvetica', size=13)
+    pdf.add_centered_text(615, "Word Search | Mazes | Puzzles | Coloring | Trivia", font='F1', size=13)
 
     # Big T-Rex
     draw_cover_trex(pdf, 180, 320, 2.0)
@@ -59,8 +59,8 @@ def create_cover():
 
     # 50+ badge
     pdf.add_rect(60, 440, 100, 45, line_width=2.5)
-    pdf.add_text(75, 453, "50+", font='HelveticaBold', size=26)
-    pdf.add_text(70, 425, "Activities!", font='HelveticaBold', size=12)
+    pdf.add_text(75, 453, "50+", font='F2', size=26)
+    pdf.add_text(70, 425, "Activities!", font='F2', size=12)
 
     # Ground line with plants
     pdf.add_line(50, 290, 562, 290, 1.5)
@@ -71,14 +71,14 @@ def create_cover():
 
     # Feature banner
     pdf.add_filled_rect(70, 195, 472, 35, gray=0.9)
-    pdf.add_centered_text(205, "Hours of Screen-Free Fun for Young Dino Fans!", font='HelveticaBold', size=13)
+    pdf.add_centered_text(205, "Hours of Screen-Free Fun for Young Dino Fans!", font='F2', size=13)
 
     # Author
-    pdf.add_centered_text(140, "Daniel Tesfamariam", font='HelveticaBold', size=20)
+    pdf.add_centered_text(140, "Daniel Tesfamariam", font='F2', size=20)
 
     # Bottom band
     pdf.add_filled_rect(0, 0, 612, 45, gray=0.9)
-    pdf.add_centered_text(15, "Educational & Entertaining", font='Helvetica', size=13)
+    pdf.add_centered_text(15, "Educational & Entertaining", font='F1', size=13)
 
     # Border
     pdf.add_rect(10, 50, 592, 730, line_width=2)
