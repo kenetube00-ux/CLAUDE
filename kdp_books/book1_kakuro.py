@@ -1,12 +1,13 @@
 """
 Book 1: Large Print Kakuro Puzzle Book for Seniors
 KDP Interior - 8.5x11 inches (612x792 points)
+WHITE background, BLACK text
 """
 import random
 from pdf_utils import PDFDoc
 
 def create_kakuro_book():
-    pdf = PDFDoc(612, 792)  # 8.5 x 11 inches
+    pdf = PDFDoc(612, 792)
 
     # --- TITLE PAGE ---
     pdf.new_page()
@@ -19,8 +20,8 @@ def create_kakuro_book():
     pdf.add_centered_text(320, "Big Grids | Clear Numbers | Senior-Friendly", font='Helvetica', size=12)
     pdf.add_line(180, 290, 432, 290, 2)
     pdf.add_centered_text(260, "Keep Your Mind Sharp!", font='Helvetica', size=14)
-    pdf.add_centered_text(180, "By", font='Helvetica', size=12)
-    pdf.add_centered_text(155, "Daniel Tesfamariam", font='HelveticaBold', size=18)
+    pdf.add_centered_text(200, "By", font='Helvetica', size=12)
+    pdf.add_centered_text(175, "Daniel Tesfamariam", font='HelveticaBold', size=18)
     pdf.add_centered_text(120, "Volume 1", font='Helvetica', size=14)
 
     # --- COPYRIGHT PAGE ---
@@ -32,7 +33,6 @@ def create_kakuro_book():
     pdf.add_centered_text(465, "Author: Daniel Tesfamariam", font='HelveticaBold', size=10)
     pdf.add_centered_text(435, "ISBN: _______________", font='Helvetica', size=10)
     pdf.add_centered_text(405, "Published via Amazon KDP", font='Helvetica', size=10)
-
 
     # --- HOW TO PLAY PAGE ---
     pdf.new_page()
@@ -62,35 +62,32 @@ def create_kakuro_book():
     ]
     y = 660
     for line in instructions:
-        font = 'HelveticaBold' if line.startswith(('RULES', 'TIPS', 'DIFF')) else 'Helvetica'
-        size = 14 if line.startswith(('RULES', 'TIPS', 'DIFF')) else 13
+        bold = line.startswith(('RULES', 'TIPS', 'DIFF'))
+        font = 'HelveticaBold' if bold else 'Helvetica'
+        size = 14 if bold else 13
         pdf.add_text(80, y, line, font=font, size=size)
         y -= 25
 
-
     # --- PUZZLE PAGES (15 puzzles) ---
     random.seed(42)
-
     for puzzle_num in range(1, 16):
         pdf.new_page()
         pdf.add_centered_text(750, f"Puzzle #{puzzle_num}", font='HelveticaBold', size=20)
         difficulty = "Easy" if puzzle_num <= 10 else "Medium"
         pdf.add_centered_text(720, f"Difficulty: {difficulty}", font='Helvetica', size=13)
 
-        # Draw Kakuro grid (6x6 for visibility)
+        # Draw Kakuro grid
         grid_size = 6
-        cell_size = 65  # Large print cells
+        cell_size = 65
         start_x = (612 - grid_size * cell_size) / 2
         start_y = 300
 
-        # Generate a simple kakuro-like pattern
-        # Black cells pattern (varies per puzzle)
+        # Generate pattern
         black_cells = set()
         random.seed(puzzle_num * 7 + 13)
         for _ in range(random.randint(8, 12)):
             r, c = random.randint(0, grid_size-1), random.randint(0, grid_size-1)
             black_cells.add((r, c))
-        # Always make (0,0) black
         black_cells.add((0, 0))
 
         for row in range(grid_size):
@@ -99,25 +96,19 @@ def create_kakuro_book():
                 y = start_y + (grid_size - 1 - row) * cell_size
 
                 if (row, col) in black_cells:
-                    # Black/clue cell
-                    pdf.add_filled_rect(x, y, cell_size, cell_size, gray=0.2)
-                    # Add clue numbers
+                    # Dark clue cell
+                    pdf.add_filled_rect(x, y, cell_size, cell_size, gray=0.3)
+                    # Clue numbers in white
                     down_clue = random.randint(3, 30)
                     across_clue = random.randint(3, 30)
-                    pdf.set_gray(1)
-                    pdf.add_text(x + 5, y + cell_size - 18, str(down_clue), font='Helvetica', size=11)
-                    pdf.add_text(x + cell_size - 25, y + 5, str(across_clue), font='Helvetica', size=11)
-                    pdf.reset_color()
-                    # Diagonal line in clue cell
-                    pdf.set_gray(1)
-                    pdf.add_line(x, y + cell_size, x + cell_size, y, 0.5)
-                    pdf.reset_color()
+                    pdf.add_text(x + 5, y + cell_size - 18, str(down_clue), font='Helvetica', size=11, gray=1)
+                    pdf.add_text(x + cell_size - 25, y + 5, str(across_clue), font='Helvetica', size=11, gray=1)
+                    # Diagonal line
+                    pdf.add_line(x, y + cell_size, x + cell_size, y, 0.5, gray=0.8)
                 else:
-                    # White/answer cell
+                    # White answer cell with border
                     pdf.add_rect(x, y, cell_size, cell_size, line_width=1.5)
 
-
-        # Page number
         pdf.add_centered_text(40, f"- {puzzle_num + 2} -", font='Helvetica', size=10)
 
     # --- SOLUTIONS SECTION ---
@@ -126,14 +117,12 @@ def create_kakuro_book():
     pdf.add_line(200, 700, 412, 700, 2)
 
     y = 660
-    random.seed(42)
     for puzzle_num in range(1, 16):
         if y < 100:
             pdf.new_page()
             pdf.add_centered_text(720, "SOLUTIONS (continued)", font='HelveticaBold', size=20)
             y = 660
         pdf.add_text(80, y, f"Puzzle #{puzzle_num}:", font='HelveticaBold', size=12)
-        # Generate sample solution numbers
         random.seed(puzzle_num * 7 + 100)
         sol_nums = [str(random.randint(1, 9)) for _ in range(12)]
         sol_text = "  ".join(sol_nums)
@@ -145,7 +134,7 @@ def create_kakuro_book():
     pdf.add_centered_text(720, "NOTES", font='HelveticaBold', size=22)
     for i in range(20):
         y_line = 680 - i * 30
-        pdf.add_line(72, y_line, 540, y_line, 0.5)
+        pdf.add_line(72, y_line, 540, y_line, 0.5, gray=0.6)
 
     pdf.save('/projects/sandbox/CLAUDE/kdp_books/Book1_LargePrint_Kakuro_Seniors.pdf')
     print("Book 1 created: Book1_LargePrint_Kakuro_Seniors.pdf")
