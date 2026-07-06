@@ -1,4 +1,4 @@
-# KDP Book PDFs - By Daniel Tesfamariam
+# KDP Book PDFs & Covers - By Daniel Tesfamariam
 
 ## How to Download
 
@@ -7,7 +7,21 @@
 
 ---
 
-## Books Included
+## Book Covers
+
+| # | File Name | Book | Cover Size |
+|---|-----------|------|-----------|
+| 1 | `Cover1_Kakuro_Puzzle_Book.pdf` | Kakuro Puzzle Book | 8.75 x 11.25 in (with bleed) |
+| 2 | `Cover2_Cottagecore_Coloring.pdf` | Cottagecore Coloring Book | 8.75 x 11.25 in (with bleed) |
+| 3 | `Cover3_Nurse_Guided_Journal.pdf` | Nurse's Guided Journal | 6.25 x 9.25 in (with bleed) |
+| 4 | `Cover4_Dinosaur_Activity_Book.pdf` | Dinosaur Activity Book | 8.75 x 11.25 in (with bleed) |
+| 5 | `Cover5_Password_Log_Book.pdf` | Password Log Book | 6.25 x 9.25 in (with bleed) |
+
+> **Download all covers at once:** `ALL_COVERS_Daniel_Tesfamariam.zip`
+
+---
+
+## Book Interiors
 
 | # | File Name | Book Title | Trim Size | Pages |
 |---|-----------|-----------|-----------|-------|
