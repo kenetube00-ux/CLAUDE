@@ -21,17 +21,20 @@ def create_dinosaur_activity_book():
     pdf.add_centered_text(410, "50+ Activities to Keep Young Dino Fans Busy!", font='Helvetica', size=12)
     # Simple dino silhouette
     draw_simple_dino(pdf, 260, 220, 1.5)
-    pdf.add_centered_text(120, "Hours of Screen-Free Fun!", font='HelveticaBold', size=14)
+    pdf.add_centered_text(160, "By", font='Helvetica', size=12)
+    pdf.add_centered_text(135, "Daniel Tesfamariam", font='HelveticaBold', size=18)
+    pdf.add_centered_text(100, "Hours of Screen-Free Fun!", font='HelveticaBold', size=14)
 
 
     # --- COPYRIGHT PAGE ---
     pdf.new_page()
     pdf.add_centered_text(550, "Awesome Dinosaur Activity Book", font='HelveticaBold', size=14)
     pdf.add_centered_text(525, "For Kids Ages 7-10", font='Helvetica', size=11)
-    pdf.add_centered_text(490, "Copyright 2026. All Rights Reserved.", font='Helvetica', size=9)
-    pdf.add_centered_text(465, "No part of this book may be reproduced without permission.", font='Helvetica', size=8)
-    pdf.add_centered_text(430, "ISBN: _______________", font='Helvetica', size=9)
-    pdf.add_centered_text(405, "Published via Amazon KDP", font='Helvetica', size=9)
+    pdf.add_centered_text(500, "By Daniel Tesfamariam", font='HelveticaBold', size=11)
+    pdf.add_centered_text(470, "Copyright 2026 Daniel Tesfamariam. All Rights Reserved.", font='Helvetica', size=9)
+    pdf.add_centered_text(448, "No part of this book may be reproduced without permission.", font='Helvetica', size=8)
+    pdf.add_centered_text(420, "ISBN: _______________", font='Helvetica', size=9)
+    pdf.add_centered_text(398, "Published via Amazon KDP", font='Helvetica', size=9)
 
     # --- WORD SEARCH PAGES (4 pages) ---
     dino_word_lists = [

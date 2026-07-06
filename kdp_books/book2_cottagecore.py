@@ -24,16 +24,19 @@ def create_cottagecore_book():
     # Small decorative element
     pdf.add_line(250, 330, 362, 330, 1)
     pdf.add_centered_text(300, "For Adults & Teens", font='TimesRoman', size=13)
+    pdf.add_centered_text(200, "By", font='TimesRoman', size=12)
+    pdf.add_centered_text(175, "Daniel Tesfamariam", font='TimesBold', size=18)
     pdf.add_centered_text(120, "Volume 1", font='TimesRoman', size=14)
 
 
     # --- COPYRIGHT PAGE ---
     pdf.new_page()
     pdf.add_centered_text(600, "Cottagecore Coloring Book - Volume 1", font='TimesBold', size=14)
-    pdf.add_centered_text(570, "Copyright 2026. All Rights Reserved.", font='TimesRoman', size=10)
-    pdf.add_centered_text(540, "No part of this book may be reproduced without written permission.", font='TimesRoman', size=9)
-    pdf.add_centered_text(500, "ISBN: _______________", font='TimesRoman', size=10)
-    pdf.add_centered_text(470, "Published via Amazon KDP", font='TimesRoman', size=10)
+    pdf.add_centered_text(575, "By Daniel Tesfamariam", font='TimesBold', size=12)
+    pdf.add_centered_text(545, "Copyright 2026 Daniel Tesfamariam. All Rights Reserved.", font='TimesRoman', size=10)
+    pdf.add_centered_text(520, "No part of this book may be reproduced without written permission.", font='TimesRoman', size=9)
+    pdf.add_centered_text(490, "ISBN: _______________", font='TimesRoman', size=10)
+    pdf.add_centered_text(465, "Published via Amazon KDP", font='TimesRoman', size=10)
     pdf.add_centered_text(420, "Tips for Best Results:", font='TimesBold', size=12)
     tips = [
         "- Use colored pencils, gel pens, or fine markers",

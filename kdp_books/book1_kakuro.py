@@ -19,16 +19,19 @@ def create_kakuro_book():
     pdf.add_centered_text(320, "Big Grids | Clear Numbers | Senior-Friendly", font='Helvetica', size=12)
     pdf.add_line(180, 290, 432, 290, 2)
     pdf.add_centered_text(260, "Keep Your Mind Sharp!", font='Helvetica', size=14)
+    pdf.add_centered_text(180, "By", font='Helvetica', size=12)
+    pdf.add_centered_text(155, "Daniel Tesfamariam", font='HelveticaBold', size=18)
     pdf.add_centered_text(120, "Volume 1", font='Helvetica', size=14)
 
     # --- COPYRIGHT PAGE ---
     pdf.new_page()
     pdf.add_centered_text(600, "Large Print Kakuro Puzzle Book for Seniors", font='HelveticaBold', size=14)
     pdf.add_centered_text(570, "Volume 1", font='Helvetica', size=12)
-    pdf.add_centered_text(530, "Copyright 2026. All Rights Reserved.", font='Helvetica', size=10)
+    pdf.add_centered_text(530, "Copyright 2026 Daniel Tesfamariam. All Rights Reserved.", font='Helvetica', size=10)
     pdf.add_centered_text(500, "No part of this book may be reproduced without permission.", font='Helvetica', size=9)
-    pdf.add_centered_text(460, "ISBN: _______________", font='Helvetica', size=10)
-    pdf.add_centered_text(430, "Published via Amazon KDP", font='Helvetica', size=10)
+    pdf.add_centered_text(465, "Author: Daniel Tesfamariam", font='HelveticaBold', size=10)
+    pdf.add_centered_text(435, "ISBN: _______________", font='Helvetica', size=10)
+    pdf.add_centered_text(405, "Published via Amazon KDP", font='Helvetica', size=10)
 
 
     # --- HOW TO PLAY PAGE ---

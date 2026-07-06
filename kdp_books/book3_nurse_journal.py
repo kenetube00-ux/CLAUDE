@@ -18,18 +18,21 @@ def create_nurse_journal():
     pdf.add_centered_text(350, "for Healthcare Heroes", font='Helvetica', size=13)
     pdf.add_centered_text(290, "Daily Prompts | Affirmations | Wellness Tracking", font='Helvetica', size=10)
     pdf.add_centered_text(250, "120 Pages of Guided Journaling", font='Helvetica', size=10)
-    pdf.add_centered_text(150, "This journal belongs to:", font='Helvetica', size=11)
-    pdf.add_line(140, 130, 292, 130, 0.8)
+    pdf.add_centered_text(200, "By", font='Helvetica', size=11)
+    pdf.add_centered_text(178, "Daniel Tesfamariam", font='HelveticaBold', size=16)
+    pdf.add_centered_text(140, "This journal belongs to:", font='Helvetica', size=11)
+    pdf.add_line(140, 122, 292, 122, 0.8)
 
 
     # --- COPYRIGHT PAGE ---
     pdf.new_page()
     pdf.add_centered_text(500, "The Nurse's Guided Journal", font='HelveticaBold', size=13)
     pdf.add_centered_text(475, "Reflections, Gratitude & Self-Care for Healthcare Heroes", font='Helvetica', size=9)
-    pdf.add_centered_text(440, "Copyright 2026. All Rights Reserved.", font='Helvetica', size=9)
-    pdf.add_centered_text(415, "No part of this publication may be reproduced without permission.", font='Helvetica', size=8)
-    pdf.add_centered_text(380, "ISBN: _______________", font='Helvetica', size=9)
-    pdf.add_centered_text(355, "Published via Amazon KDP", font='Helvetica', size=9)
+    pdf.add_centered_text(450, "By Daniel Tesfamariam", font='HelveticaBold', size=10)
+    pdf.add_centered_text(420, "Copyright 2026 Daniel Tesfamariam. All Rights Reserved.", font='Helvetica', size=9)
+    pdf.add_centered_text(398, "No part of this publication may be reproduced without permission.", font='Helvetica', size=8)
+    pdf.add_centered_text(370, "ISBN: _______________", font='Helvetica', size=9)
+    pdf.add_centered_text(348, "Published via Amazon KDP", font='Helvetica', size=9)
 
     # --- DEDICATION PAGE ---
     pdf.new_page()
