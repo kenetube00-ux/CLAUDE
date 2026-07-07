@@ -1,0 +1,60 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 623 >>
+stream
+q 0 G 2 w 20 20 392 608 re S Q
+q 0.88 g 30 583 372 35 re f Q
+BT 0.3 g /F2 14 Tf 192.48 595 Td (BOOK 29) Tj ET
+BT 0 g /F2 26 Tf 116.16 533 Td (CAMPING LOG BOOK) Tj ET
+BT 0.2 g /F4 14 Tf 142.07999999999998 487 Td (Record Your Adventures) Tj ET
+q 0.4 G 2 w 80 462 m 352 462 l S Q
+BT 0.15 g /F1 11 Tf 168.48000000000002 422 Td (* Campsite Reviews) Tj ET
+BT 0.15 g /F1 11 Tf 171.12 400 Td (* Gear Checklists) Tj ET
+BT 0.15 g /F1 11 Tf 163.2 378 Td (* Trail & Hike Notes) Tj ET
+BT 0.15 g /F1 11 Tf 171.12 356 Td (* Weather Records) Tj ET
+q 0.5 G 1 w 120 90 m 312 90 l S Q
+BT 0 g /F2 16 Tf 146.88 60 Td (Daniel Tesfamariam) Tj ET
+
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000328 00000 n 
+0000000400 00000 n 
+0000000471 00000 n 
+0000000637 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+1311
+%%EOF
