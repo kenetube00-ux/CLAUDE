@@ -1,0 +1,993 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R] /Count 28 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 496 >>
+stream
+BT 0 g /F2 28 Tf 232.07999999999998 620 Td (LARGE PRINT) Tj ET
+BT 0 g /F2 32 Tf 190.8 575 Td (TECH DICTIONARY) Tj ET
+BT 0 g /F1 18 Tf 189.36 530 Td (200+ Terms Explained Simply) Tj ET
+q 0 G 2 w 150 500 m 462 500 l S Q
+BT 0 g /F4 14 Tf 141.36 465 Td (Plain English Definitions for Everyday Technology) Tj ET
+BT 0 g /F4 13 Tf 150.0 435 Td (Large Font for Easy Reading | Perfect for Ages 45+) Tj ET
+BT 0 g /F1 12 Tf 300.24 350 Td (By) Tj ET
+BT 0 g /F2 18 Tf 228.24 320 Td (Daniel Tesfamariam) Tj ET
+
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 11 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 416 >>
+stream
+BT 0 g /F2 12 Tf 141.84 600 Td (Large Print Tech Dictionary - 200+ Terms Explained Simply) Tj ET
+BT 0 g /F1 10 Tf 174.0 570 Td (Copyright 2026 Daniel Tesfamariam. All Rights Reserved.) Tj ET
+BT 0 g /F1 9 Tf 180.72 545 Td (No part of this book may be reproduced without permission.) Tj ET
+BT 0 g /F2 10 Tf 243.6 515 Td (Author: Daniel Tesfamariam) Tj ET
+BT 0 g /F1 10 Tf 248.4 490 Td (Published via Amazon KDP) Tj ET
+
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 13 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+13 0 obj
+<< /Length 1077 >>
+stream
+BT 0 g /F2 20 Tf 210.0 720 Td (HOW TO USE THIS BOOK) Tj ET
+q 0 G 1 w 150 700 m 462 700 l S Q
+BT 0 g /F4 13 Tf 80 660 Td (This dictionary is designed to help you understand technology) Tj ET
+BT 0 g /F4 13 Tf 80 636 Td (terms you hear every day - on the news, from family, or online.) Tj ET
+BT 0 g /F4 13 Tf 80 604 Td (Each term is explained in plain, simple English.) Tj ET
+BT 0 g /F4 13 Tf 80 580 Td (No technical jargon. No complicated explanations.) Tj ET
+BT 0 g /F4 13 Tf 80 548 Td (Terms are organized alphabetically so you can quickly find) Tj ET
+BT 0 g /F4 13 Tf 80 524 Td (any word you need to look up.) Tj ET
+BT 0 g /F4 13 Tf 80 492 Td (The large print format makes reading comfortable and easy.) Tj ET
+BT 0 g /F4 13 Tf 80 460 Td (Keep this book next to your computer or phone for quick) Tj ET
+BT 0 g /F4 13 Tf 80 436 Td (reference whenever you encounter an unfamiliar tech term.) Tj ET
+BT 0 g /F4 13 Tf 80 404 Td (You do not need to read this cover to cover. Use it like) Tj ET
+BT 0 g /F4 13 Tf 80 380 Td (a regular dictionary - look up words as you need them!) Tj ET
+
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 15 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+15 0 obj
+<< /Length 1766 >>
+stream
+BT 0.4 g /F1 10 Tf 248.4 750 Td (Tech Dictionary - Page 1) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (AI \(Artificial Intelligence\)) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Computer programs that can learn, make decisions, and solve problems -) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (like a very smart assistant.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Algorithm) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (A set of step-by-step instructions that tells a computer how to solve a) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (problem or complete a task.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Android) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A type of operating system for smartphones made by Google. Used on) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (Samsung, Pixel, and other phones.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (App) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Short for application. A program on your phone or tablet that does a) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (specific job, like email or maps.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Attachment) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (A file \(photo, document\) that you send along with an email message.) Tj ET
+BT 0 g /F2 14 Tf 70 325 Td (Backup) Tj ET
+BT 0 g /F4 13 Tf 80 303 Td (A copy of your important files stored somewhere safe in case the original) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (is lost or damaged.) Tj ET
+BT 0 g /F2 14 Tf 70 243 Td (Bandwidth) Tj ET
+BT 0 g /F4 13 Tf 80 221 Td (How much data can travel through your internet connection at once. More) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (bandwidth means faster internet.) Tj ET
+BT 0 g /F2 14 Tf 70 161 Td (Bluetooth) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (A wireless technology that connects devices over short distances, like) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (headphones to your phone.) Tj ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 17 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+17 0 obj
+<< /Length 1713 >>
+stream
+BT 0.4 g /F1 10 Tf 248.4 750 Td (Tech Dictionary - Page 2) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Bookmark) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A saved link to a website so you can find it quickly again later, like a) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (browser's favorites list.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Browser) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (The program you use to visit websites. Examples: Chrome, Safari, Firefox,) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (or Edge.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Bug) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (An error or mistake in a computer program that causes it to work) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (incorrectly.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Cache) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Temporary files stored on your device to help websites and apps load) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (faster next time you visit.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Chatbot) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (A computer program that can have a text conversation with you, like a) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (virtual assistant.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (ChatGPT) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (A popular AI tool by OpenAI that answers questions and writes text in a) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (conversational way.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Click) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (Pressing a button on your mouse or tapping on a touchscreen to select) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (something.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Cloud) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (Storing your files on the internet instead of on your device, so you can) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (access them from anywhere.) Tj ET
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 19 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+19 0 obj
+<< /Length 1750 >>
+stream
+BT 0.4 g /F1 10 Tf 248.4 750 Td (Tech Dictionary - Page 3) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Cookie) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A small file websites save on your computer to remember your preferences) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (and login information.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Copy and Paste) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Copying text or images from one place and inserting them somewhere else on) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (your device.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Cursor) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (The blinking line or arrow on your screen that shows where you are typing) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (or pointing.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Cybersecurity) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Protecting your devices, accounts, and personal information from hackers) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (and online threats.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Dashboard) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (A main screen that shows you important information at a glance, like a) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (car's instrument panel.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Data) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Any information stored or processed by a computer - text, numbers, photos,) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (videos, etc.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Database) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (An organized collection of information stored on a computer that can be) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (searched and sorted.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Desktop) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (The main screen you see when your computer starts up, where your icons and) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (files are displayed.) Tj ET
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 21 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+21 0 obj
+<< /Length 1759 >>
+stream
+BT 0.4 g /F1 10 Tf 248.4 750 Td (Tech Dictionary - Page 4) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Digital) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Information stored as numbers \(ones and zeros\) rather than physical form.) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (Opposite of analog.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Download) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Copying a file from the internet to your device so you can use it without) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (being online.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Drag and Drop) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (Clicking on something, holding the mouse button, moving it somewhere else,) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (and releasing.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Email) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Electronic mail - messages sent over the internet instead of through the) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (postal service.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Emoji) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (Small pictures or symbols you can add to text messages and emails to) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (express emotions.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Encryption) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Scrambling your data so only authorized people can read it - like a secret) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (code for your information.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Ethernet) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (A wired internet connection using a cable plugged directly into your) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (computer for fast, stable internet.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (FAQ) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (Frequently Asked Questions - a list of common questions and answers about) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (a product or service.) Tj ET
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 23 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+23 0 obj
+<< /Length 1665 >>
+stream
+BT 0.4 g /F1 10 Tf 248.4 750 Td (Tech Dictionary - Page 5) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (File) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A single item stored on your computer - could be a document, photo, video,) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (or program.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Firewall) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (A security barrier that protects your computer from unauthorized access) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (through the internet.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Flash Drive) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A small portable device you plug into your computer's USB port to store) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (and transfer files.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Folder) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (A container on your computer that holds files, just like a physical folder) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (holds papers.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Font) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (The style and design of the letters and text displayed on your screen or) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (in a document.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (GPS) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Global Positioning System - technology in your phone that knows your exact) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (location for maps and directions.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Graphics) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (Images, pictures, and visual elements displayed on a screen.) Tj ET
+BT 0 g /F2 14 Tf 70 161 Td (Hacker) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (Someone who breaks into computer systems illegally to steal data or cause) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (damage.) Tj ET
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 25 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+25 0 obj
+<< /Length 1702 >>
+stream
+BT 0.4 g /F1 10 Tf 248.4 750 Td (Tech Dictionary - Page 6) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Hard Drive) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (The part of your computer that permanently stores all your files,) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (programs, and operating system.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Hardware) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (The physical parts of a computer you can touch - the screen, keyboard,) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (mouse, and tower.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Hashtag) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A word with # in front of it used on social media to label and find posts) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (about a topic.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (HDMI) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (A cable that connects your device to a TV or monitor to display video and) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (play audio.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Homepage) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (The main page of a website, or the first page your browser shows when you) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (open it.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Hotspot) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Using your phone as a portable WiFi source so other devices can connect to) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (the internet.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Icon) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (A small picture on your screen that represents a program, file, or) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (function you can click.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Inbox) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (The main folder in your email where new messages arrive and wait to be) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (read.) Tj ET
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 27 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+27 0 obj
+<< /Length 1632 >>
+stream
+BT 0.4 g /F1 10 Tf 248.4 750 Td (Tech Dictionary - Page 7) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Instagram) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A social media app for sharing photos and short videos with friends and) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (followers.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Internet) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (The global network of connected computers that allows you to access) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (websites, email, and more.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (iOS) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (The operating system that runs on iPhones and iPads, made by Apple.) Tj ET
+BT 0 g /F2 14 Tf 70 489 Td (IP Address) Tj ET
+BT 0 g /F4 13 Tf 80 467 Td (A unique number assigned to your device on the internet, like a mailing) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (address for your computer.) Tj ET
+BT 0 g /F2 14 Tf 70 407 Td (ISP) Tj ET
+BT 0 g /F4 13 Tf 80 385 Td (Internet Service Provider - the company that provides your home internet) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (connection \(Comcast, AT&T, etc\).) Tj ET
+BT 0 g /F2 14 Tf 70 325 Td (JPEG) Tj ET
+BT 0 g /F4 13 Tf 80 303 Td (A common format for saving photographs and images on computers and phones.) Tj ET
+BT 0 g /F2 14 Tf 70 263 Td (Junk Mail) Tj ET
+BT 0 g /F4 13 Tf 80 241 Td (Unwanted email messages, also called spam - usually advertisements or) Tj ET
+BT 0 g /F4 13 Tf 80 221 Td (scams.) Tj ET
+BT 0 g /F2 14 Tf 70 181 Td (Keyboard Shortcut) Tj ET
+BT 0 g /F4 13 Tf 80 159 Td (Pressing two or more keys together to do something quickly, like Ctrl+C to) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (copy text.) Tj ET
+
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 29 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+29 0 obj
+<< /Length 1711 >>
+stream
+BT 0.4 g /F1 10 Tf 248.4 750 Td (Tech Dictionary - Page 8) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (LAN) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Local Area Network - computers connected together in one location, like) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (your home network.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Laptop) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (A portable computer with a built-in screen, keyboard, and battery that you) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (can carry around.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Link) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (Clickable text or image on a website that takes you to another page or) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (website when clicked.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Login) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Entering your username and password to access your account on a website or) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (device.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Malware) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (Harmful software designed to damage your device, steal information, or) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (cause problems.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Memory \(RAM\)) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Your computer's short-term workspace that holds information while programs) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (are running.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Menu) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (A list of options or commands you can choose from in a program, usually at) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (the top of the screen.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Modem) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (A device that connects your home to the internet through your phone or) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (cable line.) Tj ET
+
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 31 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+31 0 obj
+<< /Length 1714 >>
+stream
+BT 0.4 g /F1 10 Tf 248.4 750 Td (Tech Dictionary - Page 9) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Monitor) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (The screen you look at when using a desktop computer. Similar to a TV but) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (for your computer.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Network) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Two or more computers or devices connected together to share information) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (and resources.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Notification) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (An alert or message from your phone or computer telling you about new) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (emails, updates, or reminders.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Online) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Being connected to the internet and able to access websites, email, and) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (other internet services.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Operating System) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (The main software that runs your device - Windows, macOS, iOS, or Android.) Tj ET
+BT 0 g /F2 14 Tf 70 325 Td (Outbox) Tj ET
+BT 0 g /F4 13 Tf 80 303 Td (The folder in email where messages wait to be sent, or recently sent) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (messages are stored.) Tj ET
+BT 0 g /F2 14 Tf 70 243 Td (Password) Tj ET
+BT 0 g /F4 13 Tf 80 221 Td (A secret word or phrase you type to prove your identity and access your) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (accounts.) Tj ET
+BT 0 g /F2 14 Tf 70 161 Td (Password Manager) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (An app that securely stores all your passwords so you only need to) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (remember one master password.) Tj ET
+
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 33 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+33 0 obj
+<< /Length 1668 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 10) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (PDF) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A file format that looks the same on any device - used for documents,) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (forms, and ebooks.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Phishing) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (A scam where criminals pretend to be a real company to trick you into) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (giving personal information.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (PIN) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (Personal Identification Number - a short numeric code used to verify your) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (identity.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Pixel) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (A tiny single dot of color on your screen. Millions of pixels together) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (create the images you see.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Platform) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (A system or service where something runs - Facebook is a social media) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (platform, for example.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Podcast) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (An audio show you can listen to on your phone anytime - like radio on) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (demand.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Pop-up) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (A small window that suddenly appears on your screen, often an ad or alert.) Tj ET
+BT 0 g /F2 14 Tf 70 161 Td (Portal) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (A website that serves as a starting point or gateway to many other) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (services or information.) Tj ET
+
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 35 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+35 0 obj
+<< /Length 1658 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 11) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Privacy Settings) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Controls that let you choose who can see your information and activity) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (online.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Processor) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (The brain of your computer that performs calculations and runs programs.) Tj ET
+BT 0 g /F2 14 Tf 70 571 Td (Profile) Tj ET
+BT 0 g /F4 13 Tf 80 549 Td (Your personal page on a website or app that shows your name, photo, and) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (information.) Tj ET
+BT 0 g /F2 14 Tf 70 489 Td (QR Code) Tj ET
+BT 0 g /F4 13 Tf 80 467 Td (A square pattern of black and white dots that your phone camera can scan) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (to open a website.) Tj ET
+BT 0 g /F2 14 Tf 70 407 Td (RAM) Tj ET
+BT 0 g /F4 13 Tf 80 385 Td (Random Access Memory - the fast temporary storage your computer uses while) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (running programs.) Tj ET
+BT 0 g /F2 14 Tf 70 325 Td (Reboot) Tj ET
+BT 0 g /F4 13 Tf 80 303 Td (Turning your device off and back on again to fix problems or complete) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (updates.) Tj ET
+BT 0 g /F2 14 Tf 70 243 Td (Router) Tj ET
+BT 0 g /F4 13 Tf 80 221 Td (A device that creates your home WiFi network and connects all your devices) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (to the internet.) Tj ET
+BT 0 g /F2 14 Tf 70 161 Td (Scroll) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (Moving up or down on a page using your mouse wheel, touchpad, or swiping) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (on a touchscreen.) Tj ET
+
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 37 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+37 0 obj
+<< /Length 1715 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 12) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Screenshot) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A picture of exactly what is currently showing on your screen, saved as an) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (image file.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Search Engine) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (A website like Google that helps you find information on the internet by) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (typing keywords.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Server) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A powerful computer that stores websites, emails, and data and sends them) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (to your device when requested.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Settings) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (A menu where you can change how your device or app works to suit your) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (preferences.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Siri) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (Apple's voice assistant built into iPhones and iPads. You talk to it and) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (it helps you.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Smartphone) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (A mobile phone that can run apps, browse the internet, take photos, and) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (much more.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (SMS) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (Short Message Service - the technical name for regular text messages on) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (your phone.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Social Media) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (Websites and apps for connecting with people - Facebook, Instagram,) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (Twitter, etc.) Tj ET
+
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 39 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+39 0 obj
+<< /Length 1739 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 13) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Software) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Programs and apps that tell your computer or phone what to do. Not) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (physical - you cannot touch it.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Spam) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Unwanted messages sent in bulk, usually advertisements or scams. Common in) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (email and texts.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Storage) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (The total space on your device for saving files, photos, apps, and other) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (data permanently.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Streaming) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Watching or listening to content over the internet in real-time without) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (downloading it first.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Subscribe) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (Signing up to receive regular content or services - like a YouTube channel) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (or Netflix membership.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Sync) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Keeping the same files and information updated across multiple devices) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (automatically.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Tab) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (A way to have multiple web pages open at the same time in your browser,) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (shown at the top.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Tablet) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (A portable touchscreen device larger than a phone but smaller than a) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (laptop. Like an iPad.) Tj ET
+
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 41 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+41 0 obj
+<< /Length 1644 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 14) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Tap) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Touching something on a touchscreen once with your finger to select or) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (open it.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Text Message) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (A short written message sent from one phone to another using your phone) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (number.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Touchscreen) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A display that responds to finger touches instead of needing a mouse or) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (keyboard.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Troubleshoot) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Finding and fixing a problem with your device or software step by step.) Tj ET
+BT 0 g /F2 14 Tf 70 407 Td (Two-Factor Auth) Tj ET
+BT 0 g /F4 13 Tf 80 385 Td (An extra security step where you enter a code from your phone in addition) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (to your password.) Tj ET
+BT 0 g /F2 14 Tf 70 325 Td (Update) Tj ET
+BT 0 g /F4 13 Tf 80 303 Td (A newer version of software that fixes problems, adds features, or) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (improves security.) Tj ET
+BT 0 g /F2 14 Tf 70 243 Td (Upload) Tj ET
+BT 0 g /F4 13 Tf 80 221 Td (Sending a file from your device to the internet - the opposite of) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (download.) Tj ET
+BT 0 g /F2 14 Tf 70 161 Td (URL) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (The web address you type in your browser to go to a specific website \(like) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (www.google.com\).) Tj ET
+
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 43 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+43 0 obj
+<< /Length 1728 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 15) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (USB) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Universal Serial Bus - the standard port and cable used to connect devices) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (like flash drives and chargers.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Username) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (The name you choose to identify yourself when creating an account on a) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (website or app.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Video Call) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A phone call where you can see the other person on screen - like FaceTime) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (or Zoom.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Virtual) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Something that exists on a computer or internet rather than in the) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (physical world.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Virus) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (A harmful program that can copy itself and damage your device or steal) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (your information.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (VPN) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Virtual Private Network - a tool that encrypts your internet connection) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (for privacy and security.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Webcam) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (A camera built into or connected to your computer for video calls and) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (taking photos.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Website) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (A collection of pages on the internet about a topic, company, or service) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (you visit with a browser.) Tj ET
+
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 45 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+45 0 obj
+<< /Length 1662 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 16) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Widget) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A small tool on your phone's home screen that shows information at a) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (glance without opening an app.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (WiFi) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Wireless internet connection. Lets your devices connect to the internet) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (without cables.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Window) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A rectangular area on your screen where a program or file is displayed.) Tj ET
+BT 0 g /F2 14 Tf 70 489 Td (Wireless) Tj ET
+BT 0 g /F4 13 Tf 80 467 Td (Any technology that works without physical cables - WiFi, Bluetooth, and) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (cellular data.) Tj ET
+BT 0 g /F2 14 Tf 70 407 Td (World Wide Web) Tj ET
+BT 0 g /F4 13 Tf 80 385 Td (The system of websites and pages you access through the internet using a) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (browser.) Tj ET
+BT 0 g /F2 14 Tf 70 325 Td (YouTube) Tj ET
+BT 0 g /F4 13 Tf 80 303 Td (A free website for watching and sharing videos on any topic, owned by) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Google.) Tj ET
+BT 0 g /F2 14 Tf 70 243 Td (Zip File) Tj ET
+BT 0 g /F4 13 Tf 80 221 Td (A compressed file that bundles multiple files together into one smaller) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (package for easy sharing.) Tj ET
+BT 0 g /F2 14 Tf 70 161 Td (Zoom) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (A popular video calling app used for meetings, family calls, and virtual) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (gatherings.) Tj ET
+
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 47 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+47 0 obj
+<< /Length 1617 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 17) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Accessibility) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Features that make devices easier to use for people with disabilities or) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (vision challenges.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Account) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Your personal profile on a website or service, protected by a username and) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (password.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Address Bar) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (The long box at the top of your browser where you type website addresses.) Tj ET
+BT 0 g /F2 14 Tf 70 489 Td (Airplane Mode) Tj ET
+BT 0 g /F4 13 Tf 80 467 Td (A phone setting that turns off all wireless connections - useful during) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (flights.) Tj ET
+BT 0 g /F2 14 Tf 70 407 Td (Alexa) Tj ET
+BT 0 g /F4 13 Tf 80 385 Td (Amazon's voice assistant built into Echo devices. Talk to it to play) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (music, set timers, and more.) Tj ET
+BT 0 g /F2 14 Tf 70 325 Td (Antivirus) Tj ET
+BT 0 g /F4 13 Tf 80 303 Td (Software that protects your computer by detecting and removing harmful) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (programs and viruses.) Tj ET
+BT 0 g /F2 14 Tf 70 243 Td (Battery) Tj ET
+BT 0 g /F4 13 Tf 80 221 Td (The rechargeable power source inside your phone, tablet, or laptop.) Tj ET
+BT 0 g /F2 14 Tf 70 181 Td (Beta) Tj ET
+BT 0 g /F4 13 Tf 80 159 Td (An early test version of software that is not quite finished - may have) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (bugs.) Tj ET
+
+endstream
+endobj
+48 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 49 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+49 0 obj
+<< /Length 1710 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 18) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Bing) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Microsoft's search engine - an alternative to Google for finding) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (information online.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Block) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Preventing someone from contacting you or seeing your content on social) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (media or messaging.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Blog) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A website where someone writes regular articles about topics they are) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (interested in or expert about.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Buffer) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (When a video pauses to load more content because your internet is too) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (slow.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Caps Lock) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (A keyboard key that makes all letters you type come out as CAPITAL LETTERS) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (until turned off.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Cell Tower) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (A tall structure that sends and receives wireless signals for your mobile) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (phone service.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Chrome) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (Google's web browser - one of the most popular programs for visiting) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (websites.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Clipboard) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (A temporary storage area where copied text or images are held until you) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (paste them somewhere.) Tj ET
+
+endstream
+endobj
+50 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 51 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+51 0 obj
+<< /Length 1719 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 19) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Contact) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A person's information \(name, phone, email\) saved in your phone or email) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (address book.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (CPU) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Central Processing Unit - the main chip that acts as your computer's) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (brain, doing all the thinking.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Crash) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (When a program or device suddenly stops working and may need to be) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (restarted.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Cursor) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (The blinking line showing where text will appear when you type, or the) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (arrow you move with a mouse.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Cut) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (Removing selected text or an image from one place so you can paste it) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (somewhere else.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Dark Mode) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (A display setting that uses a dark background with light text - easier on) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (the eyes at night.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Default) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (The standard setting that a device or program uses unless you change it to) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (something else.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Delete) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (Removing a file, message, or text permanently \(or sending it to a recycle) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (bin first\).) Tj ET
+
+endstream
+endobj
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 53 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+53 0 obj
+<< /Length 1529 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 20) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Domain) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (The main part of a website's address - like google.com or amazon.com.) Tj ET
+BT 0 g /F2 14 Tf 70 653 Td (Double-Click) Tj ET
+BT 0 g /F4 13 Tf 80 631 Td (Pressing the mouse button twice quickly to open a file or program.) Tj ET
+BT 0 g /F2 14 Tf 70 591 Td (DPI) Tj ET
+BT 0 g /F4 13 Tf 80 569 Td (Dots Per Inch - a measure of print or screen quality. Higher DPI means) Tj ET
+BT 0 g /F4 13 Tf 80 549 Td (sharper images.) Tj ET
+BT 0 g /F2 14 Tf 70 509 Td (Driver) Tj ET
+BT 0 g /F4 13 Tf 80 487 Td (Software that helps your computer communicate with connected devices like) Tj ET
+BT 0 g /F4 13 Tf 80 467 Td (printers or cameras.) Tj ET
+BT 0 g /F2 14 Tf 70 427 Td (Dropbox) Tj ET
+BT 0 g /F4 13 Tf 80 405 Td (A cloud storage service that lets you save files online and access them) Tj ET
+BT 0 g /F4 13 Tf 80 385 Td (from any device.) Tj ET
+BT 0 g /F2 14 Tf 70 345 Td (E-reader) Tj ET
+BT 0 g /F4 13 Tf 80 323 Td (A device designed specifically for reading digital books, like Amazon's) Tj ET
+BT 0 g /F4 13 Tf 80 303 Td (Kindle.) Tj ET
+BT 0 g /F2 14 Tf 70 263 Td (Edge) Tj ET
+BT 0 g /F4 13 Tf 80 241 Td (Microsoft's web browser that comes built into Windows computers.) Tj ET
+BT 0 g /F2 14 Tf 70 201 Td (Export) Tj ET
+BT 0 g /F4 13 Tf 80 179 Td (Saving a file in a different format or sending it to another program or) Tj ET
+BT 0 g /F4 13 Tf 80 159 Td (device.) Tj ET
+
+endstream
+endobj
+54 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 55 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+55 0 obj
+<< /Length 1725 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 21) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Extension) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A small add-on program for your browser that gives it extra features or) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (abilities.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Facebook) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (The largest social media platform for connecting with friends, family, and) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (sharing posts.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (FaceTime) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (Apple's video calling app built into iPhones, iPads, and Macs for free) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (video calls.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Feed) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (A continuously updating list of posts and content from people you follow) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (on social media.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Fiber Optic) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (The fastest type of internet connection, using light through thin glass) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (cables.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Fingerprint) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Using your fingerprint to unlock your phone or verify your identity) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (instead of typing a password.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Format) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (The way information is organized or presented. Also means to erase and) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (prepare a storage device.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Frozen) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (When your device stops responding to any input and appears stuck - usually) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (needs a restart.) Tj ET
+
+endstream
+endobj
+56 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 57 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+57 0 obj
+<< /Length 1724 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 22) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Fullscreen) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (Making a video or window fill your entire screen with no borders or other) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (programs visible.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (GIF) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (A short animated image that loops - often used in messages for humor or) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (reactions.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Gigabyte) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A unit measuring storage space. A typical phone has 64-256 gigabytes for) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (files and apps.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Google) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (The most popular search engine and tech company, also makes Android phones) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (and many free services.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Google Assistant) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (Google's voice assistant. Say 'Hey Google' to ask questions and get help) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (hands-free.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Group Chat) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (A text conversation with three or more people all in the same message) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (thread.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Guest Mode) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (A limited account on a device that lets someone use it without accessing) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (your personal data.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Home Button) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (The physical or on-screen button that takes you back to your device's main) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (screen.) Tj ET
+
+endstream
+endobj
+58 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 59 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+59 0 obj
+<< /Length 1628 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 23) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Home Screen) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (The first screen you see when you unlock your phone, showing your app) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (icons and widgets.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (iCloud) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Apple's cloud storage service that saves your photos, files, and backups) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (from Apple devices.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Import) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (Bringing files or data into a program from another source or device.) Tj ET
+BT 0 g /F2 14 Tf 70 489 Td (Internet of Things) Tj ET
+BT 0 g /F4 13 Tf 80 467 Td (Everyday objects connected to the internet - smart fridges, doorbells, and) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (thermostats.) Tj ET
+BT 0 g /F2 14 Tf 70 407 Td (iTunes) Tj ET
+BT 0 g /F4 13 Tf 80 385 Td (Apple's media service for buying and playing music, movies, and TV shows.) Tj ET
+BT 0 g /F2 14 Tf 70 345 Td (Java) Tj ET
+BT 0 g /F4 13 Tf 80 323 Td (A popular programming language used to build apps and websites. You might) Tj ET
+BT 0 g /F4 13 Tf 80 303 Td (see update notifications.) Tj ET
+BT 0 g /F2 14 Tf 70 263 Td (Jailbreak) Tj ET
+BT 0 g /F4 13 Tf 80 241 Td (Removing restrictions on a phone to install unauthorized apps - risky and) Tj ET
+BT 0 g /F4 13 Tf 80 221 Td (not recommended.) Tj ET
+BT 0 g /F2 14 Tf 70 181 Td (Kindle) Tj ET
+BT 0 g /F4 13 Tf 80 159 Td (Amazon's e-reader device and digital book store for buying and reading) Tj ET
+BT 0 g /F4 13 Tf 80 139 Td (ebooks.) Tj ET
+
+endstream
+endobj
+60 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 61 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+61 0 obj
+<< /Length 1705 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 24) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (LinkedIn) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (A social media platform focused on professional networking and job) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (searching.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Live Stream) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (Broadcasting video in real-time over the internet so viewers see it as it) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (happens.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Location Services) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (Your phone's ability to know where you are using GPS - used for maps and) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (local searches.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (Lock Screen) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (The screen you see before unlocking your phone, usually showing the time) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (and notifications.) Tj ET
+BT 0 g /F2 14 Tf 70 387 Td (Megabyte) Tj ET
+BT 0 g /F4 13 Tf 80 365 Td (A unit of digital storage. One megabyte is about the size of one) Tj ET
+BT 0 g /F4 13 Tf 80 345 Td (high-quality photo.) Tj ET
+BT 0 g /F2 14 Tf 70 305 Td (Messenger) Tj ET
+BT 0 g /F4 13 Tf 80 283 Td (Facebook's messaging app for sending texts, photos, and making calls to) Tj ET
+BT 0 g /F4 13 Tf 80 263 Td (Facebook friends.) Tj ET
+BT 0 g /F2 14 Tf 70 223 Td (Microsoft) Tj ET
+BT 0 g /F4 13 Tf 80 201 Td (The company that makes Windows, Office \(Word, Excel\), and the Edge) Tj ET
+BT 0 g /F4 13 Tf 80 181 Td (browser.) Tj ET
+BT 0 g /F2 14 Tf 70 141 Td (Mobile Data) Tj ET
+BT 0 g /F4 13 Tf 80 119 Td (Internet connection through your cell phone carrier when you are not on) Tj ET
+BT 0 g /F4 13 Tf 80 99 Td (WiFi.) Tj ET
+
+endstream
+endobj
+62 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 63 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+63 0 obj
+<< /Length 898 >>
+stream
+BT 0.4 g /F1 10 Tf 246.0 750 Td (Tech Dictionary - Page 25) Tj ET
+q 0 G 0.5 w 70 740 m 542 740 l S Q
+BT 0 g /F2 14 Tf 70 715 Td (Mouse) Tj ET
+BT 0 g /F4 13 Tf 80 693 Td (The hand-held device you move on your desk to control the cursor on your) Tj ET
+BT 0 g /F4 13 Tf 80 673 Td (computer screen.) Tj ET
+BT 0 g /F2 14 Tf 70 633 Td (Netflix) Tj ET
+BT 0 g /F4 13 Tf 80 611 Td (A streaming service where you pay monthly to watch movies and TV shows) Tj ET
+BT 0 g /F4 13 Tf 80 591 Td (online.) Tj ET
+BT 0 g /F2 14 Tf 70 551 Td (Night Mode) Tj ET
+BT 0 g /F4 13 Tf 80 529 Td (A feature that reduces blue light from your screen in the evening to help) Tj ET
+BT 0 g /F4 13 Tf 80 509 Td (you sleep better.) Tj ET
+BT 0 g /F2 14 Tf 70 469 Td (NFC) Tj ET
+BT 0 g /F4 13 Tf 80 447 Td (Near Field Communication - tap your phone on a reader to make payments) Tj ET
+BT 0 g /F4 13 Tf 80 427 Td (like Apple Pay.) Tj ET
+
+endstream
+endobj
+xref
+0 64
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000305 00000 n 
+0000000375 00000 n 
+0000000450 00000 n 
+0000000518 00000 n 
+0000000590 00000 n 
+0000000661 00000 n 
+0000000827 00000 n 
+0000001374 00000 n 
+0000001542 00000 n 
+0000002010 00000 n 
+0000002178 00000 n 
+0000003308 00000 n 
+0000003476 00000 n 
+0000005295 00000 n 
+0000005463 00000 n 
+0000007229 00000 n 
+0000007397 00000 n 
+0000009200 00000 n 
+0000009368 00000 n 
+0000011180 00000 n 
+0000011348 00000 n 
+0000013066 00000 n 
+0000013234 00000 n 
+0000014989 00000 n 
+0000015157 00000 n 
+0000016842 00000 n 
+0000017010 00000 n 
+0000018774 00000 n 
+0000018942 00000 n 
+0000020709 00000 n 
+0000020877 00000 n 
+0000022598 00000 n 
+0000022766 00000 n 
+0000024477 00000 n 
+0000024645 00000 n 
+0000026413 00000 n 
+0000026581 00000 n 
+0000028373 00000 n 
+0000028541 00000 n 
+0000030238 00000 n 
+0000030406 00000 n 
+0000032187 00000 n 
+0000032355 00000 n 
+0000034070 00000 n 
+0000034238 00000 n 
+0000035908 00000 n 
+0000036076 00000 n 
+0000037839 00000 n 
+0000038007 00000 n 
+0000039779 00000 n 
+0000039947 00000 n 
+0000041529 00000 n 
+0000041697 00000 n 
+0000043475 00000 n 
+0000043643 00000 n 
+0000045420 00000 n 
+0000045588 00000 n 
+0000047269 00000 n 
+0000047437 00000 n 
+0000049195 00000 n 
+0000049363 00000 n 
+trailer
+<< /Size 64 /Root 1 0 R >>
+startxref
+50313
+%%EOF

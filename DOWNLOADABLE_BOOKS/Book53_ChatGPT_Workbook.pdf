@@ -1,0 +1,1092 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R 70 0 R] /Count 32 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 468 >>
+stream
+BT 0 g /F2 24 Tf 123.84 520 Td (CHATGPT WORKBOOK) Tj ET
+BT 0 g /F1 16 Tf 146.88 480 Td (Hands-On Exercises) Tj ET
+BT 0 g /F1 16 Tf 162.24 455 Td (for Adults 45+) Tj ET
+q 0 G 2 w 100 430 m 332 430 l S Q
+BT 0 g /F4 13 Tf 106.8 395 Td (30 Practical Exercises to Master AI) Tj ET
+BT 0 g /F4 12 Tf 100.80000000000001 370 Td (Learn by Doing - No Tech Skills Required) Tj ET
+BT 0 g /F1 12 Tf 210.24 300 Td (By) Tj ET
+BT 0 g /F2 16 Tf 146.88 275 Td (Daniel Tesfamariam) Tj ET
+
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 11 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 407 >>
+stream
+BT 0 g /F2 11 Tf 78.72 500 Td (ChatGPT Workbook - Hands-On Exercises for Adults 45+) Tj ET
+BT 0 g /F1 9 Tf 97.2 470 Td (Copyright 2026 Daniel Tesfamariam. All Rights Reserved.) Tj ET
+BT 0 g /F1 9 Tf 90.72 445 Td (No part of this book may be reproduced without permission.) Tj ET
+BT 0 g /F2 10 Tf 153.6 415 Td (Author: Daniel Tesfamariam) Tj ET
+BT 0 g /F1 10 Tf 158.4 390 Td (Published via Amazon KDP) Tj ET
+
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 13 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+13 0 obj
+<< /Length 1508 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 1) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Your First Conversation) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (How to start chatting with AI) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Hello, I am new to ChatGPT. Can you introduc) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Hello, I am new to ChatGPT. Can you introduce yourself?') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 15 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+15 0 obj
+<< /Length 1505 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 2) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Ask for a Recipe) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Getting cooking help from AI) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Give me a simple recipe for chicken soup usi) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Give me a simple recipe for chicken soup using 5 ingredients') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 17 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+17 0 obj
+<< /Length 1499 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 3) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Write an Email) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Let AI help draft messages) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Help me write a polite email declining a din) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Help me write a polite email declining a dinner invitation') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 19 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+19 0 obj
+<< /Length 1498 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 4) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Plan a Trip) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Use AI as a travel planner) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Plan a 3-day trip to San Francisco for a cou) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Plan a 3-day trip to San Francisco for a couple in their 50s') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 21 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+21 0 obj
+<< /Length 1498 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 5) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Summarize an Article) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Get the key points quickly) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Summarize the main health benefits of walkin) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Summarize the main health benefits of walking daily') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 23 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+23 0 obj
+<< /Length 1501 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 6) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Get Health Information) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Ask about wellness topics) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'What are simple exercises for someone with b) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'What are simple exercises for someone with bad knees?') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 25 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+25 0 obj
+<< /Length 1501 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 7) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Write a Letter) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Compose formal letters easily) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Write a letter to my insurance company dispu) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Write a letter to my insurance company disputing a charge') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 27 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+27 0 obj
+<< /Length 1505 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 8) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Create a Shopping List) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Organize your groceries) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Create a weekly shopping list for two people) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Create a weekly shopping list for two people eating healthy') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 29 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+29 0 obj
+<< /Length 1506 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 9) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Learn a New Word) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Expand your vocabulary) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Explain the word algorithm in simple terms a) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Explain the word algorithm in simple terms a child would understand') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 31 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+31 0 obj
+<< /Length 1515 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 10) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Get Book Recommendations) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Find your next great read) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Recommend 5 mystery novels for someone who l) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Recommend 5 mystery novels for someone who loved Agatha Christie') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 33 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+33 0 obj
+<< /Length 1517 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 11) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Write a Birthday Message) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Create heartfelt wishes) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Write a warm 70th birthday message for my si) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Write a warm 70th birthday message for my sister who loves gardening') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 35 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+35 0 obj
+<< /Length 1501 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 12) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Explain Something Simply) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Understand complex topics) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Explain how the stock market works in simple) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Explain how the stock market works in simple terms') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 37 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+37 0 obj
+<< /Length 1516 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 13) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Compare Products) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Make better buying decisions) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Compare the iPad and Samsung Galaxy Tab for ) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Compare the iPad and Samsung Galaxy Tab for a senior who wants to read') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 39 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+39 0 obj
+<< /Length 1499 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 14) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Plan a Menu) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Organize weekly meals) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Plan 5 dinners for this week that are low so) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Plan 5 dinners for this week that are low sodium and easy to cook') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 41 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+41 0 obj
+<< /Length 1506 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 15) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Get Exercise Ideas) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Stay active at any age) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Give me a 15-minute morning exercise routine) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Give me a 15-minute morning exercise routine for someone over 55') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 43 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+43 0 obj
+<< /Length 1516 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 16) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Draft a Complaint Letter) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Express concerns professionally) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Write a complaint letter about poor service ) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Write a complaint letter about poor service at a restaurant') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 45 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+45 0 obj
+<< /Length 1511 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 17) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Write a Social Media Post) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Share updates online) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Write a short Facebook post about my new gar) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Write a short Facebook post about my new garden flowers blooming') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 47 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+47 0 obj
+<< /Length 1506 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 18) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Get Gardening Advice) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Grow your green thumb) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'What vegetables grow best in a small backyar) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'What vegetables grow best in a small backyard garden in spring?') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+48 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 49 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+49 0 obj
+<< /Length 1515 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 19) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Translate a Phrase) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Communicate across languages) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'How do you say thank you very much in Spanis) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'How do you say thank you very much in Spanish, French, and Italian?') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+50 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 51 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+51 0 obj
+<< /Length 1496 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 20) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Help with a Crossword) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Get puzzle hints) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'What is a 5 letter word meaning happy that s) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'What is a 5 letter word meaning happy that starts with J?') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 53 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+53 0 obj
+<< /Length 1517 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 21) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Write a Thank You Note) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Show gratitude beautifully) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Write a thank you note for a neighbor who wa) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Write a thank you note for a neighbor who watched my cat for a week') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+54 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 55 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+55 0 obj
+<< /Length 1495 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 22) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Plan a Party) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Organize celebrations) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Help me plan a surprise 50th anniversary par) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Help me plan a surprise 50th anniversary party for 20 guests') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+56 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 57 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+57 0 obj
+<< /Length 1489 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 23) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Get Movie Recommendations) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Find films to enjoy) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Recommend 5 feel-good movies from the 1990s') Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Recommend 5 feel-good movies from the 1990s') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+58 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 59 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+59 0 obj
+<< /Length 1496 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 24) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Ask for Tech Help) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Troubleshoot devices) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'My iPhone battery dies too fast. What can I ) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'My iPhone battery dies too fast. What can I do to fix it?') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+60 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 61 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+61 0 obj
+<< /Length 1511 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 25) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Create a Daily Schedule) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Organize your time) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Create a relaxing but productive daily sched) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Create a relaxing but productive daily schedule for a retired person') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+62 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 63 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+63 0 obj
+<< /Length 1493 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 26) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Write a Poem) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Express yourself creatively) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Write a short poem about the beauty of autum) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Write a short poem about the beauty of autumn leaves') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+64 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 65 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+65 0 obj
+<< /Length 1499 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 27) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Get Financial Tips) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Money wisdom from AI) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'What are 5 ways to save money on groceries w) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'What are 5 ways to save money on groceries without coupons?') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+66 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 67 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+67 0 obj
+<< /Length 1504 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 28) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Plan a Gift) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Find the perfect present) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'Suggest creative gift ideas for a 60-year-ol) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'Suggest creative gift ideas for a 60-year-old man who likes fishing') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+68 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 69 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+69 0 obj
+<< /Length 1506 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 29) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Organize Photos) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Get photo management tips) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'How should I organize 10 years of digital ph) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'How should I organize 10 years of digital photos on my computer?') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+70 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 71 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+71 0 obj
+<< /Length 1512 >>
+stream
+BT 0 g /F2 14 Tf 50 610 Td (Exercise 30) Tj ET
+BT 0 g /F2 16 Tf 50 588 Td (Review and Reflect) Tj ET
+q 0 G 1 w 50 578 m 382 578 l S Q
+BT 0 g /F5 11 Tf 50 555 Td (What you'll learn:) Tj ET
+BT 0 g /F4 11 Tf 170 555 Td (Look back on your learning) Tj ET
+BT 0 g /F5 11 Tf 50 525 Td (Step-by-step instructions:) Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (1. Open your browser and go to chat.openai.com) Tj ET
+BT 0 g /F4 10 Tf 50 487 Td (2. Log in to your free account) Tj ET
+BT 0 g /F4 10 Tf 50 469 Td (3. Click on 'New Chat' to start fresh) Tj ET
+BT 0 g /F4 10 Tf 50 451 Td (4. Type this prompt: Type 'What are the 5 most useful things I can do w) Tj ET
+BT 0 g /F4 10 Tf 50 433 Td (5. Read the response and ask follow-up questions if needed) Tj ET
+BT 0 g /F5 11 Tf 50 400 Td (Try it yourself:) Tj ET
+BT 0 g /F3 9 Tf 50 382 Td (Your prompt: Type 'What are the 5 most useful things I can do with ChatGPT every day?') Tj ET
+BT 0 g /F5 11 Tf 50 355 Td (My result:) Tj ET
+q 0.5 G 0.5 w 50 335 m 382 335 l S Q
+q 0.5 G 0.5 w 50 310 m 382 310 l S Q
+q 0.5 G 0.5 w 50 285 m 382 285 l S Q
+q 0.5 G 0.5 w 50 260 m 382 260 l S Q
+BT 0 g /F5 11 Tf 50 220 Td (Tips:) Tj ET
+BT 0 g /F4 10 Tf 50 200 Td (- Be specific in your requests for better answers.) Tj ET
+BT 0 g /F4 10 Tf 50 182 Td (- If the response is too complex, ask 'explain it simpler'.) Tj ET
+BT 0 g /F4 10 Tf 50 164 Td (- You can always say 'try again' for a different response.) Tj ET
+BT 0 g /F1 10 Tf 50 130 Td (How did it go?  Circle:  1   2   3   4   5  \(5 = great!\)) Tj ET
+
+endstream
+endobj
+xref
+0 72
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000333 00000 n 
+0000000403 00000 n 
+0000000478 00000 n 
+0000000546 00000 n 
+0000000618 00000 n 
+0000000689 00000 n 
+0000000855 00000 n 
+0000001374 00000 n 
+0000001542 00000 n 
+0000002001 00000 n 
+0000002169 00000 n 
+0000003730 00000 n 
+0000003898 00000 n 
+0000005456 00000 n 
+0000005624 00000 n 
+0000007176 00000 n 
+0000007344 00000 n 
+0000008895 00000 n 
+0000009063 00000 n 
+0000010614 00000 n 
+0000010782 00000 n 
+0000012336 00000 n 
+0000012504 00000 n 
+0000014058 00000 n 
+0000014226 00000 n 
+0000015784 00000 n 
+0000015952 00000 n 
+0000017511 00000 n 
+0000017679 00000 n 
+0000019247 00000 n 
+0000019415 00000 n 
+0000020985 00000 n 
+0000021153 00000 n 
+0000022707 00000 n 
+0000022875 00000 n 
+0000024444 00000 n 
+0000024612 00000 n 
+0000026164 00000 n 
+0000026332 00000 n 
+0000027891 00000 n 
+0000028059 00000 n 
+0000029628 00000 n 
+0000029796 00000 n 
+0000031360 00000 n 
+0000031528 00000 n 
+0000033087 00000 n 
+0000033255 00000 n 
+0000034823 00000 n 
+0000034991 00000 n 
+0000036540 00000 n 
+0000036708 00000 n 
+0000038278 00000 n 
+0000038446 00000 n 
+0000039994 00000 n 
+0000040162 00000 n 
+0000041704 00000 n 
+0000041872 00000 n 
+0000043421 00000 n 
+0000043589 00000 n 
+0000045153 00000 n 
+0000045321 00000 n 
+0000046867 00000 n 
+0000047035 00000 n 
+0000048587 00000 n 
+0000048755 00000 n 
+0000050312 00000 n 
+0000050480 00000 n 
+0000052039 00000 n 
+0000052207 00000 n 
+trailer
+<< /Size 72 /Root 1 0 R >>
+startxref
+53772
+%%EOF
