@@ -1,0 +1,1121 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R] /Count 28 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 388 >>
+stream
+BT 0 g /F2 16 Tf 163.92000000000002 550 Td (100 CHATGPT PROMPTS FOR EVERYDAY LIFE) Tj ET
+BT 0 g /F4 14 Tf 232.07999999999998 515 Td (A Guide for Adults 50+) Tj ET
+BT 0 g /F4 11 Tf 179.28 440 Td (Simple, Practical Prompts You Can Copy and Paste) Tj ET
+BT 0 g /F4 11 Tf 240.0 420 Td (No Tech Experience Needed) Tj ET
+BT 0 g /F2 13 Tf 240.48000000000002 280 Td (By Daniel Tesfamariam) Tj ET
+
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 11 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 311 >>
+stream
+BT 0 g /F2 11 Tf 208.32 600 Td (100 CHATGPT PROMPTS FOR EVERYDAY LIFE) Tj ET
+BT 0 g /F4 10 Tf 226.8 570 Td (Copyright 2025 Daniel Tesfamariam) Tj ET
+BT 0 g /F4 10 Tf 258.0 550 Td (All rights reserved.) Tj ET
+BT 0 g /F4 9 Tf 165.6 510 Td (No part of this publication may be reproduced without permission.) Tj ET
+
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 13 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+13 0 obj
+<< /Length 2448 >>
+stream
+BT 0 g /F2 16 Tf 236.88 750 Td (HOW TO USE CHATGPT) Tj ET
+q 0 G 1 w 50 740 m 562 740 l S Q
+BT 0 g /F4 10 Tf 50 715 Td (WHAT IS CHATGPT?) Tj ET
+BT 0 g /F4 10 Tf 50 700 Td (ChatGPT is a free AI assistant you can talk to by typing. Think of) Tj ET
+BT 0 g /F4 10 Tf 50 685 Td (it like texting a very knowledgeable friend who is available 24/7.) Tj ET
+BT 0 g /F4 10 Tf 50 670 Td () Tj ET
+BT 0 g /F4 10 Tf 50 655 Td (HOW TO GET STARTED:) Tj ET
+BT 0 g /F4 10 Tf 50 640 Td (1. Go to chat.openai.com on your computer or phone) Tj ET
+BT 0 g /F4 10 Tf 50 625 Td (2. Create a free account \(just need an email address\)) Tj ET
+BT 0 g /F4 10 Tf 50 610 Td (3. You will see a text box - that is where you type your 'prompt') Tj ET
+BT 0 g /F4 10 Tf 50 595 Td (4. Type your question or request and press Enter) Tj ET
+BT 0 g /F4 10 Tf 50 580 Td (5. ChatGPT will respond in seconds!) Tj ET
+BT 0 g /F4 10 Tf 50 565 Td () Tj ET
+BT 0 g /F4 10 Tf 50 550 Td (TIPS FOR BEST RESULTS:) Tj ET
+BT 0 g /F4 10 Tf 50 535 Td (- Be specific: 'Give me a recipe for chicken soup' works better) Tj ET
+BT 0 g /F4 10 Tf 50 520 Td (  than just 'food ideas') Tj ET
+BT 0 g /F4 10 Tf 50 505 Td (- Give context: 'I have diabetes' helps it tailor health advice) Tj ET
+BT 0 g /F4 10 Tf 50 490 Td (- Ask follow-ups: Say 'Make it simpler' or 'Give me more detail') Tj ET
+BT 0 g /F4 10 Tf 50 475 Td (- It is a conversation: You can keep asking questions) Tj ET
+BT 0 g /F4 10 Tf 50 460 Td (- Copy and paste: You can copy prompts from this book directly) Tj ET
+BT 0 g /F4 10 Tf 50 445 Td () Tj ET
+BT 0 g /F4 10 Tf 50 430 Td (IMPORTANT REMINDERS:) Tj ET
+BT 0 g /F4 10 Tf 50 415 Td (- ChatGPT can make mistakes - always verify important information) Tj ET
+BT 0 g /F4 10 Tf 50 400 Td (- Never share passwords, Social Security numbers, or bank info) Tj ET
+BT 0 g /F4 10 Tf 50 385 Td (- It is not a doctor - use health info as a starting point only) Tj ET
+BT 0 g /F4 10 Tf 50 370 Td (- It cannot access the internet in real-time \(no current news\)) Tj ET
+BT 0 g /F4 10 Tf 50 355 Td (- You can start a new conversation anytime) Tj ET
+BT 0 g /F4 10 Tf 50 340 Td () Tj ET
+BT 0 g /F4 10 Tf 50 325 Td (HOW TO USE THIS BOOK:) Tj ET
+BT 0 g /F4 10 Tf 50 310 Td (Each prompt is written in BOLD - type it exactly as shown.) Tj ET
+BT 0 g /F4 10 Tf 50 295 Td ('Why this helps' explains what you will get back.) Tj ET
+BT 0 g /F4 10 Tf 50 280 Td ('My result' space is for you to write notes about what worked.) Tj ET
+
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 15 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+15 0 obj
+<< /Length 1796 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: HEALTH) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #1) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Explain what my cholesterol numbers mean in simple terms. My total is) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (220, HDL is 45, LDL is 150, triglycerides are 180.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Helps you understand lab results before your doctor visit.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #2) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (I take metformin and lisinopril. What foods should I avoid and why?) Tj ET
+BT 0 g /F4 8 Tf 55 618 Td (Why this helps: Alerts you to food-drug interactions to discuss with your pharmacist.) Tj ET
+BT 0 g /F1 8 Tf 55 604 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 602 m 562 602 l S Q
+q 0.5 G 0.3 w 55 590 m 562 590 l S Q
+BT 0 g /F2 9 Tf 50 574 Td (PROMPT #3) Tj ET
+BT 0 g /F2 9 Tf 55 560 Td (Create a gentle 20-minute morning exercise routine for a 65-year-old) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (with bad knees.) Tj ET
+BT 0 g /F4 8 Tf 55 534 Td (Why this helps: Gives you safe exercises tailored to your limitations.) Tj ET
+BT 0 g /F1 8 Tf 55 520 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 518 m 562 518 l S Q
+q 0.5 G 0.3 w 55 506 m 562 506 l S Q
+BT 0 g /F2 9 Tf 50 490 Td (PROMPT #4) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (What questions should I ask my doctor about my upcoming knee) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (replacement surgery?) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Helps you prepare for appointments so you do not forget important questions.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 17 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+17 0 obj
+<< /Length 1725 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: HEALTH) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #5) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Explain the difference between a stroke and a heart attack. What are) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (the warning signs of each?) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Helps you recognize emergencies and act fast.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #6) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (I was just diagnosed with Type 2 diabetes. Explain it to me like I am) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (new to this and scared.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Gives you a compassionate, easy-to-understand overview.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #7) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (What are 10 ways to lower blood pressure naturally without medication?) Tj ET
+BT 0 g /F4 8 Tf 55 534 Td (Why this helps: Gives you lifestyle changes to discuss with your doctor.) Tj ET
+BT 0 g /F1 8 Tf 55 520 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 518 m 562 518 l S Q
+q 0.5 G 0.3 w 55 506 m 562 506 l S Q
+BT 0 g /F2 9 Tf 50 490 Td (PROMPT #8) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (I have trouble sleeping. Give me a step-by-step bedtime routine for) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (better sleep.) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Provides evidence-based sleep hygiene tips.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 19 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+19 0 obj
+<< /Length 1801 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: HEALTH) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #9) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Create a weekly meal plan for someone trying to lower cholesterol.) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (Simple recipes only.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Gives you a heart-healthy eating plan with easy meals.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #10) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (What supplements are recommended for women over 60? What does each one) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (do?) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Helps you understand common supplements before asking your doctor.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #11) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Give me 5 easy dinner recipes using only ingredients I can find at any) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (grocery store. I cook for two people.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Simple weeknight meals without specialty ingredients.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #12) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (I have chicken, rice, and broccoli. What can I make? Give me 3) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (different recipes.) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Uses what you already have - no extra shopping needed.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 21 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+21 0 obj
+<< /Length 1793 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: COOKING) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #13) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Convert this recipe to a slow cooker version: [paste any recipe]. How) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (long should I cook it?) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Turns any recipe into an easy set-and-forget meal.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #14) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (I need to cook for my grandkids ages 4-10. Give me 5 healthy meals kids) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (actually like.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Kid-friendly meals that are still nutritious.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #15) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Create a grocery list for one week of anti-inflammatory meals for two) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (people.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Organized shopping list for a specific health goal.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #16) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (I am hosting Thanksgiving for 12 people. Create a timeline for cooking) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (everything so it is all ready at 3pm.) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Step-by-step cooking schedule so nothing burns or is late.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 23 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+23 0 obj
+<< /Length 1718 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: COOKING) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #17) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (What can I substitute for eggs in baking? I have an egg allergy.) Tj ET
+BT 0 g /F4 8 Tf 55 702 Td (Why this helps: Gives you multiple substitution options with amounts.) Tj ET
+BT 0 g /F1 8 Tf 55 688 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 686 m 562 686 l S Q
+q 0.5 G 0.3 w 55 674 m 562 674 l S Q
+BT 0 g /F2 9 Tf 50 658 Td (PROMPT #18) Tj ET
+BT 0 g /F2 9 Tf 55 644 Td (Give me 10 healthy snack ideas that do not require cooking and are good) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (for diabetics.) Tj ET
+BT 0 g /F4 8 Tf 55 618 Td (Why this helps: Quick grab-and-go options that will not spike blood sugar.) Tj ET
+BT 0 g /F1 8 Tf 55 604 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 602 m 562 602 l S Q
+q 0.5 G 0.3 w 55 590 m 562 590 l S Q
+BT 0 g /F2 9 Tf 50 574 Td (PROMPT #19) Tj ET
+BT 0 g /F2 9 Tf 55 560 Td (I just got an Instant Pot. Give me 5 beginner recipes with exact) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (step-by-step instructions.) Tj ET
+BT 0 g /F4 8 Tf 55 534 Td (Why this helps: Easy starter recipes for new kitchen gadgets.) Tj ET
+BT 0 g /F1 8 Tf 55 520 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 518 m 562 518 l S Q
+q 0.5 G 0.3 w 55 506 m 562 506 l S Q
+BT 0 g /F2 9 Tf 50 490 Td (PROMPT #20) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (Create a freezer meal plan. Give me 10 meals I can prep on Sunday and) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (freeze for the month.) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Batch cooking to save time and energy.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 25 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+25 0 obj
+<< /Length 1814 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: TRAVEL) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #21) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (I am a 60-year-old traveling solo for the first time. Give me safety) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (tips and a packing checklist.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Confidence-building advice for independent travel.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #22) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (Plan a 7-day road trip from Chicago to the Grand Canyon. Include stops,) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (hotels budget, and things to see.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Complete trip itinerary without hours of research.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #23) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (What are the best travel insurance options for seniors? What should the) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (policy include?) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Helps you compare coverage before you buy.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #24) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (I want to visit my grandkids in another state. Help me find the) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (cheapest way to fly. What days and times are cheapest?) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Money-saving flight booking strategies.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 27 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+27 0 obj
+<< /Length 1792 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: TRAVEL) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #25) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Create a packing list for a 10-day cruise. Include formal nights and) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (shore excursions.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Comprehensive list so you do not forget anything.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #26) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (I have mobility issues. Suggest 5 vacation destinations that are) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (wheelchair accessible and beautiful.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Travel options that accommodate physical limitations.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #27) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Write an email to a hotel asking about accessibility, early check-in,) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (and room location preferences.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Professional communication you can copy and send.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #28) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (What documents do I need to travel internationally? I have not left the) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (country in 20 years.) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Updated travel requirement checklist.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 29 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+29 0 obj
+<< /Length 1763 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: TRAVEL) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #29) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Suggest 5 all-inclusive resorts for a couple in their 60s who want) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (relaxation, not partying.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Age-appropriate vacation recommendations.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #30) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (Help me create a road trip budget. We are driving 2000 miles over 5) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (days with 2 people.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Realistic cost breakdown for planning.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #31) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Help me write a letter to my adult child who I have a strained) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (relationship with.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Gives you a thoughtful starting point for reconciliation.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #32) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (I am helping raise my grandchildren. Give me tips for setting) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (boundaries with their parents.) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Practical guidance for a complex family situation.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 31 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+31 0 obj
+<< /Length 1756 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: FAMILY) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #33) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Write a birthday message for my 5-year-old granddaughter that I can put) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (in a card.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Sweet, age-appropriate messages when words do not come easily.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #34) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (My spouse was just diagnosed with dementia. What should I expect and) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (how can I prepare?) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Compassionate overview of what lies ahead.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #35) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Help me plan a family reunion for 30 people. Include activities for all) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (ages.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Organized event plan covering logistics and fun.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #36) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (I want to write my life story for my grandchildren. Give me 20 prompts) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (to get started.) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Memoir-writing prompts to preserve your legacy.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 33 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+33 0 obj
+<< /Length 1642 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: FAMILY) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #37) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (My teenager is being bullied. How should I handle this as a grandparent?) Tj ET
+BT 0 g /F4 8 Tf 55 702 Td (Why this helps: Guidance on supporting without overstepping.) Tj ET
+BT 0 g /F1 8 Tf 55 688 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 686 m 562 686 l S Q
+q 0.5 G 0.3 w 55 674 m 562 674 l S Q
+BT 0 g /F2 9 Tf 50 658 Td (PROMPT #38) Tj ET
+BT 0 g /F2 9 Tf 55 644 Td (Write a prayer I can say at our family dinner gathering.) Tj ET
+BT 0 g /F4 8 Tf 55 630 Td (Why this helps: A heartfelt blessing you can personalize.) Tj ET
+BT 0 g /F1 8 Tf 55 616 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 614 m 562 614 l S Q
+q 0.5 G 0.3 w 55 602 m 562 602 l S Q
+BT 0 g /F2 9 Tf 50 586 Td (PROMPT #39) Tj ET
+BT 0 g /F2 9 Tf 55 572 Td (Help me create a family tree template. What information should I) Tj ET
+BT 0 g /F2 9 Tf 55 560 Td (collect from relatives?) Tj ET
+BT 0 g /F4 8 Tf 55 546 Td (Why this helps: Genealogy project structure to get started.) Tj ET
+BT 0 g /F1 8 Tf 55 532 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 530 m 562 530 l S Q
+q 0.5 G 0.3 w 55 518 m 562 518 l S Q
+BT 0 g /F2 9 Tf 50 502 Td (PROMPT #40) Tj ET
+BT 0 g /F2 9 Tf 55 488 Td (My aging parent needs more help. How do I start the conversation about) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (assisted living?) Tj ET
+BT 0 g /F4 8 Tf 55 462 Td (Why this helps: Sensitive conversation starters for a difficult topic.) Tj ET
+BT 0 g /F1 8 Tf 55 448 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 446 m 562 446 l S Q
+q 0.5 G 0.3 w 55 434 m 562 434 l S Q
+
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 35 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+35 0 obj
+<< /Length 1702 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: MONEY) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #41) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Explain Social Security benefits to me. When should I start collecting) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (and why?) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Plain-language explanation of a complex decision.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #42) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (I am retiring next year. Create a monthly budget template for living on) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (a fixed income.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Financial planning tool for retirement.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #43) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (What are the safest investments for someone over 60 who cannot afford) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (to lose money?) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Conservative investment overview to discuss with advisor.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #44) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (Help me write a letter disputing a charge on my credit card statement.) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Professional dispute letter you can send as-is.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 37 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+37 0 obj
+<< /Length 1716 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: MONEY) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #45) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Explain Medicare Parts A, B, C, and D. What does each cover?) Tj ET
+BT 0 g /F4 8 Tf 55 702 Td (Why this helps: Clear breakdown of confusing healthcare coverage.) Tj ET
+BT 0 g /F1 8 Tf 55 688 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 686 m 562 686 l S Q
+q 0.5 G 0.3 w 55 674 m 562 674 l S Q
+BT 0 g /F2 9 Tf 50 658 Td (PROMPT #46) Tj ET
+BT 0 g /F2 9 Tf 55 644 Td (I think I am being scammed. They called saying my Social Security was) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (compromised. What should I do?) Tj ET
+BT 0 g /F4 8 Tf 55 618 Td (Why this helps: Immediate steps to protect yourself from fraud.) Tj ET
+BT 0 g /F1 8 Tf 55 604 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 602 m 562 602 l S Q
+q 0.5 G 0.3 w 55 590 m 562 590 l S Q
+BT 0 g /F2 9 Tf 50 574 Td (PROMPT #47) Tj ET
+BT 0 g /F2 9 Tf 55 560 Td (Create a list of all the bills and subscriptions I should review to) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (save money each month.) Tj ET
+BT 0 g /F4 8 Tf 55 534 Td (Why this helps: Identifies hidden expenses you may have forgotten.) Tj ET
+BT 0 g /F1 8 Tf 55 520 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 518 m 562 518 l S Q
+q 0.5 G 0.3 w 55 506 m 562 506 l S Q
+BT 0 g /F2 9 Tf 50 490 Td (PROMPT #48) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (What tax deductions are available for retirees? I want to lower my tax) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (bill.) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Tax-saving strategies to discuss with your accountant.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 39 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+39 0 obj
+<< /Length 1709 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: MONEY) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #49) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Help me understand my pension options: lump sum vs monthly payments.) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (What factors matter?) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Decision framework for a major financial choice.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #50) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (I want to leave money to my grandchildren for college. What are the) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (best options?) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Education savings overview \(529 plans, trusts, etc\).) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #51) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (My bathroom faucet is dripping. Give me step-by-step instructions to) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (fix it myself.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: DIY repair guide that can save you a plumber visit.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #52) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (Create a seasonal home maintenance checklist organized by month.) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Prevents costly repairs by catching issues early.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 41 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+41 0 obj
+<< /Length 1768 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: HOME) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #53) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (I want to downsize from a 4-bedroom house. Give me a room-by-room) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (decluttering plan.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Manageable approach to an overwhelming task.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #54) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (What smart home devices would make life easier for a senior living) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (alone?) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Technology recommendations for safety and convenience.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #55) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Help me write a listing description to sell my home. 3 bed, 2 bath,) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (large yard, quiet neighborhood.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Professional real estate copy without an agent.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #56) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (I am hiring a contractor to redo my kitchen. What questions should I) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (ask before signing a contract?) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Protects you from common renovation problems.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 43 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+43 0 obj
+<< /Length 1691 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: HOME) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #57) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Create an emergency preparedness kit list for a retired couple.) Tj ET
+BT 0 g /F4 8 Tf 55 702 Td (Why this helps: Comprehensive disaster readiness checklist.) Tj ET
+BT 0 g /F1 8 Tf 55 688 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 686 m 562 686 l S Q
+q 0.5 G 0.3 w 55 674 m 562 674 l S Q
+BT 0 g /F2 9 Tf 50 658 Td (PROMPT #58) Tj ET
+BT 0 g /F2 9 Tf 55 644 Td (What plants are easy to grow indoors with low light? I want to brighten) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (my apartment.) Tj ET
+BT 0 g /F4 8 Tf 55 618 Td (Why this helps: Low-maintenance houseplant recommendations.) Tj ET
+BT 0 g /F1 8 Tf 55 604 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 602 m 562 602 l S Q
+q 0.5 G 0.3 w 55 590 m 562 590 l S Q
+BT 0 g /F2 9 Tf 50 574 Td (PROMPT #59) Tj ET
+BT 0 g /F2 9 Tf 55 560 Td (I just moved to a new town. How can I meet people and make friends at) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (age 65?) Tj ET
+BT 0 g /F4 8 Tf 55 534 Td (Why this helps: Practical community connection strategies.) Tj ET
+BT 0 g /F1 8 Tf 55 520 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 518 m 562 518 l S Q
+q 0.5 G 0.3 w 55 506 m 562 506 l S Q
+BT 0 g /F2 9 Tf 50 490 Td (PROMPT #60) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (Help me organize my important documents. What papers do I need and) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (where should I keep them?) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Filing system for wills, insurance, medical records, etc.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 45 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+45 0 obj
+<< /Length 1748 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: HOBBIES) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #61) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (I want to start painting but have never held a brush. Give me a) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (complete beginner guide.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Step-by-step hobby introduction with supply list.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #62) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (Suggest 10 hobbies for someone with arthritis in their hands. I need) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (gentle activities.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Activity ideas that accommodate physical limitations.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #63) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (I am starting a vegetable garden. What should I plant this month in) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (zone 7?) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Seasonal gardening advice for your specific location.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #64) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (Give me a list of 20 books for someone who loves historical fiction and) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (mystery.) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Personalized reading recommendations.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 47 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+47 0 obj
+<< /Length 1684 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: HOBBIES) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #65) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (I want to learn guitar at age 62. Is it too late? Give me a 30-day) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (beginner plan.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Encouraging learning plan proving it is never too late.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #66) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (Help me start a blog about my retirement adventures. What platform and) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (steps?) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Technical guide in simple language.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #67) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (I collect coins. Help me catalog my collection and estimate values.) Tj ET
+BT 0 g /F4 8 Tf 55 534 Td (Why this helps: Organizing framework for your collection.) Tj ET
+BT 0 g /F1 8 Tf 55 520 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 518 m 562 518 l S Q
+q 0.5 G 0.3 w 55 506 m 562 506 l S Q
+BT 0 g /F2 9 Tf 50 490 Td (PROMPT #68) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (Create a photography challenge for beginners. 30 days of simple photo) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (prompts.) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Daily creative inspiration with no fancy equipment needed.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+48 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 49 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+49 0 obj
+<< /Length 1767 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: HOBBIES) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #69) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (I want to volunteer but do not know where to start. Suggest options for) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (a retired teacher.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Meaningful volunteer opportunities matched to your skills.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #70) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (Teach me basic bird watching. What equipment do I need and how do I) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (identify birds?) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Nature hobby introduction with practical tips.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #71) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Help me write a thank-you note for the nurse who took great care of me) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (in the hospital.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Heartfelt gratitude expressed professionally.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #72) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (I want to write a eulogy for my mother. Help me with an outline and) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (some opening lines.) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Compassionate structure for a difficult task.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+50 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 51 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+51 0 obj
+<< /Length 1731 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: WRITING) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #73) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Write a complaint letter to my internet company about poor service. Be) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (firm but polite.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Effective consumer advocacy letter.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #74) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (Help me write my obituary in advance so my family does not have to do) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (it during grief.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Practical pre-planning that eases future burden.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #75) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Create a template for a holiday newsletter to send to friends and) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (family.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Annual update format that is warm and interesting.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #76) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (Help me write a review for the restaurant where we had our anniversary) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (dinner.) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Well-written review supporting a local business.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 53 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+53 0 obj
+<< /Length 1693 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: WRITING) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #77) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (I need to write a letter to my congressman about [issue]. Help me be) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (persuasive.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Civic engagement template for making your voice heard.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #78) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (Help me update my resume. I am 63 and looking for part-time work after) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (retirement.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Age-appropriate resume for the modern job market.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #79) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Write an email to my doctor asking about switching medications due to) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (side effects.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Clear medical communication that gets results.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #80) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (Help me write a heartfelt wedding toast for my granddaughter.) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Memorable speech that balances humor and love.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+54 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 55 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+55 0 obj
+<< /Length 1665 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: LEARNING) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #81) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Explain how to use Zoom for video calls. Step by step, assume I know) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (nothing.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Technology tutorial in plain language.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #82) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (I want to understand the stock market. Explain it like I am brand new) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (to investing.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Financial literacy without the jargon.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #83) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Teach me how to spot fake news and misinformation online.) Tj ET
+BT 0 g /F4 8 Tf 55 534 Td (Why this helps: Critical thinking skills for the digital age.) Tj ET
+BT 0 g /F1 8 Tf 55 520 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 518 m 562 518 l S Q
+q 0.5 G 0.3 w 55 506 m 562 506 l S Q
+BT 0 g /F2 9 Tf 50 490 Td (PROMPT #84) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (Explain climate change in simple terms. What is actually happening and) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (what can I do?) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Clear science explanation without political spin.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+56 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 57 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+57 0 obj
+<< /Length 1625 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: LEARNING) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #85) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (I want to learn Spanish. Create a 30-day plan for an absolute beginner.) Tj ET
+BT 0 g /F4 8 Tf 55 702 Td (Why this helps: Structured language learning you can do at home.) Tj ET
+BT 0 g /F1 8 Tf 55 688 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 686 m 562 686 l S Q
+q 0.5 G 0.3 w 55 674 m 562 674 l S Q
+BT 0 g /F2 9 Tf 50 658 Td (PROMPT #86) Tj ET
+BT 0 g /F2 9 Tf 55 644 Td (How does my smartphone work? Explain the basics of apps, settings, and) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (storage.) Tj ET
+BT 0 g /F4 8 Tf 55 618 Td (Why this helps: Tech literacy for your everyday device.) Tj ET
+BT 0 g /F1 8 Tf 55 604 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 602 m 562 602 l S Q
+q 0.5 G 0.3 w 55 590 m 562 590 l S Q
+BT 0 g /F2 9 Tf 50 574 Td (PROMPT #87) Tj ET
+BT 0 g /F2 9 Tf 55 560 Td (Explain artificial intelligence in simple terms. Should I be worried) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (about it?) Tj ET
+BT 0 g /F4 8 Tf 55 534 Td (Why this helps: Balanced, non-scary overview of AI.) Tj ET
+BT 0 g /F1 8 Tf 55 520 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 518 m 562 518 l S Q
+q 0.5 G 0.3 w 55 506 m 562 506 l S Q
+BT 0 g /F2 9 Tf 50 490 Td (PROMPT #88) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (Teach me how to use online banking safely. What are the security steps?) Tj ET
+BT 0 g /F4 8 Tf 55 462 Td (Why this helps: Digital finance confidence with safety focus.) Tj ET
+BT 0 g /F1 8 Tf 55 448 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 446 m 562 446 l S Q
+q 0.5 G 0.3 w 55 434 m 562 434 l S Q
+
+endstream
+endobj
+58 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 59 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+59 0 obj
+<< /Length 1740 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: LEARNING) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #89) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (What are podcasts and how do I listen to them? Suggest 5 for someone) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (over 50.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: New media introduction with recommendations.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #90) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (I want to understand my grandkids better. Explain their generation's) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (culture to me.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Bridge the generational gap with understanding.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #91) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Create a morning routine for a retired person that gives structure) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (without stress.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Healthy daily habits for purposeful retirement.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #92) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (I am lonely since my spouse passed. Give me 10 practical ideas to feel) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (less isolated.) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: Compassionate action steps for a difficult time.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+60 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 61 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+61 0 obj
+<< /Length 1663 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: DAILY LIFE) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #93) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (Help me set up an automated pill reminder system. I keep forgetting my) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (medications.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Practical solution for medication adherence.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #94) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (I have too many passwords. Explain how to manage them safely and simply.) Tj ET
+BT 0 g /F4 8 Tf 55 618 Td (Why this helps: Digital security without the overwhelm.) Tj ET
+BT 0 g /F1 8 Tf 55 604 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 602 m 562 602 l S Q
+q 0.5 G 0.3 w 55 590 m 562 590 l S Q
+BT 0 g /F2 9 Tf 50 574 Td (PROMPT #95) Tj ET
+BT 0 g /F2 9 Tf 55 560 Td (My energy is low in the afternoon. What are natural ways to boost) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (energy after 60?) Tj ET
+BT 0 g /F4 8 Tf 55 534 Td (Why this helps: Health-conscious energy solutions.) Tj ET
+BT 0 g /F1 8 Tf 55 520 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 518 m 562 518 l S Q
+q 0.5 G 0.3 w 55 506 m 562 506 l S Q
+BT 0 g /F2 9 Tf 50 490 Td (PROMPT #96) Tj ET
+BT 0 g /F2 9 Tf 55 476 Td (Help me write a daily schedule that includes exercise, social time, and) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (purpose.) Tj ET
+BT 0 g /F4 8 Tf 55 450 Td (Why this helps: Balanced retirement day structure.) Tj ET
+BT 0 g /F1 8 Tf 55 436 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 434 m 562 434 l S Q
+q 0.5 G 0.3 w 55 422 m 562 422 l S Q
+
+endstream
+endobj
+62 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 63 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+63 0 obj
+<< /Length 1739 >>
+stream
+BT 0 g /F2 10 Tf 50 755 Td (CATEGORY: DAILY LIFE) Tj ET
+q 0 G 1 w 50 747 m 562 747 l S Q
+BT 0 g /F2 9 Tf 50 730 Td (PROMPT #97) Tj ET
+BT 0 g /F2 9 Tf 55 716 Td (I am moving closer to my children. Create a moving checklist organized) Tj ET
+BT 0 g /F2 9 Tf 55 704 Td (by weeks.) Tj ET
+BT 0 g /F4 8 Tf 55 690 Td (Why this helps: Stress-reducing relocation plan.) Tj ET
+BT 0 g /F1 8 Tf 55 676 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 674 m 562 674 l S Q
+q 0.5 G 0.3 w 55 662 m 562 662 l S Q
+BT 0 g /F2 9 Tf 50 646 Td (PROMPT #98) Tj ET
+BT 0 g /F2 9 Tf 55 632 Td (What are the best apps for seniors? Suggest ones for health, social,) Tj ET
+BT 0 g /F2 9 Tf 55 620 Td (brain games, and safety.) Tj ET
+BT 0 g /F4 8 Tf 55 606 Td (Why this helps: Curated technology recommendations.) Tj ET
+BT 0 g /F1 8 Tf 55 592 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 590 m 562 590 l S Q
+q 0.5 G 0.3 w 55 578 m 562 578 l S Q
+BT 0 g /F2 9 Tf 50 562 Td (PROMPT #99) Tj ET
+BT 0 g /F2 9 Tf 55 548 Td (Help me plan my week. I have 3 doctor appointments, grocery shopping,) Tj ET
+BT 0 g /F2 9 Tf 55 536 Td (and my book club.) Tj ET
+BT 0 g /F4 8 Tf 55 522 Td (Why this helps: Weekly planning assistance for busy schedules.) Tj ET
+BT 0 g /F1 8 Tf 55 508 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 506 m 562 506 l S Q
+q 0.5 G 0.3 w 55 494 m 562 494 l S Q
+BT 0 g /F2 9 Tf 50 478 Td (PROMPT #100) Tj ET
+BT 0 g /F2 9 Tf 55 464 Td (I want to create an advance directive and living will. What decisions) Tj ET
+BT 0 g /F2 9 Tf 55 452 Td (do I need to make?) Tj ET
+BT 0 g /F4 8 Tf 55 438 Td (Why this helps: End-of-life planning guidance for peace of mind.) Tj ET
+BT 0 g /F1 8 Tf 55 424 Td (My result:) Tj ET
+q 0.5 G 0.3 w 100 422 m 562 422 l S Q
+q 0.5 G 0.3 w 55 410 m 562 410 l S Q
+
+endstream
+endobj
+xref
+0 64
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000305 00000 n 
+0000000375 00000 n 
+0000000450 00000 n 
+0000000518 00000 n 
+0000000590 00000 n 
+0000000661 00000 n 
+0000000827 00000 n 
+0000001266 00000 n 
+0000001434 00000 n 
+0000001797 00000 n 
+0000001965 00000 n 
+0000004466 00000 n 
+0000004634 00000 n 
+0000006483 00000 n 
+0000006651 00000 n 
+0000008429 00000 n 
+0000008597 00000 n 
+0000010451 00000 n 
+0000010619 00000 n 
+0000012465 00000 n 
+0000012633 00000 n 
+0000014404 00000 n 
+0000014572 00000 n 
+0000016439 00000 n 
+0000016607 00000 n 
+0000018452 00000 n 
+0000018620 00000 n 
+0000020436 00000 n 
+0000020604 00000 n 
+0000022413 00000 n 
+0000022581 00000 n 
+0000024276 00000 n 
+0000024444 00000 n 
+0000026199 00000 n 
+0000026367 00000 n 
+0000028136 00000 n 
+0000028304 00000 n 
+0000030066 00000 n 
+0000030234 00000 n 
+0000032055 00000 n 
+0000032223 00000 n 
+0000033967 00000 n 
+0000034135 00000 n 
+0000035936 00000 n 
+0000036104 00000 n 
+0000037841 00000 n 
+0000038009 00000 n 
+0000039829 00000 n 
+0000039997 00000 n 
+0000041781 00000 n 
+0000041949 00000 n 
+0000043695 00000 n 
+0000043863 00000 n 
+0000045581 00000 n 
+0000045749 00000 n 
+0000047427 00000 n 
+0000047595 00000 n 
+0000049388 00000 n 
+0000049556 00000 n 
+0000051272 00000 n 
+0000051440 00000 n 
+trailer
+<< /Size 64 /Root 1 0 R >>
+startxref
+53232
+%%EOF
