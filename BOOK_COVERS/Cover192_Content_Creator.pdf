@@ -24,20 +24,35 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
 endobj
 9 0 obj
-<< /Length 657 >>
+<< /Length 1043 >>
 stream
-q 0 G 2 w 25 25 562 742 re S Q
-q 0.88 g 35 712 542 45 re f Q
-BT 0.3 g /F2 16 Tf 275.28 722 Td (BOOK 192) Tj ET
-BT 0 g /F2 30 Tf 133.20000000000002 662 Td (CONTENT CREATOR BUSINESS) Tj ET
-BT 0.2 g /F4 17 Tf 187.68 612 Td (Turn Your Passion into Profit) Tj ET
-q 0.4 G 2 w 120 587 m 492 587 l S Q
-BT 0.15 g /F1 13 Tf 237.36 547 Td (* Monetization Roadmap) Tj ET
-BT 0.15 g /F1 13 Tf 246.72 525 Td (* Media Kit Builder) Tj ET
-BT 0.15 g /F1 13 Tf 234.24 503 Td (* Brand Pitch Templates) Tj ET
-BT 0.15 g /F1 13 Tf 237.36 481 Td (* 12-Month Growth Plan) Tj ET
-q 0.5 G 1 w 160 110 m 452 110 l S Q
-BT 0 g /F2 20 Tf 219.60000000000002 80 Td (Daniel Tesfamariam) Tj ET
+q 0.15 g 0 712 612 80 re f Q
+q 0.15 g 0 0 612 60 re f Q
+q 0.3 g 0 60 12 652 re f Q
+q 0.3 g 600 60 12 652 re f Q
+BT 1 g /F2 16 Tf 275.28 760 Td (BOOK 192) Tj ET
+q 0.96 g 30 492 552 180 re f Q
+q 0.15 G 2 w 30 492 552 180 re S Q
+BT 0 g /F2 28 Tf 205.2 632 Td (CONTENT CREATOR) Tj ET
+BT 0.25 g /F4 15 Tf 187.2 584 Td (BUSINESS PLAN - Passion to Profit) Tj ET
+q 0.15 G 2.5 w 120 472 m 492 472 l S Q
+q 0.15 g 302 468 8 8 re f Q
+q 0.97 g 50 331 512 111 re f Q
+q 0.15 g 176 435 5 5 re f Q
+BT 0.15 g /F1 12 Tf 188 437 Td (Monetization Roadmap) Tj ET
+q 0.15 g 176 411 5 5 re f Q
+BT 0.15 g /F1 12 Tf 188 413 Td (Media Kit Builder) Tj ET
+q 0.15 g 176 387 5 5 re f Q
+BT 0.15 g /F1 12 Tf 188 389 Td (Pitch Email Templates) Tj ET
+q 0.15 g 176 363 5 5 re f Q
+BT 0.15 g /F1 12 Tf 188 365 Td (12-Month Growth Plan) Tj ET
+q 0.15 G 1.5 w 150 105 m 462 105 l S Q
+BT 1 g /F2 18 Tf 228.24 80 Td (Daniel Tesfamariam) Tj ET
+q 0.15 g 30 697 8 8 re f Q
+q 0.15 g 574 697 8 8 re f Q
+q 0.15 g 30 65 8 8 re f Q
+q 0.15 g 574 65 8 8 re f Q
+q 0.35 G 1.5 w 25 55 562 662 re S Q
 
 endstream
 endobj
@@ -56,5 +71,5 @@ xref
 trailer
 << /Size 10 /Root 1 0 R >>
 startxref
-1345
+1732
 %%EOF

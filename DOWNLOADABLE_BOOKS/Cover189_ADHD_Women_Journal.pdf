@@ -24,20 +24,35 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 432 648] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
 endobj
 9 0 obj
-<< /Length 664 >>
+<< /Length 1062 >>
 stream
-q 0 G 2 w 20 20 392 608 re S Q
-q 0.88 g 30 583 372 35 re f Q
-BT 0.3 g /F2 14 Tf 189.12 593 Td (BOOK 189) Tj ET
-BT 0 g /F2 26 Tf 91.2 533 Td (THE UNMASKED JOURNAL) Tj ET
-BT 0.2 g /F4 14 Tf 128.64 487 Td (For Women Discovering ADHD) Tj ET
-q 0.4 G 2 w 80 462 m 352 462 l S Q
-BT 0.15 g /F1 11 Tf 157.92000000000002 422 Td (* 60 Daily Reflections) Tj ET
-BT 0.15 g /F1 11 Tf 160.56 400 Td (* Unmasking Exercises) Tj ET
-BT 0.15 g /F1 11 Tf 157.92000000000002 378 Td (* Grief for Lost Years) Tj ET
-BT 0.15 g /F1 11 Tf 142.07999999999998 356 Td (* ADHD Superpowers Discovery) Tj ET
-q 0.5 G 1 w 120 90 m 312 90 l S Q
-BT 0 g /F2 16 Tf 146.88 60 Td (Daniel Tesfamariam) Tj ET
+q 0.36 g 0 583 432 65 re f Q
+q 0.36 g 0 0 432 50 re f Q
+q 0.51 g 0 60 12 508 re f Q
+q 0.51 g 420 60 12 508 re f Q
+BT 1 g /F2 16 Tf 185.28 623 Td (BOOK 189) Tj ET
+q 0.96 g 30 403 372 150 re f Q
+q 0.36 G 2 w 30 403 372 150 re S Q
+BT 0 g /F2 24 Tf 100.80000000000001 513 Td (THE UNMASKED JOURNAL) Tj ET
+BT 0.25 g /F4 13 Tf 116.16 469 Td (For Women Discovering Their ADHD) Tj ET
+q 0.36 G 2.5 w 80 383 m 352 383 l S Q
+q 0.36 g 212 379 8 8 re f Q
+q 0.97 g 50 242 332 111 re f Q
+q 0.36 g 116 346 5 5 re f Q
+BT 0.15 g /F1 11 Tf 128 348 Td (60 Daily Reflections) Tj ET
+q 0.36 g 116 322 5 5 re f Q
+BT 0.15 g /F1 11 Tf 128 324 Td (Unmasking Exercises) Tj ET
+q 0.36 g 116 298 5 5 re f Q
+BT 0.15 g /F1 11 Tf 128 300 Td (Superpowers Discovery) Tj ET
+q 0.36 g 116 274 5 5 re f Q
+BT 0.15 g /F1 11 Tf 128 276 Td (Self-Compassion Pages) Tj ET
+q 0.36 G 1.5 w 110 90 m 322 90 l S Q
+BT 1 g /F2 15 Tf 151.2 65 Td (Daniel Tesfamariam) Tj ET
+q 0.36 g 25 568 8 8 re f Q
+q 0.36 g 399 568 8 8 re f Q
+q 0.36 g 25 65 8 8 re f Q
+q 0.36 g 399 65 8 8 re f Q
+q 0.56 G 1.5 w 20 55 392 533 re S Q
 
 endstream
 endobj
@@ -56,5 +71,5 @@ xref
 trailer
 << /Size 10 /Root 1 0 R >>
 startxref
-1352
+1751
 %%EOF
