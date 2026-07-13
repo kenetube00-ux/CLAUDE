@@ -1,0 +1,5571 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R 70 0 R 72 0 R 74 0 R] /Count 34 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 354 >>
+stream
+BT 0 g /F2 28 Tf 185.04000000000002 550 Td (KAKURO PUZZLE BOOK) Tj ET
+BT 0 g /F2 20 Tf 186.0 500 Td (Mixed Difficulty Volume 1) Tj ET
+BT 0 g /F1 16 Tf 183.12 420 Td (25 Puzzles: Easy + Medium + Hard) Tj ET
+BT 0 g /F1 13 Tf 168.72 380 Td (8 Easy \(5x5\) + 9 Medium \(7x7\) + 8 Hard \(9x9\)) Tj ET
+BT 0 g /F2 14 Tf 245.52 100 Td (Daniel Tesfamariam) Tj ET
+
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 11 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 290 >>
+stream
+BT 0 g /F2 13 Tf 162.48000000000002 600 Td (KAKURO PUZZLE BOOK - Mixed Difficulty Volume 1) Tj ET
+BT 0 g /F1 11 Tf 72 540 Td (Copyright 2025 Daniel Tesfamariam. All rights reserved.) Tj ET
+BT 0 g /F1 11 Tf 72 510 Td (No part of this publication may be reproduced without permission.) Tj ET
+
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 13 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+13 0 obj
+<< /Length 655 >>
+stream
+BT 0 g /F2 22 Tf 210.96 700 Td (HOW TO PLAY KAKURO) Tj ET
+BT 0 g /F2 13 Tf 72 640 Td (Rules:) Tj ET
+BT 0 g /F1 13 Tf 72 610 Td (1. Fill white cells with digits 1-9.) Tj ET
+BT 0 g /F1 13 Tf 72 585 Td (2. Numbers in each run must sum to the clue number.) Tj ET
+BT 0 g /F1 13 Tf 72 560 Td (3. No digit repeats within a single run.) Tj ET
+BT 0 g /F2 13 Tf 72 510 Td (This book progresses from easy to hard:) Tj ET
+BT 0 g /F1 12 Tf 72 480 Td (Puzzles 1-8: EASY \(5x5 grids, small sums\)) Tj ET
+BT 0 g /F1 12 Tf 72 455 Td (Puzzles 9-17: MEDIUM \(7x7 grids, moderate sums\)) Tj ET
+BT 0 g /F1 12 Tf 72 430 Td (Puzzles 18-25: HARD \(9x9 grids, large sums\)) Tj ET
+
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 15 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+15 0 obj
+<< /Length 2584 >>
+stream
+BT 0 g /F2 20 Tf 262.8 740 Td (Puzzle #1) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Easy \(5x5\)) Tj ET
+q 0.25 g 143.5 595 65 65 re f Q
+q 0 G 0.5 w 143.5 595 65 65 re S Q
+q 1 G 0.5 w 143.5 660 m 208.5 595 l S Q
+q 0.25 g 208.5 595 65 65 re f Q
+q 0 G 0.5 w 208.5 595 65 65 re S Q
+q 1 G 0.5 w 208.5 660 m 273.5 595 l S Q
+BT 1 g /F2 7 Tf 213.7 632.7 Td (13) Tj ET
+q 0.25 g 273.5 595 65 65 re f Q
+q 0 G 0.5 w 273.5 595 65 65 re S Q
+q 1 G 0.5 w 273.5 660 m 338.5 595 l S Q
+q 0.25 g 338.5 595 65 65 re f Q
+q 0 G 0.5 w 338.5 595 65 65 re S Q
+q 1 G 0.5 w 338.5 660 m 403.5 595 l S Q
+BT 1 g /F2 7 Tf 343.7 632.7 Td (7) Tj ET
+q 0.25 g 403.5 595 65 65 re f Q
+q 0 G 0.5 w 403.5 595 65 65 re S Q
+q 1 G 0.5 w 403.5 660 m 468.5 595 l S Q
+BT 1 g /F2 7 Tf 408.7 632.7 Td (24) Tj ET
+q 0.25 g 143.5 530 65 65 re f Q
+q 0 G 0.5 w 143.5 530 65 65 re S Q
+q 1 G 0.5 w 143.5 595 m 208.5 530 l S Q
+BT 1 g /F2 7 Tf 177.3 539.75 Td (9) Tj ET
+q 0 G 0.8 w 208.5 530 65 65 re S Q
+q 0.25 g 273.5 530 65 65 re f Q
+q 0 G 0.5 w 273.5 530 65 65 re S Q
+q 1 G 0.5 w 273.5 595 m 338.5 530 l S Q
+BT 1 g /F2 7 Tf 307.3 539.75 Td (11) Tj ET
+BT 1 g /F2 7 Tf 278.7 567.7 Td (17) Tj ET
+q 0 G 0.8 w 338.5 530 65 65 re S Q
+q 0 G 0.8 w 403.5 530 65 65 re S Q
+q 0.25 g 143.5 465 65 65 re f Q
+q 0 G 0.5 w 143.5 465 65 65 re S Q
+q 1 G 0.5 w 143.5 530 m 208.5 465 l S Q
+BT 1 g /F2 7 Tf 177.3 474.75 Td (17) Tj ET
+q 0 G 0.8 w 208.5 465 65 65 re S Q
+q 0 G 0.8 w 273.5 465 65 65 re S Q
+q 0.25 g 338.5 465 65 65 re f Q
+q 0 G 0.5 w 338.5 465 65 65 re S Q
+q 1 G 0.5 w 338.5 530 m 403.5 465 l S Q
+BT 1 g /F2 7 Tf 372.3 474.75 Td (23) Tj ET
+BT 1 g /F2 7 Tf 343.7 502.7 Td (9) Tj ET
+q 0 G 0.8 w 403.5 465 65 65 re S Q
+q 0.25 g 143.5 400 65 65 re f Q
+q 0 G 0.5 w 143.5 400 65 65 re S Q
+q 1 G 0.5 w 143.5 465 m 208.5 400 l S Q
+q 0.25 g 208.5 400 65 65 re f Q
+q 0 G 0.5 w 208.5 400 65 65 re S Q
+q 1 G 0.5 w 208.5 465 m 273.5 400 l S Q
+BT 1 g /F2 7 Tf 213.7 437.7 Td (16) Tj ET
+q 0.25 g 273.5 400 65 65 re f Q
+q 0 G 0.5 w 273.5 400 65 65 re S Q
+q 1 G 0.5 w 273.5 465 m 338.5 400 l S Q
+BT 1 g /F2 7 Tf 307.3 409.75 Td (4) Tj ET
+BT 1 g /F2 7 Tf 278.7 437.7 Td (5) Tj ET
+q 0 G 0.8 w 338.5 400 65 65 re S Q
+q 0 G 0.8 w 403.5 400 65 65 re S Q
+q 0.25 g 143.5 335 65 65 re f Q
+q 0 G 0.5 w 143.5 335 65 65 re S Q
+q 1 G 0.5 w 143.5 400 m 208.5 335 l S Q
+BT 1 g /F2 7 Tf 177.3 344.75 Td (8) Tj ET
+q 0 G 0.8 w 208.5 335 65 65 re S Q
+q 0 G 0.8 w 273.5 335 65 65 re S Q
+q 0.25 g 338.5 335 65 65 re f Q
+q 0 G 0.5 w 338.5 335 65 65 re S Q
+q 1 G 0.5 w 338.5 400 m 403.5 335 l S Q
+BT 1 g /F2 7 Tf 372.3 344.75 Td (12) Tj ET
+q 0 G 0.8 w 403.5 335 65 65 re S Q
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 17 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+17 0 obj
+<< /Length 2388 >>
+stream
+BT 0 g /F2 20 Tf 262.8 740 Td (Puzzle #2) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Easy \(5x5\)) Tj ET
+q 0.25 g 143.5 595 65 65 re f Q
+q 0 G 0.5 w 143.5 595 65 65 re S Q
+q 1 G 0.5 w 143.5 660 m 208.5 595 l S Q
+q 0.25 g 208.5 595 65 65 re f Q
+q 0 G 0.5 w 208.5 595 65 65 re S Q
+q 1 G 0.5 w 208.5 660 m 273.5 595 l S Q
+BT 1 g /F2 7 Tf 213.7 632.7 Td (10) Tj ET
+q 0.25 g 273.5 595 65 65 re f Q
+q 0 G 0.5 w 273.5 595 65 65 re S Q
+q 1 G 0.5 w 273.5 660 m 338.5 595 l S Q
+BT 1 g /F2 7 Tf 278.7 632.7 Td (15) Tj ET
+q 0.25 g 338.5 595 65 65 re f Q
+q 0 G 0.5 w 338.5 595 65 65 re S Q
+q 1 G 0.5 w 338.5 660 m 403.5 595 l S Q
+BT 1 g /F2 7 Tf 343.7 632.7 Td (17) Tj ET
+q 0.25 g 403.5 595 65 65 re f Q
+q 0 G 0.5 w 403.5 595 65 65 re S Q
+q 1 G 0.5 w 403.5 660 m 468.5 595 l S Q
+q 0.25 g 143.5 530 65 65 re f Q
+q 0 G 0.5 w 143.5 530 65 65 re S Q
+q 1 G 0.5 w 143.5 595 m 208.5 530 l S Q
+BT 1 g /F2 7 Tf 177.3 539.75 Td (19) Tj ET
+q 0 G 0.8 w 208.5 530 65 65 re S Q
+q 0 G 0.8 w 273.5 530 65 65 re S Q
+q 0 G 0.8 w 338.5 530 65 65 re S Q
+q 0.25 g 403.5 530 65 65 re f Q
+q 0 G 0.5 w 403.5 530 65 65 re S Q
+q 1 G 0.5 w 403.5 595 m 468.5 530 l S Q
+BT 1 g /F2 7 Tf 408.7 567.7 Td (13) Tj ET
+q 0.25 g 143.5 465 65 65 re f Q
+q 0 G 0.5 w 143.5 465 65 65 re S Q
+q 1 G 0.5 w 143.5 530 m 208.5 465 l S Q
+q 0.25 g 208.5 465 65 65 re f Q
+q 0 G 0.5 w 208.5 465 65 65 re S Q
+q 1 G 0.5 w 208.5 530 m 273.5 465 l S Q
+BT 1 g /F2 7 Tf 242.3 474.75 Td (5) Tj ET
+q 0 G 0.8 w 273.5 465 65 65 re S Q
+q 0.25 g 338.5 465 65 65 re f Q
+q 0 G 0.5 w 338.5 465 65 65 re S Q
+q 1 G 0.5 w 338.5 530 m 403.5 465 l S Q
+BT 1 g /F2 7 Tf 372.3 474.75 Td (20) Tj ET
+BT 1 g /F2 7 Tf 343.7 502.7 Td (19) Tj ET
+q 0 G 0.8 w 403.5 465 65 65 re S Q
+q 0.25 g 143.5 400 65 65 re f Q
+q 0 G 0.5 w 143.5 400 65 65 re S Q
+q 1 G 0.5 w 143.5 465 m 208.5 400 l S Q
+q 0.25 g 208.5 400 65 65 re f Q
+q 0 G 0.5 w 208.5 400 65 65 re S Q
+q 1 G 0.5 w 208.5 465 m 273.5 400 l S Q
+BT 1 g /F2 7 Tf 242.3 409.75 Td (16) Tj ET
+BT 1 g /F2 7 Tf 213.7 437.7 Td (23) Tj ET
+q 0 G 0.8 w 273.5 400 65 65 re S Q
+q 0 G 0.8 w 338.5 400 65 65 re S Q
+q 0 G 0.8 w 403.5 400 65 65 re S Q
+q 0.25 g 143.5 335 65 65 re f Q
+q 0 G 0.5 w 143.5 335 65 65 re S Q
+q 1 G 0.5 w 143.5 400 m 208.5 335 l S Q
+BT 1 g /F2 7 Tf 177.3 344.75 Td (5) Tj ET
+q 0 G 0.8 w 208.5 335 65 65 re S Q
+q 0 G 0.8 w 273.5 335 65 65 re S Q
+q 0 G 0.8 w 338.5 335 65 65 re S Q
+q 0 G 0.8 w 403.5 335 65 65 re S Q
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 19 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+19 0 obj
+<< /Length 2418 >>
+stream
+BT 0 g /F2 20 Tf 262.8 740 Td (Puzzle #3) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Easy \(5x5\)) Tj ET
+q 0.25 g 143.5 595 65 65 re f Q
+q 0 G 0.5 w 143.5 595 65 65 re S Q
+q 1 G 0.5 w 143.5 660 m 208.5 595 l S Q
+q 0.25 g 208.5 595 65 65 re f Q
+q 0 G 0.5 w 208.5 595 65 65 re S Q
+q 1 G 0.5 w 208.5 660 m 273.5 595 l S Q
+q 0.25 g 273.5 595 65 65 re f Q
+q 0 G 0.5 w 273.5 595 65 65 re S Q
+q 1 G 0.5 w 273.5 660 m 338.5 595 l S Q
+BT 1 g /F2 7 Tf 278.7 632.7 Td (17) Tj ET
+q 0.25 g 338.5 595 65 65 re f Q
+q 0 G 0.5 w 338.5 595 65 65 re S Q
+q 1 G 0.5 w 338.5 660 m 403.5 595 l S Q
+BT 1 g /F2 7 Tf 343.7 632.7 Td (16) Tj ET
+q 0.25 g 403.5 595 65 65 re f Q
+q 0 G 0.5 w 403.5 595 65 65 re S Q
+q 1 G 0.5 w 403.5 660 m 468.5 595 l S Q
+BT 1 g /F2 7 Tf 408.7 632.7 Td (21) Tj ET
+q 0.25 g 143.5 530 65 65 re f Q
+q 0 G 0.5 w 143.5 530 65 65 re S Q
+q 1 G 0.5 w 143.5 595 m 208.5 530 l S Q
+q 0.25 g 208.5 530 65 65 re f Q
+q 0 G 0.5 w 208.5 530 65 65 re S Q
+q 1 G 0.5 w 208.5 595 m 273.5 530 l S Q
+BT 1 g /F2 7 Tf 242.3 539.75 Td (4) Tj ET
+BT 1 g /F2 7 Tf 213.7 567.7 Td (23) Tj ET
+q 0 G 0.8 w 273.5 530 65 65 re S Q
+q 0 G 0.8 w 338.5 530 65 65 re S Q
+q 0 G 0.8 w 403.5 530 65 65 re S Q
+q 0.25 g 143.5 465 65 65 re f Q
+q 0 G 0.5 w 143.5 465 65 65 re S Q
+q 1 G 0.5 w 143.5 530 m 208.5 465 l S Q
+BT 1 g /F2 7 Tf 177.3 474.75 Td (17) Tj ET
+q 0 G 0.8 w 208.5 465 65 65 re S Q
+q 0 G 0.8 w 273.5 465 65 65 re S Q
+q 0.25 g 338.5 465 65 65 re f Q
+q 0 G 0.5 w 338.5 465 65 65 re S Q
+q 1 G 0.5 w 338.5 530 m 403.5 465 l S Q
+q 0.25 g 403.5 465 65 65 re f Q
+q 0 G 0.5 w 403.5 465 65 65 re S Q
+q 1 G 0.5 w 403.5 530 m 468.5 465 l S Q
+q 0.25 g 143.5 400 65 65 re f Q
+q 0 G 0.5 w 143.5 400 65 65 re S Q
+q 1 G 0.5 w 143.5 465 m 208.5 400 l S Q
+BT 1 g /F2 7 Tf 177.3 409.75 Td (17) Tj ET
+q 0 G 0.8 w 208.5 400 65 65 re S Q
+q 0 G 0.8 w 273.5 400 65 65 re S Q
+q 0.25 g 338.5 400 65 65 re f Q
+q 0 G 0.5 w 338.5 400 65 65 re S Q
+q 1 G 0.5 w 338.5 465 m 403.5 400 l S Q
+BT 1 g /F2 7 Tf 343.7 437.7 Td (23) Tj ET
+q 0.25 g 403.5 400 65 65 re f Q
+q 0 G 0.5 w 403.5 400 65 65 re S Q
+q 1 G 0.5 w 403.5 465 m 468.5 400 l S Q
+BT 1 g /F2 7 Tf 408.7 437.7 Td (18) Tj ET
+q 0.25 g 143.5 335 65 65 re f Q
+q 0 G 0.5 w 143.5 335 65 65 re S Q
+q 1 G 0.5 w 143.5 400 m 208.5 335 l S Q
+BT 1 g /F2 7 Tf 177.3 344.75 Td (19) Tj ET
+q 0 G 0.8 w 208.5 335 65 65 re S Q
+q 0 G 0.8 w 273.5 335 65 65 re S Q
+q 0 G 0.8 w 338.5 335 65 65 re S Q
+q 0 G 0.8 w 403.5 335 65 65 re S Q
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 21 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+21 0 obj
+<< /Length 2118 >>
+stream
+BT 0 g /F2 20 Tf 262.8 740 Td (Puzzle #4) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Easy \(5x5\)) Tj ET
+q 0.25 g 143.5 595 65 65 re f Q
+q 0 G 0.5 w 143.5 595 65 65 re S Q
+q 1 G 0.5 w 143.5 660 m 208.5 595 l S Q
+q 0.25 g 208.5 595 65 65 re f Q
+q 0 G 0.5 w 208.5 595 65 65 re S Q
+q 1 G 0.5 w 208.5 660 m 273.5 595 l S Q
+BT 1 g /F2 7 Tf 213.7 632.7 Td (17) Tj ET
+q 0.25 g 273.5 595 65 65 re f Q
+q 0 G 0.5 w 273.5 595 65 65 re S Q
+q 1 G 0.5 w 273.5 660 m 338.5 595 l S Q
+BT 1 g /F2 7 Tf 278.7 632.7 Td (23) Tj ET
+q 0.25 g 338.5 595 65 65 re f Q
+q 0 G 0.5 w 338.5 595 65 65 re S Q
+q 1 G 0.5 w 338.5 660 m 403.5 595 l S Q
+BT 1 g /F2 7 Tf 343.7 632.7 Td (13) Tj ET
+q 0.25 g 403.5 595 65 65 re f Q
+q 0 G 0.5 w 403.5 595 65 65 re S Q
+q 1 G 0.5 w 403.5 660 m 468.5 595 l S Q
+BT 1 g /F2 7 Tf 408.7 632.7 Td (20) Tj ET
+q 0.25 g 143.5 530 65 65 re f Q
+q 0 G 0.5 w 143.5 530 65 65 re S Q
+q 1 G 0.5 w 143.5 595 m 208.5 530 l S Q
+BT 1 g /F2 7 Tf 177.3 539.75 Td (16) Tj ET
+q 0 G 0.8 w 208.5 530 65 65 re S Q
+q 0 G 0.8 w 273.5 530 65 65 re S Q
+q 0 G 0.8 w 338.5 530 65 65 re S Q
+q 0 G 0.8 w 403.5 530 65 65 re S Q
+q 0.25 g 143.5 465 65 65 re f Q
+q 0 G 0.5 w 143.5 465 65 65 re S Q
+q 1 G 0.5 w 143.5 530 m 208.5 465 l S Q
+BT 1 g /F2 7 Tf 177.3 474.75 Td (19) Tj ET
+q 0 G 0.8 w 208.5 465 65 65 re S Q
+q 0 G 0.8 w 273.5 465 65 65 re S Q
+q 0 G 0.8 w 338.5 465 65 65 re S Q
+q 0 G 0.8 w 403.5 465 65 65 re S Q
+q 0.25 g 143.5 400 65 65 re f Q
+q 0 G 0.5 w 143.5 400 65 65 re S Q
+q 1 G 0.5 w 143.5 465 m 208.5 400 l S Q
+q 0.25 g 208.5 400 65 65 re f Q
+q 0 G 0.5 w 208.5 400 65 65 re S Q
+q 1 G 0.5 w 208.5 465 m 273.5 400 l S Q
+BT 1 g /F2 7 Tf 242.3 409.75 Td (21) Tj ET
+q 0 G 0.8 w 273.5 400 65 65 re S Q
+q 0 G 0.8 w 338.5 400 65 65 re S Q
+q 0 G 0.8 w 403.5 400 65 65 re S Q
+q 0.25 g 143.5 335 65 65 re f Q
+q 0 G 0.5 w 143.5 335 65 65 re S Q
+q 1 G 0.5 w 143.5 400 m 208.5 335 l S Q
+q 0.25 g 208.5 335 65 65 re f Q
+q 0 G 0.5 w 208.5 335 65 65 re S Q
+q 1 G 0.5 w 208.5 400 m 273.5 335 l S Q
+BT 1 g /F2 7 Tf 242.3 344.75 Td (3) Tj ET
+q 0 G 0.8 w 273.5 335 65 65 re S Q
+q 0 G 0.8 w 338.5 335 65 65 re S Q
+q 0 G 0.8 w 403.5 335 65 65 re S Q
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 23 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+23 0 obj
+<< /Length 2315 >>
+stream
+BT 0 g /F2 20 Tf 262.8 740 Td (Puzzle #5) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Easy \(5x5\)) Tj ET
+q 0.25 g 143.5 595 65 65 re f Q
+q 0 G 0.5 w 143.5 595 65 65 re S Q
+q 1 G 0.5 w 143.5 660 m 208.5 595 l S Q
+q 0.25 g 208.5 595 65 65 re f Q
+q 0 G 0.5 w 208.5 595 65 65 re S Q
+q 1 G 0.5 w 208.5 660 m 273.5 595 l S Q
+BT 1 g /F2 7 Tf 213.7 632.7 Td (9) Tj ET
+q 0.25 g 273.5 595 65 65 re f Q
+q 0 G 0.5 w 273.5 595 65 65 re S Q
+q 1 G 0.5 w 273.5 660 m 338.5 595 l S Q
+q 0.25 g 338.5 595 65 65 re f Q
+q 0 G 0.5 w 338.5 595 65 65 re S Q
+q 1 G 0.5 w 338.5 660 m 403.5 595 l S Q
+BT 1 g /F2 7 Tf 343.7 632.7 Td (5) Tj ET
+q 0.25 g 403.5 595 65 65 re f Q
+q 0 G 0.5 w 403.5 595 65 65 re S Q
+q 1 G 0.5 w 403.5 660 m 468.5 595 l S Q
+BT 1 g /F2 7 Tf 408.7 632.7 Td (19) Tj ET
+q 0.25 g 143.5 530 65 65 re f Q
+q 0 G 0.5 w 143.5 530 65 65 re S Q
+q 1 G 0.5 w 143.5 595 m 208.5 530 l S Q
+BT 1 g /F2 7 Tf 177.3 539.75 Td (11) Tj ET
+q 0 G 0.8 w 208.5 530 65 65 re S Q
+q 0.25 g 273.5 530 65 65 re f Q
+q 0 G 0.5 w 273.5 530 65 65 re S Q
+q 1 G 0.5 w 273.5 595 m 338.5 530 l S Q
+BT 1 g /F2 7 Tf 307.3 539.75 Td (9) Tj ET
+BT 1 g /F2 7 Tf 278.7 567.7 Td (18) Tj ET
+q 0 G 0.8 w 338.5 530 65 65 re S Q
+q 0 G 0.8 w 403.5 530 65 65 re S Q
+q 0.25 g 143.5 465 65 65 re f Q
+q 0 G 0.5 w 143.5 465 65 65 re S Q
+q 1 G 0.5 w 143.5 530 m 208.5 465 l S Q
+BT 1 g /F2 7 Tf 177.3 474.75 Td (16) Tj ET
+q 0 G 0.8 w 208.5 465 65 65 re S Q
+q 0 G 0.8 w 273.5 465 65 65 re S Q
+q 0 G 0.8 w 338.5 465 65 65 re S Q
+q 0 G 0.8 w 403.5 465 65 65 re S Q
+q 0.25 g 143.5 400 65 65 re f Q
+q 0 G 0.5 w 143.5 400 65 65 re S Q
+q 1 G 0.5 w 143.5 465 m 208.5 400 l S Q
+BT 1 g /F2 7 Tf 177.3 409.75 Td (15) Tj ET
+q 0 G 0.8 w 208.5 400 65 65 re S Q
+q 0.25 g 273.5 400 65 65 re f Q
+q 0 G 0.5 w 273.5 400 65 65 re S Q
+q 1 G 0.5 w 273.5 465 m 338.5 400 l S Q
+BT 1 g /F2 7 Tf 307.3 409.75 Td (6) Tj ET
+BT 1 g /F2 7 Tf 278.7 437.7 Td (15) Tj ET
+q 0 G 0.8 w 338.5 400 65 65 re S Q
+q 0 G 0.8 w 403.5 400 65 65 re S Q
+q 0.25 g 143.5 335 65 65 re f Q
+q 0 G 0.5 w 143.5 335 65 65 re S Q
+q 1 G 0.5 w 143.5 400 m 208.5 335 l S Q
+q 0.25 g 208.5 335 65 65 re f Q
+q 0 G 0.5 w 208.5 335 65 65 re S Q
+q 1 G 0.5 w 208.5 400 m 273.5 335 l S Q
+BT 1 g /F2 7 Tf 242.3 344.75 Td (23) Tj ET
+q 0 G 0.8 w 273.5 335 65 65 re S Q
+q 0 G 0.8 w 338.5 335 65 65 re S Q
+q 0 G 0.8 w 403.5 335 65 65 re S Q
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 25 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+25 0 obj
+<< /Length 2316 >>
+stream
+BT 0 g /F2 20 Tf 262.8 740 Td (Puzzle #6) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Easy \(5x5\)) Tj ET
+q 0.25 g 143.5 595 65 65 re f Q
+q 0 G 0.5 w 143.5 595 65 65 re S Q
+q 1 G 0.5 w 143.5 660 m 208.5 595 l S Q
+q 0.25 g 208.5 595 65 65 re f Q
+q 0 G 0.5 w 208.5 595 65 65 re S Q
+q 1 G 0.5 w 208.5 660 m 273.5 595 l S Q
+BT 1 g /F2 7 Tf 213.7 632.7 Td (16) Tj ET
+q 0.25 g 273.5 595 65 65 re f Q
+q 0 G 0.5 w 273.5 595 65 65 re S Q
+q 1 G 0.5 w 273.5 660 m 338.5 595 l S Q
+BT 1 g /F2 7 Tf 278.7 632.7 Td (13) Tj ET
+q 0.25 g 338.5 595 65 65 re f Q
+q 0 G 0.5 w 338.5 595 65 65 re S Q
+q 1 G 0.5 w 338.5 660 m 403.5 595 l S Q
+q 0.25 g 403.5 595 65 65 re f Q
+q 0 G 0.5 w 403.5 595 65 65 re S Q
+q 1 G 0.5 w 403.5 660 m 468.5 595 l S Q
+BT 1 g /F2 7 Tf 408.7 632.7 Td (18) Tj ET
+q 0.25 g 143.5 530 65 65 re f Q
+q 0 G 0.5 w 143.5 530 65 65 re S Q
+q 1 G 0.5 w 143.5 595 m 208.5 530 l S Q
+BT 1 g /F2 7 Tf 177.3 539.75 Td (23) Tj ET
+q 0 G 0.8 w 208.5 530 65 65 re S Q
+q 0 G 0.8 w 273.5 530 65 65 re S Q
+q 0.25 g 338.5 530 65 65 re f Q
+q 0 G 0.5 w 338.5 530 65 65 re S Q
+q 1 G 0.5 w 338.5 595 m 403.5 530 l S Q
+BT 1 g /F2 7 Tf 372.3 539.75 Td (10) Tj ET
+BT 1 g /F2 7 Tf 343.7 567.7 Td (5) Tj ET
+q 0 G 0.8 w 403.5 530 65 65 re S Q
+q 0.25 g 143.5 465 65 65 re f Q
+q 0 G 0.5 w 143.5 465 65 65 re S Q
+q 1 G 0.5 w 143.5 530 m 208.5 465 l S Q
+BT 1 g /F2 7 Tf 177.3 474.75 Td (20) Tj ET
+q 0 G 0.8 w 208.5 465 65 65 re S Q
+q 0 G 0.8 w 273.5 465 65 65 re S Q
+q 0 G 0.8 w 338.5 465 65 65 re S Q
+q 0 G 0.8 w 403.5 465 65 65 re S Q
+q 0.25 g 143.5 400 65 65 re f Q
+q 0 G 0.5 w 143.5 400 65 65 re S Q
+q 1 G 0.5 w 143.5 465 m 208.5 400 l S Q
+q 0.25 g 208.5 400 65 65 re f Q
+q 0 G 0.5 w 208.5 400 65 65 re S Q
+q 1 G 0.5 w 208.5 465 m 273.5 400 l S Q
+BT 1 g /F2 7 Tf 242.3 409.75 Td (6) Tj ET
+BT 1 g /F2 7 Tf 213.7 437.7 Td (4) Tj ET
+q 0 G 0.8 w 273.5 400 65 65 re S Q
+q 0 G 0.8 w 338.5 400 65 65 re S Q
+q 0 G 0.8 w 403.5 400 65 65 re S Q
+q 0.25 g 143.5 335 65 65 re f Q
+q 0 G 0.5 w 143.5 335 65 65 re S Q
+q 1 G 0.5 w 143.5 400 m 208.5 335 l S Q
+BT 1 g /F2 7 Tf 177.3 344.75 Td (11) Tj ET
+q 0 G 0.8 w 208.5 335 65 65 re S Q
+q 0.25 g 273.5 335 65 65 re f Q
+q 0 G 0.5 w 273.5 335 65 65 re S Q
+q 1 G 0.5 w 273.5 400 m 338.5 335 l S Q
+BT 1 g /F2 7 Tf 307.3 344.75 Td (17) Tj ET
+q 0 G 0.8 w 338.5 335 65 65 re S Q
+q 0 G 0.8 w 403.5 335 65 65 re S Q
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 27 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+27 0 obj
+<< /Length 2613 >>
+stream
+BT 0 g /F2 20 Tf 262.8 740 Td (Puzzle #7) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Easy \(5x5\)) Tj ET
+q 0.25 g 143.5 595 65 65 re f Q
+q 0 G 0.5 w 143.5 595 65 65 re S Q
+q 1 G 0.5 w 143.5 660 m 208.5 595 l S Q
+q 0.25 g 208.5 595 65 65 re f Q
+q 0 G 0.5 w 208.5 595 65 65 re S Q
+q 1 G 0.5 w 208.5 660 m 273.5 595 l S Q
+BT 1 g /F2 7 Tf 213.7 632.7 Td (3) Tj ET
+q 0.25 g 273.5 595 65 65 re f Q
+q 0 G 0.5 w 273.5 595 65 65 re S Q
+q 1 G 0.5 w 273.5 660 m 338.5 595 l S Q
+BT 1 g /F2 7 Tf 278.7 632.7 Td (20) Tj ET
+q 0.25 g 338.5 595 65 65 re f Q
+q 0 G 0.5 w 338.5 595 65 65 re S Q
+q 1 G 0.5 w 338.5 660 m 403.5 595 l S Q
+q 0.25 g 403.5 595 65 65 re f Q
+q 0 G 0.5 w 403.5 595 65 65 re S Q
+q 1 G 0.5 w 403.5 660 m 468.5 595 l S Q
+BT 1 g /F2 7 Tf 408.7 632.7 Td (9) Tj ET
+q 0.25 g 143.5 530 65 65 re f Q
+q 0 G 0.5 w 143.5 530 65 65 re S Q
+q 1 G 0.5 w 143.5 595 m 208.5 530 l S Q
+BT 1 g /F2 7 Tf 177.3 539.75 Td (19) Tj ET
+q 0 G 0.8 w 208.5 530 65 65 re S Q
+q 0 G 0.8 w 273.5 530 65 65 re S Q
+q 0.25 g 338.5 530 65 65 re f Q
+q 0 G 0.5 w 338.5 530 65 65 re S Q
+q 1 G 0.5 w 338.5 595 m 403.5 530 l S Q
+BT 1 g /F2 7 Tf 372.3 539.75 Td (21) Tj ET
+BT 1 g /F2 7 Tf 343.7 567.7 Td (3) Tj ET
+q 0 G 0.8 w 403.5 530 65 65 re S Q
+q 0.25 g 143.5 465 65 65 re f Q
+q 0 G 0.5 w 143.5 465 65 65 re S Q
+q 1 G 0.5 w 143.5 530 m 208.5 465 l S Q
+q 0.25 g 208.5 465 65 65 re f Q
+q 0 G 0.5 w 208.5 465 65 65 re S Q
+q 1 G 0.5 w 208.5 530 m 273.5 465 l S Q
+BT 1 g /F2 7 Tf 213.7 502.7 Td (21) Tj ET
+q 0.25 g 273.5 465 65 65 re f Q
+q 0 G 0.5 w 273.5 465 65 65 re S Q
+q 1 G 0.5 w 273.5 530 m 338.5 465 l S Q
+BT 1 g /F2 7 Tf 307.3 474.75 Td (22) Tj ET
+BT 1 g /F2 7 Tf 278.7 502.7 Td (10) Tj ET
+q 0 G 0.8 w 338.5 465 65 65 re S Q
+q 0 G 0.8 w 403.5 465 65 65 re S Q
+q 0.25 g 143.5 400 65 65 re f Q
+q 0 G 0.5 w 143.5 400 65 65 re S Q
+q 1 G 0.5 w 143.5 465 m 208.5 400 l S Q
+BT 1 g /F2 7 Tf 177.3 409.75 Td (9) Tj ET
+q 0 G 0.8 w 208.5 400 65 65 re S Q
+q 0 G 0.8 w 273.5 400 65 65 re S Q
+q 0.25 g 338.5 400 65 65 re f Q
+q 0 G 0.5 w 338.5 400 65 65 re S Q
+q 1 G 0.5 w 338.5 465 m 403.5 400 l S Q
+BT 1 g /F2 7 Tf 372.3 409.75 Td (9) Tj ET
+BT 1 g /F2 7 Tf 343.7 437.7 Td (8) Tj ET
+q 0 G 0.8 w 403.5 400 65 65 re S Q
+q 0.25 g 143.5 335 65 65 re f Q
+q 0 G 0.5 w 143.5 335 65 65 re S Q
+q 1 G 0.5 w 143.5 400 m 208.5 335 l S Q
+q 0.25 g 208.5 335 65 65 re f Q
+q 0 G 0.5 w 208.5 335 65 65 re S Q
+q 1 G 0.5 w 208.5 400 m 273.5 335 l S Q
+q 0.25 g 273.5 335 65 65 re f Q
+q 0 G 0.5 w 273.5 335 65 65 re S Q
+q 1 G 0.5 w 273.5 400 m 338.5 335 l S Q
+BT 1 g /F2 7 Tf 307.3 344.75 Td (16) Tj ET
+q 0 G 0.8 w 338.5 335 65 65 re S Q
+q 0 G 0.8 w 403.5 335 65 65 re S Q
+
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 29 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+29 0 obj
+<< /Length 2316 >>
+stream
+BT 0 g /F2 20 Tf 262.8 740 Td (Puzzle #8) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Easy \(5x5\)) Tj ET
+q 0.25 g 143.5 595 65 65 re f Q
+q 0 G 0.5 w 143.5 595 65 65 re S Q
+q 1 G 0.5 w 143.5 660 m 208.5 595 l S Q
+q 0.25 g 208.5 595 65 65 re f Q
+q 0 G 0.5 w 208.5 595 65 65 re S Q
+q 1 G 0.5 w 208.5 660 m 273.5 595 l S Q
+q 0.25 g 273.5 595 65 65 re f Q
+q 0 G 0.5 w 273.5 595 65 65 re S Q
+q 1 G 0.5 w 273.5 660 m 338.5 595 l S Q
+BT 1 g /F2 7 Tf 278.7 632.7 Td (12) Tj ET
+q 0.25 g 338.5 595 65 65 re f Q
+q 0 G 0.5 w 338.5 595 65 65 re S Q
+q 1 G 0.5 w 338.5 660 m 403.5 595 l S Q
+BT 1 g /F2 7 Tf 343.7 632.7 Td (20) Tj ET
+q 0.25 g 403.5 595 65 65 re f Q
+q 0 G 0.5 w 403.5 595 65 65 re S Q
+q 1 G 0.5 w 403.5 660 m 468.5 595 l S Q
+BT 1 g /F2 7 Tf 408.7 632.7 Td (12) Tj ET
+q 0.25 g 143.5 530 65 65 re f Q
+q 0 G 0.5 w 143.5 530 65 65 re S Q
+q 1 G 0.5 w 143.5 595 m 208.5 530 l S Q
+q 0.25 g 208.5 530 65 65 re f Q
+q 0 G 0.5 w 208.5 530 65 65 re S Q
+q 1 G 0.5 w 208.5 595 m 273.5 530 l S Q
+BT 1 g /F2 7 Tf 242.3 539.75 Td (12) Tj ET
+BT 1 g /F2 7 Tf 213.7 567.7 Td (23) Tj ET
+q 0 G 0.8 w 273.5 530 65 65 re S Q
+q 0 G 0.8 w 338.5 530 65 65 re S Q
+q 0 G 0.8 w 403.5 530 65 65 re S Q
+q 0.25 g 143.5 465 65 65 re f Q
+q 0 G 0.5 w 143.5 465 65 65 re S Q
+q 1 G 0.5 w 143.5 530 m 208.5 465 l S Q
+BT 1 g /F2 7 Tf 177.3 474.75 Td (3) Tj ET
+q 0 G 0.8 w 208.5 465 65 65 re S Q
+q 0 G 0.8 w 273.5 465 65 65 re S Q
+q 0.25 g 338.5 465 65 65 re f Q
+q 0 G 0.5 w 338.5 465 65 65 re S Q
+q 1 G 0.5 w 338.5 530 m 403.5 465 l S Q
+BT 1 g /F2 7 Tf 372.3 474.75 Td (8) Tj ET
+BT 1 g /F2 7 Tf 343.7 502.7 Td (17) Tj ET
+q 0 G 0.8 w 403.5 465 65 65 re S Q
+q 0.25 g 143.5 400 65 65 re f Q
+q 0 G 0.5 w 143.5 400 65 65 re S Q
+q 1 G 0.5 w 143.5 465 m 208.5 400 l S Q
+q 0.25 g 208.5 400 65 65 re f Q
+q 0 G 0.5 w 208.5 400 65 65 re S Q
+q 1 G 0.5 w 208.5 465 m 273.5 400 l S Q
+BT 1 g /F2 7 Tf 242.3 409.75 Td (11) Tj ET
+BT 1 g /F2 7 Tf 213.7 437.7 Td (19) Tj ET
+q 0 G 0.8 w 273.5 400 65 65 re S Q
+q 0 G 0.8 w 338.5 400 65 65 re S Q
+q 0 G 0.8 w 403.5 400 65 65 re S Q
+q 0.25 g 143.5 335 65 65 re f Q
+q 0 G 0.5 w 143.5 335 65 65 re S Q
+q 1 G 0.5 w 143.5 400 m 208.5 335 l S Q
+BT 1 g /F2 7 Tf 177.3 344.75 Td (10) Tj ET
+q 0 G 0.8 w 208.5 335 65 65 re S Q
+q 0 G 0.8 w 273.5 335 65 65 re S Q
+q 0 G 0.8 w 338.5 335 65 65 re S Q
+q 0 G 0.8 w 403.5 335 65 65 re S Q
+
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 31 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+31 0 obj
+<< /Length 4446 >>
+stream
+BT 0 g /F2 20 Tf 262.8 740 Td (Puzzle #9) Tj ET
+BT 0 g /F1 12 Tf 236.88 715 Td (Difficulty: Medium \(7x7\)) Tj ET
+q 0.25 g 131.0 610 50 50 re f Q
+q 0 G 0.5 w 131.0 610 50 50 re S Q
+q 1 G 0.5 w 131.0 660 m 181.0 610 l S Q
+q 0.25 g 181.0 610 50 50 re f Q
+q 0 G 0.5 w 181.0 610 50 50 re S Q
+q 1 G 0.5 w 181.0 660 m 231.0 610 l S Q
+BT 1 g /F2 7 Tf 185.0 639.0 Td (26) Tj ET
+q 0.25 g 231.0 610 50 50 re f Q
+q 0 G 0.5 w 231.0 610 50 50 re S Q
+q 1 G 0.5 w 231.0 660 m 281.0 610 l S Q
+BT 1 g /F2 7 Tf 235.0 639.0 Td (11) Tj ET
+q 0.25 g 281.0 610 50 50 re f Q
+q 0 G 0.5 w 281.0 610 50 50 re S Q
+q 1 G 0.5 w 281.0 660 m 331.0 610 l S Q
+q 0.25 g 331.0 610 50 50 re f Q
+q 0 G 0.5 w 331.0 610 50 50 re S Q
+q 1 G 0.5 w 331.0 660 m 381.0 610 l S Q
+q 0.25 g 381.0 610 50 50 re f Q
+q 0 G 0.5 w 381.0 610 50 50 re S Q
+q 1 G 0.5 w 381.0 660 m 431.0 610 l S Q
+BT 1 g /F2 7 Tf 385.0 639.0 Td (5) Tj ET
+q 0.25 g 431.0 610 50 50 re f Q
+q 0 G 0.5 w 431.0 610 50 50 re S Q
+q 1 G 0.5 w 431.0 660 m 481.0 610 l S Q
+BT 1 g /F2 7 Tf 435.0 639.0 Td (11) Tj ET
+q 0.25 g 131.0 560 50 50 re f Q
+q 0 G 0.5 w 131.0 560 50 50 re S Q
+q 1 G 0.5 w 131.0 610 m 181.0 560 l S Q
+BT 1 g /F2 7 Tf 157.0 567.5 Td (24) Tj ET
+q 0 G 0.8 w 181.0 560 50 50 re S Q
+q 0 G 0.8 w 231.0 560 50 50 re S Q
+q 0.25 g 281.0 560 50 50 re f Q
+q 0 G 0.5 w 281.0 560 50 50 re S Q
+q 1 G 0.5 w 281.0 610 m 331.0 560 l S Q
+BT 1 g /F2 7 Tf 285.0 589.0 Td (6) Tj ET
+q 0.25 g 331.0 560 50 50 re f Q
+q 0 G 0.5 w 331.0 560 50 50 re S Q
+q 1 G 0.5 w 331.0 610 m 381.0 560 l S Q
+BT 1 g /F2 7 Tf 357.0 567.5 Td (17) Tj ET
+BT 1 g /F2 7 Tf 335.0 589.0 Td (27) Tj ET
+q 0 G 0.8 w 381.0 560 50 50 re S Q
+q 0 G 0.8 w 431.0 560 50 50 re S Q
+q 0.25 g 131.0 510 50 50 re f Q
+q 0 G 0.5 w 131.0 510 50 50 re S Q
+q 1 G 0.5 w 131.0 560 m 181.0 510 l S Q
+BT 1 g /F2 7 Tf 157.0 517.5 Td (9) Tj ET
+q 0 G 0.8 w 181.0 510 50 50 re S Q
+q 0 G 0.8 w 231.0 510 50 50 re S Q
+q 0 G 0.8 w 281.0 510 50 50 re S Q
+q 0 G 0.8 w 331.0 510 50 50 re S Q
+q 0 G 0.8 w 381.0 510 50 50 re S Q
+q 0 G 0.8 w 431.0 510 50 50 re S Q
+q 0.25 g 131.0 460 50 50 re f Q
+q 0 G 0.5 w 131.0 460 50 50 re S Q
+q 1 G 0.5 w 131.0 510 m 181.0 460 l S Q
+BT 1 g /F2 7 Tf 157.0 467.5 Td (31) Tj ET
+q 0 G 0.8 w 181.0 460 50 50 re S Q
+q 0 G 0.8 w 231.0 460 50 50 re S Q
+q 0.25 g 281.0 460 50 50 re f Q
+q 0 G 0.5 w 281.0 460 50 50 re S Q
+q 1 G 0.5 w 281.0 510 m 331.0 460 l S Q
+q 0.25 g 331.0 460 50 50 re f Q
+q 0 G 0.5 w 331.0 460 50 50 re S Q
+q 1 G 0.5 w 331.0 510 m 381.0 460 l S Q
+BT 1 g /F2 7 Tf 357.0 467.5 Td (29) Tj ET
+BT 1 g /F2 7 Tf 335.0 489.0 Td (22) Tj ET
+q 0 G 0.8 w 381.0 460 50 50 re S Q
+q 0.25 g 431.0 460 50 50 re f Q
+q 0 G 0.5 w 431.0 460 50 50 re S Q
+q 1 G 0.5 w 431.0 510 m 481.0 460 l S Q
+BT 1 g /F2 7 Tf 435.0 489.0 Td (20) Tj ET
+q 0.25 g 131.0 410 50 50 re f Q
+q 0 G 0.5 w 131.0 410 50 50 re S Q
+q 1 G 0.5 w 131.0 460 m 181.0 410 l S Q
+BT 1 g /F2 7 Tf 157.0 417.5 Td (5) Tj ET
+q 0 G 0.8 w 181.0 410 50 50 re S Q
+q 0 G 0.8 w 231.0 410 50 50 re S Q
+q 0.25 g 281.0 410 50 50 re f Q
+q 0 G 0.5 w 281.0 410 50 50 re S Q
+q 1 G 0.5 w 281.0 460 m 331.0 410 l S Q
+BT 1 g /F2 7 Tf 307.0 417.5 Td (10) Tj ET
+BT 1 g /F2 7 Tf 285.0 439.0 Td (27) Tj ET
+q 0 G 0.8 w 331.0 410 50 50 re S Q
+q 0 G 0.8 w 381.0 410 50 50 re S Q
+q 0 G 0.8 w 431.0 410 50 50 re S Q
+q 0.25 g 131.0 360 50 50 re f Q
+q 0 G 0.5 w 131.0 360 50 50 re S Q
+q 1 G 0.5 w 131.0 410 m 181.0 360 l S Q
+BT 1 g /F2 7 Tf 157.0 367.5 Td (29) Tj ET
+q 0 G 0.8 w 181.0 360 50 50 re S Q
+q 0.25 g 231.0 360 50 50 re f Q
+q 0 G 0.5 w 231.0 360 50 50 re S Q
+q 1 G 0.5 w 231.0 410 m 281.0 360 l S Q
+BT 1 g /F2 7 Tf 257.0 367.5 Td (16) Tj ET
+BT 1 g /F2 7 Tf 235.0 389.0 Td (14) Tj ET
+q 0 G 0.8 w 281.0 360 50 50 re S Q
+q 0 G 0.8 w 331.0 360 50 50 re S Q
+q 0.25 g 381.0 360 50 50 re f Q
+q 0 G 0.5 w 381.0 360 50 50 re S Q
+q 1 G 0.5 w 381.0 410 m 431.0 360 l S Q
+BT 1 g /F2 7 Tf 407.0 367.5 Td (6) Tj ET
+BT 1 g /F2 7 Tf 385.0 389.0 Td (10) Tj ET
+q 0 G 0.8 w 431.0 360 50 50 re S Q
+q 0.25 g 131.0 310 50 50 re f Q
+q 0 G 0.5 w 131.0 310 50 50 re S Q
+q 1 G 0.5 w 131.0 360 m 181.0 310 l S Q
+q 0.25 g 181.0 310 50 50 re f Q
+q 0 G 0.5 w 181.0 310 50 50 re S Q
+q 1 G 0.5 w 181.0 360 m 231.0 310 l S Q
+BT 1 g /F2 7 Tf 207.0 317.5 Td (16) Tj ET
+q 0 G 0.8 w 231.0 310 50 50 re S Q
+q 0.25 g 281.0 310 50 50 re f Q
+q 0 G 0.5 w 281.0 310 50 50 re S Q
+q 1 G 0.5 w 281.0 360 m 331.0 310 l S Q
+BT 1 g /F2 7 Tf 307.0 317.5 Td (34) Tj ET
+q 0 G 0.8 w 331.0 310 50 50 re S Q
+q 0 G 0.8 w 381.0 310 50 50 re S Q
+q 0 G 0.8 w 431.0 310 50 50 re S Q
+
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 33 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+33 0 obj
+<< /Length 4522 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #10) Tj ET
+BT 0 g /F1 12 Tf 236.88 715 Td (Difficulty: Medium \(7x7\)) Tj ET
+q 0.25 g 131.0 610 50 50 re f Q
+q 0 G 0.5 w 131.0 610 50 50 re S Q
+q 1 G 0.5 w 131.0 660 m 181.0 610 l S Q
+q 0.25 g 181.0 610 50 50 re f Q
+q 0 G 0.5 w 181.0 610 50 50 re S Q
+q 1 G 0.5 w 181.0 660 m 231.0 610 l S Q
+q 0.25 g 231.0 610 50 50 re f Q
+q 0 G 0.5 w 231.0 610 50 50 re S Q
+q 1 G 0.5 w 231.0 660 m 281.0 610 l S Q
+BT 1 g /F2 7 Tf 235.0 639.0 Td (5) Tj ET
+q 0.25 g 281.0 610 50 50 re f Q
+q 0 G 0.5 w 281.0 610 50 50 re S Q
+q 1 G 0.5 w 281.0 660 m 331.0 610 l S Q
+BT 1 g /F2 7 Tf 285.0 639.0 Td (9) Tj ET
+q 0.25 g 331.0 610 50 50 re f Q
+q 0 G 0.5 w 331.0 610 50 50 re S Q
+q 1 G 0.5 w 331.0 660 m 381.0 610 l S Q
+q 0.25 g 381.0 610 50 50 re f Q
+q 0 G 0.5 w 381.0 610 50 50 re S Q
+q 1 G 0.5 w 381.0 660 m 431.0 610 l S Q
+BT 1 g /F2 7 Tf 385.0 639.0 Td (14) Tj ET
+q 0.25 g 431.0 610 50 50 re f Q
+q 0 G 0.5 w 431.0 610 50 50 re S Q
+q 1 G 0.5 w 431.0 660 m 481.0 610 l S Q
+BT 1 g /F2 7 Tf 435.0 639.0 Td (4) Tj ET
+q 0.25 g 131.0 560 50 50 re f Q
+q 0 G 0.5 w 131.0 560 50 50 re S Q
+q 1 G 0.5 w 131.0 610 m 181.0 560 l S Q
+q 0.25 g 181.0 560 50 50 re f Q
+q 0 G 0.5 w 181.0 560 50 50 re S Q
+q 1 G 0.5 w 181.0 610 m 231.0 560 l S Q
+BT 1 g /F2 7 Tf 207.0 567.5 Td (11) Tj ET
+q 0 G 0.8 w 231.0 560 50 50 re S Q
+q 0 G 0.8 w 281.0 560 50 50 re S Q
+q 0.25 g 331.0 560 50 50 re f Q
+q 0 G 0.5 w 331.0 560 50 50 re S Q
+q 1 G 0.5 w 331.0 610 m 381.0 560 l S Q
+BT 1 g /F2 7 Tf 357.0 567.5 Td (7) Tj ET
+BT 1 g /F2 7 Tf 335.0 589.0 Td (7) Tj ET
+q 0 G 0.8 w 381.0 560 50 50 re S Q
+q 0 G 0.8 w 431.0 560 50 50 re S Q
+q 0.25 g 131.0 510 50 50 re f Q
+q 0 G 0.5 w 131.0 510 50 50 re S Q
+q 1 G 0.5 w 131.0 560 m 181.0 510 l S Q
+q 0.25 g 181.0 510 50 50 re f Q
+q 0 G 0.5 w 181.0 510 50 50 re S Q
+q 1 G 0.5 w 181.0 560 m 231.0 510 l S Q
+BT 1 g /F2 7 Tf 207.0 517.5 Td (24) Tj ET
+q 0 G 0.8 w 231.0 510 50 50 re S Q
+q 0 G 0.8 w 281.0 510 50 50 re S Q
+q 0 G 0.8 w 331.0 510 50 50 re S Q
+q 0 G 0.8 w 381.0 510 50 50 re S Q
+q 0.25 g 431.0 510 50 50 re f Q
+q 0 G 0.5 w 431.0 510 50 50 re S Q
+q 1 G 0.5 w 431.0 560 m 481.0 510 l S Q
+BT 1 g /F2 7 Tf 435.0 539.0 Td (8) Tj ET
+q 0.25 g 131.0 460 50 50 re f Q
+q 0 G 0.5 w 131.0 460 50 50 re S Q
+q 1 G 0.5 w 131.0 510 m 181.0 460 l S Q
+q 0.25 g 181.0 460 50 50 re f Q
+q 0 G 0.5 w 181.0 460 50 50 re S Q
+q 1 G 0.5 w 181.0 510 m 231.0 460 l S Q
+BT 1 g /F2 7 Tf 207.0 467.5 Td (31) Tj ET
+q 0 G 0.8 w 231.0 460 50 50 re S Q
+q 0 G 0.8 w 281.0 460 50 50 re S Q
+q 0 G 0.8 w 331.0 460 50 50 re S Q
+q 0 G 0.8 w 381.0 460 50 50 re S Q
+q 0 G 0.8 w 431.0 460 50 50 re S Q
+q 0.25 g 131.0 410 50 50 re f Q
+q 0 G 0.5 w 131.0 410 50 50 re S Q
+q 1 G 0.5 w 131.0 460 m 181.0 410 l S Q
+q 0.25 g 181.0 410 50 50 re f Q
+q 0 G 0.5 w 181.0 410 50 50 re S Q
+q 1 G 0.5 w 181.0 460 m 231.0 410 l S Q
+BT 1 g /F2 7 Tf 185.0 439.0 Td (32) Tj ET
+q 0.25 g 231.0 410 50 50 re f Q
+q 0 G 0.5 w 231.0 410 50 50 re S Q
+q 1 G 0.5 w 231.0 460 m 281.0 410 l S Q
+BT 1 g /F2 7 Tf 257.0 417.5 Td (19) Tj ET
+q 0 G 0.8 w 281.0 410 50 50 re S Q
+q 0 G 0.8 w 331.0 410 50 50 re S Q
+q 0.25 g 381.0 410 50 50 re f Q
+q 0 G 0.5 w 381.0 410 50 50 re S Q
+q 1 G 0.5 w 381.0 460 m 431.0 410 l S Q
+BT 1 g /F2 7 Tf 385.0 439.0 Td (17) Tj ET
+q 0.25 g 431.0 410 50 50 re f Q
+q 0 G 0.5 w 431.0 410 50 50 re S Q
+q 1 G 0.5 w 431.0 460 m 481.0 410 l S Q
+q 0.25 g 131.0 360 50 50 re f Q
+q 0 G 0.5 w 131.0 360 50 50 re S Q
+q 1 G 0.5 w 131.0 410 m 181.0 360 l S Q
+BT 1 g /F2 7 Tf 157.0 367.5 Td (7) Tj ET
+q 0 G 0.8 w 181.0 360 50 50 re S Q
+q 0.25 g 231.0 360 50 50 re f Q
+q 0 G 0.5 w 231.0 360 50 50 re S Q
+q 1 G 0.5 w 231.0 410 m 281.0 360 l S Q
+BT 1 g /F2 7 Tf 257.0 367.5 Td (30) Tj ET
+BT 1 g /F2 7 Tf 235.0 389.0 Td (32) Tj ET
+q 0 G 0.8 w 281.0 360 50 50 re S Q
+q 0 G 0.8 w 331.0 360 50 50 re S Q
+q 0 G 0.8 w 381.0 360 50 50 re S Q
+q 0.25 g 431.0 360 50 50 re f Q
+q 0 G 0.5 w 431.0 360 50 50 re S Q
+q 1 G 0.5 w 431.0 410 m 481.0 360 l S Q
+q 0.25 g 131.0 310 50 50 re f Q
+q 0 G 0.5 w 131.0 310 50 50 re S Q
+q 1 G 0.5 w 131.0 360 m 181.0 310 l S Q
+q 0.25 g 181.0 310 50 50 re f Q
+q 0 G 0.5 w 181.0 310 50 50 re S Q
+q 1 G 0.5 w 181.0 360 m 231.0 310 l S Q
+BT 1 g /F2 7 Tf 207.0 317.5 Td (16) Tj ET
+q 0 G 0.8 w 231.0 310 50 50 re S Q
+q 0.25 g 281.0 310 50 50 re f Q
+q 0 G 0.5 w 281.0 310 50 50 re S Q
+q 1 G 0.5 w 281.0 360 m 331.0 310 l S Q
+BT 1 g /F2 7 Tf 307.0 317.5 Td (3) Tj ET
+q 0 G 0.8 w 331.0 310 50 50 re S Q
+q 0 G 0.8 w 381.0 310 50 50 re S Q
+q 0.25 g 431.0 310 50 50 re f Q
+q 0 G 0.5 w 431.0 310 50 50 re S Q
+q 1 G 0.5 w 431.0 360 m 481.0 310 l S Q
+
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 35 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+35 0 obj
+<< /Length 4394 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #11) Tj ET
+BT 0 g /F1 12 Tf 236.88 715 Td (Difficulty: Medium \(7x7\)) Tj ET
+q 0.25 g 131.0 610 50 50 re f Q
+q 0 G 0.5 w 131.0 610 50 50 re S Q
+q 1 G 0.5 w 131.0 660 m 181.0 610 l S Q
+q 0.25 g 181.0 610 50 50 re f Q
+q 0 G 0.5 w 181.0 610 50 50 re S Q
+q 1 G 0.5 w 181.0 660 m 231.0 610 l S Q
+BT 1 g /F2 7 Tf 185.0 639.0 Td (11) Tj ET
+q 0.25 g 231.0 610 50 50 re f Q
+q 0 G 0.5 w 231.0 610 50 50 re S Q
+q 1 G 0.5 w 231.0 660 m 281.0 610 l S Q
+q 0.25 g 281.0 610 50 50 re f Q
+q 0 G 0.5 w 281.0 610 50 50 re S Q
+q 1 G 0.5 w 281.0 660 m 331.0 610 l S Q
+BT 1 g /F2 7 Tf 285.0 639.0 Td (7) Tj ET
+q 0.25 g 331.0 610 50 50 re f Q
+q 0 G 0.5 w 331.0 610 50 50 re S Q
+q 1 G 0.5 w 331.0 660 m 381.0 610 l S Q
+BT 1 g /F2 7 Tf 335.0 639.0 Td (11) Tj ET
+q 0.25 g 381.0 610 50 50 re f Q
+q 0 G 0.5 w 381.0 610 50 50 re S Q
+q 1 G 0.5 w 381.0 660 m 431.0 610 l S Q
+BT 1 g /F2 7 Tf 385.0 639.0 Td (33) Tj ET
+q 0.25 g 431.0 610 50 50 re f Q
+q 0 G 0.5 w 431.0 610 50 50 re S Q
+q 1 G 0.5 w 431.0 660 m 481.0 610 l S Q
+q 0.25 g 131.0 560 50 50 re f Q
+q 0 G 0.5 w 131.0 560 50 50 re S Q
+q 1 G 0.5 w 131.0 610 m 181.0 560 l S Q
+BT 1 g /F2 7 Tf 157.0 567.5 Td (23) Tj ET
+q 0 G 0.8 w 181.0 560 50 50 re S Q
+q 0.25 g 231.0 560 50 50 re f Q
+q 0 G 0.5 w 231.0 560 50 50 re S Q
+q 1 G 0.5 w 231.0 610 m 281.0 560 l S Q
+BT 1 g /F2 7 Tf 257.0 567.5 Td (6) Tj ET
+BT 1 g /F2 7 Tf 235.0 589.0 Td (22) Tj ET
+q 0 G 0.8 w 281.0 560 50 50 re S Q
+q 0 G 0.8 w 331.0 560 50 50 re S Q
+q 0 G 0.8 w 381.0 560 50 50 re S Q
+q 0.25 g 431.0 560 50 50 re f Q
+q 0 G 0.5 w 431.0 560 50 50 re S Q
+q 1 G 0.5 w 431.0 610 m 481.0 560 l S Q
+BT 1 g /F2 7 Tf 435.0 589.0 Td (13) Tj ET
+q 0.25 g 131.0 510 50 50 re f Q
+q 0 G 0.5 w 131.0 510 50 50 re S Q
+q 1 G 0.5 w 131.0 560 m 181.0 510 l S Q
+q 0.25 g 181.0 510 50 50 re f Q
+q 0 G 0.5 w 181.0 510 50 50 re S Q
+q 1 G 0.5 w 181.0 560 m 231.0 510 l S Q
+BT 1 g /F2 7 Tf 207.0 517.5 Td (6) Tj ET
+BT 1 g /F2 7 Tf 185.0 539.0 Td (18) Tj ET
+q 0 G 0.8 w 231.0 510 50 50 re S Q
+q 0 G 0.8 w 281.0 510 50 50 re S Q
+q 0 G 0.8 w 331.0 510 50 50 re S Q
+q 0 G 0.8 w 381.0 510 50 50 re S Q
+q 0 G 0.8 w 431.0 510 50 50 re S Q
+q 0.25 g 131.0 460 50 50 re f Q
+q 0 G 0.5 w 131.0 460 50 50 re S Q
+q 1 G 0.5 w 131.0 510 m 181.0 460 l S Q
+BT 1 g /F2 7 Tf 157.0 467.5 Td (34) Tj ET
+q 0 G 0.8 w 181.0 460 50 50 re S Q
+q 0 G 0.8 w 231.0 460 50 50 re S Q
+q 0 G 0.8 w 281.0 460 50 50 re S Q
+q 0 G 0.8 w 331.0 460 50 50 re S Q
+q 0 G 0.8 w 381.0 460 50 50 re S Q
+q 0.25 g 431.0 460 50 50 re f Q
+q 0 G 0.5 w 431.0 460 50 50 re S Q
+q 1 G 0.5 w 431.0 510 m 481.0 460 l S Q
+q 0.25 g 131.0 410 50 50 re f Q
+q 0 G 0.5 w 131.0 410 50 50 re S Q
+q 1 G 0.5 w 131.0 460 m 181.0 410 l S Q
+BT 1 g /F2 7 Tf 157.0 417.5 Td (21) Tj ET
+q 0 G 0.8 w 181.0 410 50 50 re S Q
+q 0 G 0.8 w 231.0 410 50 50 re S Q
+q 0 G 0.8 w 281.0 410 50 50 re S Q
+q 0 G 0.8 w 331.0 410 50 50 re S Q
+q 0 G 0.8 w 381.0 410 50 50 re S Q
+q 0.25 g 431.0 410 50 50 re f Q
+q 0 G 0.5 w 431.0 410 50 50 re S Q
+q 1 G 0.5 w 431.0 460 m 481.0 410 l S Q
+BT 1 g /F2 7 Tf 435.0 439.0 Td (22) Tj ET
+q 0.25 g 131.0 360 50 50 re f Q
+q 0 G 0.5 w 131.0 360 50 50 re S Q
+q 1 G 0.5 w 131.0 410 m 181.0 360 l S Q
+BT 1 g /F2 7 Tf 157.0 367.5 Td (11) Tj ET
+q 0 G 0.8 w 181.0 360 50 50 re S Q
+q 0 G 0.8 w 231.0 360 50 50 re S Q
+q 0.25 g 281.0 360 50 50 re f Q
+q 0 G 0.5 w 281.0 360 50 50 re S Q
+q 1 G 0.5 w 281.0 410 m 331.0 360 l S Q
+BT 1 g /F2 7 Tf 307.0 367.5 Td (23) Tj ET
+BT 1 g /F2 7 Tf 285.0 389.0 Td (32) Tj ET
+q 0 G 0.8 w 331.0 360 50 50 re S Q
+q 0.25 g 381.0 360 50 50 re f Q
+q 0 G 0.5 w 381.0 360 50 50 re S Q
+q 1 G 0.5 w 381.0 410 m 431.0 360 l S Q
+BT 1 g /F2 7 Tf 407.0 367.5 Td (26) Tj ET
+BT 1 g /F2 7 Tf 385.0 389.0 Td (14) Tj ET
+q 0 G 0.8 w 431.0 360 50 50 re S Q
+q 0.25 g 131.0 310 50 50 re f Q
+q 0 G 0.5 w 131.0 310 50 50 re S Q
+q 1 G 0.5 w 131.0 360 m 181.0 310 l S Q
+q 0.25 g 181.0 310 50 50 re f Q
+q 0 G 0.5 w 181.0 310 50 50 re S Q
+q 1 G 0.5 w 181.0 360 m 231.0 310 l S Q
+q 0.25 g 231.0 310 50 50 re f Q
+q 0 G 0.5 w 231.0 310 50 50 re S Q
+q 1 G 0.5 w 231.0 360 m 281.0 310 l S Q
+BT 1 g /F2 7 Tf 257.0 317.5 Td (3) Tj ET
+q 0 G 0.8 w 281.0 310 50 50 re S Q
+q 0.25 g 331.0 310 50 50 re f Q
+q 0 G 0.5 w 331.0 310 50 50 re S Q
+q 1 G 0.5 w 331.0 360 m 381.0 310 l S Q
+BT 1 g /F2 7 Tf 357.0 317.5 Td (11) Tj ET
+q 0 G 0.8 w 381.0 310 50 50 re S Q
+q 0.25 g 431.0 310 50 50 re f Q
+q 0 G 0.5 w 431.0 310 50 50 re S Q
+q 1 G 0.5 w 431.0 360 m 481.0 310 l S Q
+
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 37 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+37 0 obj
+<< /Length 3909 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #12) Tj ET
+BT 0 g /F1 12 Tf 236.88 715 Td (Difficulty: Medium \(7x7\)) Tj ET
+q 0.25 g 131.0 610 50 50 re f Q
+q 0 G 0.5 w 131.0 610 50 50 re S Q
+q 1 G 0.5 w 131.0 660 m 181.0 610 l S Q
+q 0.25 g 181.0 610 50 50 re f Q
+q 0 G 0.5 w 181.0 610 50 50 re S Q
+q 1 G 0.5 w 181.0 660 m 231.0 610 l S Q
+BT 1 g /F2 7 Tf 185.0 639.0 Td (17) Tj ET
+q 0.25 g 231.0 610 50 50 re f Q
+q 0 G 0.5 w 231.0 610 50 50 re S Q
+q 1 G 0.5 w 231.0 660 m 281.0 610 l S Q
+q 0.25 g 281.0 610 50 50 re f Q
+q 0 G 0.5 w 281.0 610 50 50 re S Q
+q 1 G 0.5 w 281.0 660 m 331.0 610 l S Q
+BT 1 g /F2 7 Tf 285.0 639.0 Td (12) Tj ET
+q 0.25 g 331.0 610 50 50 re f Q
+q 0 G 0.5 w 331.0 610 50 50 re S Q
+q 1 G 0.5 w 331.0 660 m 381.0 610 l S Q
+BT 1 g /F2 7 Tf 335.0 639.0 Td (35) Tj ET
+q 0.25 g 381.0 610 50 50 re f Q
+q 0 G 0.5 w 381.0 610 50 50 re S Q
+q 1 G 0.5 w 381.0 660 m 431.0 610 l S Q
+BT 1 g /F2 7 Tf 385.0 639.0 Td (8) Tj ET
+q 0.25 g 431.0 610 50 50 re f Q
+q 0 G 0.5 w 431.0 610 50 50 re S Q
+q 1 G 0.5 w 431.0 660 m 481.0 610 l S Q
+BT 1 g /F2 7 Tf 435.0 639.0 Td (16) Tj ET
+q 0.25 g 131.0 560 50 50 re f Q
+q 0 G 0.5 w 131.0 560 50 50 re S Q
+q 1 G 0.5 w 131.0 610 m 181.0 560 l S Q
+BT 1 g /F2 7 Tf 157.0 567.5 Td (15) Tj ET
+q 0 G 0.8 w 181.0 560 50 50 re S Q
+q 0.25 g 231.0 560 50 50 re f Q
+q 0 G 0.5 w 231.0 560 50 50 re S Q
+q 1 G 0.5 w 231.0 610 m 281.0 560 l S Q
+BT 1 g /F2 7 Tf 257.0 567.5 Td (12) Tj ET
+q 0 G 0.8 w 281.0 560 50 50 re S Q
+q 0 G 0.8 w 331.0 560 50 50 re S Q
+q 0 G 0.8 w 381.0 560 50 50 re S Q
+q 0 G 0.8 w 431.0 560 50 50 re S Q
+q 0.25 g 131.0 510 50 50 re f Q
+q 0 G 0.5 w 131.0 510 50 50 re S Q
+q 1 G 0.5 w 131.0 560 m 181.0 510 l S Q
+q 0.25 g 181.0 510 50 50 re f Q
+q 0 G 0.5 w 181.0 510 50 50 re S Q
+q 1 G 0.5 w 181.0 560 m 231.0 510 l S Q
+BT 1 g /F2 7 Tf 185.0 539.0 Td (15) Tj ET
+q 0.25 g 231.0 510 50 50 re f Q
+q 0 G 0.5 w 231.0 510 50 50 re S Q
+q 1 G 0.5 w 231.0 560 m 281.0 510 l S Q
+BT 1 g /F2 7 Tf 257.0 517.5 Td (23) Tj ET
+BT 1 g /F2 7 Tf 235.0 539.0 Td (28) Tj ET
+q 0 G 0.8 w 281.0 510 50 50 re S Q
+q 0 G 0.8 w 331.0 510 50 50 re S Q
+q 0 G 0.8 w 381.0 510 50 50 re S Q
+q 0 G 0.8 w 431.0 510 50 50 re S Q
+q 0.25 g 131.0 460 50 50 re f Q
+q 0 G 0.5 w 131.0 460 50 50 re S Q
+q 1 G 0.5 w 131.0 510 m 181.0 460 l S Q
+BT 1 g /F2 7 Tf 157.0 467.5 Td (29) Tj ET
+q 0 G 0.8 w 181.0 460 50 50 re S Q
+q 0 G 0.8 w 231.0 460 50 50 re S Q
+q 0 G 0.8 w 281.0 460 50 50 re S Q
+q 0.25 g 331.0 460 50 50 re f Q
+q 0 G 0.5 w 331.0 460 50 50 re S Q
+q 1 G 0.5 w 331.0 510 m 381.0 460 l S Q
+BT 1 g /F2 7 Tf 335.0 489.0 Td (33) Tj ET
+q 0.25 g 381.0 460 50 50 re f Q
+q 0 G 0.5 w 381.0 460 50 50 re S Q
+q 1 G 0.5 w 381.0 510 m 431.0 460 l S Q
+BT 1 g /F2 7 Tf 385.0 489.0 Td (3) Tj ET
+q 0.25 g 431.0 460 50 50 re f Q
+q 0 G 0.5 w 431.0 460 50 50 re S Q
+q 1 G 0.5 w 431.0 510 m 481.0 460 l S Q
+BT 1 g /F2 7 Tf 435.0 489.0 Td (19) Tj ET
+q 0.25 g 131.0 410 50 50 re f Q
+q 0 G 0.5 w 131.0 410 50 50 re S Q
+q 1 G 0.5 w 131.0 460 m 181.0 410 l S Q
+BT 1 g /F2 7 Tf 157.0 417.5 Td (17) Tj ET
+q 0 G 0.8 w 181.0 410 50 50 re S Q
+q 0 G 0.8 w 231.0 410 50 50 re S Q
+q 0 G 0.8 w 281.0 410 50 50 re S Q
+q 0 G 0.8 w 331.0 410 50 50 re S Q
+q 0 G 0.8 w 381.0 410 50 50 re S Q
+q 0 G 0.8 w 431.0 410 50 50 re S Q
+q 0.25 g 131.0 360 50 50 re f Q
+q 0 G 0.5 w 131.0 360 50 50 re S Q
+q 1 G 0.5 w 131.0 410 m 181.0 360 l S Q
+BT 1 g /F2 7 Tf 157.0 367.5 Td (7) Tj ET
+q 0 G 0.8 w 181.0 360 50 50 re S Q
+q 0 G 0.8 w 231.0 360 50 50 re S Q
+q 0 G 0.8 w 281.0 360 50 50 re S Q
+q 0 G 0.8 w 331.0 360 50 50 re S Q
+q 0 G 0.8 w 381.0 360 50 50 re S Q
+q 0 G 0.8 w 431.0 360 50 50 re S Q
+q 0.25 g 131.0 310 50 50 re f Q
+q 0 G 0.5 w 131.0 310 50 50 re S Q
+q 1 G 0.5 w 131.0 360 m 181.0 310 l S Q
+BT 1 g /F2 7 Tf 157.0 317.5 Td (20) Tj ET
+q 0 G 0.8 w 181.0 310 50 50 re S Q
+q 0 G 0.8 w 231.0 310 50 50 re S Q
+q 0 G 0.8 w 281.0 310 50 50 re S Q
+q 0 G 0.8 w 331.0 310 50 50 re S Q
+q 0 G 0.8 w 381.0 310 50 50 re S Q
+q 0 G 0.8 w 431.0 310 50 50 re S Q
+
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 39 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+39 0 obj
+<< /Length 4178 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #13) Tj ET
+BT 0 g /F1 12 Tf 236.88 715 Td (Difficulty: Medium \(7x7\)) Tj ET
+q 0.25 g 131.0 610 50 50 re f Q
+q 0 G 0.5 w 131.0 610 50 50 re S Q
+q 1 G 0.5 w 131.0 660 m 181.0 610 l S Q
+q 0.25 g 181.0 610 50 50 re f Q
+q 0 G 0.5 w 181.0 610 50 50 re S Q
+q 1 G 0.5 w 181.0 660 m 231.0 610 l S Q
+BT 1 g /F2 7 Tf 185.0 639.0 Td (6) Tj ET
+q 0.25 g 231.0 610 50 50 re f Q
+q 0 G 0.5 w 231.0 610 50 50 re S Q
+q 1 G 0.5 w 231.0 660 m 281.0 610 l S Q
+BT 1 g /F2 7 Tf 235.0 639.0 Td (27) Tj ET
+q 0.25 g 281.0 610 50 50 re f Q
+q 0 G 0.5 w 281.0 610 50 50 re S Q
+q 1 G 0.5 w 281.0 660 m 331.0 610 l S Q
+BT 1 g /F2 7 Tf 285.0 639.0 Td (25) Tj ET
+q 0.25 g 331.0 610 50 50 re f Q
+q 0 G 0.5 w 331.0 610 50 50 re S Q
+q 1 G 0.5 w 331.0 660 m 381.0 610 l S Q
+BT 1 g /F2 7 Tf 335.0 639.0 Td (18) Tj ET
+q 0.25 g 381.0 610 50 50 re f Q
+q 0 G 0.5 w 381.0 610 50 50 re S Q
+q 1 G 0.5 w 381.0 660 m 431.0 610 l S Q
+BT 1 g /F2 7 Tf 385.0 639.0 Td (10) Tj ET
+q 0.25 g 431.0 610 50 50 re f Q
+q 0 G 0.5 w 431.0 610 50 50 re S Q
+q 1 G 0.5 w 431.0 660 m 481.0 610 l S Q
+BT 1 g /F2 7 Tf 435.0 639.0 Td (25) Tj ET
+q 0.25 g 131.0 560 50 50 re f Q
+q 0 G 0.5 w 131.0 560 50 50 re S Q
+q 1 G 0.5 w 131.0 610 m 181.0 560 l S Q
+BT 1 g /F2 7 Tf 157.0 567.5 Td (26) Tj ET
+q 0 G 0.8 w 181.0 560 50 50 re S Q
+q 0 G 0.8 w 231.0 560 50 50 re S Q
+q 0 G 0.8 w 281.0 560 50 50 re S Q
+q 0 G 0.8 w 331.0 560 50 50 re S Q
+q 0 G 0.8 w 381.0 560 50 50 re S Q
+q 0 G 0.8 w 431.0 560 50 50 re S Q
+q 0.25 g 131.0 510 50 50 re f Q
+q 0 G 0.5 w 131.0 510 50 50 re S Q
+q 1 G 0.5 w 131.0 560 m 181.0 510 l S Q
+BT 1 g /F2 7 Tf 157.0 517.5 Td (20) Tj ET
+q 0 G 0.8 w 181.0 510 50 50 re S Q
+q 0 G 0.8 w 231.0 510 50 50 re S Q
+q 0 G 0.8 w 281.0 510 50 50 re S Q
+q 0 G 0.8 w 331.0 510 50 50 re S Q
+q 0 G 0.8 w 381.0 510 50 50 re S Q
+q 0 G 0.8 w 431.0 510 50 50 re S Q
+q 0.25 g 131.0 460 50 50 re f Q
+q 0 G 0.5 w 131.0 460 50 50 re S Q
+q 1 G 0.5 w 131.0 510 m 181.0 460 l S Q
+BT 1 g /F2 7 Tf 157.0 467.5 Td (33) Tj ET
+q 0 G 0.8 w 181.0 460 50 50 re S Q
+q 0 G 0.8 w 231.0 460 50 50 re S Q
+q 0 G 0.8 w 281.0 460 50 50 re S Q
+q 0 G 0.8 w 331.0 460 50 50 re S Q
+q 0.25 g 381.0 460 50 50 re f Q
+q 0 G 0.5 w 381.0 460 50 50 re S Q
+q 1 G 0.5 w 381.0 510 m 431.0 460 l S Q
+q 0.25 g 431.0 460 50 50 re f Q
+q 0 G 0.5 w 431.0 460 50 50 re S Q
+q 1 G 0.5 w 431.0 510 m 481.0 460 l S Q
+BT 1 g /F2 7 Tf 435.0 489.0 Td (6) Tj ET
+q 0.25 g 131.0 410 50 50 re f Q
+q 0 G 0.5 w 131.0 410 50 50 re S Q
+q 1 G 0.5 w 131.0 460 m 181.0 410 l S Q
+BT 1 g /F2 7 Tf 157.0 417.5 Td (27) Tj ET
+q 0 G 0.8 w 181.0 410 50 50 re S Q
+q 0.25 g 231.0 410 50 50 re f Q
+q 0 G 0.5 w 231.0 410 50 50 re S Q
+q 1 G 0.5 w 231.0 460 m 281.0 410 l S Q
+BT 1 g /F2 7 Tf 257.0 417.5 Td (31) Tj ET
+q 0 G 0.8 w 281.0 410 50 50 re S Q
+q 0 G 0.8 w 331.0 410 50 50 re S Q
+q 0.25 g 381.0 410 50 50 re f Q
+q 0 G 0.5 w 381.0 410 50 50 re S Q
+q 1 G 0.5 w 381.0 460 m 431.0 410 l S Q
+BT 1 g /F2 7 Tf 407.0 417.5 Td (23) Tj ET
+BT 1 g /F2 7 Tf 385.0 439.0 Td (6) Tj ET
+q 0 G 0.8 w 431.0 410 50 50 re S Q
+q 0.25 g 131.0 360 50 50 re f Q
+q 0 G 0.5 w 131.0 360 50 50 re S Q
+q 1 G 0.5 w 131.0 410 m 181.0 360 l S Q
+q 0.25 g 181.0 360 50 50 re f Q
+q 0 G 0.5 w 181.0 360 50 50 re S Q
+q 1 G 0.5 w 181.0 410 m 231.0 360 l S Q
+BT 1 g /F2 7 Tf 185.0 389.0 Td (4) Tj ET
+q 0.25 g 231.0 360 50 50 re f Q
+q 0 G 0.5 w 231.0 360 50 50 re S Q
+q 1 G 0.5 w 231.0 410 m 281.0 360 l S Q
+BT 1 g /F2 7 Tf 257.0 367.5 Td (18) Tj ET
+BT 1 g /F2 7 Tf 235.0 389.0 Td (34) Tj ET
+q 0 G 0.8 w 281.0 360 50 50 re S Q
+q 0 G 0.8 w 331.0 360 50 50 re S Q
+q 0 G 0.8 w 381.0 360 50 50 re S Q
+q 0.25 g 431.0 360 50 50 re f Q
+q 0 G 0.5 w 431.0 360 50 50 re S Q
+q 1 G 0.5 w 431.0 410 m 481.0 360 l S Q
+BT 1 g /F2 7 Tf 435.0 389.0 Td (13) Tj ET
+q 0.25 g 131.0 310 50 50 re f Q
+q 0 G 0.5 w 131.0 310 50 50 re S Q
+q 1 G 0.5 w 131.0 360 m 181.0 310 l S Q
+BT 1 g /F2 7 Tf 157.0 317.5 Td (18) Tj ET
+q 0 G 0.8 w 181.0 310 50 50 re S Q
+q 0 G 0.8 w 231.0 310 50 50 re S Q
+q 0 G 0.8 w 281.0 310 50 50 re S Q
+q 0.25 g 331.0 310 50 50 re f Q
+q 0 G 0.5 w 331.0 310 50 50 re S Q
+q 1 G 0.5 w 331.0 360 m 381.0 310 l S Q
+BT 1 g /F2 7 Tf 357.0 317.5 Td (31) Tj ET
+q 0 G 0.8 w 381.0 310 50 50 re S Q
+q 0 G 0.8 w 431.0 310 50 50 re S Q
+
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 41 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+41 0 obj
+<< /Length 4665 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #14) Tj ET
+BT 0 g /F1 12 Tf 236.88 715 Td (Difficulty: Medium \(7x7\)) Tj ET
+q 0.25 g 131.0 610 50 50 re f Q
+q 0 G 0.5 w 131.0 610 50 50 re S Q
+q 1 G 0.5 w 131.0 660 m 181.0 610 l S Q
+q 0.25 g 181.0 610 50 50 re f Q
+q 0 G 0.5 w 181.0 610 50 50 re S Q
+q 1 G 0.5 w 181.0 660 m 231.0 610 l S Q
+q 0.25 g 231.0 610 50 50 re f Q
+q 0 G 0.5 w 231.0 610 50 50 re S Q
+q 1 G 0.5 w 231.0 660 m 281.0 610 l S Q
+BT 1 g /F2 7 Tf 235.0 639.0 Td (32) Tj ET
+q 0.25 g 281.0 610 50 50 re f Q
+q 0 G 0.5 w 281.0 610 50 50 re S Q
+q 1 G 0.5 w 281.0 660 m 331.0 610 l S Q
+BT 1 g /F2 7 Tf 285.0 639.0 Td (16) Tj ET
+q 0.25 g 331.0 610 50 50 re f Q
+q 0 G 0.5 w 331.0 610 50 50 re S Q
+q 1 G 0.5 w 331.0 660 m 381.0 610 l S Q
+BT 1 g /F2 7 Tf 335.0 639.0 Td (23) Tj ET
+q 0.25 g 381.0 610 50 50 re f Q
+q 0 G 0.5 w 381.0 610 50 50 re S Q
+q 1 G 0.5 w 381.0 660 m 431.0 610 l S Q
+q 0.25 g 431.0 610 50 50 re f Q
+q 0 G 0.5 w 431.0 610 50 50 re S Q
+q 1 G 0.5 w 431.0 660 m 481.0 610 l S Q
+BT 1 g /F2 7 Tf 435.0 639.0 Td (27) Tj ET
+q 0.25 g 131.0 560 50 50 re f Q
+q 0 G 0.5 w 131.0 560 50 50 re S Q
+q 1 G 0.5 w 131.0 610 m 181.0 560 l S Q
+q 0.25 g 181.0 560 50 50 re f Q
+q 0 G 0.5 w 181.0 560 50 50 re S Q
+q 1 G 0.5 w 181.0 610 m 231.0 560 l S Q
+BT 1 g /F2 7 Tf 207.0 567.5 Td (26) Tj ET
+q 0 G 0.8 w 231.0 560 50 50 re S Q
+q 0 G 0.8 w 281.0 560 50 50 re S Q
+q 0 G 0.8 w 331.0 560 50 50 re S Q
+q 0.25 g 381.0 560 50 50 re f Q
+q 0 G 0.5 w 381.0 560 50 50 re S Q
+q 1 G 0.5 w 381.0 610 m 431.0 560 l S Q
+BT 1 g /F2 7 Tf 407.0 567.5 Td (18) Tj ET
+BT 1 g /F2 7 Tf 385.0 589.0 Td (25) Tj ET
+q 0 G 0.8 w 431.0 560 50 50 re S Q
+q 0.25 g 131.0 510 50 50 re f Q
+q 0 G 0.5 w 131.0 510 50 50 re S Q
+q 1 G 0.5 w 131.0 560 m 181.0 510 l S Q
+q 0.25 g 181.0 510 50 50 re f Q
+q 0 G 0.5 w 181.0 510 50 50 re S Q
+q 1 G 0.5 w 181.0 560 m 231.0 510 l S Q
+BT 1 g /F2 7 Tf 185.0 539.0 Td (16) Tj ET
+q 0.25 g 231.0 510 50 50 re f Q
+q 0 G 0.5 w 231.0 510 50 50 re S Q
+q 1 G 0.5 w 231.0 560 m 281.0 510 l S Q
+BT 1 g /F2 7 Tf 257.0 517.5 Td (26) Tj ET
+q 0 G 0.8 w 281.0 510 50 50 re S Q
+q 0 G 0.8 w 331.0 510 50 50 re S Q
+q 0 G 0.8 w 381.0 510 50 50 re S Q
+q 0 G 0.8 w 431.0 510 50 50 re S Q
+q 0.25 g 131.0 460 50 50 re f Q
+q 0 G 0.5 w 131.0 460 50 50 re S Q
+q 1 G 0.5 w 131.0 510 m 181.0 460 l S Q
+BT 1 g /F2 7 Tf 157.0 467.5 Td (28) Tj ET
+q 0 G 0.8 w 181.0 460 50 50 re S Q
+q 0.25 g 231.0 460 50 50 re f Q
+q 0 G 0.5 w 231.0 460 50 50 re S Q
+q 1 G 0.5 w 231.0 510 m 281.0 460 l S Q
+BT 1 g /F2 7 Tf 257.0 467.5 Td (9) Tj ET
+BT 1 g /F2 7 Tf 235.0 489.0 Td (16) Tj ET
+q 0 G 0.8 w 281.0 460 50 50 re S Q
+q 0 G 0.8 w 331.0 460 50 50 re S Q
+q 0.25 g 381.0 460 50 50 re f Q
+q 0 G 0.5 w 381.0 460 50 50 re S Q
+q 1 G 0.5 w 381.0 510 m 431.0 460 l S Q
+q 0.25 g 431.0 460 50 50 re f Q
+q 0 G 0.5 w 431.0 460 50 50 re S Q
+q 1 G 0.5 w 431.0 510 m 481.0 460 l S Q
+BT 1 g /F2 7 Tf 435.0 489.0 Td (27) Tj ET
+q 0.25 g 131.0 410 50 50 re f Q
+q 0 G 0.5 w 131.0 410 50 50 re S Q
+q 1 G 0.5 w 131.0 460 m 181.0 410 l S Q
+BT 1 g /F2 7 Tf 157.0 417.5 Td (16) Tj ET
+q 0 G 0.8 w 181.0 410 50 50 re S Q
+q 0 G 0.8 w 231.0 410 50 50 re S Q
+q 0.25 g 281.0 410 50 50 re f Q
+q 0 G 0.5 w 281.0 410 50 50 re S Q
+q 1 G 0.5 w 281.0 460 m 331.0 410 l S Q
+BT 1 g /F2 7 Tf 285.0 439.0 Td (8) Tj ET
+q 0.25 g 331.0 410 50 50 re f Q
+q 0 G 0.5 w 331.0 410 50 50 re S Q
+q 1 G 0.5 w 331.0 460 m 381.0 410 l S Q
+BT 1 g /F2 7 Tf 335.0 439.0 Td (33) Tj ET
+q 0.25 g 381.0 410 50 50 re f Q
+q 0 G 0.5 w 381.0 410 50 50 re S Q
+q 1 G 0.5 w 381.0 460 m 431.0 410 l S Q
+BT 1 g /F2 7 Tf 407.0 417.5 Td (6) Tj ET
+BT 1 g /F2 7 Tf 385.0 439.0 Td (24) Tj ET
+q 0 G 0.8 w 431.0 410 50 50 re S Q
+q 0.25 g 131.0 360 50 50 re f Q
+q 0 G 0.5 w 131.0 360 50 50 re S Q
+q 1 G 0.5 w 131.0 410 m 181.0 360 l S Q
+BT 1 g /F2 7 Tf 157.0 367.5 Td (11) Tj ET
+q 0 G 0.8 w 181.0 360 50 50 re S Q
+q 0.25 g 231.0 360 50 50 re f Q
+q 0 G 0.5 w 231.0 360 50 50 re S Q
+q 1 G 0.5 w 231.0 410 m 281.0 360 l S Q
+BT 1 g /F2 7 Tf 257.0 367.5 Td (12) Tj ET
+BT 1 g /F2 7 Tf 235.0 389.0 Td (23) Tj ET
+q 0 G 0.8 w 281.0 360 50 50 re S Q
+q 0 G 0.8 w 331.0 360 50 50 re S Q
+q 0 G 0.8 w 381.0 360 50 50 re S Q
+q 0.25 g 431.0 360 50 50 re f Q
+q 0 G 0.5 w 431.0 360 50 50 re S Q
+q 1 G 0.5 w 431.0 410 m 481.0 360 l S Q
+BT 1 g /F2 7 Tf 435.0 389.0 Td (21) Tj ET
+q 0.25 g 131.0 310 50 50 re f Q
+q 0 G 0.5 w 131.0 310 50 50 re S Q
+q 1 G 0.5 w 131.0 360 m 181.0 310 l S Q
+q 0.25 g 181.0 310 50 50 re f Q
+q 0 G 0.5 w 181.0 310 50 50 re S Q
+q 1 G 0.5 w 181.0 360 m 231.0 310 l S Q
+BT 1 g /F2 7 Tf 207.0 317.5 Td (17) Tj ET
+q 0 G 0.8 w 231.0 310 50 50 re S Q
+q 0 G 0.8 w 281.0 310 50 50 re S Q
+q 0 G 0.8 w 331.0 310 50 50 re S Q
+q 0 G 0.8 w 381.0 310 50 50 re S Q
+q 0 G 0.8 w 431.0 310 50 50 re S Q
+
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 43 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+43 0 obj
+<< /Length 4366 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #15) Tj ET
+BT 0 g /F1 12 Tf 236.88 715 Td (Difficulty: Medium \(7x7\)) Tj ET
+q 0.25 g 131.0 610 50 50 re f Q
+q 0 G 0.5 w 131.0 610 50 50 re S Q
+q 1 G 0.5 w 131.0 660 m 181.0 610 l S Q
+q 0.25 g 181.0 610 50 50 re f Q
+q 0 G 0.5 w 181.0 610 50 50 re S Q
+q 1 G 0.5 w 181.0 660 m 231.0 610 l S Q
+BT 1 g /F2 7 Tf 185.0 639.0 Td (18) Tj ET
+q 0.25 g 231.0 610 50 50 re f Q
+q 0 G 0.5 w 231.0 610 50 50 re S Q
+q 1 G 0.5 w 231.0 660 m 281.0 610 l S Q
+BT 1 g /F2 7 Tf 235.0 639.0 Td (17) Tj ET
+q 0.25 g 281.0 610 50 50 re f Q
+q 0 G 0.5 w 281.0 610 50 50 re S Q
+q 1 G 0.5 w 281.0 660 m 331.0 610 l S Q
+BT 1 g /F2 7 Tf 285.0 639.0 Td (16) Tj ET
+q 0.25 g 331.0 610 50 50 re f Q
+q 0 G 0.5 w 331.0 610 50 50 re S Q
+q 1 G 0.5 w 331.0 660 m 381.0 610 l S Q
+BT 1 g /F2 7 Tf 335.0 639.0 Td (32) Tj ET
+q 0.25 g 381.0 610 50 50 re f Q
+q 0 G 0.5 w 381.0 610 50 50 re S Q
+q 1 G 0.5 w 381.0 660 m 431.0 610 l S Q
+q 0.25 g 431.0 610 50 50 re f Q
+q 0 G 0.5 w 431.0 610 50 50 re S Q
+q 1 G 0.5 w 431.0 660 m 481.0 610 l S Q
+BT 1 g /F2 7 Tf 435.0 639.0 Td (18) Tj ET
+q 0.25 g 131.0 560 50 50 re f Q
+q 0 G 0.5 w 131.0 560 50 50 re S Q
+q 1 G 0.5 w 131.0 610 m 181.0 560 l S Q
+BT 1 g /F2 7 Tf 157.0 567.5 Td (34) Tj ET
+q 0 G 0.8 w 181.0 560 50 50 re S Q
+q 0 G 0.8 w 231.0 560 50 50 re S Q
+q 0 G 0.8 w 281.0 560 50 50 re S Q
+q 0 G 0.8 w 331.0 560 50 50 re S Q
+q 0.25 g 381.0 560 50 50 re f Q
+q 0 G 0.5 w 381.0 560 50 50 re S Q
+q 1 G 0.5 w 381.0 610 m 431.0 560 l S Q
+BT 1 g /F2 7 Tf 407.0 567.5 Td (10) Tj ET
+BT 1 g /F2 7 Tf 385.0 589.0 Td (9) Tj ET
+q 0 G 0.8 w 431.0 560 50 50 re S Q
+q 0.25 g 131.0 510 50 50 re f Q
+q 0 G 0.5 w 131.0 510 50 50 re S Q
+q 1 G 0.5 w 131.0 560 m 181.0 510 l S Q
+q 0.25 g 181.0 510 50 50 re f Q
+q 0 G 0.5 w 181.0 510 50 50 re S Q
+q 1 G 0.5 w 181.0 560 m 231.0 510 l S Q
+BT 1 g /F2 7 Tf 185.0 539.0 Td (19) Tj ET
+q 0.25 g 231.0 510 50 50 re f Q
+q 0 G 0.5 w 231.0 510 50 50 re S Q
+q 1 G 0.5 w 231.0 560 m 281.0 510 l S Q
+BT 1 g /F2 7 Tf 235.0 539.0 Td (11) Tj ET
+q 0.25 g 281.0 510 50 50 re f Q
+q 0 G 0.5 w 281.0 510 50 50 re S Q
+q 1 G 0.5 w 281.0 560 m 331.0 510 l S Q
+BT 1 g /F2 7 Tf 307.0 517.5 Td (17) Tj ET
+q 0 G 0.8 w 331.0 510 50 50 re S Q
+q 0 G 0.8 w 381.0 510 50 50 re S Q
+q 0 G 0.8 w 431.0 510 50 50 re S Q
+q 0.25 g 131.0 460 50 50 re f Q
+q 0 G 0.5 w 131.0 460 50 50 re S Q
+q 1 G 0.5 w 131.0 510 m 181.0 460 l S Q
+BT 1 g /F2 7 Tf 157.0 467.5 Td (13) Tj ET
+q 0 G 0.8 w 181.0 460 50 50 re S Q
+q 0 G 0.8 w 231.0 460 50 50 re S Q
+q 0.25 g 281.0 460 50 50 re f Q
+q 0 G 0.5 w 281.0 460 50 50 re S Q
+q 1 G 0.5 w 281.0 510 m 331.0 460 l S Q
+BT 1 g /F2 7 Tf 307.0 467.5 Td (15) Tj ET
+BT 1 g /F2 7 Tf 285.0 489.0 Td (26) Tj ET
+q 0 G 0.8 w 331.0 460 50 50 re S Q
+q 0 G 0.8 w 381.0 460 50 50 re S Q
+q 0.25 g 431.0 460 50 50 re f Q
+q 0 G 0.5 w 431.0 460 50 50 re S Q
+q 1 G 0.5 w 431.0 510 m 481.0 460 l S Q
+BT 1 g /F2 7 Tf 435.0 489.0 Td (13) Tj ET
+q 0.25 g 131.0 410 50 50 re f Q
+q 0 G 0.5 w 131.0 410 50 50 re S Q
+q 1 G 0.5 w 131.0 460 m 181.0 410 l S Q
+BT 1 g /F2 7 Tf 157.0 417.5 Td (26) Tj ET
+q 0 G 0.8 w 181.0 410 50 50 re S Q
+q 0 G 0.8 w 231.0 410 50 50 re S Q
+q 0 G 0.8 w 281.0 410 50 50 re S Q
+q 0 G 0.8 w 331.0 410 50 50 re S Q
+q 0 G 0.8 w 381.0 410 50 50 re S Q
+q 0 G 0.8 w 431.0 410 50 50 re S Q
+q 0.25 g 131.0 360 50 50 re f Q
+q 0 G 0.5 w 131.0 360 50 50 re S Q
+q 1 G 0.5 w 131.0 410 m 181.0 360 l S Q
+BT 1 g /F2 7 Tf 157.0 367.5 Td (33) Tj ET
+q 0 G 0.8 w 181.0 360 50 50 re S Q
+q 0.25 g 231.0 360 50 50 re f Q
+q 0 G 0.5 w 231.0 360 50 50 re S Q
+q 1 G 0.5 w 231.0 410 m 281.0 360 l S Q
+BT 1 g /F2 7 Tf 257.0 367.5 Td (34) Tj ET
+q 0 G 0.8 w 281.0 360 50 50 re S Q
+q 0 G 0.8 w 331.0 360 50 50 re S Q
+q 0 G 0.8 w 381.0 360 50 50 re S Q
+q 0 G 0.8 w 431.0 360 50 50 re S Q
+q 0.25 g 131.0 310 50 50 re f Q
+q 0 G 0.5 w 131.0 310 50 50 re S Q
+q 1 G 0.5 w 131.0 360 m 181.0 310 l S Q
+BT 1 g /F2 7 Tf 157.0 317.5 Td (4) Tj ET
+q 0 G 0.8 w 181.0 310 50 50 re S Q
+q 0.25 g 231.0 310 50 50 re f Q
+q 0 G 0.5 w 231.0 310 50 50 re S Q
+q 1 G 0.5 w 231.0 360 m 281.0 310 l S Q
+BT 1 g /F2 7 Tf 257.0 317.5 Td (27) Tj ET
+q 0 G 0.8 w 281.0 310 50 50 re S Q
+q 0.25 g 331.0 310 50 50 re f Q
+q 0 G 0.5 w 331.0 310 50 50 re S Q
+q 1 G 0.5 w 331.0 360 m 381.0 310 l S Q
+q 0.25 g 381.0 310 50 50 re f Q
+q 0 G 0.5 w 381.0 310 50 50 re S Q
+q 1 G 0.5 w 381.0 360 m 431.0 310 l S Q
+BT 1 g /F2 7 Tf 407.0 317.5 Td (12) Tj ET
+q 0 G 0.8 w 431.0 310 50 50 re S Q
+
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 45 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+45 0 obj
+<< /Length 4778 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #16) Tj ET
+BT 0 g /F1 12 Tf 236.88 715 Td (Difficulty: Medium \(7x7\)) Tj ET
+q 0.25 g 131.0 610 50 50 re f Q
+q 0 G 0.5 w 131.0 610 50 50 re S Q
+q 1 G 0.5 w 131.0 660 m 181.0 610 l S Q
+q 0.25 g 181.0 610 50 50 re f Q
+q 0 G 0.5 w 181.0 610 50 50 re S Q
+q 1 G 0.5 w 181.0 660 m 231.0 610 l S Q
+BT 1 g /F2 7 Tf 185.0 639.0 Td (18) Tj ET
+q 0.25 g 231.0 610 50 50 re f Q
+q 0 G 0.5 w 231.0 610 50 50 re S Q
+q 1 G 0.5 w 231.0 660 m 281.0 610 l S Q
+q 0.25 g 281.0 610 50 50 re f Q
+q 0 G 0.5 w 281.0 610 50 50 re S Q
+q 1 G 0.5 w 281.0 660 m 331.0 610 l S Q
+BT 1 g /F2 7 Tf 285.0 639.0 Td (10) Tj ET
+q 0.25 g 331.0 610 50 50 re f Q
+q 0 G 0.5 w 331.0 610 50 50 re S Q
+q 1 G 0.5 w 331.0 660 m 381.0 610 l S Q
+BT 1 g /F2 7 Tf 335.0 639.0 Td (27) Tj ET
+q 0.25 g 381.0 610 50 50 re f Q
+q 0 G 0.5 w 381.0 610 50 50 re S Q
+q 1 G 0.5 w 381.0 660 m 431.0 610 l S Q
+q 0.25 g 431.0 610 50 50 re f Q
+q 0 G 0.5 w 431.0 610 50 50 re S Q
+q 1 G 0.5 w 431.0 660 m 481.0 610 l S Q
+BT 1 g /F2 7 Tf 435.0 639.0 Td (13) Tj ET
+q 0.25 g 131.0 560 50 50 re f Q
+q 0 G 0.5 w 131.0 560 50 50 re S Q
+q 1 G 0.5 w 131.0 610 m 181.0 560 l S Q
+BT 1 g /F2 7 Tf 157.0 567.5 Td (21) Tj ET
+q 0 G 0.8 w 181.0 560 50 50 re S Q
+q 0.25 g 231.0 560 50 50 re f Q
+q 0 G 0.5 w 231.0 560 50 50 re S Q
+q 1 G 0.5 w 231.0 610 m 281.0 560 l S Q
+BT 1 g /F2 7 Tf 257.0 567.5 Td (30) Tj ET
+q 0 G 0.8 w 281.0 560 50 50 re S Q
+q 0 G 0.8 w 331.0 560 50 50 re S Q
+q 0.25 g 381.0 560 50 50 re f Q
+q 0 G 0.5 w 381.0 560 50 50 re S Q
+q 1 G 0.5 w 381.0 610 m 431.0 560 l S Q
+BT 1 g /F2 7 Tf 407.0 567.5 Td (21) Tj ET
+BT 1 g /F2 7 Tf 385.0 589.0 Td (13) Tj ET
+q 0 G 0.8 w 431.0 560 50 50 re S Q
+q 0.25 g 131.0 510 50 50 re f Q
+q 0 G 0.5 w 131.0 510 50 50 re S Q
+q 1 G 0.5 w 131.0 560 m 181.0 510 l S Q
+BT 1 g /F2 7 Tf 157.0 517.5 Td (19) Tj ET
+q 0 G 0.8 w 181.0 510 50 50 re S Q
+q 0.25 g 231.0 510 50 50 re f Q
+q 0 G 0.5 w 231.0 510 50 50 re S Q
+q 1 G 0.5 w 231.0 560 m 281.0 510 l S Q
+BT 1 g /F2 7 Tf 257.0 517.5 Td (13) Tj ET
+q 0 G 0.8 w 281.0 510 50 50 re S Q
+q 0 G 0.8 w 331.0 510 50 50 re S Q
+q 0 G 0.8 w 381.0 510 50 50 re S Q
+q 0 G 0.8 w 431.0 510 50 50 re S Q
+q 0.25 g 131.0 460 50 50 re f Q
+q 0 G 0.5 w 131.0 460 50 50 re S Q
+q 1 G 0.5 w 131.0 510 m 181.0 460 l S Q
+q 0.25 g 181.0 460 50 50 re f Q
+q 0 G 0.5 w 181.0 460 50 50 re S Q
+q 1 G 0.5 w 181.0 510 m 231.0 460 l S Q
+BT 1 g /F2 7 Tf 185.0 489.0 Td (17) Tj ET
+q 0.25 g 231.0 460 50 50 re f Q
+q 0 G 0.5 w 231.0 460 50 50 re S Q
+q 1 G 0.5 w 231.0 510 m 281.0 460 l S Q
+BT 1 g /F2 7 Tf 235.0 489.0 Td (6) Tj ET
+q 0.25 g 281.0 460 50 50 re f Q
+q 0 G 0.5 w 281.0 460 50 50 re S Q
+q 1 G 0.5 w 281.0 510 m 331.0 460 l S Q
+q 0.25 g 331.0 460 50 50 re f Q
+q 0 G 0.5 w 331.0 460 50 50 re S Q
+q 1 G 0.5 w 331.0 510 m 381.0 460 l S Q
+BT 1 g /F2 7 Tf 357.0 467.5 Td (26) Tj ET
+BT 1 g /F2 7 Tf 335.0 489.0 Td (31) Tj ET
+q 0 G 0.8 w 381.0 460 50 50 re S Q
+q 0 G 0.8 w 431.0 460 50 50 re S Q
+q 0.25 g 131.0 410 50 50 re f Q
+q 0 G 0.5 w 131.0 410 50 50 re S Q
+q 1 G 0.5 w 131.0 460 m 181.0 410 l S Q
+BT 1 g /F2 7 Tf 157.0 417.5 Td (34) Tj ET
+q 0 G 0.8 w 181.0 410 50 50 re S Q
+q 0 G 0.8 w 231.0 410 50 50 re S Q
+q 0.25 g 281.0 410 50 50 re f Q
+q 0 G 0.5 w 281.0 410 50 50 re S Q
+q 1 G 0.5 w 281.0 460 m 331.0 410 l S Q
+BT 1 g /F2 7 Tf 307.0 417.5 Td (4) Tj ET
+BT 1 g /F2 7 Tf 285.0 439.0 Td (27) Tj ET
+q 0 G 0.8 w 331.0 410 50 50 re S Q
+q 0 G 0.8 w 381.0 410 50 50 re S Q
+q 0 G 0.8 w 431.0 410 50 50 re S Q
+q 0.25 g 131.0 360 50 50 re f Q
+q 0 G 0.5 w 131.0 360 50 50 re S Q
+q 1 G 0.5 w 131.0 410 m 181.0 360 l S Q
+q 0.25 g 181.0 360 50 50 re f Q
+q 0 G 0.5 w 181.0 360 50 50 re S Q
+q 1 G 0.5 w 181.0 410 m 231.0 360 l S Q
+BT 1 g /F2 7 Tf 185.0 389.0 Td (5) Tj ET
+q 0.25 g 231.0 360 50 50 re f Q
+q 0 G 0.5 w 231.0 360 50 50 re S Q
+q 1 G 0.5 w 231.0 410 m 281.0 360 l S Q
+BT 1 g /F2 7 Tf 257.0 367.5 Td (27) Tj ET
+BT 1 g /F2 7 Tf 235.0 389.0 Td (10) Tj ET
+q 0 G 0.8 w 281.0 360 50 50 re S Q
+q 0.25 g 331.0 360 50 50 re f Q
+q 0 G 0.5 w 331.0 360 50 50 re S Q
+q 1 G 0.5 w 331.0 410 m 381.0 360 l S Q
+BT 1 g /F2 7 Tf 357.0 367.5 Td (4) Tj ET
+BT 1 g /F2 7 Tf 335.0 389.0 Td (34) Tj ET
+q 0 G 0.8 w 381.0 360 50 50 re S Q
+q 0 G 0.8 w 431.0 360 50 50 re S Q
+q 0.25 g 131.0 310 50 50 re f Q
+q 0 G 0.5 w 131.0 310 50 50 re S Q
+q 1 G 0.5 w 131.0 360 m 181.0 310 l S Q
+BT 1 g /F2 7 Tf 157.0 317.5 Td (24) Tj ET
+q 0 G 0.8 w 181.0 310 50 50 re S Q
+q 0 G 0.8 w 231.0 310 50 50 re S Q
+q 0.25 g 281.0 310 50 50 re f Q
+q 0 G 0.5 w 281.0 310 50 50 re S Q
+q 1 G 0.5 w 281.0 360 m 331.0 310 l S Q
+BT 1 g /F2 7 Tf 307.0 317.5 Td (28) Tj ET
+q 0 G 0.8 w 331.0 310 50 50 re S Q
+q 0.25 g 381.0 310 50 50 re f Q
+q 0 G 0.5 w 381.0 310 50 50 re S Q
+q 1 G 0.5 w 381.0 360 m 431.0 310 l S Q
+q 0.25 g 431.0 310 50 50 re f Q
+q 0 G 0.5 w 431.0 310 50 50 re S Q
+q 1 G 0.5 w 431.0 360 m 481.0 310 l S Q
+
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 47 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+47 0 obj
+<< /Length 4881 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #17) Tj ET
+BT 0 g /F1 12 Tf 236.88 715 Td (Difficulty: Medium \(7x7\)) Tj ET
+q 0.25 g 131.0 610 50 50 re f Q
+q 0 G 0.5 w 131.0 610 50 50 re S Q
+q 1 G 0.5 w 131.0 660 m 181.0 610 l S Q
+q 0.25 g 181.0 610 50 50 re f Q
+q 0 G 0.5 w 181.0 610 50 50 re S Q
+q 1 G 0.5 w 181.0 660 m 231.0 610 l S Q
+BT 1 g /F2 7 Tf 185.0 639.0 Td (23) Tj ET
+q 0.25 g 231.0 610 50 50 re f Q
+q 0 G 0.5 w 231.0 610 50 50 re S Q
+q 1 G 0.5 w 231.0 660 m 281.0 610 l S Q
+q 0.25 g 281.0 610 50 50 re f Q
+q 0 G 0.5 w 281.0 610 50 50 re S Q
+q 1 G 0.5 w 281.0 660 m 331.0 610 l S Q
+BT 1 g /F2 7 Tf 285.0 639.0 Td (21) Tj ET
+q 0.25 g 331.0 610 50 50 re f Q
+q 0 G 0.5 w 331.0 610 50 50 re S Q
+q 1 G 0.5 w 331.0 660 m 381.0 610 l S Q
+BT 1 g /F2 7 Tf 335.0 639.0 Td (17) Tj ET
+q 0.25 g 381.0 610 50 50 re f Q
+q 0 G 0.5 w 381.0 610 50 50 re S Q
+q 1 G 0.5 w 381.0 660 m 431.0 610 l S Q
+BT 1 g /F2 7 Tf 385.0 639.0 Td (24) Tj ET
+q 0.25 g 431.0 610 50 50 re f Q
+q 0 G 0.5 w 431.0 610 50 50 re S Q
+q 1 G 0.5 w 431.0 660 m 481.0 610 l S Q
+BT 1 g /F2 7 Tf 435.0 639.0 Td (12) Tj ET
+q 0.25 g 131.0 560 50 50 re f Q
+q 0 G 0.5 w 131.0 560 50 50 re S Q
+q 1 G 0.5 w 131.0 610 m 181.0 560 l S Q
+BT 1 g /F2 7 Tf 157.0 567.5 Td (8) Tj ET
+q 0 G 0.8 w 181.0 560 50 50 re S Q
+q 0.25 g 231.0 560 50 50 re f Q
+q 0 G 0.5 w 231.0 560 50 50 re S Q
+q 1 G 0.5 w 231.0 610 m 281.0 560 l S Q
+BT 1 g /F2 7 Tf 257.0 567.5 Td (20) Tj ET
+BT 1 g /F2 7 Tf 235.0 589.0 Td (16) Tj ET
+q 0 G 0.8 w 281.0 560 50 50 re S Q
+q 0 G 0.8 w 331.0 560 50 50 re S Q
+q 0 G 0.8 w 381.0 560 50 50 re S Q
+q 0 G 0.8 w 431.0 560 50 50 re S Q
+q 0.25 g 131.0 510 50 50 re f Q
+q 0 G 0.5 w 131.0 510 50 50 re S Q
+q 1 G 0.5 w 131.0 560 m 181.0 510 l S Q
+q 0.25 g 181.0 510 50 50 re f Q
+q 0 G 0.5 w 181.0 510 50 50 re S Q
+q 1 G 0.5 w 181.0 560 m 231.0 510 l S Q
+BT 1 g /F2 7 Tf 207.0 517.5 Td (11) Tj ET
+q 0 G 0.8 w 231.0 510 50 50 re S Q
+q 0.25 g 281.0 510 50 50 re f Q
+q 0 G 0.5 w 281.0 510 50 50 re S Q
+q 1 G 0.5 w 281.0 560 m 331.0 510 l S Q
+BT 1 g /F2 7 Tf 307.0 517.5 Td (32) Tj ET
+BT 1 g /F2 7 Tf 285.0 539.0 Td (5) Tj ET
+q 0 G 0.8 w 331.0 510 50 50 re S Q
+q 0 G 0.8 w 381.0 510 50 50 re S Q
+q 0.25 g 431.0 510 50 50 re f Q
+q 0 G 0.5 w 431.0 510 50 50 re S Q
+q 1 G 0.5 w 431.0 560 m 481.0 510 l S Q
+q 0.25 g 131.0 460 50 50 re f Q
+q 0 G 0.5 w 131.0 460 50 50 re S Q
+q 1 G 0.5 w 131.0 510 m 181.0 460 l S Q
+q 0.25 g 181.0 460 50 50 re f Q
+q 0 G 0.5 w 181.0 460 50 50 re S Q
+q 1 G 0.5 w 181.0 510 m 231.0 460 l S Q
+BT 1 g /F2 7 Tf 185.0 489.0 Td (11) Tj ET
+q 0.25 g 231.0 460 50 50 re f Q
+q 0 G 0.5 w 231.0 460 50 50 re S Q
+q 1 G 0.5 w 231.0 510 m 281.0 460 l S Q
+BT 1 g /F2 7 Tf 257.0 467.5 Td (12) Tj ET
+BT 1 g /F2 7 Tf 235.0 489.0 Td (4) Tj ET
+q 0 G 0.8 w 281.0 460 50 50 re S Q
+q 0 G 0.8 w 331.0 460 50 50 re S Q
+q 0.25 g 381.0 460 50 50 re f Q
+q 0 G 0.5 w 381.0 460 50 50 re S Q
+q 1 G 0.5 w 381.0 510 m 431.0 460 l S Q
+q 0.25 g 431.0 460 50 50 re f Q
+q 0 G 0.5 w 431.0 460 50 50 re S Q
+q 1 G 0.5 w 431.0 510 m 481.0 460 l S Q
+BT 1 g /F2 7 Tf 435.0 489.0 Td (22) Tj ET
+q 0.25 g 131.0 410 50 50 re f Q
+q 0 G 0.5 w 131.0 410 50 50 re S Q
+q 1 G 0.5 w 131.0 460 m 181.0 410 l S Q
+BT 1 g /F2 7 Tf 157.0 417.5 Td (17) Tj ET
+q 0 G 0.8 w 181.0 410 50 50 re S Q
+q 0 G 0.8 w 231.0 410 50 50 re S Q
+q 0 G 0.8 w 281.0 410 50 50 re S Q
+q 0 G 0.8 w 331.0 410 50 50 re S Q
+q 0.25 g 381.0 410 50 50 re f Q
+q 0 G 0.5 w 381.0 410 50 50 re S Q
+q 1 G 0.5 w 381.0 460 m 431.0 410 l S Q
+BT 1 g /F2 7 Tf 407.0 417.5 Td (33) Tj ET
+q 0 G 0.8 w 431.0 410 50 50 re S Q
+q 0.25 g 131.0 360 50 50 re f Q
+q 0 G 0.5 w 131.0 360 50 50 re S Q
+q 1 G 0.5 w 131.0 410 m 181.0 360 l S Q
+BT 1 g /F2 7 Tf 157.0 367.5 Td (10) Tj ET
+q 0 G 0.8 w 181.0 360 50 50 re S Q
+q 0.25 g 231.0 360 50 50 re f Q
+q 0 G 0.5 w 231.0 360 50 50 re S Q
+q 1 G 0.5 w 231.0 410 m 281.0 360 l S Q
+BT 1 g /F2 7 Tf 235.0 389.0 Td (12) Tj ET
+q 0.25 g 281.0 360 50 50 re f Q
+q 0 G 0.5 w 281.0 360 50 50 re S Q
+q 1 G 0.5 w 281.0 410 m 331.0 360 l S Q
+BT 1 g /F2 7 Tf 307.0 367.5 Td (16) Tj ET
+BT 1 g /F2 7 Tf 285.0 389.0 Td (12) Tj ET
+q 0 G 0.8 w 331.0 360 50 50 re S Q
+q 0.25 g 381.0 360 50 50 re f Q
+q 0 G 0.5 w 381.0 360 50 50 re S Q
+q 1 G 0.5 w 381.0 410 m 431.0 360 l S Q
+BT 1 g /F2 7 Tf 407.0 367.5 Td (24) Tj ET
+q 0 G 0.8 w 431.0 360 50 50 re S Q
+q 0.25 g 131.0 310 50 50 re f Q
+q 0 G 0.5 w 131.0 310 50 50 re S Q
+q 1 G 0.5 w 131.0 360 m 181.0 310 l S Q
+q 0.25 g 181.0 310 50 50 re f Q
+q 0 G 0.5 w 181.0 310 50 50 re S Q
+q 1 G 0.5 w 181.0 360 m 231.0 310 l S Q
+BT 1 g /F2 7 Tf 207.0 317.5 Td (19) Tj ET
+q 0 G 0.8 w 231.0 310 50 50 re S Q
+q 0 G 0.8 w 281.0 310 50 50 re S Q
+q 0.25 g 331.0 310 50 50 re f Q
+q 0 G 0.5 w 331.0 310 50 50 re S Q
+q 1 G 0.5 w 331.0 360 m 381.0 310 l S Q
+q 0.25 g 381.0 310 50 50 re f Q
+q 0 G 0.5 w 381.0 310 50 50 re S Q
+q 1 G 0.5 w 381.0 360 m 431.0 310 l S Q
+q 0.25 g 431.0 310 50 50 re f Q
+q 0 G 0.5 w 431.0 310 50 50 re S Q
+q 1 G 0.5 w 431.0 360 m 481.0 310 l S Q
+
+endstream
+endobj
+48 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 49 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+49 0 obj
+<< /Length 7087 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #18) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Hard \(9x9\)) Tj ET
+q 0.25 g 112.5 617 43 43 re f Q
+q 0 G 0.5 w 112.5 617 43 43 re S Q
+q 1 G 0.5 w 112.5 660 m 155.5 617 l S Q
+q 0.25 g 155.5 617 43 43 re f Q
+q 0 G 0.5 w 155.5 617 43 43 re S Q
+q 1 G 0.5 w 155.5 660 m 198.5 617 l S Q
+BT 1 g /F2 7 Tf 158.94 641.94 Td (32) Tj ET
+q 0.25 g 198.5 617 43 43 re f Q
+q 0 G 0.5 w 198.5 617 43 43 re S Q
+q 1 G 0.5 w 198.5 660 m 241.5 617 l S Q
+BT 1 g /F2 7 Tf 201.94 641.94 Td (37) Tj ET
+q 0.25 g 241.5 617 43 43 re f Q
+q 0 G 0.5 w 241.5 617 43 43 re S Q
+q 1 G 0.5 w 241.5 660 m 284.5 617 l S Q
+BT 1 g /F2 7 Tf 244.94 641.94 Td (8) Tj ET
+q 0.25 g 284.5 617 43 43 re f Q
+q 0 G 0.5 w 284.5 617 43 43 re S Q
+q 1 G 0.5 w 284.5 660 m 327.5 617 l S Q
+BT 1 g /F2 7 Tf 287.94 641.94 Td (6) Tj ET
+q 0.25 g 327.5 617 43 43 re f Q
+q 0 G 0.5 w 327.5 617 43 43 re S Q
+q 1 G 0.5 w 327.5 660 m 370.5 617 l S Q
+q 0.25 g 370.5 617 43 43 re f Q
+q 0 G 0.5 w 370.5 617 43 43 re S Q
+q 1 G 0.5 w 370.5 660 m 413.5 617 l S Q
+q 0.25 g 413.5 617 43 43 re f Q
+q 0 G 0.5 w 413.5 617 43 43 re S Q
+q 1 G 0.5 w 413.5 660 m 456.5 617 l S Q
+BT 1 g /F2 7 Tf 416.94 641.94 Td (30) Tj ET
+q 0.25 g 456.5 617 43 43 re f Q
+q 0 G 0.5 w 456.5 617 43 43 re S Q
+q 1 G 0.5 w 456.5 660 m 499.5 617 l S Q
+BT 1 g /F2 7 Tf 459.94 641.94 Td (27) Tj ET
+q 0.25 g 112.5 574 43 43 re f Q
+q 0 G 0.5 w 112.5 574 43 43 re S Q
+q 1 G 0.5 w 112.5 617 m 155.5 574 l S Q
+BT 1 g /F2 7 Tf 134.86 580.45 Td (12) Tj ET
+q 0 G 0.8 w 155.5 574 43 43 re S Q
+q 0 G 0.8 w 198.5 574 43 43 re S Q
+q 0 G 0.8 w 241.5 574 43 43 re S Q
+q 0 G 0.8 w 284.5 574 43 43 re S Q
+q 0.25 g 327.5 574 43 43 re f Q
+q 0 G 0.5 w 327.5 574 43 43 re S Q
+q 1 G 0.5 w 327.5 617 m 370.5 574 l S Q
+BT 1 g /F2 7 Tf 330.94 598.94 Td (12) Tj ET
+q 0.25 g 370.5 574 43 43 re f Q
+q 0 G 0.5 w 370.5 574 43 43 re S Q
+q 1 G 0.5 w 370.5 617 m 413.5 574 l S Q
+BT 1 g /F2 7 Tf 392.86 580.45 Td (9) Tj ET
+BT 1 g /F2 7 Tf 373.94 598.94 Td (12) Tj ET
+q 0 G 0.8 w 413.5 574 43 43 re S Q
+q 0 G 0.8 w 456.5 574 43 43 re S Q
+q 0.25 g 112.5 531 43 43 re f Q
+q 0 G 0.5 w 112.5 531 43 43 re S Q
+q 1 G 0.5 w 112.5 574 m 155.5 531 l S Q
+q 0.25 g 155.5 531 43 43 re f Q
+q 0 G 0.5 w 155.5 531 43 43 re S Q
+q 1 G 0.5 w 155.5 574 m 198.5 531 l S Q
+BT 1 g /F2 7 Tf 158.94 555.94 Td (5) Tj ET
+q 0.25 g 198.5 531 43 43 re f Q
+q 0 G 0.5 w 198.5 531 43 43 re S Q
+q 1 G 0.5 w 198.5 574 m 241.5 531 l S Q
+BT 1 g /F2 7 Tf 220.86 537.45 Td (27) Tj ET
+q 0 G 0.8 w 241.5 531 43 43 re S Q
+q 0 G 0.8 w 284.5 531 43 43 re S Q
+q 0 G 0.8 w 327.5 531 43 43 re S Q
+q 0 G 0.8 w 370.5 531 43 43 re S Q
+q 0 G 0.8 w 413.5 531 43 43 re S Q
+q 0 G 0.8 w 456.5 531 43 43 re S Q
+q 0.25 g 112.5 488 43 43 re f Q
+q 0 G 0.5 w 112.5 488 43 43 re S Q
+q 1 G 0.5 w 112.5 531 m 155.5 488 l S Q
+BT 1 g /F2 7 Tf 134.86 494.45 Td (33) Tj ET
+q 0 G 0.8 w 155.5 488 43 43 re S Q
+q 0.25 g 198.5 488 43 43 re f Q
+q 0 G 0.5 w 198.5 488 43 43 re S Q
+q 1 G 0.5 w 198.5 531 m 241.5 488 l S Q
+BT 1 g /F2 7 Tf 201.94 512.94 Td (3) Tj ET
+q 0.25 g 241.5 488 43 43 re f Q
+q 0 G 0.5 w 241.5 488 43 43 re S Q
+q 1 G 0.5 w 241.5 531 m 284.5 488 l S Q
+BT 1 g /F2 7 Tf 263.86 494.45 Td (8) Tj ET
+q 0 G 0.8 w 284.5 488 43 43 re S Q
+q 0.25 g 327.5 488 43 43 re f Q
+q 0 G 0.5 w 327.5 488 43 43 re S Q
+q 1 G 0.5 w 327.5 531 m 370.5 488 l S Q
+BT 1 g /F2 7 Tf 330.94 512.94 Td (26) Tj ET
+q 0.25 g 370.5 488 43 43 re f Q
+q 0 G 0.5 w 370.5 488 43 43 re S Q
+q 1 G 0.5 w 370.5 531 m 413.5 488 l S Q
+BT 1 g /F2 7 Tf 373.94 512.94 Td (14) Tj ET
+q 0.25 g 413.5 488 43 43 re f Q
+q 0 G 0.5 w 413.5 488 43 43 re S Q
+q 1 G 0.5 w 413.5 531 m 456.5 488 l S Q
+BT 1 g /F2 7 Tf 435.86 494.45 Td (40) Tj ET
+BT 1 g /F2 7 Tf 416.94 512.94 Td (10) Tj ET
+q 0 G 0.8 w 456.5 488 43 43 re S Q
+q 0.25 g 112.5 445 43 43 re f Q
+q 0 G 0.5 w 112.5 445 43 43 re S Q
+q 1 G 0.5 w 112.5 488 m 155.5 445 l S Q
+BT 1 g /F2 7 Tf 134.86 451.45 Td (25) Tj ET
+q 0 G 0.8 w 155.5 445 43 43 re S Q
+q 0 G 0.8 w 198.5 445 43 43 re S Q
+q 0.25 g 241.5 445 43 43 re f Q
+q 0 G 0.5 w 241.5 445 43 43 re S Q
+q 1 G 0.5 w 241.5 488 m 284.5 445 l S Q
+BT 1 g /F2 7 Tf 263.86 451.45 Td (32) Tj ET
+BT 1 g /F2 7 Tf 244.94 469.94 Td (42) Tj ET
+q 0 G 0.8 w 284.5 445 43 43 re S Q
+q 0 G 0.8 w 327.5 445 43 43 re S Q
+q 0 G 0.8 w 370.5 445 43 43 re S Q
+q 0 G 0.8 w 413.5 445 43 43 re S Q
+q 0.25 g 456.5 445 43 43 re f Q
+q 0 G 0.5 w 456.5 445 43 43 re S Q
+q 1 G 0.5 w 456.5 488 m 499.5 445 l S Q
+BT 1 g /F2 7 Tf 459.94 469.94 Td (13) Tj ET
+q 0.25 g 112.5 402 43 43 re f Q
+q 0 G 0.5 w 112.5 402 43 43 re S Q
+q 1 G 0.5 w 112.5 445 m 155.5 402 l S Q
+BT 1 g /F2 7 Tf 134.86 408.45 Td (41) Tj ET
+q 0 G 0.8 w 155.5 402 43 43 re S Q
+q 0.25 g 198.5 402 43 43 re f Q
+q 0 G 0.5 w 198.5 402 43 43 re S Q
+q 1 G 0.5 w 198.5 445 m 241.5 402 l S Q
+BT 1 g /F2 7 Tf 220.86 408.45 Td (4) Tj ET
+BT 1 g /F2 7 Tf 201.94 426.94 Td (14) Tj ET
+q 0 G 0.8 w 241.5 402 43 43 re S Q
+q 0 G 0.8 w 284.5 402 43 43 re S Q
+q 0 G 0.8 w 327.5 402 43 43 re S Q
+q 0.25 g 370.5 402 43 43 re f Q
+q 0 G 0.5 w 370.5 402 43 43 re S Q
+q 1 G 0.5 w 370.5 445 m 413.5 402 l S Q
+BT 1 g /F2 7 Tf 392.86 408.45 Td (34) Tj ET
+BT 1 g /F2 7 Tf 373.94 426.94 Td (37) Tj ET
+q 0 G 0.8 w 413.5 402 43 43 re S Q
+q 0 G 0.8 w 456.5 402 43 43 re S Q
+q 0.25 g 112.5 359 43 43 re f Q
+q 0 G 0.5 w 112.5 359 43 43 re S Q
+q 1 G 0.5 w 112.5 402 m 155.5 359 l S Q
+BT 1 g /F2 7 Tf 134.86 365.45 Td (5) Tj ET
+q 0 G 0.8 w 155.5 359 43 43 re S Q
+q 0 G 0.8 w 198.5 359 43 43 re S Q
+q 0 G 0.8 w 241.5 359 43 43 re S Q
+q 0 G 0.8 w 284.5 359 43 43 re S Q
+q 0.25 g 327.5 359 43 43 re f Q
+q 0 G 0.5 w 327.5 359 43 43 re S Q
+q 1 G 0.5 w 327.5 402 m 370.5 359 l S Q
+BT 1 g /F2 7 Tf 349.86 365.45 Td (33) Tj ET
+BT 1 g /F2 7 Tf 330.94 383.94 Td (29) Tj ET
+q 0 G 0.8 w 370.5 359 43 43 re S Q
+q 0 G 0.8 w 413.5 359 43 43 re S Q
+q 0 G 0.8 w 456.5 359 43 43 re S Q
+q 0.25 g 112.5 316 43 43 re f Q
+q 0 G 0.5 w 112.5 316 43 43 re S Q
+q 1 G 0.5 w 112.5 359 m 155.5 316 l S Q
+BT 1 g /F2 7 Tf 134.86 322.45 Td (42) Tj ET
+q 0 G 0.8 w 155.5 316 43 43 re S Q
+q 0.25 g 198.5 316 43 43 re f Q
+q 0 G 0.5 w 198.5 316 43 43 re S Q
+q 1 G 0.5 w 198.5 359 m 241.5 316 l S Q
+BT 1 g /F2 7 Tf 220.86 322.45 Td (29) Tj ET
+BT 1 g /F2 7 Tf 201.94 340.94 Td (26) Tj ET
+q 0 G 0.8 w 241.5 316 43 43 re S Q
+q 0 G 0.8 w 284.5 316 43 43 re S Q
+q 0 G 0.8 w 327.5 316 43 43 re S Q
+q 0 G 0.8 w 370.5 316 43 43 re S Q
+q 0 G 0.8 w 413.5 316 43 43 re S Q
+q 0 G 0.8 w 456.5 316 43 43 re S Q
+q 0.25 g 112.5 273 43 43 re f Q
+q 0 G 0.5 w 112.5 273 43 43 re S Q
+q 1 G 0.5 w 112.5 316 m 155.5 273 l S Q
+q 0.25 g 155.5 273 43 43 re f Q
+q 0 G 0.5 w 155.5 273 43 43 re S Q
+q 1 G 0.5 w 155.5 316 m 198.5 273 l S Q
+BT 1 g /F2 7 Tf 177.86 279.45 Td (7) Tj ET
+q 0 G 0.8 w 198.5 273 43 43 re S Q
+q 0.25 g 241.5 273 43 43 re f Q
+q 0 G 0.5 w 241.5 273 43 43 re S Q
+q 1 G 0.5 w 241.5 316 m 284.5 273 l S Q
+BT 1 g /F2 7 Tf 263.86 279.45 Td (21) Tj ET
+q 0 G 0.8 w 284.5 273 43 43 re S Q
+q 0 G 0.8 w 327.5 273 43 43 re S Q
+q 0 G 0.8 w 370.5 273 43 43 re S Q
+q 0.25 g 413.5 273 43 43 re f Q
+q 0 G 0.5 w 413.5 273 43 43 re S Q
+q 1 G 0.5 w 413.5 316 m 456.5 273 l S Q
+BT 1 g /F2 7 Tf 435.86 279.45 Td (25) Tj ET
+q 0 G 0.8 w 456.5 273 43 43 re S Q
+
+endstream
+endobj
+50 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 51 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+51 0 obj
+<< /Length 6974 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #19) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Hard \(9x9\)) Tj ET
+q 0.25 g 112.5 617 43 43 re f Q
+q 0 G 0.5 w 112.5 617 43 43 re S Q
+q 1 G 0.5 w 112.5 660 m 155.5 617 l S Q
+q 0.25 g 155.5 617 43 43 re f Q
+q 0 G 0.5 w 155.5 617 43 43 re S Q
+q 1 G 0.5 w 155.5 660 m 198.5 617 l S Q
+BT 1 g /F2 7 Tf 158.94 641.94 Td (35) Tj ET
+q 0.25 g 198.5 617 43 43 re f Q
+q 0 G 0.5 w 198.5 617 43 43 re S Q
+q 1 G 0.5 w 198.5 660 m 241.5 617 l S Q
+BT 1 g /F2 7 Tf 201.94 641.94 Td (28) Tj ET
+q 0.25 g 241.5 617 43 43 re f Q
+q 0 G 0.5 w 241.5 617 43 43 re S Q
+q 1 G 0.5 w 241.5 660 m 284.5 617 l S Q
+BT 1 g /F2 7 Tf 244.94 641.94 Td (23) Tj ET
+q 0.25 g 284.5 617 43 43 re f Q
+q 0 G 0.5 w 284.5 617 43 43 re S Q
+q 1 G 0.5 w 284.5 660 m 327.5 617 l S Q
+BT 1 g /F2 7 Tf 287.94 641.94 Td (12) Tj ET
+q 0.25 g 327.5 617 43 43 re f Q
+q 0 G 0.5 w 327.5 617 43 43 re S Q
+q 1 G 0.5 w 327.5 660 m 370.5 617 l S Q
+BT 1 g /F2 7 Tf 330.94 641.94 Td (13) Tj ET
+q 0.25 g 370.5 617 43 43 re f Q
+q 0 G 0.5 w 370.5 617 43 43 re S Q
+q 1 G 0.5 w 370.5 660 m 413.5 617 l S Q
+BT 1 g /F2 7 Tf 373.94 641.94 Td (11) Tj ET
+q 0.25 g 413.5 617 43 43 re f Q
+q 0 G 0.5 w 413.5 617 43 43 re S Q
+q 1 G 0.5 w 413.5 660 m 456.5 617 l S Q
+q 0.25 g 456.5 617 43 43 re f Q
+q 0 G 0.5 w 456.5 617 43 43 re S Q
+q 1 G 0.5 w 456.5 660 m 499.5 617 l S Q
+BT 1 g /F2 7 Tf 459.94 641.94 Td (13) Tj ET
+q 0.25 g 112.5 574 43 43 re f Q
+q 0 G 0.5 w 112.5 574 43 43 re S Q
+q 1 G 0.5 w 112.5 617 m 155.5 574 l S Q
+BT 1 g /F2 7 Tf 134.86 580.45 Td (31) Tj ET
+q 0 G 0.8 w 155.5 574 43 43 re S Q
+q 0 G 0.8 w 198.5 574 43 43 re S Q
+q 0 G 0.8 w 241.5 574 43 43 re S Q
+q 0 G 0.8 w 284.5 574 43 43 re S Q
+q 0 G 0.8 w 327.5 574 43 43 re S Q
+q 0 G 0.8 w 370.5 574 43 43 re S Q
+q 0.25 g 413.5 574 43 43 re f Q
+q 0 G 0.5 w 413.5 574 43 43 re S Q
+q 1 G 0.5 w 413.5 617 m 456.5 574 l S Q
+BT 1 g /F2 7 Tf 435.86 580.45 Td (40) Tj ET
+BT 1 g /F2 7 Tf 416.94 598.94 Td (3) Tj ET
+q 0 G 0.8 w 456.5 574 43 43 re S Q
+q 0.25 g 112.5 531 43 43 re f Q
+q 0 G 0.5 w 112.5 531 43 43 re S Q
+q 1 G 0.5 w 112.5 574 m 155.5 531 l S Q
+BT 1 g /F2 7 Tf 134.86 537.45 Td (27) Tj ET
+q 0 G 0.8 w 155.5 531 43 43 re S Q
+q 0 G 0.8 w 198.5 531 43 43 re S Q
+q 0.25 g 241.5 531 43 43 re f Q
+q 0 G 0.5 w 241.5 531 43 43 re S Q
+q 1 G 0.5 w 241.5 574 m 284.5 531 l S Q
+BT 1 g /F2 7 Tf 263.86 537.45 Td (27) Tj ET
+q 0 G 0.8 w 284.5 531 43 43 re S Q
+q 0.25 g 327.5 531 43 43 re f Q
+q 0 G 0.5 w 327.5 531 43 43 re S Q
+q 1 G 0.5 w 327.5 574 m 370.5 531 l S Q
+BT 1 g /F2 7 Tf 349.86 537.45 Td (28) Tj ET
+q 0 G 0.8 w 370.5 531 43 43 re S Q
+q 0 G 0.8 w 413.5 531 43 43 re S Q
+q 0.25 g 456.5 531 43 43 re f Q
+q 0 G 0.5 w 456.5 531 43 43 re S Q
+q 1 G 0.5 w 456.5 574 m 499.5 531 l S Q
+BT 1 g /F2 7 Tf 459.94 555.94 Td (39) Tj ET
+q 0.25 g 112.5 488 43 43 re f Q
+q 0 G 0.5 w 112.5 488 43 43 re S Q
+q 1 G 0.5 w 112.5 531 m 155.5 488 l S Q
+q 0.25 g 155.5 488 43 43 re f Q
+q 0 G 0.5 w 155.5 488 43 43 re S Q
+q 1 G 0.5 w 155.5 531 m 198.5 488 l S Q
+BT 1 g /F2 7 Tf 158.94 512.94 Td (37) Tj ET
+q 0.25 g 198.5 488 43 43 re f Q
+q 0 G 0.5 w 198.5 488 43 43 re S Q
+q 1 G 0.5 w 198.5 531 m 241.5 488 l S Q
+q 0.25 g 241.5 488 43 43 re f Q
+q 0 G 0.5 w 241.5 488 43 43 re S Q
+q 1 G 0.5 w 241.5 531 m 284.5 488 l S Q
+BT 1 g /F2 7 Tf 263.86 494.45 Td (5) Tj ET
+BT 1 g /F2 7 Tf 244.94 512.94 Td (35) Tj ET
+q 0 G 0.8 w 284.5 488 43 43 re S Q
+q 0.25 g 327.5 488 43 43 re f Q
+q 0 G 0.5 w 327.5 488 43 43 re S Q
+q 1 G 0.5 w 327.5 531 m 370.5 488 l S Q
+BT 1 g /F2 7 Tf 349.86 494.45 Td (43) Tj ET
+BT 1 g /F2 7 Tf 330.94 512.94 Td (45) Tj ET
+q 0 G 0.8 w 370.5 488 43 43 re S Q
+q 0 G 0.8 w 413.5 488 43 43 re S Q
+q 0 G 0.8 w 456.5 488 43 43 re S Q
+q 0.25 g 112.5 445 43 43 re f Q
+q 0 G 0.5 w 112.5 445 43 43 re S Q
+q 1 G 0.5 w 112.5 488 m 155.5 445 l S Q
+BT 1 g /F2 7 Tf 134.86 451.45 Td (8) Tj ET
+q 0 G 0.8 w 155.5 445 43 43 re S Q
+q 0.25 g 198.5 445 43 43 re f Q
+q 0 G 0.5 w 198.5 445 43 43 re S Q
+q 1 G 0.5 w 198.5 488 m 241.5 445 l S Q
+BT 1 g /F2 7 Tf 220.86 451.45 Td (28) Tj ET
+q 0 G 0.8 w 241.5 445 43 43 re S Q
+q 0 G 0.8 w 284.5 445 43 43 re S Q
+q 0 G 0.8 w 327.5 445 43 43 re S Q
+q 0 G 0.8 w 370.5 445 43 43 re S Q
+q 0 G 0.8 w 413.5 445 43 43 re S Q
+q 0 G 0.8 w 456.5 445 43 43 re S Q
+q 0.25 g 112.5 402 43 43 re f Q
+q 0 G 0.5 w 112.5 402 43 43 re S Q
+q 1 G 0.5 w 112.5 445 m 155.5 402 l S Q
+BT 1 g /F2 7 Tf 134.86 408.45 Td (23) Tj ET
+q 0 G 0.8 w 155.5 402 43 43 re S Q
+q 0.25 g 198.5 402 43 43 re f Q
+q 0 G 0.5 w 198.5 402 43 43 re S Q
+q 1 G 0.5 w 198.5 445 m 241.5 402 l S Q
+BT 1 g /F2 7 Tf 201.94 426.94 Td (28) Tj ET
+q 0.25 g 241.5 402 43 43 re f Q
+q 0 G 0.5 w 241.5 402 43 43 re S Q
+q 1 G 0.5 w 241.5 445 m 284.5 402 l S Q
+BT 1 g /F2 7 Tf 263.86 408.45 Td (43) Tj ET
+BT 1 g /F2 7 Tf 244.94 426.94 Td (30) Tj ET
+q 0 G 0.8 w 284.5 402 43 43 re S Q
+q 0 G 0.8 w 327.5 402 43 43 re S Q
+q 0 G 0.8 w 370.5 402 43 43 re S Q
+q 0 G 0.8 w 413.5 402 43 43 re S Q
+q 0 G 0.8 w 456.5 402 43 43 re S Q
+q 0.25 g 112.5 359 43 43 re f Q
+q 0 G 0.5 w 112.5 359 43 43 re S Q
+q 1 G 0.5 w 112.5 402 m 155.5 359 l S Q
+BT 1 g /F2 7 Tf 134.86 365.45 Td (7) Tj ET
+q 0 G 0.8 w 155.5 359 43 43 re S Q
+q 0 G 0.8 w 198.5 359 43 43 re S Q
+q 0 G 0.8 w 241.5 359 43 43 re S Q
+q 0.25 g 284.5 359 43 43 re f Q
+q 0 G 0.5 w 284.5 359 43 43 re S Q
+q 1 G 0.5 w 284.5 402 m 327.5 359 l S Q
+BT 1 g /F2 7 Tf 306.86 365.45 Td (4) Tj ET
+q 0 G 0.8 w 327.5 359 43 43 re S Q
+q 0.25 g 370.5 359 43 43 re f Q
+q 0 G 0.5 w 370.5 359 43 43 re S Q
+q 1 G 0.5 w 370.5 402 m 413.5 359 l S Q
+BT 1 g /F2 7 Tf 373.94 383.94 Td (17) Tj ET
+q 0.25 g 413.5 359 43 43 re f Q
+q 0 G 0.5 w 413.5 359 43 43 re S Q
+q 1 G 0.5 w 413.5 402 m 456.5 359 l S Q
+BT 1 g /F2 7 Tf 435.86 365.45 Td (23) Tj ET
+BT 1 g /F2 7 Tf 416.94 383.94 Td (31) Tj ET
+q 0 G 0.8 w 456.5 359 43 43 re S Q
+q 0.25 g 112.5 316 43 43 re f Q
+q 0 G 0.5 w 112.5 316 43 43 re S Q
+q 1 G 0.5 w 112.5 359 m 155.5 316 l S Q
+q 0.25 g 155.5 316 43 43 re f Q
+q 0 G 0.5 w 155.5 316 43 43 re S Q
+q 1 G 0.5 w 155.5 359 m 198.5 316 l S Q
+BT 1 g /F2 7 Tf 177.86 322.45 Td (43) Tj ET
+BT 1 g /F2 7 Tf 158.94 340.94 Td (27) Tj ET
+q 0 G 0.8 w 198.5 316 43 43 re S Q
+q 0 G 0.8 w 241.5 316 43 43 re S Q
+q 0.25 g 284.5 316 43 43 re f Q
+q 0 G 0.5 w 284.5 316 43 43 re S Q
+q 1 G 0.5 w 284.5 359 m 327.5 316 l S Q
+BT 1 g /F2 7 Tf 306.86 322.45 Td (25) Tj ET
+BT 1 g /F2 7 Tf 287.94 340.94 Td (40) Tj ET
+q 0 G 0.8 w 327.5 316 43 43 re S Q
+q 0 G 0.8 w 370.5 316 43 43 re S Q
+q 0 G 0.8 w 413.5 316 43 43 re S Q
+q 0.25 g 456.5 316 43 43 re f Q
+q 0 G 0.5 w 456.5 316 43 43 re S Q
+q 1 G 0.5 w 456.5 359 m 499.5 316 l S Q
+BT 1 g /F2 7 Tf 459.94 340.94 Td (9) Tj ET
+q 0.25 g 112.5 273 43 43 re f Q
+q 0 G 0.5 w 112.5 273 43 43 re S Q
+q 1 G 0.5 w 112.5 316 m 155.5 273 l S Q
+BT 1 g /F2 7 Tf 134.86 279.45 Td (40) Tj ET
+q 0 G 0.8 w 155.5 273 43 43 re S Q
+q 0 G 0.8 w 198.5 273 43 43 re S Q
+q 0 G 0.8 w 241.5 273 43 43 re S Q
+q 0 G 0.8 w 284.5 273 43 43 re S Q
+q 0 G 0.8 w 327.5 273 43 43 re S Q
+q 0 G 0.8 w 370.5 273 43 43 re S Q
+q 0 G 0.8 w 413.5 273 43 43 re S Q
+q 0 G 0.8 w 456.5 273 43 43 re S Q
+
+endstream
+endobj
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 53 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+53 0 obj
+<< /Length 7093 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #20) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Hard \(9x9\)) Tj ET
+q 0.25 g 112.5 617 43 43 re f Q
+q 0 G 0.5 w 112.5 617 43 43 re S Q
+q 1 G 0.5 w 112.5 660 m 155.5 617 l S Q
+q 0.25 g 155.5 617 43 43 re f Q
+q 0 G 0.5 w 155.5 617 43 43 re S Q
+q 1 G 0.5 w 155.5 660 m 198.5 617 l S Q
+BT 1 g /F2 7 Tf 158.94 641.94 Td (18) Tj ET
+q 0.25 g 198.5 617 43 43 re f Q
+q 0 G 0.5 w 198.5 617 43 43 re S Q
+q 1 G 0.5 w 198.5 660 m 241.5 617 l S Q
+q 0.25 g 241.5 617 43 43 re f Q
+q 0 G 0.5 w 241.5 617 43 43 re S Q
+q 1 G 0.5 w 241.5 660 m 284.5 617 l S Q
+BT 1 g /F2 7 Tf 244.94 641.94 Td (21) Tj ET
+q 0.25 g 284.5 617 43 43 re f Q
+q 0 G 0.5 w 284.5 617 43 43 re S Q
+q 1 G 0.5 w 284.5 660 m 327.5 617 l S Q
+BT 1 g /F2 7 Tf 287.94 641.94 Td (8) Tj ET
+q 0.25 g 327.5 617 43 43 re f Q
+q 0 G 0.5 w 327.5 617 43 43 re S Q
+q 1 G 0.5 w 327.5 660 m 370.5 617 l S Q
+BT 1 g /F2 7 Tf 330.94 641.94 Td (26) Tj ET
+q 0.25 g 370.5 617 43 43 re f Q
+q 0 G 0.5 w 370.5 617 43 43 re S Q
+q 1 G 0.5 w 370.5 660 m 413.5 617 l S Q
+q 0.25 g 413.5 617 43 43 re f Q
+q 0 G 0.5 w 413.5 617 43 43 re S Q
+q 1 G 0.5 w 413.5 660 m 456.5 617 l S Q
+q 0.25 g 456.5 617 43 43 re f Q
+q 0 G 0.5 w 456.5 617 43 43 re S Q
+q 1 G 0.5 w 456.5 660 m 499.5 617 l S Q
+BT 1 g /F2 7 Tf 459.94 641.94 Td (20) Tj ET
+q 0.25 g 112.5 574 43 43 re f Q
+q 0 G 0.5 w 112.5 574 43 43 re S Q
+q 1 G 0.5 w 112.5 617 m 155.5 574 l S Q
+BT 1 g /F2 7 Tf 134.86 580.45 Td (35) Tj ET
+q 0 G 0.8 w 155.5 574 43 43 re S Q
+q 0.25 g 198.5 574 43 43 re f Q
+q 0 G 0.5 w 198.5 574 43 43 re S Q
+q 1 G 0.5 w 198.5 617 m 241.5 574 l S Q
+BT 1 g /F2 7 Tf 220.86 580.45 Td (25) Tj ET
+q 0 G 0.8 w 241.5 574 43 43 re S Q
+q 0 G 0.8 w 284.5 574 43 43 re S Q
+q 0 G 0.8 w 327.5 574 43 43 re S Q
+q 0.25 g 370.5 574 43 43 re f Q
+q 0 G 0.5 w 370.5 574 43 43 re S Q
+q 1 G 0.5 w 370.5 617 m 413.5 574 l S Q
+BT 1 g /F2 7 Tf 373.94 598.94 Td (35) Tj ET
+q 0.25 g 413.5 574 43 43 re f Q
+q 0 G 0.5 w 413.5 574 43 43 re S Q
+q 1 G 0.5 w 413.5 617 m 456.5 574 l S Q
+BT 1 g /F2 7 Tf 435.86 580.45 Td (15) Tj ET
+q 0 G 0.8 w 456.5 574 43 43 re S Q
+q 0.25 g 112.5 531 43 43 re f Q
+q 0 G 0.5 w 112.5 531 43 43 re S Q
+q 1 G 0.5 w 112.5 574 m 155.5 531 l S Q
+BT 1 g /F2 7 Tf 134.86 537.45 Td (11) Tj ET
+q 0 G 0.8 w 155.5 531 43 43 re S Q
+q 0.25 g 198.5 531 43 43 re f Q
+q 0 G 0.5 w 198.5 531 43 43 re S Q
+q 1 G 0.5 w 198.5 574 m 241.5 531 l S Q
+q 0.25 g 241.5 531 43 43 re f Q
+q 0 G 0.5 w 241.5 531 43 43 re S Q
+q 1 G 0.5 w 241.5 574 m 284.5 531 l S Q
+BT 1 g /F2 7 Tf 244.94 555.94 Td (23) Tj ET
+q 0.25 g 284.5 531 43 43 re f Q
+q 0 G 0.5 w 284.5 531 43 43 re S Q
+q 1 G 0.5 w 284.5 574 m 327.5 531 l S Q
+BT 1 g /F2 7 Tf 306.86 537.45 Td (14) Tj ET
+BT 1 g /F2 7 Tf 287.94 555.94 Td (16) Tj ET
+q 0 G 0.8 w 327.5 531 43 43 re S Q
+q 0 G 0.8 w 370.5 531 43 43 re S Q
+q 0.25 g 413.5 531 43 43 re f Q
+q 0 G 0.5 w 413.5 531 43 43 re S Q
+q 1 G 0.5 w 413.5 574 m 456.5 531 l S Q
+BT 1 g /F2 7 Tf 435.86 537.45 Td (31) Tj ET
+q 0 G 0.8 w 456.5 531 43 43 re S Q
+q 0.25 g 112.5 488 43 43 re f Q
+q 0 G 0.5 w 112.5 488 43 43 re S Q
+q 1 G 0.5 w 112.5 531 m 155.5 488 l S Q
+BT 1 g /F2 7 Tf 134.86 494.45 Td (38) Tj ET
+q 0 G 0.8 w 155.5 488 43 43 re S Q
+q 0.25 g 198.5 488 43 43 re f Q
+q 0 G 0.5 w 198.5 488 43 43 re S Q
+q 1 G 0.5 w 198.5 531 m 241.5 488 l S Q
+BT 1 g /F2 7 Tf 220.86 494.45 Td (25) Tj ET
+BT 1 g /F2 7 Tf 201.94 512.94 Td (4) Tj ET
+q 0 G 0.8 w 241.5 488 43 43 re S Q
+q 0 G 0.8 w 284.5 488 43 43 re S Q
+q 0.25 g 327.5 488 43 43 re f Q
+q 0 G 0.5 w 327.5 488 43 43 re S Q
+q 1 G 0.5 w 327.5 531 m 370.5 488 l S Q
+BT 1 g /F2 7 Tf 349.86 494.45 Td (15) Tj ET
+q 0 G 0.8 w 370.5 488 43 43 re S Q
+q 0.25 g 413.5 488 43 43 re f Q
+q 0 G 0.5 w 413.5 488 43 43 re S Q
+q 1 G 0.5 w 413.5 531 m 456.5 488 l S Q
+BT 1 g /F2 7 Tf 435.86 494.45 Td (11) Tj ET
+BT 1 g /F2 7 Tf 416.94 512.94 Td (34) Tj ET
+q 0 G 0.8 w 456.5 488 43 43 re S Q
+q 0.25 g 112.5 445 43 43 re f Q
+q 0 G 0.5 w 112.5 445 43 43 re S Q
+q 1 G 0.5 w 112.5 488 m 155.5 445 l S Q
+BT 1 g /F2 7 Tf 134.86 451.45 Td (33) Tj ET
+q 0 G 0.8 w 155.5 445 43 43 re S Q
+q 0 G 0.8 w 198.5 445 43 43 re S Q
+q 0.25 g 241.5 445 43 43 re f Q
+q 0 G 0.5 w 241.5 445 43 43 re S Q
+q 1 G 0.5 w 241.5 488 m 284.5 445 l S Q
+BT 1 g /F2 7 Tf 263.86 451.45 Td (30) Tj ET
+BT 1 g /F2 7 Tf 244.94 469.94 Td (26) Tj ET
+q 0 G 0.8 w 284.5 445 43 43 re S Q
+q 0.25 g 327.5 445 43 43 re f Q
+q 0 G 0.5 w 327.5 445 43 43 re S Q
+q 1 G 0.5 w 327.5 488 m 370.5 445 l S Q
+BT 1 g /F2 7 Tf 349.86 451.45 Td (14) Tj ET
+BT 1 g /F2 7 Tf 330.94 469.94 Td (21) Tj ET
+q 0 G 0.8 w 370.5 445 43 43 re S Q
+q 0 G 0.8 w 413.5 445 43 43 re S Q
+q 0 G 0.8 w 456.5 445 43 43 re S Q
+q 0.25 g 112.5 402 43 43 re f Q
+q 0 G 0.5 w 112.5 402 43 43 re S Q
+q 1 G 0.5 w 112.5 445 m 155.5 402 l S Q
+BT 1 g /F2 7 Tf 134.86 408.45 Td (33) Tj ET
+q 0 G 0.8 w 155.5 402 43 43 re S Q
+q 0 G 0.8 w 198.5 402 43 43 re S Q
+q 0 G 0.8 w 241.5 402 43 43 re S Q
+q 0 G 0.8 w 284.5 402 43 43 re S Q
+q 0 G 0.8 w 327.5 402 43 43 re S Q
+q 0.25 g 370.5 402 43 43 re f Q
+q 0 G 0.5 w 370.5 402 43 43 re S Q
+q 1 G 0.5 w 370.5 445 m 413.5 402 l S Q
+BT 1 g /F2 7 Tf 392.86 408.45 Td (25) Tj ET
+q 0 G 0.8 w 413.5 402 43 43 re S Q
+q 0 G 0.8 w 456.5 402 43 43 re S Q
+q 0.25 g 112.5 359 43 43 re f Q
+q 0 G 0.5 w 112.5 359 43 43 re S Q
+q 1 G 0.5 w 112.5 402 m 155.5 359 l S Q
+BT 1 g /F2 7 Tf 134.86 365.45 Td (16) Tj ET
+q 0 G 0.8 w 155.5 359 43 43 re S Q
+q 0 G 0.8 w 198.5 359 43 43 re S Q
+q 0 G 0.8 w 241.5 359 43 43 re S Q
+q 0 G 0.8 w 284.5 359 43 43 re S Q
+q 0 G 0.8 w 327.5 359 43 43 re S Q
+q 0.25 g 370.5 359 43 43 re f Q
+q 0 G 0.5 w 370.5 359 43 43 re S Q
+q 1 G 0.5 w 370.5 402 m 413.5 359 l S Q
+BT 1 g /F2 7 Tf 392.86 365.45 Td (22) Tj ET
+BT 1 g /F2 7 Tf 373.94 383.94 Td (27) Tj ET
+q 0 G 0.8 w 413.5 359 43 43 re S Q
+q 0.25 g 456.5 359 43 43 re f Q
+q 0 G 0.5 w 456.5 359 43 43 re S Q
+q 1 G 0.5 w 456.5 402 m 499.5 359 l S Q
+BT 1 g /F2 7 Tf 459.94 383.94 Td (26) Tj ET
+q 0.25 g 112.5 316 43 43 re f Q
+q 0 G 0.5 w 112.5 316 43 43 re S Q
+q 1 G 0.5 w 112.5 359 m 155.5 316 l S Q
+BT 1 g /F2 7 Tf 134.86 322.45 Td (24) Tj ET
+q 0 G 0.8 w 155.5 316 43 43 re S Q
+q 0 G 0.8 w 198.5 316 43 43 re S Q
+q 0 G 0.8 w 241.5 316 43 43 re S Q
+q 0 G 0.8 w 284.5 316 43 43 re S Q
+q 0.25 g 327.5 316 43 43 re f Q
+q 0 G 0.5 w 327.5 316 43 43 re S Q
+q 1 G 0.5 w 327.5 359 m 370.5 316 l S Q
+BT 1 g /F2 7 Tf 349.86 322.45 Td (45) Tj ET
+BT 1 g /F2 7 Tf 330.94 340.94 Td (34) Tj ET
+q 0 G 0.8 w 370.5 316 43 43 re S Q
+q 0 G 0.8 w 413.5 316 43 43 re S Q
+q 0 G 0.8 w 456.5 316 43 43 re S Q
+q 0.25 g 112.5 273 43 43 re f Q
+q 0 G 0.5 w 112.5 273 43 43 re S Q
+q 1 G 0.5 w 112.5 316 m 155.5 273 l S Q
+BT 1 g /F2 7 Tf 134.86 279.45 Td (5) Tj ET
+q 0 G 0.8 w 155.5 273 43 43 re S Q
+q 0.25 g 198.5 273 43 43 re f Q
+q 0 G 0.5 w 198.5 273 43 43 re S Q
+q 1 G 0.5 w 198.5 316 m 241.5 273 l S Q
+BT 1 g /F2 7 Tf 220.86 279.45 Td (33) Tj ET
+q 0 G 0.8 w 241.5 273 43 43 re S Q
+q 0.25 g 284.5 273 43 43 re f Q
+q 0 G 0.5 w 284.5 273 43 43 re S Q
+q 1 G 0.5 w 284.5 316 m 327.5 273 l S Q
+BT 1 g /F2 7 Tf 306.86 279.45 Td (38) Tj ET
+q 0 G 0.8 w 327.5 273 43 43 re S Q
+q 0 G 0.8 w 370.5 273 43 43 re S Q
+q 0 G 0.8 w 413.5 273 43 43 re S Q
+q 0 G 0.8 w 456.5 273 43 43 re S Q
+
+endstream
+endobj
+54 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 55 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+55 0 obj
+<< /Length 7623 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #21) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Hard \(9x9\)) Tj ET
+q 0.25 g 112.5 617 43 43 re f Q
+q 0 G 0.5 w 112.5 617 43 43 re S Q
+q 1 G 0.5 w 112.5 660 m 155.5 617 l S Q
+q 0.25 g 155.5 617 43 43 re f Q
+q 0 G 0.5 w 155.5 617 43 43 re S Q
+q 1 G 0.5 w 155.5 660 m 198.5 617 l S Q
+BT 1 g /F2 7 Tf 158.94 641.94 Td (30) Tj ET
+q 0.25 g 198.5 617 43 43 re f Q
+q 0 G 0.5 w 198.5 617 43 43 re S Q
+q 1 G 0.5 w 198.5 660 m 241.5 617 l S Q
+BT 1 g /F2 7 Tf 201.94 641.94 Td (33) Tj ET
+q 0.25 g 241.5 617 43 43 re f Q
+q 0 G 0.5 w 241.5 617 43 43 re S Q
+q 1 G 0.5 w 241.5 660 m 284.5 617 l S Q
+BT 1 g /F2 7 Tf 244.94 641.94 Td (4) Tj ET
+q 0.25 g 284.5 617 43 43 re f Q
+q 0 G 0.5 w 284.5 617 43 43 re S Q
+q 1 G 0.5 w 284.5 660 m 327.5 617 l S Q
+q 0.25 g 327.5 617 43 43 re f Q
+q 0 G 0.5 w 327.5 617 43 43 re S Q
+q 1 G 0.5 w 327.5 660 m 370.5 617 l S Q
+BT 1 g /F2 7 Tf 330.94 641.94 Td (23) Tj ET
+q 0.25 g 370.5 617 43 43 re f Q
+q 0 G 0.5 w 370.5 617 43 43 re S Q
+q 1 G 0.5 w 370.5 660 m 413.5 617 l S Q
+BT 1 g /F2 7 Tf 373.94 641.94 Td (42) Tj ET
+q 0.25 g 413.5 617 43 43 re f Q
+q 0 G 0.5 w 413.5 617 43 43 re S Q
+q 1 G 0.5 w 413.5 660 m 456.5 617 l S Q
+BT 1 g /F2 7 Tf 416.94 641.94 Td (20) Tj ET
+q 0.25 g 456.5 617 43 43 re f Q
+q 0 G 0.5 w 456.5 617 43 43 re S Q
+q 1 G 0.5 w 456.5 660 m 499.5 617 l S Q
+BT 1 g /F2 7 Tf 459.94 641.94 Td (32) Tj ET
+q 0.25 g 112.5 574 43 43 re f Q
+q 0 G 0.5 w 112.5 574 43 43 re S Q
+q 1 G 0.5 w 112.5 617 m 155.5 574 l S Q
+BT 1 g /F2 7 Tf 134.86 580.45 Td (43) Tj ET
+q 0 G 0.8 w 155.5 574 43 43 re S Q
+q 0 G 0.8 w 198.5 574 43 43 re S Q
+q 0 G 0.8 w 241.5 574 43 43 re S Q
+q 0.25 g 284.5 574 43 43 re f Q
+q 0 G 0.5 w 284.5 574 43 43 re S Q
+q 1 G 0.5 w 284.5 617 m 327.5 574 l S Q
+BT 1 g /F2 7 Tf 306.86 580.45 Td (12) Tj ET
+BT 1 g /F2 7 Tf 287.94 598.94 Td (28) Tj ET
+q 0 G 0.8 w 327.5 574 43 43 re S Q
+q 0 G 0.8 w 370.5 574 43 43 re S Q
+q 0 G 0.8 w 413.5 574 43 43 re S Q
+q 0 G 0.8 w 456.5 574 43 43 re S Q
+q 0.25 g 112.5 531 43 43 re f Q
+q 0 G 0.5 w 112.5 531 43 43 re S Q
+q 1 G 0.5 w 112.5 574 m 155.5 531 l S Q
+BT 1 g /F2 7 Tf 134.86 537.45 Td (13) Tj ET
+q 0 G 0.8 w 155.5 531 43 43 re S Q
+q 0.25 g 198.5 531 43 43 re f Q
+q 0 G 0.5 w 198.5 531 43 43 re S Q
+q 1 G 0.5 w 198.5 574 m 241.5 531 l S Q
+BT 1 g /F2 7 Tf 220.86 537.45 Td (36) Tj ET
+BT 1 g /F2 7 Tf 201.94 555.94 Td (10) Tj ET
+q 0 G 0.8 w 241.5 531 43 43 re S Q
+q 0 G 0.8 w 284.5 531 43 43 re S Q
+q 0 G 0.8 w 327.5 531 43 43 re S Q
+q 0 G 0.8 w 370.5 531 43 43 re S Q
+q 0.25 g 413.5 531 43 43 re f Q
+q 0 G 0.5 w 413.5 531 43 43 re S Q
+q 1 G 0.5 w 413.5 574 m 456.5 531 l S Q
+q 0.25 g 456.5 531 43 43 re f Q
+q 0 G 0.5 w 456.5 531 43 43 re S Q
+q 1 G 0.5 w 456.5 574 m 499.5 531 l S Q
+BT 1 g /F2 7 Tf 459.94 555.94 Td (14) Tj ET
+q 0.25 g 112.5 488 43 43 re f Q
+q 0 G 0.5 w 112.5 488 43 43 re S Q
+q 1 G 0.5 w 112.5 531 m 155.5 488 l S Q
+BT 1 g /F2 7 Tf 134.86 494.45 Td (10) Tj ET
+q 0 G 0.8 w 155.5 488 43 43 re S Q
+q 0 G 0.8 w 198.5 488 43 43 re S Q
+q 0.25 g 241.5 488 43 43 re f Q
+q 0 G 0.5 w 241.5 488 43 43 re S Q
+q 1 G 0.5 w 241.5 531 m 284.5 488 l S Q
+q 0.25 g 284.5 488 43 43 re f Q
+q 0 G 0.5 w 284.5 488 43 43 re S Q
+q 1 G 0.5 w 284.5 531 m 327.5 488 l S Q
+q 0.25 g 327.5 488 43 43 re f Q
+q 0 G 0.5 w 327.5 488 43 43 re S Q
+q 1 G 0.5 w 327.5 531 m 370.5 488 l S Q
+q 0.25 g 370.5 488 43 43 re f Q
+q 0 G 0.5 w 370.5 488 43 43 re S Q
+q 1 G 0.5 w 370.5 531 m 413.5 488 l S Q
+q 0.25 g 413.5 488 43 43 re f Q
+q 0 G 0.5 w 413.5 488 43 43 re S Q
+q 1 G 0.5 w 413.5 531 m 456.5 488 l S Q
+BT 1 g /F2 7 Tf 435.86 494.45 Td (5) Tj ET
+BT 1 g /F2 7 Tf 416.94 512.94 Td (44) Tj ET
+q 0 G 0.8 w 456.5 488 43 43 re S Q
+q 0.25 g 112.5 445 43 43 re f Q
+q 0 G 0.5 w 112.5 445 43 43 re S Q
+q 1 G 0.5 w 112.5 488 m 155.5 445 l S Q
+BT 1 g /F2 7 Tf 134.86 451.45 Td (40) Tj ET
+q 0 G 0.8 w 155.5 445 43 43 re S Q
+q 0 G 0.8 w 198.5 445 43 43 re S Q
+q 0.25 g 241.5 445 43 43 re f Q
+q 0 G 0.5 w 241.5 445 43 43 re S Q
+q 1 G 0.5 w 241.5 488 m 284.5 445 l S Q
+q 0.25 g 284.5 445 43 43 re f Q
+q 0 G 0.5 w 284.5 445 43 43 re S Q
+q 1 G 0.5 w 284.5 488 m 327.5 445 l S Q
+BT 1 g /F2 7 Tf 287.94 469.94 Td (26) Tj ET
+q 0.25 g 327.5 445 43 43 re f Q
+q 0 G 0.5 w 327.5 445 43 43 re S Q
+q 1 G 0.5 w 327.5 488 m 370.5 445 l S Q
+q 0.25 g 370.5 445 43 43 re f Q
+q 0 G 0.5 w 370.5 445 43 43 re S Q
+q 1 G 0.5 w 370.5 488 m 413.5 445 l S Q
+BT 1 g /F2 7 Tf 392.86 451.45 Td (40) Tj ET
+BT 1 g /F2 7 Tf 373.94 469.94 Td (9) Tj ET
+q 0 G 0.8 w 413.5 445 43 43 re S Q
+q 0 G 0.8 w 456.5 445 43 43 re S Q
+q 0.25 g 112.5 402 43 43 re f Q
+q 0 G 0.5 w 112.5 402 43 43 re S Q
+q 1 G 0.5 w 112.5 445 m 155.5 402 l S Q
+BT 1 g /F2 7 Tf 134.86 408.45 Td (33) Tj ET
+q 0 G 0.8 w 155.5 402 43 43 re S Q
+q 0 G 0.8 w 198.5 402 43 43 re S Q
+q 0.25 g 241.5 402 43 43 re f Q
+q 0 G 0.5 w 241.5 402 43 43 re S Q
+q 1 G 0.5 w 241.5 445 m 284.5 402 l S Q
+BT 1 g /F2 7 Tf 263.86 408.45 Td (29) Tj ET
+q 0 G 0.8 w 284.5 402 43 43 re S Q
+q 0.25 g 327.5 402 43 43 re f Q
+q 0 G 0.5 w 327.5 402 43 43 re S Q
+q 1 G 0.5 w 327.5 445 m 370.5 402 l S Q
+BT 1 g /F2 7 Tf 349.86 408.45 Td (29) Tj ET
+q 0 G 0.8 w 370.5 402 43 43 re S Q
+q 0.25 g 413.5 402 43 43 re f Q
+q 0 G 0.5 w 413.5 402 43 43 re S Q
+q 1 G 0.5 w 413.5 445 m 456.5 402 l S Q
+BT 1 g /F2 7 Tf 435.86 408.45 Td (20) Tj ET
+BT 1 g /F2 7 Tf 416.94 426.94 Td (14) Tj ET
+q 0 G 0.8 w 456.5 402 43 43 re S Q
+q 0.25 g 112.5 359 43 43 re f Q
+q 0 G 0.5 w 112.5 359 43 43 re S Q
+q 1 G 0.5 w 112.5 402 m 155.5 359 l S Q
+BT 1 g /F2 7 Tf 134.86 365.45 Td (17) Tj ET
+q 0 G 0.8 w 155.5 359 43 43 re S Q
+q 0.25 g 198.5 359 43 43 re f Q
+q 0 G 0.5 w 198.5 359 43 43 re S Q
+q 1 G 0.5 w 198.5 402 m 241.5 359 l S Q
+BT 1 g /F2 7 Tf 201.94 383.94 Td (21) Tj ET
+q 0.25 g 241.5 359 43 43 re f Q
+q 0 G 0.5 w 241.5 359 43 43 re S Q
+q 1 G 0.5 w 241.5 402 m 284.5 359 l S Q
+q 0.25 g 284.5 359 43 43 re f Q
+q 0 G 0.5 w 284.5 359 43 43 re S Q
+q 1 G 0.5 w 284.5 402 m 327.5 359 l S Q
+q 0.25 g 327.5 359 43 43 re f Q
+q 0 G 0.5 w 327.5 359 43 43 re S Q
+q 1 G 0.5 w 327.5 402 m 370.5 359 l S Q
+BT 1 g /F2 7 Tf 349.86 365.45 Td (39) Tj ET
+q 0 G 0.8 w 370.5 359 43 43 re S Q
+q 0 G 0.8 w 413.5 359 43 43 re S Q
+q 0.25 g 456.5 359 43 43 re f Q
+q 0 G 0.5 w 456.5 359 43 43 re S Q
+q 1 G 0.5 w 456.5 402 m 499.5 359 l S Q
+BT 1 g /F2 7 Tf 459.94 383.94 Td (38) Tj ET
+q 0.25 g 112.5 316 43 43 re f Q
+q 0 G 0.5 w 112.5 316 43 43 re S Q
+q 1 G 0.5 w 112.5 359 m 155.5 316 l S Q
+q 0.25 g 155.5 316 43 43 re f Q
+q 0 G 0.5 w 155.5 316 43 43 re S Q
+q 1 G 0.5 w 155.5 359 m 198.5 316 l S Q
+BT 1 g /F2 7 Tf 177.86 322.45 Td (31) Tj ET
+q 0 G 0.8 w 198.5 316 43 43 re S Q
+q 0.25 g 241.5 316 43 43 re f Q
+q 0 G 0.5 w 241.5 316 43 43 re S Q
+q 1 G 0.5 w 241.5 359 m 284.5 316 l S Q
+BT 1 g /F2 7 Tf 244.94 340.94 Td (17) Tj ET
+q 0.25 g 284.5 316 43 43 re f Q
+q 0 G 0.5 w 284.5 316 43 43 re S Q
+q 1 G 0.5 w 284.5 359 m 327.5 316 l S Q
+BT 1 g /F2 7 Tf 287.94 340.94 Td (27) Tj ET
+q 0.25 g 327.5 316 43 43 re f Q
+q 0 G 0.5 w 327.5 316 43 43 re S Q
+q 1 G 0.5 w 327.5 359 m 370.5 316 l S Q
+BT 1 g /F2 7 Tf 349.86 322.45 Td (3) Tj ET
+BT 1 g /F2 7 Tf 330.94 340.94 Td (30) Tj ET
+q 0 G 0.8 w 370.5 316 43 43 re S Q
+q 0 G 0.8 w 413.5 316 43 43 re S Q
+q 0 G 0.8 w 456.5 316 43 43 re S Q
+q 0.25 g 112.5 273 43 43 re f Q
+q 0 G 0.5 w 112.5 273 43 43 re S Q
+q 1 G 0.5 w 112.5 316 m 155.5 273 l S Q
+q 0.25 g 155.5 273 43 43 re f Q
+q 0 G 0.5 w 155.5 273 43 43 re S Q
+q 1 G 0.5 w 155.5 316 m 198.5 273 l S Q
+BT 1 g /F2 7 Tf 177.86 279.45 Td (5) Tj ET
+q 0 G 0.8 w 198.5 273 43 43 re S Q
+q 0 G 0.8 w 241.5 273 43 43 re S Q
+q 0 G 0.8 w 284.5 273 43 43 re S Q
+q 0 G 0.8 w 327.5 273 43 43 re S Q
+q 0 G 0.8 w 370.5 273 43 43 re S Q
+q 0 G 0.8 w 413.5 273 43 43 re S Q
+q 0 G 0.8 w 456.5 273 43 43 re S Q
+
+endstream
+endobj
+56 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 57 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+57 0 obj
+<< /Length 6475 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #22) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Hard \(9x9\)) Tj ET
+q 0.25 g 112.5 617 43 43 re f Q
+q 0 G 0.5 w 112.5 617 43 43 re S Q
+q 1 G 0.5 w 112.5 660 m 155.5 617 l S Q
+q 0.25 g 155.5 617 43 43 re f Q
+q 0 G 0.5 w 155.5 617 43 43 re S Q
+q 1 G 0.5 w 155.5 660 m 198.5 617 l S Q
+q 0.25 g 198.5 617 43 43 re f Q
+q 0 G 0.5 w 198.5 617 43 43 re S Q
+q 1 G 0.5 w 198.5 660 m 241.5 617 l S Q
+BT 1 g /F2 7 Tf 201.94 641.94 Td (29) Tj ET
+q 0.25 g 241.5 617 43 43 re f Q
+q 0 G 0.5 w 241.5 617 43 43 re S Q
+q 1 G 0.5 w 241.5 660 m 284.5 617 l S Q
+BT 1 g /F2 7 Tf 244.94 641.94 Td (8) Tj ET
+q 0.25 g 284.5 617 43 43 re f Q
+q 0 G 0.5 w 284.5 617 43 43 re S Q
+q 1 G 0.5 w 284.5 660 m 327.5 617 l S Q
+q 0.25 g 327.5 617 43 43 re f Q
+q 0 G 0.5 w 327.5 617 43 43 re S Q
+q 1 G 0.5 w 327.5 660 m 370.5 617 l S Q
+q 0.25 g 370.5 617 43 43 re f Q
+q 0 G 0.5 w 370.5 617 43 43 re S Q
+q 1 G 0.5 w 370.5 660 m 413.5 617 l S Q
+BT 1 g /F2 7 Tf 373.94 641.94 Td (23) Tj ET
+q 0.25 g 413.5 617 43 43 re f Q
+q 0 G 0.5 w 413.5 617 43 43 re S Q
+q 1 G 0.5 w 413.5 660 m 456.5 617 l S Q
+BT 1 g /F2 7 Tf 416.94 641.94 Td (7) Tj ET
+q 0.25 g 456.5 617 43 43 re f Q
+q 0 G 0.5 w 456.5 617 43 43 re S Q
+q 1 G 0.5 w 456.5 660 m 499.5 617 l S Q
+BT 1 g /F2 7 Tf 459.94 641.94 Td (9) Tj ET
+q 0.25 g 112.5 574 43 43 re f Q
+q 0 G 0.5 w 112.5 574 43 43 re S Q
+q 1 G 0.5 w 112.5 617 m 155.5 574 l S Q
+q 0.25 g 155.5 574 43 43 re f Q
+q 0 G 0.5 w 155.5 574 43 43 re S Q
+q 1 G 0.5 w 155.5 617 m 198.5 574 l S Q
+BT 1 g /F2 7 Tf 177.86 580.45 Td (8) Tj ET
+q 0 G 0.8 w 198.5 574 43 43 re S Q
+q 0 G 0.8 w 241.5 574 43 43 re S Q
+q 0.25 g 284.5 574 43 43 re f Q
+q 0 G 0.5 w 284.5 574 43 43 re S Q
+q 1 G 0.5 w 284.5 617 m 327.5 574 l S Q
+q 0.25 g 327.5 574 43 43 re f Q
+q 0 G 0.5 w 327.5 574 43 43 re S Q
+q 1 G 0.5 w 327.5 617 m 370.5 574 l S Q
+BT 1 g /F2 7 Tf 349.86 580.45 Td (8) Tj ET
+q 0 G 0.8 w 370.5 574 43 43 re S Q
+q 0 G 0.8 w 413.5 574 43 43 re S Q
+q 0 G 0.8 w 456.5 574 43 43 re S Q
+q 0.25 g 112.5 531 43 43 re f Q
+q 0 G 0.5 w 112.5 531 43 43 re S Q
+q 1 G 0.5 w 112.5 574 m 155.5 531 l S Q
+q 0.25 g 155.5 531 43 43 re f Q
+q 0 G 0.5 w 155.5 531 43 43 re S Q
+q 1 G 0.5 w 155.5 574 m 198.5 531 l S Q
+BT 1 g /F2 7 Tf 177.86 537.45 Td (34) Tj ET
+BT 1 g /F2 7 Tf 158.94 555.94 Td (31) Tj ET
+q 0 G 0.8 w 198.5 531 43 43 re S Q
+q 0 G 0.8 w 241.5 531 43 43 re S Q
+q 0.25 g 284.5 531 43 43 re f Q
+q 0 G 0.5 w 284.5 531 43 43 re S Q
+q 1 G 0.5 w 284.5 574 m 327.5 531 l S Q
+BT 1 g /F2 7 Tf 287.94 555.94 Td (10) Tj ET
+q 0.25 g 327.5 531 43 43 re f Q
+q 0 G 0.5 w 327.5 531 43 43 re S Q
+q 1 G 0.5 w 327.5 574 m 370.5 531 l S Q
+BT 1 g /F2 7 Tf 330.94 555.94 Td (23) Tj ET
+q 0.25 g 370.5 531 43 43 re f Q
+q 0 G 0.5 w 370.5 531 43 43 re S Q
+q 1 G 0.5 w 370.5 574 m 413.5 531 l S Q
+BT 1 g /F2 7 Tf 373.94 555.94 Td (9) Tj ET
+q 0.25 g 413.5 531 43 43 re f Q
+q 0 G 0.5 w 413.5 531 43 43 re S Q
+q 1 G 0.5 w 413.5 574 m 456.5 531 l S Q
+BT 1 g /F2 7 Tf 435.86 537.45 Td (30) Tj ET
+BT 1 g /F2 7 Tf 416.94 555.94 Td (44) Tj ET
+q 0 G 0.8 w 456.5 531 43 43 re S Q
+q 0.25 g 112.5 488 43 43 re f Q
+q 0 G 0.5 w 112.5 488 43 43 re S Q
+q 1 G 0.5 w 112.5 531 m 155.5 488 l S Q
+BT 1 g /F2 7 Tf 134.86 494.45 Td (38) Tj ET
+q 0 G 0.8 w 155.5 488 43 43 re S Q
+q 0 G 0.8 w 198.5 488 43 43 re S Q
+q 0 G 0.8 w 241.5 488 43 43 re S Q
+q 0 G 0.8 w 284.5 488 43 43 re S Q
+q 0 G 0.8 w 327.5 488 43 43 re S Q
+q 0 G 0.8 w 370.5 488 43 43 re S Q
+q 0 G 0.8 w 413.5 488 43 43 re S Q
+q 0 G 0.8 w 456.5 488 43 43 re S Q
+q 0.25 g 112.5 445 43 43 re f Q
+q 0 G 0.5 w 112.5 445 43 43 re S Q
+q 1 G 0.5 w 112.5 488 m 155.5 445 l S Q
+q 0.25 g 155.5 445 43 43 re f Q
+q 0 G 0.5 w 155.5 445 43 43 re S Q
+q 1 G 0.5 w 155.5 488 m 198.5 445 l S Q
+BT 1 g /F2 7 Tf 158.94 469.94 Td (30) Tj ET
+q 0.25 g 198.5 445 43 43 re f Q
+q 0 G 0.5 w 198.5 445 43 43 re S Q
+q 1 G 0.5 w 198.5 488 m 241.5 445 l S Q
+BT 1 g /F2 7 Tf 220.86 451.45 Td (42) Tj ET
+BT 1 g /F2 7 Tf 201.94 469.94 Td (19) Tj ET
+q 0 G 0.8 w 241.5 445 43 43 re S Q
+q 0 G 0.8 w 284.5 445 43 43 re S Q
+q 0 G 0.8 w 327.5 445 43 43 re S Q
+q 0 G 0.8 w 370.5 445 43 43 re S Q
+q 0 G 0.8 w 413.5 445 43 43 re S Q
+q 0 G 0.8 w 456.5 445 43 43 re S Q
+q 0.25 g 112.5 402 43 43 re f Q
+q 0 G 0.5 w 112.5 402 43 43 re S Q
+q 1 G 0.5 w 112.5 445 m 155.5 402 l S Q
+BT 1 g /F2 7 Tf 134.86 408.45 Td (3) Tj ET
+q 0 G 0.8 w 155.5 402 43 43 re S Q
+q 0 G 0.8 w 198.5 402 43 43 re S Q
+q 0 G 0.8 w 241.5 402 43 43 re S Q
+q 0.25 g 284.5 402 43 43 re f Q
+q 0 G 0.5 w 284.5 402 43 43 re S Q
+q 1 G 0.5 w 284.5 445 m 327.5 402 l S Q
+BT 1 g /F2 7 Tf 306.86 408.45 Td (45) Tj ET
+BT 1 g /F2 7 Tf 287.94 426.94 Td (29) Tj ET
+q 0 G 0.8 w 327.5 402 43 43 re S Q
+q 0 G 0.8 w 370.5 402 43 43 re S Q
+q 0.25 g 413.5 402 43 43 re f Q
+q 0 G 0.5 w 413.5 402 43 43 re S Q
+q 1 G 0.5 w 413.5 445 m 456.5 402 l S Q
+BT 1 g /F2 7 Tf 435.86 408.45 Td (26) Tj ET
+BT 1 g /F2 7 Tf 416.94 426.94 Td (8) Tj ET
+q 0 G 0.8 w 456.5 402 43 43 re S Q
+q 0.25 g 112.5 359 43 43 re f Q
+q 0 G 0.5 w 112.5 359 43 43 re S Q
+q 1 G 0.5 w 112.5 402 m 155.5 359 l S Q
+BT 1 g /F2 7 Tf 134.86 365.45 Td (13) Tj ET
+q 0 G 0.8 w 155.5 359 43 43 re S Q
+q 0 G 0.8 w 198.5 359 43 43 re S Q
+q 0 G 0.8 w 241.5 359 43 43 re S Q
+q 0 G 0.8 w 284.5 359 43 43 re S Q
+q 0 G 0.8 w 327.5 359 43 43 re S Q
+q 0 G 0.8 w 370.5 359 43 43 re S Q
+q 0 G 0.8 w 413.5 359 43 43 re S Q
+q 0 G 0.8 w 456.5 359 43 43 re S Q
+q 0.25 g 112.5 316 43 43 re f Q
+q 0 G 0.5 w 112.5 316 43 43 re S Q
+q 1 G 0.5 w 112.5 359 m 155.5 316 l S Q
+BT 1 g /F2 7 Tf 134.86 322.45 Td (25) Tj ET
+q 0 G 0.8 w 155.5 316 43 43 re S Q
+q 0 G 0.8 w 198.5 316 43 43 re S Q
+q 0 G 0.8 w 241.5 316 43 43 re S Q
+q 0 G 0.8 w 284.5 316 43 43 re S Q
+q 0 G 0.8 w 327.5 316 43 43 re S Q
+q 0 G 0.8 w 370.5 316 43 43 re S Q
+q 0.25 g 413.5 316 43 43 re f Q
+q 0 G 0.5 w 413.5 316 43 43 re S Q
+q 1 G 0.5 w 413.5 359 m 456.5 316 l S Q
+q 0.25 g 456.5 316 43 43 re f Q
+q 0 G 0.5 w 456.5 316 43 43 re S Q
+q 1 G 0.5 w 456.5 359 m 499.5 316 l S Q
+BT 1 g /F2 7 Tf 459.94 340.94 Td (3) Tj ET
+q 0.25 g 112.5 273 43 43 re f Q
+q 0 G 0.5 w 112.5 273 43 43 re S Q
+q 1 G 0.5 w 112.5 316 m 155.5 273 l S Q
+BT 1 g /F2 7 Tf 134.86 279.45 Td (21) Tj ET
+q 0 G 0.8 w 155.5 273 43 43 re S Q
+q 0 G 0.8 w 198.5 273 43 43 re S Q
+q 0 G 0.8 w 241.5 273 43 43 re S Q
+q 0 G 0.8 w 284.5 273 43 43 re S Q
+q 0 G 0.8 w 327.5 273 43 43 re S Q
+q 0 G 0.8 w 370.5 273 43 43 re S Q
+q 0.25 g 413.5 273 43 43 re f Q
+q 0 G 0.5 w 413.5 273 43 43 re S Q
+q 1 G 0.5 w 413.5 316 m 456.5 273 l S Q
+BT 1 g /F2 7 Tf 435.86 279.45 Td (17) Tj ET
+q 0 G 0.8 w 456.5 273 43 43 re S Q
+
+endstream
+endobj
+58 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 59 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+59 0 obj
+<< /Length 7190 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #23) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Hard \(9x9\)) Tj ET
+q 0.25 g 112.5 617 43 43 re f Q
+q 0 G 0.5 w 112.5 617 43 43 re S Q
+q 1 G 0.5 w 112.5 660 m 155.5 617 l S Q
+q 0.25 g 155.5 617 43 43 re f Q
+q 0 G 0.5 w 155.5 617 43 43 re S Q
+q 1 G 0.5 w 155.5 660 m 198.5 617 l S Q
+BT 1 g /F2 7 Tf 158.94 641.94 Td (12) Tj ET
+q 0.25 g 198.5 617 43 43 re f Q
+q 0 G 0.5 w 198.5 617 43 43 re S Q
+q 1 G 0.5 w 198.5 660 m 241.5 617 l S Q
+q 0.25 g 241.5 617 43 43 re f Q
+q 0 G 0.5 w 241.5 617 43 43 re S Q
+q 1 G 0.5 w 241.5 660 m 284.5 617 l S Q
+BT 1 g /F2 7 Tf 244.94 641.94 Td (32) Tj ET
+q 0.25 g 284.5 617 43 43 re f Q
+q 0 G 0.5 w 284.5 617 43 43 re S Q
+q 1 G 0.5 w 284.5 660 m 327.5 617 l S Q
+q 0.25 g 327.5 617 43 43 re f Q
+q 0 G 0.5 w 327.5 617 43 43 re S Q
+q 1 G 0.5 w 327.5 660 m 370.5 617 l S Q
+BT 1 g /F2 7 Tf 330.94 641.94 Td (21) Tj ET
+q 0.25 g 370.5 617 43 43 re f Q
+q 0 G 0.5 w 370.5 617 43 43 re S Q
+q 1 G 0.5 w 370.5 660 m 413.5 617 l S Q
+q 0.25 g 413.5 617 43 43 re f Q
+q 0 G 0.5 w 413.5 617 43 43 re S Q
+q 1 G 0.5 w 413.5 660 m 456.5 617 l S Q
+BT 1 g /F2 7 Tf 416.94 641.94 Td (44) Tj ET
+q 0.25 g 456.5 617 43 43 re f Q
+q 0 G 0.5 w 456.5 617 43 43 re S Q
+q 1 G 0.5 w 456.5 660 m 499.5 617 l S Q
+BT 1 g /F2 7 Tf 459.94 641.94 Td (13) Tj ET
+q 0.25 g 112.5 574 43 43 re f Q
+q 0 G 0.5 w 112.5 574 43 43 re S Q
+q 1 G 0.5 w 112.5 617 m 155.5 574 l S Q
+BT 1 g /F2 7 Tf 134.86 580.45 Td (5) Tj ET
+q 0 G 0.8 w 155.5 574 43 43 re S Q
+q 0.25 g 198.5 574 43 43 re f Q
+q 0 G 0.5 w 198.5 574 43 43 re S Q
+q 1 G 0.5 w 198.5 617 m 241.5 574 l S Q
+BT 1 g /F2 7 Tf 220.86 580.45 Td (11) Tj ET
+BT 1 g /F2 7 Tf 201.94 598.94 Td (12) Tj ET
+q 0 G 0.8 w 241.5 574 43 43 re S Q
+q 0.25 g 284.5 574 43 43 re f Q
+q 0 G 0.5 w 284.5 574 43 43 re S Q
+q 1 G 0.5 w 284.5 617 m 327.5 574 l S Q
+BT 1 g /F2 7 Tf 306.86 580.45 Td (12) Tj ET
+q 0 G 0.8 w 327.5 574 43 43 re S Q
+q 0.25 g 370.5 574 43 43 re f Q
+q 0 G 0.5 w 370.5 574 43 43 re S Q
+q 1 G 0.5 w 370.5 617 m 413.5 574 l S Q
+BT 1 g /F2 7 Tf 392.86 580.45 Td (43) Tj ET
+q 0 G 0.8 w 413.5 574 43 43 re S Q
+q 0 G 0.8 w 456.5 574 43 43 re S Q
+q 0.25 g 112.5 531 43 43 re f Q
+q 0 G 0.5 w 112.5 531 43 43 re S Q
+q 1 G 0.5 w 112.5 574 m 155.5 531 l S Q
+BT 1 g /F2 7 Tf 134.86 537.45 Td (43) Tj ET
+q 0 G 0.8 w 155.5 531 43 43 re S Q
+q 0 G 0.8 w 198.5 531 43 43 re S Q
+q 0 G 0.8 w 241.5 531 43 43 re S Q
+q 0.25 g 284.5 531 43 43 re f Q
+q 0 G 0.5 w 284.5 531 43 43 re S Q
+q 1 G 0.5 w 284.5 574 m 327.5 531 l S Q
+BT 1 g /F2 7 Tf 306.86 537.45 Td (20) Tj ET
+q 0 G 0.8 w 327.5 531 43 43 re S Q
+q 0.25 g 370.5 531 43 43 re f Q
+q 0 G 0.5 w 370.5 531 43 43 re S Q
+q 1 G 0.5 w 370.5 574 m 413.5 531 l S Q
+BT 1 g /F2 7 Tf 373.94 555.94 Td (45) Tj ET
+q 0.25 g 413.5 531 43 43 re f Q
+q 0 G 0.5 w 413.5 531 43 43 re S Q
+q 1 G 0.5 w 413.5 574 m 456.5 531 l S Q
+BT 1 g /F2 7 Tf 416.94 555.94 Td (31) Tj ET
+q 0.25 g 456.5 531 43 43 re f Q
+q 0 G 0.5 w 456.5 531 43 43 re S Q
+q 1 G 0.5 w 456.5 574 m 499.5 531 l S Q
+BT 1 g /F2 7 Tf 459.94 555.94 Td (11) Tj ET
+q 0.25 g 112.5 488 43 43 re f Q
+q 0 G 0.5 w 112.5 488 43 43 re S Q
+q 1 G 0.5 w 112.5 531 m 155.5 488 l S Q
+BT 1 g /F2 7 Tf 134.86 494.45 Td (34) Tj ET
+q 0 G 0.8 w 155.5 488 43 43 re S Q
+q 0 G 0.8 w 198.5 488 43 43 re S Q
+q 0 G 0.8 w 241.5 488 43 43 re S Q
+q 0.25 g 284.5 488 43 43 re f Q
+q 0 G 0.5 w 284.5 488 43 43 re S Q
+q 1 G 0.5 w 284.5 531 m 327.5 488 l S Q
+BT 1 g /F2 7 Tf 287.94 512.94 Td (6) Tj ET
+q 0.25 g 327.5 488 43 43 re f Q
+q 0 G 0.5 w 327.5 488 43 43 re S Q
+q 1 G 0.5 w 327.5 531 m 370.5 488 l S Q
+BT 1 g /F2 7 Tf 349.86 494.45 Td (11) Tj ET
+BT 1 g /F2 7 Tf 330.94 512.94 Td (31) Tj ET
+q 0 G 0.8 w 370.5 488 43 43 re S Q
+q 0 G 0.8 w 413.5 488 43 43 re S Q
+q 0 G 0.8 w 456.5 488 43 43 re S Q
+q 0.25 g 112.5 445 43 43 re f Q
+q 0 G 0.5 w 112.5 445 43 43 re S Q
+q 1 G 0.5 w 112.5 488 m 155.5 445 l S Q
+BT 1 g /F2 7 Tf 134.86 451.45 Td (4) Tj ET
+q 0 G 0.8 w 155.5 445 43 43 re S Q
+q 0 G 0.8 w 198.5 445 43 43 re S Q
+q 0.25 g 241.5 445 43 43 re f Q
+q 0 G 0.5 w 241.5 445 43 43 re S Q
+q 1 G 0.5 w 241.5 488 m 284.5 445 l S Q
+BT 1 g /F2 7 Tf 263.86 451.45 Td (28) Tj ET
+BT 1 g /F2 7 Tf 244.94 469.94 Td (29) Tj ET
+q 0 G 0.8 w 284.5 445 43 43 re S Q
+q 0 G 0.8 w 327.5 445 43 43 re S Q
+q 0 G 0.8 w 370.5 445 43 43 re S Q
+q 0 G 0.8 w 413.5 445 43 43 re S Q
+q 0.25 g 456.5 445 43 43 re f Q
+q 0 G 0.5 w 456.5 445 43 43 re S Q
+q 1 G 0.5 w 456.5 488 m 499.5 445 l S Q
+q 0.25 g 112.5 402 43 43 re f Q
+q 0 G 0.5 w 112.5 402 43 43 re S Q
+q 1 G 0.5 w 112.5 445 m 155.5 402 l S Q
+BT 1 g /F2 7 Tf 134.86 408.45 Td (13) Tj ET
+q 0 G 0.8 w 155.5 402 43 43 re S Q
+q 0 G 0.8 w 198.5 402 43 43 re S Q
+q 0 G 0.8 w 241.5 402 43 43 re S Q
+q 0 G 0.8 w 284.5 402 43 43 re S Q
+q 0.25 g 327.5 402 43 43 re f Q
+q 0 G 0.5 w 327.5 402 43 43 re S Q
+q 1 G 0.5 w 327.5 445 m 370.5 402 l S Q
+BT 1 g /F2 7 Tf 349.86 408.45 Td (21) Tj ET
+BT 1 g /F2 7 Tf 330.94 426.94 Td (23) Tj ET
+q 0 G 0.8 w 370.5 402 43 43 re S Q
+q 0 G 0.8 w 413.5 402 43 43 re S Q
+q 0.25 g 456.5 402 43 43 re f Q
+q 0 G 0.5 w 456.5 402 43 43 re S Q
+q 1 G 0.5 w 456.5 445 m 499.5 402 l S Q
+BT 1 g /F2 7 Tf 459.94 426.94 Td (36) Tj ET
+q 0.25 g 112.5 359 43 43 re f Q
+q 0 G 0.5 w 112.5 359 43 43 re S Q
+q 1 G 0.5 w 112.5 402 m 155.5 359 l S Q
+q 0.25 g 155.5 359 43 43 re f Q
+q 0 G 0.5 w 155.5 359 43 43 re S Q
+q 1 G 0.5 w 155.5 402 m 198.5 359 l S Q
+BT 1 g /F2 7 Tf 177.86 365.45 Td (10) Tj ET
+q 0 G 0.8 w 198.5 359 43 43 re S Q
+q 0.25 g 241.5 359 43 43 re f Q
+q 0 G 0.5 w 241.5 359 43 43 re S Q
+q 1 G 0.5 w 241.5 402 m 284.5 359 l S Q
+BT 1 g /F2 7 Tf 263.86 365.45 Td (12) Tj ET
+BT 1 g /F2 7 Tf 244.94 383.94 Td (5) Tj ET
+q 0 G 0.8 w 284.5 359 43 43 re S Q
+q 0 G 0.8 w 327.5 359 43 43 re S Q
+q 0 G 0.8 w 370.5 359 43 43 re S Q
+q 0 G 0.8 w 413.5 359 43 43 re S Q
+q 0 G 0.8 w 456.5 359 43 43 re S Q
+q 0.25 g 112.5 316 43 43 re f Q
+q 0 G 0.5 w 112.5 316 43 43 re S Q
+q 1 G 0.5 w 112.5 359 m 155.5 316 l S Q
+q 0.25 g 155.5 316 43 43 re f Q
+q 0 G 0.5 w 155.5 316 43 43 re S Q
+q 1 G 0.5 w 155.5 359 m 198.5 316 l S Q
+BT 1 g /F2 7 Tf 177.86 322.45 Td (5) Tj ET
+BT 1 g /F2 7 Tf 158.94 340.94 Td (23) Tj ET
+q 0 G 0.8 w 198.5 316 43 43 re S Q
+q 0 G 0.8 w 241.5 316 43 43 re S Q
+q 0.25 g 284.5 316 43 43 re f Q
+q 0 G 0.5 w 284.5 316 43 43 re S Q
+q 1 G 0.5 w 284.5 359 m 327.5 316 l S Q
+BT 1 g /F2 7 Tf 306.86 322.45 Td (19) Tj ET
+q 0 G 0.8 w 327.5 316 43 43 re S Q
+q 0.25 g 370.5 316 43 43 re f Q
+q 0 G 0.5 w 370.5 316 43 43 re S Q
+q 1 G 0.5 w 370.5 359 m 413.5 316 l S Q
+BT 1 g /F2 7 Tf 392.86 322.45 Td (22) Tj ET
+BT 1 g /F2 7 Tf 373.94 340.94 Td (45) Tj ET
+q 0 G 0.8 w 413.5 316 43 43 re S Q
+q 0 G 0.8 w 456.5 316 43 43 re S Q
+q 0.25 g 112.5 273 43 43 re f Q
+q 0 G 0.5 w 112.5 273 43 43 re S Q
+q 1 G 0.5 w 112.5 316 m 155.5 273 l S Q
+BT 1 g /F2 7 Tf 134.86 279.45 Td (7) Tj ET
+q 0 G 0.8 w 155.5 273 43 43 re S Q
+q 0 G 0.8 w 198.5 273 43 43 re S Q
+q 0 G 0.8 w 241.5 273 43 43 re S Q
+q 0.25 g 284.5 273 43 43 re f Q
+q 0 G 0.5 w 284.5 273 43 43 re S Q
+q 1 G 0.5 w 284.5 316 m 327.5 273 l S Q
+q 0.25 g 327.5 273 43 43 re f Q
+q 0 G 0.5 w 327.5 273 43 43 re S Q
+q 1 G 0.5 w 327.5 316 m 370.5 273 l S Q
+BT 1 g /F2 7 Tf 349.86 279.45 Td (42) Tj ET
+q 0 G 0.8 w 370.5 273 43 43 re S Q
+q 0 G 0.8 w 413.5 273 43 43 re S Q
+q 0 G 0.8 w 456.5 273 43 43 re S Q
+
+endstream
+endobj
+60 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 61 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+61 0 obj
+<< /Length 7103 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #24) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Hard \(9x9\)) Tj ET
+q 0.25 g 112.5 617 43 43 re f Q
+q 0 G 0.5 w 112.5 617 43 43 re S Q
+q 1 G 0.5 w 112.5 660 m 155.5 617 l S Q
+q 0.25 g 155.5 617 43 43 re f Q
+q 0 G 0.5 w 155.5 617 43 43 re S Q
+q 1 G 0.5 w 155.5 660 m 198.5 617 l S Q
+q 0.25 g 198.5 617 43 43 re f Q
+q 0 G 0.5 w 198.5 617 43 43 re S Q
+q 1 G 0.5 w 198.5 660 m 241.5 617 l S Q
+BT 1 g /F2 7 Tf 201.94 641.94 Td (30) Tj ET
+q 0.25 g 241.5 617 43 43 re f Q
+q 0 G 0.5 w 241.5 617 43 43 re S Q
+q 1 G 0.5 w 241.5 660 m 284.5 617 l S Q
+BT 1 g /F2 7 Tf 244.94 641.94 Td (22) Tj ET
+q 0.25 g 284.5 617 43 43 re f Q
+q 0 G 0.5 w 284.5 617 43 43 re S Q
+q 1 G 0.5 w 284.5 660 m 327.5 617 l S Q
+q 0.25 g 327.5 617 43 43 re f Q
+q 0 G 0.5 w 327.5 617 43 43 re S Q
+q 1 G 0.5 w 327.5 660 m 370.5 617 l S Q
+q 0.25 g 370.5 617 43 43 re f Q
+q 0 G 0.5 w 370.5 617 43 43 re S Q
+q 1 G 0.5 w 370.5 660 m 413.5 617 l S Q
+BT 1 g /F2 7 Tf 373.94 641.94 Td (43) Tj ET
+q 0.25 g 413.5 617 43 43 re f Q
+q 0 G 0.5 w 413.5 617 43 43 re S Q
+q 1 G 0.5 w 413.5 660 m 456.5 617 l S Q
+BT 1 g /F2 7 Tf 416.94 641.94 Td (15) Tj ET
+q 0.25 g 456.5 617 43 43 re f Q
+q 0 G 0.5 w 456.5 617 43 43 re S Q
+q 1 G 0.5 w 456.5 660 m 499.5 617 l S Q
+BT 1 g /F2 7 Tf 459.94 641.94 Td (25) Tj ET
+q 0.25 g 112.5 574 43 43 re f Q
+q 0 G 0.5 w 112.5 574 43 43 re S Q
+q 1 G 0.5 w 112.5 617 m 155.5 574 l S Q
+q 0.25 g 155.5 574 43 43 re f Q
+q 0 G 0.5 w 155.5 574 43 43 re S Q
+q 1 G 0.5 w 155.5 617 m 198.5 574 l S Q
+BT 1 g /F2 7 Tf 177.86 580.45 Td (23) Tj ET
+q 0 G 0.8 w 198.5 574 43 43 re S Q
+q 0 G 0.8 w 241.5 574 43 43 re S Q
+q 0.25 g 284.5 574 43 43 re f Q
+q 0 G 0.5 w 284.5 574 43 43 re S Q
+q 1 G 0.5 w 284.5 617 m 327.5 574 l S Q
+BT 1 g /F2 7 Tf 287.94 598.94 Td (10) Tj ET
+q 0.25 g 327.5 574 43 43 re f Q
+q 0 G 0.5 w 327.5 574 43 43 re S Q
+q 1 G 0.5 w 327.5 617 m 370.5 574 l S Q
+BT 1 g /F2 7 Tf 349.86 580.45 Td (21) Tj ET
+BT 1 g /F2 7 Tf 330.94 598.94 Td (38) Tj ET
+q 0 G 0.8 w 370.5 574 43 43 re S Q
+q 0 G 0.8 w 413.5 574 43 43 re S Q
+q 0 G 0.8 w 456.5 574 43 43 re S Q
+q 0.25 g 112.5 531 43 43 re f Q
+q 0 G 0.5 w 112.5 531 43 43 re S Q
+q 1 G 0.5 w 112.5 574 m 155.5 531 l S Q
+q 0.25 g 155.5 531 43 43 re f Q
+q 0 G 0.5 w 155.5 531 43 43 re S Q
+q 1 G 0.5 w 155.5 574 m 198.5 531 l S Q
+BT 1 g /F2 7 Tf 158.94 555.94 Td (16) Tj ET
+q 0.25 g 198.5 531 43 43 re f Q
+q 0 G 0.5 w 198.5 531 43 43 re S Q
+q 1 G 0.5 w 198.5 574 m 241.5 531 l S Q
+BT 1 g /F2 7 Tf 220.86 537.45 Td (7) Tj ET
+q 0 G 0.8 w 241.5 531 43 43 re S Q
+q 0 G 0.8 w 284.5 531 43 43 re S Q
+q 0 G 0.8 w 327.5 531 43 43 re S Q
+q 0 G 0.8 w 370.5 531 43 43 re S Q
+q 0 G 0.8 w 413.5 531 43 43 re S Q
+q 0.25 g 456.5 531 43 43 re f Q
+q 0 G 0.5 w 456.5 531 43 43 re S Q
+q 1 G 0.5 w 456.5 574 m 499.5 531 l S Q
+BT 1 g /F2 7 Tf 459.94 555.94 Td (25) Tj ET
+q 0.25 g 112.5 488 43 43 re f Q
+q 0 G 0.5 w 112.5 488 43 43 re S Q
+q 1 G 0.5 w 112.5 531 m 155.5 488 l S Q
+BT 1 g /F2 7 Tf 134.86 494.45 Td (21) Tj ET
+q 0 G 0.8 w 155.5 488 43 43 re S Q
+q 0.25 g 198.5 488 43 43 re f Q
+q 0 G 0.5 w 198.5 488 43 43 re S Q
+q 1 G 0.5 w 198.5 531 m 241.5 488 l S Q
+BT 1 g /F2 7 Tf 201.94 512.94 Td (44) Tj ET
+q 0.25 g 241.5 488 43 43 re f Q
+q 0 G 0.5 w 241.5 488 43 43 re S Q
+q 1 G 0.5 w 241.5 531 m 284.5 488 l S Q
+q 0.25 g 284.5 488 43 43 re f Q
+q 0 G 0.5 w 284.5 488 43 43 re S Q
+q 1 G 0.5 w 284.5 531 m 327.5 488 l S Q
+q 0.25 g 327.5 488 43 43 re f Q
+q 0 G 0.5 w 327.5 488 43 43 re S Q
+q 1 G 0.5 w 327.5 531 m 370.5 488 l S Q
+BT 1 g /F2 7 Tf 330.94 512.94 Td (34) Tj ET
+q 0.25 g 370.5 488 43 43 re f Q
+q 0 G 0.5 w 370.5 488 43 43 re S Q
+q 1 G 0.5 w 370.5 531 m 413.5 488 l S Q
+BT 1 g /F2 7 Tf 392.86 494.45 Td (44) Tj ET
+BT 1 g /F2 7 Tf 373.94 512.94 Td (23) Tj ET
+q 0 G 0.8 w 413.5 488 43 43 re S Q
+q 0 G 0.8 w 456.5 488 43 43 re S Q
+q 0.25 g 112.5 445 43 43 re f Q
+q 0 G 0.5 w 112.5 445 43 43 re S Q
+q 1 G 0.5 w 112.5 488 m 155.5 445 l S Q
+BT 1 g /F2 7 Tf 134.86 451.45 Td (13) Tj ET
+q 0 G 0.8 w 155.5 445 43 43 re S Q
+q 0 G 0.8 w 198.5 445 43 43 re S Q
+q 0.25 g 241.5 445 43 43 re f Q
+q 0 G 0.5 w 241.5 445 43 43 re S Q
+q 1 G 0.5 w 241.5 488 m 284.5 445 l S Q
+BT 1 g /F2 7 Tf 244.94 469.94 Td (17) Tj ET
+q 0.25 g 284.5 445 43 43 re f Q
+q 0 G 0.5 w 284.5 445 43 43 re S Q
+q 1 G 0.5 w 284.5 488 m 327.5 445 l S Q
+BT 1 g /F2 7 Tf 306.86 451.45 Td (36) Tj ET
+BT 1 g /F2 7 Tf 287.94 469.94 Td (44) Tj ET
+q 0 G 0.8 w 327.5 445 43 43 re S Q
+q 0 G 0.8 w 370.5 445 43 43 re S Q
+q 0 G 0.8 w 413.5 445 43 43 re S Q
+q 0 G 0.8 w 456.5 445 43 43 re S Q
+q 0.25 g 112.5 402 43 43 re f Q
+q 0 G 0.5 w 112.5 402 43 43 re S Q
+q 1 G 0.5 w 112.5 445 m 155.5 402 l S Q
+BT 1 g /F2 7 Tf 134.86 408.45 Td (7) Tj ET
+q 0 G 0.8 w 155.5 402 43 43 re S Q
+q 0.25 g 198.5 402 43 43 re f Q
+q 0 G 0.5 w 198.5 402 43 43 re S Q
+q 1 G 0.5 w 198.5 445 m 241.5 402 l S Q
+BT 1 g /F2 7 Tf 220.86 408.45 Td (38) Tj ET
+BT 1 g /F2 7 Tf 201.94 426.94 Td (40) Tj ET
+q 0 G 0.8 w 241.5 402 43 43 re S Q
+q 0 G 0.8 w 284.5 402 43 43 re S Q
+q 0.25 g 327.5 402 43 43 re f Q
+q 0 G 0.5 w 327.5 402 43 43 re S Q
+q 1 G 0.5 w 327.5 445 m 370.5 402 l S Q
+BT 1 g /F2 7 Tf 349.86 408.45 Td (7) Tj ET
+BT 1 g /F2 7 Tf 330.94 426.94 Td (23) Tj ET
+q 0 G 0.8 w 370.5 402 43 43 re S Q
+q 0 G 0.8 w 413.5 402 43 43 re S Q
+q 0 G 0.8 w 456.5 402 43 43 re S Q
+q 0.25 g 112.5 359 43 43 re f Q
+q 0 G 0.5 w 112.5 359 43 43 re S Q
+q 1 G 0.5 w 112.5 402 m 155.5 359 l S Q
+BT 1 g /F2 7 Tf 134.86 365.45 Td (14) Tj ET
+q 0 G 0.8 w 155.5 359 43 43 re S Q
+q 0 G 0.8 w 198.5 359 43 43 re S Q
+q 0 G 0.8 w 241.5 359 43 43 re S Q
+q 0 G 0.8 w 284.5 359 43 43 re S Q
+q 0 G 0.8 w 327.5 359 43 43 re S Q
+q 0 G 0.8 w 370.5 359 43 43 re S Q
+q 0 G 0.8 w 413.5 359 43 43 re S Q
+q 0.25 g 456.5 359 43 43 re f Q
+q 0 G 0.5 w 456.5 359 43 43 re S Q
+q 1 G 0.5 w 456.5 402 m 499.5 359 l S Q
+BT 1 g /F2 7 Tf 459.94 383.94 Td (42) Tj ET
+q 0.25 g 112.5 316 43 43 re f Q
+q 0 G 0.5 w 112.5 316 43 43 re S Q
+q 1 G 0.5 w 112.5 359 m 155.5 316 l S Q
+BT 1 g /F2 7 Tf 134.86 322.45 Td (3) Tj ET
+q 0 G 0.8 w 155.5 316 43 43 re S Q
+q 0 G 0.8 w 198.5 316 43 43 re S Q
+q 0 G 0.8 w 241.5 316 43 43 re S Q
+q 0 G 0.8 w 284.5 316 43 43 re S Q
+q 0.25 g 327.5 316 43 43 re f Q
+q 0 G 0.5 w 327.5 316 43 43 re S Q
+q 1 G 0.5 w 327.5 359 m 370.5 316 l S Q
+q 0.25 g 370.5 316 43 43 re f Q
+q 0 G 0.5 w 370.5 316 43 43 re S Q
+q 1 G 0.5 w 370.5 359 m 413.5 316 l S Q
+BT 1 g /F2 7 Tf 392.86 322.45 Td (22) Tj ET
+BT 1 g /F2 7 Tf 373.94 340.94 Td (23) Tj ET
+q 0 G 0.8 w 413.5 316 43 43 re S Q
+q 0 G 0.8 w 456.5 316 43 43 re S Q
+q 0.25 g 112.5 273 43 43 re f Q
+q 0 G 0.5 w 112.5 273 43 43 re S Q
+q 1 G 0.5 w 112.5 316 m 155.5 273 l S Q
+BT 1 g /F2 7 Tf 134.86 279.45 Td (8) Tj ET
+q 0 G 0.8 w 155.5 273 43 43 re S Q
+q 0 G 0.8 w 198.5 273 43 43 re S Q
+q 0.25 g 241.5 273 43 43 re f Q
+q 0 G 0.5 w 241.5 273 43 43 re S Q
+q 1 G 0.5 w 241.5 316 m 284.5 273 l S Q
+BT 1 g /F2 7 Tf 263.86 279.45 Td (40) Tj ET
+q 0 G 0.8 w 284.5 273 43 43 re S Q
+q 0.25 g 327.5 273 43 43 re f Q
+q 0 G 0.5 w 327.5 273 43 43 re S Q
+q 1 G 0.5 w 327.5 316 m 370.5 273 l S Q
+BT 1 g /F2 7 Tf 349.86 279.45 Td (23) Tj ET
+q 0 G 0.8 w 370.5 273 43 43 re S Q
+q 0 G 0.8 w 413.5 273 43 43 re S Q
+q 0 G 0.8 w 456.5 273 43 43 re S Q
+
+endstream
+endobj
+62 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 63 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+63 0 obj
+<< /Length 6929 >>
+stream
+BT 0 g /F2 20 Tf 258.0 740 Td (Puzzle #25) Tj ET
+BT 0 g /F1 12 Tf 242.64 715 Td (Difficulty: Hard \(9x9\)) Tj ET
+q 0.25 g 112.5 617 43 43 re f Q
+q 0 G 0.5 w 112.5 617 43 43 re S Q
+q 1 G 0.5 w 112.5 660 m 155.5 617 l S Q
+q 0.25 g 155.5 617 43 43 re f Q
+q 0 G 0.5 w 155.5 617 43 43 re S Q
+q 1 G 0.5 w 155.5 660 m 198.5 617 l S Q
+BT 1 g /F2 7 Tf 158.94 641.94 Td (34) Tj ET
+q 0.25 g 198.5 617 43 43 re f Q
+q 0 G 0.5 w 198.5 617 43 43 re S Q
+q 1 G 0.5 w 198.5 660 m 241.5 617 l S Q
+q 0.25 g 241.5 617 43 43 re f Q
+q 0 G 0.5 w 241.5 617 43 43 re S Q
+q 1 G 0.5 w 241.5 660 m 284.5 617 l S Q
+BT 1 g /F2 7 Tf 244.94 641.94 Td (30) Tj ET
+q 0.25 g 284.5 617 43 43 re f Q
+q 0 G 0.5 w 284.5 617 43 43 re S Q
+q 1 G 0.5 w 284.5 660 m 327.5 617 l S Q
+q 0.25 g 327.5 617 43 43 re f Q
+q 0 G 0.5 w 327.5 617 43 43 re S Q
+q 1 G 0.5 w 327.5 660 m 370.5 617 l S Q
+BT 1 g /F2 7 Tf 330.94 641.94 Td (13) Tj ET
+q 0.25 g 370.5 617 43 43 re f Q
+q 0 G 0.5 w 370.5 617 43 43 re S Q
+q 1 G 0.5 w 370.5 660 m 413.5 617 l S Q
+q 0.25 g 413.5 617 43 43 re f Q
+q 0 G 0.5 w 413.5 617 43 43 re S Q
+q 1 G 0.5 w 413.5 660 m 456.5 617 l S Q
+q 0.25 g 456.5 617 43 43 re f Q
+q 0 G 0.5 w 456.5 617 43 43 re S Q
+q 1 G 0.5 w 456.5 660 m 499.5 617 l S Q
+BT 1 g /F2 7 Tf 459.94 641.94 Td (7) Tj ET
+q 0.25 g 112.5 574 43 43 re f Q
+q 0 G 0.5 w 112.5 574 43 43 re S Q
+q 1 G 0.5 w 112.5 617 m 155.5 574 l S Q
+BT 1 g /F2 7 Tf 134.86 580.45 Td (45) Tj ET
+q 0 G 0.8 w 155.5 574 43 43 re S Q
+q 0.25 g 198.5 574 43 43 re f Q
+q 0 G 0.5 w 198.5 574 43 43 re S Q
+q 1 G 0.5 w 198.5 617 m 241.5 574 l S Q
+BT 1 g /F2 7 Tf 220.86 580.45 Td (39) Tj ET
+BT 1 g /F2 7 Tf 201.94 598.94 Td (26) Tj ET
+q 0 G 0.8 w 241.5 574 43 43 re S Q
+q 0.25 g 284.5 574 43 43 re f Q
+q 0 G 0.5 w 284.5 574 43 43 re S Q
+q 1 G 0.5 w 284.5 617 m 327.5 574 l S Q
+BT 1 g /F2 7 Tf 306.86 580.45 Td (29) Tj ET
+BT 1 g /F2 7 Tf 287.94 598.94 Td (39) Tj ET
+q 0 G 0.8 w 327.5 574 43 43 re S Q
+q 0.25 g 370.5 574 43 43 re f Q
+q 0 G 0.5 w 370.5 574 43 43 re S Q
+q 1 G 0.5 w 370.5 617 m 413.5 574 l S Q
+BT 1 g /F2 7 Tf 373.94 598.94 Td (34) Tj ET
+q 0.25 g 413.5 574 43 43 re f Q
+q 0 G 0.5 w 413.5 574 43 43 re S Q
+q 1 G 0.5 w 413.5 617 m 456.5 574 l S Q
+BT 1 g /F2 7 Tf 435.86 580.45 Td (23) Tj ET
+BT 1 g /F2 7 Tf 416.94 598.94 Td (32) Tj ET
+q 0 G 0.8 w 456.5 574 43 43 re S Q
+q 0.25 g 112.5 531 43 43 re f Q
+q 0 G 0.5 w 112.5 531 43 43 re S Q
+q 1 G 0.5 w 112.5 574 m 155.5 531 l S Q
+q 0.25 g 155.5 531 43 43 re f Q
+q 0 G 0.5 w 155.5 531 43 43 re S Q
+q 1 G 0.5 w 155.5 574 m 198.5 531 l S Q
+BT 1 g /F2 7 Tf 177.86 537.45 Td (30) Tj ET
+q 0 G 0.8 w 198.5 531 43 43 re S Q
+q 0 G 0.8 w 241.5 531 43 43 re S Q
+q 0 G 0.8 w 284.5 531 43 43 re S Q
+q 0 G 0.8 w 327.5 531 43 43 re S Q
+q 0 G 0.8 w 370.5 531 43 43 re S Q
+q 0 G 0.8 w 413.5 531 43 43 re S Q
+q 0.25 g 456.5 531 43 43 re f Q
+q 0 G 0.5 w 456.5 531 43 43 re S Q
+q 1 G 0.5 w 456.5 574 m 499.5 531 l S Q
+BT 1 g /F2 7 Tf 459.94 555.94 Td (31) Tj ET
+q 0.25 g 112.5 488 43 43 re f Q
+q 0 G 0.5 w 112.5 488 43 43 re S Q
+q 1 G 0.5 w 112.5 531 m 155.5 488 l S Q
+q 0.25 g 155.5 488 43 43 re f Q
+q 0 G 0.5 w 155.5 488 43 43 re S Q
+q 1 G 0.5 w 155.5 531 m 198.5 488 l S Q
+BT 1 g /F2 7 Tf 177.86 494.45 Td (10) Tj ET
+BT 1 g /F2 7 Tf 158.94 512.94 Td (3) Tj ET
+q 0 G 0.8 w 198.5 488 43 43 re S Q
+q 0 G 0.8 w 241.5 488 43 43 re S Q
+q 0 G 0.8 w 284.5 488 43 43 re S Q
+q 0 G 0.8 w 327.5 488 43 43 re S Q
+q 0 G 0.8 w 370.5 488 43 43 re S Q
+q 0 G 0.8 w 413.5 488 43 43 re S Q
+q 0 G 0.8 w 456.5 488 43 43 re S Q
+q 0.25 g 112.5 445 43 43 re f Q
+q 0 G 0.5 w 112.5 445 43 43 re S Q
+q 1 G 0.5 w 112.5 488 m 155.5 445 l S Q
+BT 1 g /F2 7 Tf 134.86 451.45 Td (34) Tj ET
+q 0 G 0.8 w 155.5 445 43 43 re S Q
+q 0 G 0.8 w 198.5 445 43 43 re S Q
+q 0 G 0.8 w 241.5 445 43 43 re S Q
+q 0.25 g 284.5 445 43 43 re f Q
+q 0 G 0.5 w 284.5 445 43 43 re S Q
+q 1 G 0.5 w 284.5 488 m 327.5 445 l S Q
+BT 1 g /F2 7 Tf 306.86 451.45 Td (6) Tj ET
+BT 1 g /F2 7 Tf 287.94 469.94 Td (14) Tj ET
+q 0 G 0.8 w 327.5 445 43 43 re S Q
+q 0 G 0.8 w 370.5 445 43 43 re S Q
+q 0.25 g 413.5 445 43 43 re f Q
+q 0 G 0.5 w 413.5 445 43 43 re S Q
+q 1 G 0.5 w 413.5 488 m 456.5 445 l S Q
+BT 1 g /F2 7 Tf 435.86 451.45 Td (35) Tj ET
+BT 1 g /F2 7 Tf 416.94 469.94 Td (10) Tj ET
+q 0 G 0.8 w 456.5 445 43 43 re S Q
+q 0.25 g 112.5 402 43 43 re f Q
+q 0 G 0.5 w 112.5 402 43 43 re S Q
+q 1 G 0.5 w 112.5 445 m 155.5 402 l S Q
+BT 1 g /F2 7 Tf 134.86 408.45 Td (11) Tj ET
+q 0 G 0.8 w 155.5 402 43 43 re S Q
+q 0 G 0.8 w 198.5 402 43 43 re S Q
+q 0 G 0.8 w 241.5 402 43 43 re S Q
+q 0 G 0.8 w 284.5 402 43 43 re S Q
+q 0 G 0.8 w 327.5 402 43 43 re S Q
+q 0 G 0.8 w 370.5 402 43 43 re S Q
+q 0 G 0.8 w 413.5 402 43 43 re S Q
+q 0 G 0.8 w 456.5 402 43 43 re S Q
+q 0.25 g 112.5 359 43 43 re f Q
+q 0 G 0.5 w 112.5 359 43 43 re S Q
+q 1 G 0.5 w 112.5 402 m 155.5 359 l S Q
+BT 1 g /F2 7 Tf 134.86 365.45 Td (20) Tj ET
+q 0 G 0.8 w 155.5 359 43 43 re S Q
+q 0 G 0.8 w 198.5 359 43 43 re S Q
+q 0 G 0.8 w 241.5 359 43 43 re S Q
+q 0 G 0.8 w 284.5 359 43 43 re S Q
+q 0 G 0.8 w 327.5 359 43 43 re S Q
+q 0.25 g 370.5 359 43 43 re f Q
+q 0 G 0.5 w 370.5 359 43 43 re S Q
+q 1 G 0.5 w 370.5 402 m 413.5 359 l S Q
+BT 1 g /F2 7 Tf 392.86 365.45 Td (28) Tj ET
+q 0 G 0.8 w 413.5 359 43 43 re S Q
+q 0.25 g 456.5 359 43 43 re f Q
+q 0 G 0.5 w 456.5 359 43 43 re S Q
+q 1 G 0.5 w 456.5 402 m 499.5 359 l S Q
+q 0.25 g 112.5 316 43 43 re f Q
+q 0 G 0.5 w 112.5 316 43 43 re S Q
+q 1 G 0.5 w 112.5 359 m 155.5 316 l S Q
+BT 1 g /F2 7 Tf 134.86 322.45 Td (36) Tj ET
+q 0 G 0.8 w 155.5 316 43 43 re S Q
+q 0.25 g 198.5 316 43 43 re f Q
+q 0 G 0.5 w 198.5 316 43 43 re S Q
+q 1 G 0.5 w 198.5 359 m 241.5 316 l S Q
+BT 1 g /F2 7 Tf 220.86 322.45 Td (44) Tj ET
+q 0 G 0.8 w 241.5 316 43 43 re S Q
+q 0 G 0.8 w 284.5 316 43 43 re S Q
+q 0.25 g 327.5 316 43 43 re f Q
+q 0 G 0.5 w 327.5 316 43 43 re S Q
+q 1 G 0.5 w 327.5 359 m 370.5 316 l S Q
+BT 1 g /F2 7 Tf 330.94 340.94 Td (32) Tj ET
+q 0.25 g 370.5 316 43 43 re f Q
+q 0 G 0.5 w 370.5 316 43 43 re S Q
+q 1 G 0.5 w 370.5 359 m 413.5 316 l S Q
+BT 1 g /F2 7 Tf 392.86 322.45 Td (24) Tj ET
+q 0 G 0.8 w 413.5 316 43 43 re S Q
+q 0.25 g 456.5 316 43 43 re f Q
+q 0 G 0.5 w 456.5 316 43 43 re S Q
+q 1 G 0.5 w 456.5 359 m 499.5 316 l S Q
+q 0.25 g 112.5 273 43 43 re f Q
+q 0 G 0.5 w 112.5 273 43 43 re S Q
+q 1 G 0.5 w 112.5 316 m 155.5 273 l S Q
+q 0.25 g 155.5 273 43 43 re f Q
+q 0 G 0.5 w 155.5 273 43 43 re S Q
+q 1 G 0.5 w 155.5 316 m 198.5 273 l S Q
+q 0.25 g 198.5 273 43 43 re f Q
+q 0 G 0.5 w 198.5 273 43 43 re S Q
+q 1 G 0.5 w 198.5 316 m 241.5 273 l S Q
+q 0.25 g 241.5 273 43 43 re f Q
+q 0 G 0.5 w 241.5 273 43 43 re S Q
+q 1 G 0.5 w 241.5 316 m 284.5 273 l S Q
+BT 1 g /F2 7 Tf 263.86 279.45 Td (25) Tj ET
+q 0 G 0.8 w 284.5 273 43 43 re S Q
+q 0 G 0.8 w 327.5 273 43 43 re S Q
+q 0.25 g 370.5 273 43 43 re f Q
+q 0 G 0.5 w 370.5 273 43 43 re S Q
+q 1 G 0.5 w 370.5 316 m 413.5 273 l S Q
+BT 1 g /F2 7 Tf 392.86 279.45 Td (14) Tj ET
+q 0 G 0.8 w 413.5 273 43 43 re S Q
+q 0.25 g 456.5 273 43 43 re f Q
+q 0 G 0.5 w 456.5 273 43 43 re S Q
+q 1 G 0.5 w 456.5 316 m 499.5 273 l S Q
+
+endstream
+endobj
+64 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 65 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+65 0 obj
+<< /Length 49 >>
+stream
+BT 0 g /F2 24 Tf 254.16 700 Td (SOLUTIONS) Tj ET
+
+endstream
+endobj
+66 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 67 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+67 0 obj
+<< /Length 6395 >>
+stream
+BT 0 g /F2 16 Tf 236.88 750 Td (Solutions \(Page 1\)) Tj ET
+BT 0 g /F2 9 Tf 50 714 Td (#1 \(Easy\)) Tj ET
+q 0.3 g 50 680 20 20 re f Q
+q 0.3 g 70 680 20 20 re f Q
+q 0.3 g 90 680 20 20 re f Q
+q 0.3 g 110 680 20 20 re f Q
+q 0.3 g 130 680 20 20 re f Q
+q 0.3 g 50 660 20 20 re f Q
+q 0 G 0.3 w 70 660 20 20 re S Q
+BT 0 g /F1 7 Tf 75 664 Td (2) Tj ET
+q 0 G 0.3 w 90 660 20 20 re S Q
+BT 0 g /F1 7 Tf 95 664 Td (4) Tj ET
+q 0 G 0.3 w 110 660 20 20 re S Q
+BT 0 g /F1 7 Tf 115 664 Td (7) Tj ET
+q 0.3 g 130 660 20 20 re f Q
+q 0.3 g 50 640 20 20 re f Q
+q 0 G 0.3 w 70 640 20 20 re S Q
+BT 0 g /F1 7 Tf 75 644 Td (2) Tj ET
+q 0 G 0.3 w 90 640 20 20 re S Q
+BT 0 g /F1 7 Tf 95 644 Td (6) Tj ET
+q 0 G 0.3 w 110 640 20 20 re S Q
+BT 0 g /F1 7 Tf 115 644 Td (7) Tj ET
+q 0.3 g 130 640 20 20 re f Q
+q 0.3 g 50 620 20 20 re f Q
+q 0 G 0.3 w 70 620 20 20 re S Q
+BT 0 g /F1 7 Tf 75 624 Td (4) Tj ET
+q 0 G 0.3 w 90 620 20 20 re S Q
+BT 0 g /F1 7 Tf 95 624 Td (2) Tj ET
+q 0 G 0.3 w 110 620 20 20 re S Q
+BT 0 g /F1 7 Tf 115 624 Td (4) Tj ET
+q 0 G 0.3 w 130 620 20 20 re S Q
+BT 0 g /F1 7 Tf 135 624 Td (7) Tj ET
+q 0.3 g 50 600 20 20 re f Q
+q 0.3 g 70 600 20 20 re f Q
+q 0 G 0.3 w 90 600 20 20 re S Q
+BT 0 g /F1 7 Tf 95 604 Td (9) Tj ET
+q 0 G 0.3 w 110 600 20 20 re S Q
+BT 0 g /F1 7 Tf 115 604 Td (9) Tj ET
+q 0.3 g 130 600 20 20 re f Q
+BT 0 g /F2 9 Tf 330 714 Td (#2 \(Easy\)) Tj ET
+q 0.3 g 330 680 20 20 re f Q
+q 0.3 g 350 680 20 20 re f Q
+q 0.3 g 370 680 20 20 re f Q
+q 0.3 g 390 680 20 20 re f Q
+q 0.3 g 410 680 20 20 re f Q
+q 0.3 g 330 660 20 20 re f Q
+q 0 G 0.3 w 350 660 20 20 re S Q
+BT 0 g /F1 7 Tf 355 664 Td (9) Tj ET
+q 0 G 0.3 w 370 660 20 20 re S Q
+BT 0 g /F1 7 Tf 375 664 Td (1) Tj ET
+q 0 G 0.3 w 390 660 20 20 re S Q
+BT 0 g /F1 7 Tf 395 664 Td (4) Tj ET
+q 0 G 0.3 w 410 660 20 20 re S Q
+BT 0 g /F1 7 Tf 415 664 Td (9) Tj ET
+q 0.3 g 330 640 20 20 re f Q
+q 0 G 0.3 w 350 640 20 20 re S Q
+BT 0 g /F1 7 Tf 355 644 Td (8) Tj ET
+q 0 G 0.3 w 370 640 20 20 re S Q
+BT 0 g /F1 7 Tf 375 644 Td (1) Tj ET
+q 0.3 g 390 640 20 20 re f Q
+q 0 G 0.3 w 410 640 20 20 re S Q
+BT 0 g /F1 7 Tf 415 644 Td (2) Tj ET
+q 0.3 g 330 620 20 20 re f Q
+q 0 G 0.3 w 350 620 20 20 re S Q
+BT 0 g /F1 7 Tf 355 624 Td (6) Tj ET
+q 0 G 0.3 w 370 620 20 20 re S Q
+BT 0 g /F1 7 Tf 375 624 Td (4) Tj ET
+q 0 G 0.3 w 390 620 20 20 re S Q
+BT 0 g /F1 7 Tf 395 624 Td (2) Tj ET
+q 0 G 0.3 w 410 620 20 20 re S Q
+BT 0 g /F1 7 Tf 415 624 Td (1) Tj ET
+q 0.3 g 330 600 20 20 re f Q
+q 0 G 0.3 w 350 600 20 20 re S Q
+BT 0 g /F1 7 Tf 355 604 Td (8) Tj ET
+q 0 G 0.3 w 370 600 20 20 re S Q
+BT 0 g /F1 7 Tf 375 604 Td (6) Tj ET
+q 0 G 0.3 w 390 600 20 20 re S Q
+BT 0 g /F1 7 Tf 395 604 Td (8) Tj ET
+q 0 G 0.3 w 410 600 20 20 re S Q
+BT 0 g /F1 7 Tf 415 604 Td (2) Tj ET
+BT 0 g /F2 9 Tf 50 474 Td (#3 \(Easy\)) Tj ET
+q 0.3 g 50 440 20 20 re f Q
+q 0.3 g 70 440 20 20 re f Q
+q 0.3 g 90 440 20 20 re f Q
+q 0.3 g 110 440 20 20 re f Q
+q 0.3 g 130 440 20 20 re f Q
+q 0.3 g 50 420 20 20 re f Q
+q 0 G 0.3 w 70 420 20 20 re S Q
+BT 0 g /F1 7 Tf 75 424 Td (3) Tj ET
+q 0.3 g 90 420 20 20 re f Q
+q 0.3 g 110 420 20 20 re f Q
+q 0 G 0.3 w 130 420 20 20 re S Q
+BT 0 g /F1 7 Tf 135 424 Td (9) Tj ET
+q 0.3 g 50 400 20 20 re f Q
+q 0.3 g 70 400 20 20 re f Q
+q 0 G 0.3 w 90 400 20 20 re S Q
+BT 0 g /F1 7 Tf 95 404 Td (4) Tj ET
+q 0 G 0.3 w 110 400 20 20 re S Q
+BT 0 g /F1 7 Tf 115 404 Td (3) Tj ET
+q 0 G 0.3 w 130 400 20 20 re S Q
+BT 0 g /F1 7 Tf 135 404 Td (1) Tj ET
+q 0.3 g 50 380 20 20 re f Q
+q 0 G 0.3 w 70 380 20 20 re S Q
+BT 0 g /F1 7 Tf 75 384 Td (8) Tj ET
+q 0 G 0.3 w 90 380 20 20 re S Q
+BT 0 g /F1 7 Tf 95 384 Td (8) Tj ET
+q 0 G 0.3 w 110 380 20 20 re S Q
+BT 0 g /F1 7 Tf 115 384 Td (5) Tj ET
+q 0.3 g 130 380 20 20 re f Q
+q 0.3 g 50 360 20 20 re f Q
+q 0 G 0.3 w 70 360 20 20 re S Q
+BT 0 g /F1 7 Tf 75 364 Td (6) Tj ET
+q 0 G 0.3 w 90 360 20 20 re S Q
+BT 0 g /F1 7 Tf 95 364 Td (2) Tj ET
+q 0 G 0.3 w 110 360 20 20 re S Q
+BT 0 g /F1 7 Tf 115 364 Td (5) Tj ET
+q 0 G 0.3 w 130 360 20 20 re S Q
+BT 0 g /F1 7 Tf 135 364 Td (2) Tj ET
+BT 0 g /F2 9 Tf 330 474 Td (#4 \(Easy\)) Tj ET
+q 0.3 g 330 440 20 20 re f Q
+q 0.3 g 350 440 20 20 re f Q
+q 0.3 g 370 440 20 20 re f Q
+q 0.3 g 390 440 20 20 re f Q
+q 0.3 g 410 440 20 20 re f Q
+q 0.3 g 330 420 20 20 re f Q
+q 0.3 g 350 420 20 20 re f Q
+q 0.3 g 370 420 20 20 re f Q
+q 0.3 g 390 420 20 20 re f Q
+q 0 G 0.3 w 410 420 20 20 re S Q
+BT 0 g /F1 7 Tf 415 424 Td (3) Tj ET
+q 0.3 g 330 400 20 20 re f Q
+q 0 G 0.3 w 350 400 20 20 re S Q
+BT 0 g /F1 7 Tf 355 404 Td (4) Tj ET
+q 0 G 0.3 w 370 400 20 20 re S Q
+BT 0 g /F1 7 Tf 375 404 Td (7) Tj ET
+q 0 G 0.3 w 390 400 20 20 re S Q
+BT 0 g /F1 7 Tf 395 404 Td (9) Tj ET
+q 0 G 0.3 w 410 400 20 20 re S Q
+BT 0 g /F1 7 Tf 415 404 Td (9) Tj ET
+q 0.3 g 330 380 20 20 re f Q
+q 0 G 0.3 w 350 380 20 20 re S Q
+BT 0 g /F1 7 Tf 355 384 Td (7) Tj ET
+q 0 G 0.3 w 370 380 20 20 re S Q
+BT 0 g /F1 7 Tf 375 384 Td (1) Tj ET
+q 0.3 g 390 380 20 20 re f Q
+q 0 G 0.3 w 410 380 20 20 re S Q
+BT 0 g /F1 7 Tf 415 384 Td (3) Tj ET
+q 0.3 g 330 360 20 20 re f Q
+q 0.3 g 350 360 20 20 re f Q
+q 0.3 g 370 360 20 20 re f Q
+q 0 G 0.3 w 390 360 20 20 re S Q
+BT 0 g /F1 7 Tf 395 364 Td (5) Tj ET
+q 0 G 0.3 w 410 360 20 20 re S Q
+BT 0 g /F1 7 Tf 415 364 Td (4) Tj ET
+BT 0 g /F2 9 Tf 50 234 Td (#5 \(Easy\)) Tj ET
+q 0.3 g 50 200 20 20 re f Q
+q 0.3 g 70 200 20 20 re f Q
+q 0.3 g 90 200 20 20 re f Q
+q 0.3 g 110 200 20 20 re f Q
+q 0.3 g 130 200 20 20 re f Q
+q 0.3 g 50 180 20 20 re f Q
+q 0.3 g 70 180 20 20 re f Q
+q 0 G 0.3 w 90 180 20 20 re S Q
+BT 0 g /F1 7 Tf 95 184 Td (2) Tj ET
+q 0.3 g 110 180 20 20 re f Q
+q 0 G 0.3 w 130 180 20 20 re S Q
+BT 0 g /F1 7 Tf 135 184 Td (7) Tj ET
+q 0.3 g 50 160 20 20 re f Q
+q 0 G 0.3 w 70 160 20 20 re S Q
+BT 0 g /F1 7 Tf 75 164 Td (8) Tj ET
+q 0 G 0.3 w 90 160 20 20 re S Q
+BT 0 g /F1 7 Tf 95 164 Td (5) Tj ET
+q 0 G 0.3 w 110 160 20 20 re S Q
+BT 0 g /F1 7 Tf 115 164 Td (6) Tj ET
+q 0 G 0.3 w 130 160 20 20 re S Q
+BT 0 g /F1 7 Tf 135 164 Td (3) Tj ET
+q 0.3 g 50 140 20 20 re f Q
+q 0.3 g 70 140 20 20 re f Q
+q 0 G 0.3 w 90 140 20 20 re S Q
+BT 0 g /F1 7 Tf 95 144 Td (9) Tj ET
+q 0 G 0.3 w 110 140 20 20 re S Q
+BT 0 g /F1 7 Tf 115 144 Td (2) Tj ET
+q 0 G 0.3 w 130 140 20 20 re S Q
+BT 0 g /F1 7 Tf 135 144 Td (9) Tj ET
+q 0.3 g 50 120 20 20 re f Q
+q 0 G 0.3 w 70 120 20 20 re S Q
+BT 0 g /F1 7 Tf 75 124 Td (2) Tj ET
+q 0 G 0.3 w 90 120 20 20 re S Q
+BT 0 g /F1 7 Tf 95 124 Td (9) Tj ET
+q 0 G 0.3 w 110 120 20 20 re S Q
+BT 0 g /F1 7 Tf 115 124 Td (5) Tj ET
+q 0 G 0.3 w 130 120 20 20 re S Q
+BT 0 g /F1 7 Tf 135 124 Td (9) Tj ET
+
+endstream
+endobj
+68 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 69 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+69 0 obj
+<< /Length 8673 >>
+stream
+BT 0 g /F2 16 Tf 236.88 750 Td (Solutions \(Page 2\)) Tj ET
+BT 0 g /F2 9 Tf 50 714 Td (#6 \(Easy\)) Tj ET
+q 0.3 g 50 680 20 20 re f Q
+q 0.3 g 70 680 20 20 re f Q
+q 0.3 g 90 680 20 20 re f Q
+q 0.3 g 110 680 20 20 re f Q
+q 0.3 g 130 680 20 20 re f Q
+q 0.3 g 50 660 20 20 re f Q
+q 0 G 0.3 w 70 660 20 20 re S Q
+BT 0 g /F1 7 Tf 75 664 Td (1) Tj ET
+q 0 G 0.3 w 90 660 20 20 re S Q
+BT 0 g /F1 7 Tf 95 664 Td (6) Tj ET
+q 0.3 g 110 660 20 20 re f Q
+q 0.3 g 130 660 20 20 re f Q
+q 0.3 g 50 640 20 20 re f Q
+q 0 G 0.3 w 70 640 20 20 re S Q
+BT 0 g /F1 7 Tf 75 644 Td (6) Tj ET
+q 0 G 0.3 w 90 640 20 20 re S Q
+BT 0 g /F1 7 Tf 95 644 Td (2) Tj ET
+q 0 G 0.3 w 110 640 20 20 re S Q
+BT 0 g /F1 7 Tf 115 644 Td (1) Tj ET
+q 0.3 g 130 640 20 20 re f Q
+q 0.3 g 50 620 20 20 re f Q
+q 0.3 g 70 620 20 20 re f Q
+q 0 G 0.3 w 90 620 20 20 re S Q
+BT 0 g /F1 7 Tf 95 624 Td (5) Tj ET
+q 0.3 g 110 620 20 20 re f Q
+q 0 G 0.3 w 130 620 20 20 re S Q
+BT 0 g /F1 7 Tf 135 624 Td (5) Tj ET
+q 0.3 g 50 600 20 20 re f Q
+q 0 G 0.3 w 70 600 20 20 re S Q
+BT 0 g /F1 7 Tf 75 604 Td (6) Tj ET
+q 0 G 0.3 w 90 600 20 20 re S Q
+BT 0 g /F1 7 Tf 95 604 Td (4) Tj ET
+q 0 G 0.3 w 110 600 20 20 re S Q
+BT 0 g /F1 7 Tf 115 604 Td (5) Tj ET
+q 0.3 g 130 600 20 20 re f Q
+BT 0 g /F2 9 Tf 330 714 Td (#7 \(Easy\)) Tj ET
+q 0.3 g 330 680 20 20 re f Q
+q 0.3 g 350 680 20 20 re f Q
+q 0.3 g 370 680 20 20 re f Q
+q 0.3 g 390 680 20 20 re f Q
+q 0.3 g 410 680 20 20 re f Q
+q 0.3 g 330 660 20 20 re f Q
+q 0 G 0.3 w 350 660 20 20 re S Q
+BT 0 g /F1 7 Tf 355 664 Td (6) Tj ET
+q 0.3 g 370 660 20 20 re f Q
+q 0 G 0.3 w 390 660 20 20 re S Q
+BT 0 g /F1 7 Tf 395 664 Td (6) Tj ET
+q 0 G 0.3 w 410 660 20 20 re S Q
+BT 0 g /F1 7 Tf 415 664 Td (3) Tj ET
+q 0.3 g 330 640 20 20 re f Q
+q 0 G 0.3 w 350 640 20 20 re S Q
+BT 0 g /F1 7 Tf 355 644 Td (7) Tj ET
+q 0 G 0.3 w 370 640 20 20 re S Q
+BT 0 g /F1 7 Tf 375 644 Td (1) Tj ET
+q 0 G 0.3 w 390 640 20 20 re S Q
+BT 0 g /F1 7 Tf 395 644 Td (1) Tj ET
+q 0 G 0.3 w 410 640 20 20 re S Q
+BT 0 g /F1 7 Tf 415 644 Td (3) Tj ET
+q 0.3 g 330 620 20 20 re f Q
+q 0.3 g 350 620 20 20 re f Q
+q 0.3 g 370 620 20 20 re f Q
+q 0 G 0.3 w 390 620 20 20 re S Q
+BT 0 g /F1 7 Tf 395 624 Td (7) Tj ET
+q 0 G 0.3 w 410 620 20 20 re S Q
+BT 0 g /F1 7 Tf 415 624 Td (4) Tj ET
+q 0.3 g 330 600 20 20 re f Q
+q 0 G 0.3 w 350 600 20 20 re S Q
+BT 0 g /F1 7 Tf 355 604 Td (6) Tj ET
+q 0.3 g 370 600 20 20 re f Q
+q 0 G 0.3 w 390 600 20 20 re S Q
+BT 0 g /F1 7 Tf 395 604 Td (9) Tj ET
+q 0.3 g 410 600 20 20 re f Q
+BT 0 g /F2 9 Tf 50 474 Td (#8 \(Easy\)) Tj ET
+q 0.3 g 50 440 20 20 re f Q
+q 0.3 g 70 440 20 20 re f Q
+q 0.3 g 90 440 20 20 re f Q
+q 0.3 g 110 440 20 20 re f Q
+q 0.3 g 130 440 20 20 re f Q
+q 0.3 g 50 420 20 20 re f Q
+q 0 G 0.3 w 70 420 20 20 re S Q
+BT 0 g /F1 7 Tf 75 424 Td (9) Tj ET
+q 0 G 0.3 w 90 420 20 20 re S Q
+BT 0 g /F1 7 Tf 95 424 Td (7) Tj ET
+q 0 G 0.3 w 110 420 20 20 re S Q
+BT 0 g /F1 7 Tf 115 424 Td (6) Tj ET
+q 0 G 0.3 w 130 420 20 20 re S Q
+BT 0 g /F1 7 Tf 135 424 Td (7) Tj ET
+q 0.3 g 50 400 20 20 re f Q
+q 0 G 0.3 w 70 400 20 20 re S Q
+BT 0 g /F1 7 Tf 75 404 Td (1) Tj ET
+q 0 G 0.3 w 90 400 20 20 re S Q
+BT 0 g /F1 7 Tf 95 404 Td (8) Tj ET
+q 0.3 g 110 400 20 20 re f Q
+q 0 G 0.3 w 130 400 20 20 re S Q
+BT 0 g /F1 7 Tf 135 404 Td (3) Tj ET
+q 0.3 g 50 380 20 20 re f Q
+q 0 G 0.3 w 70 380 20 20 re S Q
+BT 0 g /F1 7 Tf 75 384 Td (5) Tj ET
+q 0 G 0.3 w 90 380 20 20 re S Q
+BT 0 g /F1 7 Tf 95 384 Td (1) Tj ET
+q 0 G 0.3 w 110 380 20 20 re S Q
+BT 0 g /F1 7 Tf 115 384 Td (3) Tj ET
+q 0.3 g 130 380 20 20 re f Q
+q 0.3 g 50 360 20 20 re f Q
+q 0 G 0.3 w 70 360 20 20 re S Q
+BT 0 g /F1 7 Tf 75 364 Td (6) Tj ET
+q 0 G 0.3 w 90 360 20 20 re S Q
+BT 0 g /F1 7 Tf 95 364 Td (2) Tj ET
+q 0.3 g 110 360 20 20 re f Q
+q 0 G 0.3 w 130 360 20 20 re S Q
+BT 0 g /F1 7 Tf 135 364 Td (6) Tj ET
+BT 0 g /F2 9 Tf 330 474 Td (#9 \(Medium\)) Tj ET
+q 0.3 g 330 440 20 20 re f Q
+q 0.3 g 350 440 20 20 re f Q
+q 0.3 g 370 440 20 20 re f Q
+q 0.3 g 390 440 20 20 re f Q
+q 0.3 g 410 440 20 20 re f Q
+q 0.3 g 430 440 20 20 re f Q
+q 0.3 g 450 440 20 20 re f Q
+q 0.3 g 330 420 20 20 re f Q
+q 0.3 g 350 420 20 20 re f Q
+q 0 G 0.3 w 370 420 20 20 re S Q
+BT 0 g /F1 7 Tf 375 424 Td (4) Tj ET
+q 0 G 0.3 w 390 420 20 20 re S Q
+BT 0 g /F1 7 Tf 395 424 Td (3) Tj ET
+q 0 G 0.3 w 410 420 20 20 re S Q
+BT 0 g /F1 7 Tf 415 424 Td (6) Tj ET
+q 0.3 g 430 420 20 20 re f Q
+q 0.3 g 450 420 20 20 re f Q
+q 0.3 g 330 400 20 20 re f Q
+q 0 G 0.3 w 350 400 20 20 re S Q
+BT 0 g /F1 7 Tf 355 404 Td (6) Tj ET
+q 0 G 0.3 w 370 400 20 20 re S Q
+BT 0 g /F1 7 Tf 375 404 Td (1) Tj ET
+q 0 G 0.3 w 390 400 20 20 re S Q
+BT 0 g /F1 7 Tf 395 404 Td (3) Tj ET
+q 0.3 g 410 400 20 20 re f Q
+q 0 G 0.3 w 430 400 20 20 re S Q
+BT 0 g /F1 7 Tf 435 404 Td (7) Tj ET
+q 0 G 0.3 w 450 400 20 20 re S Q
+BT 0 g /F1 7 Tf 455 404 Td (5) Tj ET
+q 0.3 g 330 380 20 20 re f Q
+q 0 G 0.3 w 350 380 20 20 re S Q
+BT 0 g /F1 7 Tf 355 384 Td (3) Tj ET
+q 0.3 g 370 380 20 20 re f Q
+q 0 G 0.3 w 390 380 20 20 re S Q
+BT 0 g /F1 7 Tf 395 384 Td (1) Tj ET
+q 0 G 0.3 w 410 380 20 20 re S Q
+BT 0 g /F1 7 Tf 415 384 Td (2) Tj ET
+q 0 G 0.3 w 430 380 20 20 re S Q
+BT 0 g /F1 7 Tf 435 384 Td (9) Tj ET
+q 0 G 0.3 w 450 380 20 20 re S Q
+BT 0 g /F1 7 Tf 455 384 Td (1) Tj ET
+q 0.3 g 330 360 20 20 re f Q
+q 0 G 0.3 w 350 360 20 20 re S Q
+BT 0 g /F1 7 Tf 355 364 Td (9) Tj ET
+q 0 G 0.3 w 370 360 20 20 re S Q
+BT 0 g /F1 7 Tf 375 364 Td (4) Tj ET
+q 0 G 0.3 w 390 360 20 20 re S Q
+BT 0 g /F1 7 Tf 395 364 Td (2) Tj ET
+q 0.3 g 410 360 20 20 re f Q
+q 0 G 0.3 w 430 360 20 20 re S Q
+BT 0 g /F1 7 Tf 435 364 Td (1) Tj ET
+q 0 G 0.3 w 450 360 20 20 re S Q
+BT 0 g /F1 7 Tf 455 364 Td (8) Tj ET
+q 0.3 g 330 340 20 20 re f Q
+q 0 G 0.3 w 350 340 20 20 re S Q
+BT 0 g /F1 7 Tf 355 344 Td (8) Tj ET
+q 0 G 0.3 w 370 340 20 20 re S Q
+BT 0 g /F1 7 Tf 375 344 Td (9) Tj ET
+q 0.3 g 390 340 20 20 re f Q
+q 0 G 0.3 w 410 340 20 20 re S Q
+BT 0 g /F1 7 Tf 415 344 Td (2) Tj ET
+q 0 G 0.3 w 430 340 20 20 re S Q
+BT 0 g /F1 7 Tf 435 344 Td (7) Tj ET
+q 0 G 0.3 w 450 340 20 20 re S Q
+BT 0 g /F1 7 Tf 455 344 Td (7) Tj ET
+q 0.3 g 330 320 20 20 re f Q
+q 0 G 0.3 w 350 320 20 20 re S Q
+BT 0 g /F1 7 Tf 355 324 Td (6) Tj ET
+q 0 G 0.3 w 370 320 20 20 re S Q
+BT 0 g /F1 7 Tf 375 324 Td (5) Tj ET
+q 0 G 0.3 w 390 320 20 20 re S Q
+BT 0 g /F1 7 Tf 395 324 Td (6) Tj ET
+q 0 G 0.3 w 410 320 20 20 re S Q
+BT 0 g /F1 7 Tf 415 324 Td (5) Tj ET
+q 0.3 g 430 320 20 20 re f Q
+q 0 G 0.3 w 450 320 20 20 re S Q
+BT 0 g /F1 7 Tf 455 324 Td (6) Tj ET
+BT 0 g /F2 9 Tf 50 234 Td (#10 \(Medium\)) Tj ET
+q 0.3 g 50 200 20 20 re f Q
+q 0.3 g 70 200 20 20 re f Q
+q 0.3 g 90 200 20 20 re f Q
+q 0.3 g 110 200 20 20 re f Q
+q 0.3 g 130 200 20 20 re f Q
+q 0.3 g 150 200 20 20 re f Q
+q 0.3 g 170 200 20 20 re f Q
+q 0.3 g 50 180 20 20 re f Q
+q 0 G 0.3 w 70 180 20 20 re S Q
+BT 0 g /F1 7 Tf 75 184 Td (5) Tj ET
+q 0.3 g 90 180 20 20 re f Q
+q 0 G 0.3 w 110 180 20 20 re S Q
+BT 0 g /F1 7 Tf 115 184 Td (7) Tj ET
+q 0 G 0.3 w 130 180 20 20 re S Q
+BT 0 g /F1 7 Tf 135 184 Td (8) Tj ET
+q 0.3 g 150 180 20 20 re f Q
+q 0 G 0.3 w 170 180 20 20 re S Q
+BT 0 g /F1 7 Tf 175 184 Td (6) Tj ET
+q 0.3 g 50 160 20 20 re f Q
+q 0 G 0.3 w 70 160 20 20 re S Q
+BT 0 g /F1 7 Tf 75 164 Td (1) Tj ET
+q 0 G 0.3 w 90 160 20 20 re S Q
+BT 0 g /F1 7 Tf 95 164 Td (9) Tj ET
+q 0 G 0.3 w 110 160 20 20 re S Q
+BT 0 g /F1 7 Tf 115 164 Td (3) Tj ET
+q 0.3 g 130 160 20 20 re f Q
+q 0 G 0.3 w 150 160 20 20 re S Q
+BT 0 g /F1 7 Tf 155 164 Td (7) Tj ET
+q 0.3 g 170 160 20 20 re f Q
+q 0.3 g 50 140 20 20 re f Q
+q 0.3 g 70 140 20 20 re f Q
+q 0 G 0.3 w 90 140 20 20 re S Q
+BT 0 g /F1 7 Tf 95 144 Td (8) Tj ET
+q 0 G 0.3 w 110 140 20 20 re S Q
+BT 0 g /F1 7 Tf 115 144 Td (9) Tj ET
+q 0.3 g 130 140 20 20 re f Q
+q 0.3 g 150 140 20 20 re f Q
+q 0 G 0.3 w 170 140 20 20 re S Q
+BT 0 g /F1 7 Tf 175 144 Td (8) Tj ET
+q 0.3 g 50 120 20 20 re f Q
+q 0 G 0.3 w 70 120 20 20 re S Q
+BT 0 g /F1 7 Tf 75 124 Td (8) Tj ET
+q 0 G 0.3 w 90 120 20 20 re S Q
+BT 0 g /F1 7 Tf 95 124 Td (2) Tj ET
+q 0.3 g 110 120 20 20 re f Q
+q 0 G 0.3 w 130 120 20 20 re S Q
+BT 0 g /F1 7 Tf 135 124 Td (2) Tj ET
+q 0 G 0.3 w 150 120 20 20 re S Q
+BT 0 g /F1 7 Tf 155 124 Td (5) Tj ET
+q 0 G 0.3 w 170 120 20 20 re S Q
+BT 0 g /F1 7 Tf 175 124 Td (5) Tj ET
+q 0.3 g 50 100 20 20 re f Q
+q 0 G 0.3 w 70 100 20 20 re S Q
+BT 0 g /F1 7 Tf 75 104 Td (6) Tj ET
+q 0.3 g 90 100 20 20 re f Q
+q 0.3 g 110 100 20 20 re f Q
+q 0 G 0.3 w 130 100 20 20 re S Q
+BT 0 g /F1 7 Tf 135 104 Td (9) Tj ET
+q 0 G 0.3 w 150 100 20 20 re S Q
+BT 0 g /F1 7 Tf 155 104 Td (9) Tj ET
+q 0.3 g 170 100 20 20 re f Q
+q 0.3 g 50 80 20 20 re f Q
+q 0 G 0.3 w 70 80 20 20 re S Q
+BT 0 g /F1 7 Tf 75 84 Td (2) Tj ET
+q 0 G 0.3 w 90 80 20 20 re S Q
+BT 0 g /F1 7 Tf 95 84 Td (8) Tj ET
+q 0 G 0.3 w 110 80 20 20 re S Q
+BT 0 g /F1 7 Tf 115 84 Td (2) Tj ET
+q 0.3 g 130 80 20 20 re f Q
+q 0.3 g 150 80 20 20 re f Q
+q 0.3 g 170 80 20 20 re f Q
+
+endstream
+endobj
+70 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 71 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+71 0 obj
+<< /Length 12522 >>
+stream
+BT 0 g /F2 16 Tf 236.88 750 Td (Solutions \(Page 3\)) Tj ET
+BT 0 g /F2 9 Tf 50 714 Td (#11 \(Medium\)) Tj ET
+q 0.3 g 50 680 20 20 re f Q
+q 0.3 g 70 680 20 20 re f Q
+q 0.3 g 90 680 20 20 re f Q
+q 0.3 g 110 680 20 20 re f Q
+q 0.3 g 130 680 20 20 re f Q
+q 0.3 g 150 680 20 20 re f Q
+q 0.3 g 170 680 20 20 re f Q
+q 0.3 g 50 660 20 20 re f Q
+q 0 G 0.3 w 70 660 20 20 re S Q
+BT 0 g /F1 7 Tf 75 664 Td (6) Tj ET
+q 0.3 g 90 660 20 20 re f Q
+q 0 G 0.3 w 110 660 20 20 re S Q
+BT 0 g /F1 7 Tf 115 664 Td (9) Tj ET
+q 0 G 0.3 w 130 660 20 20 re S Q
+BT 0 g /F1 7 Tf 135 664 Td (3) Tj ET
+q 0 G 0.3 w 150 660 20 20 re S Q
+BT 0 g /F1 7 Tf 155 664 Td (6) Tj ET
+q 0.3 g 170 660 20 20 re f Q
+q 0.3 g 50 640 20 20 re f Q
+q 0 G 0.3 w 70 640 20 20 re S Q
+BT 0 g /F1 7 Tf 75 644 Td (4) Tj ET
+q 0 G 0.3 w 90 640 20 20 re S Q
+BT 0 g /F1 7 Tf 95 644 Td (4) Tj ET
+q 0 G 0.3 w 110 640 20 20 re S Q
+BT 0 g /F1 7 Tf 115 644 Td (2) Tj ET
+q 0 G 0.3 w 130 640 20 20 re S Q
+BT 0 g /F1 7 Tf 135 644 Td (4) Tj ET
+q 0.3 g 150 640 20 20 re f Q
+q 0.3 g 170 640 20 20 re f Q
+q 0.3 g 50 620 20 20 re f Q
+q 0 G 0.3 w 70 620 20 20 re S Q
+BT 0 g /F1 7 Tf 75 624 Td (2) Tj ET
+q 0.3 g 90 620 20 20 re f Q
+q 0 G 0.3 w 110 620 20 20 re S Q
+BT 0 g /F1 7 Tf 115 624 Td (5) Tj ET
+q 0 G 0.3 w 130 620 20 20 re S Q
+BT 0 g /F1 7 Tf 135 624 Td (6) Tj ET
+q 0 G 0.3 w 150 620 20 20 re S Q
+BT 0 g /F1 7 Tf 155 624 Td (2) Tj ET
+q 0.3 g 170 620 20 20 re f Q
+q 0.3 g 50 600 20 20 re f Q
+q 0 G 0.3 w 70 600 20 20 re S Q
+BT 0 g /F1 7 Tf 75 604 Td (3) Tj ET
+q 0 G 0.3 w 90 600 20 20 re S Q
+BT 0 g /F1 7 Tf 95 604 Td (6) Tj ET
+q 0 G 0.3 w 110 600 20 20 re S Q
+BT 0 g /F1 7 Tf 115 604 Td (3) Tj ET
+q 0 G 0.3 w 130 600 20 20 re S Q
+BT 0 g /F1 7 Tf 135 604 Td (7) Tj ET
+q 0.3 g 150 600 20 20 re f Q
+q 0.3 g 170 600 20 20 re f Q
+q 0.3 g 50 580 20 20 re f Q
+q 0.3 g 70 580 20 20 re f Q
+q 0 G 0.3 w 90 580 20 20 re S Q
+BT 0 g /F1 7 Tf 95 584 Td (8) Tj ET
+q 0 G 0.3 w 110 580 20 20 re S Q
+BT 0 g /F1 7 Tf 115 584 Td (3) Tj ET
+q 0.3 g 130 580 20 20 re f Q
+q 0.3 g 150 580 20 20 re f Q
+q 0 G 0.3 w 170 580 20 20 re S Q
+BT 0 g /F1 7 Tf 175 584 Td (9) Tj ET
+q 0.3 g 50 560 20 20 re f Q
+q 0 G 0.3 w 70 560 20 20 re S Q
+BT 0 g /F1 7 Tf 75 564 Td (1) Tj ET
+q 0 G 0.3 w 90 560 20 20 re S Q
+BT 0 g /F1 7 Tf 95 564 Td (9) Tj ET
+q 0 G 0.3 w 110 560 20 20 re S Q
+BT 0 g /F1 7 Tf 115 564 Td (4) Tj ET
+q 0.3 g 130 560 20 20 re f Q
+q 0 G 0.3 w 150 560 20 20 re S Q
+BT 0 g /F1 7 Tf 155 564 Td (7) Tj ET
+q 0 G 0.3 w 170 560 20 20 re S Q
+BT 0 g /F1 7 Tf 175 564 Td (7) Tj ET
+BT 0 g /F2 9 Tf 330 714 Td (#12 \(Medium\)) Tj ET
+q 0.3 g 330 680 20 20 re f Q
+q 0.3 g 350 680 20 20 re f Q
+q 0.3 g 370 680 20 20 re f Q
+q 0.3 g 390 680 20 20 re f Q
+q 0.3 g 410 680 20 20 re f Q
+q 0.3 g 430 680 20 20 re f Q
+q 0.3 g 450 680 20 20 re f Q
+q 0.3 g 330 660 20 20 re f Q
+q 0 G 0.3 w 350 660 20 20 re S Q
+BT 0 g /F1 7 Tf 355 664 Td (2) Tj ET
+q 0 G 0.3 w 370 660 20 20 re S Q
+BT 0 g /F1 7 Tf 375 664 Td (9) Tj ET
+q 0 G 0.3 w 390 660 20 20 re S Q
+BT 0 g /F1 7 Tf 395 664 Td (7) Tj ET
+q 0 G 0.3 w 410 660 20 20 re S Q
+BT 0 g /F1 7 Tf 415 664 Td (9) Tj ET
+q 0 G 0.3 w 430 660 20 20 re S Q
+BT 0 g /F1 7 Tf 435 664 Td (2) Tj ET
+q 0 G 0.3 w 450 660 20 20 re S Q
+BT 0 g /F1 7 Tf 455 664 Td (7) Tj ET
+q 0.3 g 330 640 20 20 re f Q
+q 0 G 0.3 w 350 640 20 20 re S Q
+BT 0 g /F1 7 Tf 355 644 Td (2) Tj ET
+q 0 G 0.3 w 370 640 20 20 re S Q
+BT 0 g /F1 7 Tf 375 644 Td (8) Tj ET
+q 0 G 0.3 w 390 640 20 20 re S Q
+BT 0 g /F1 7 Tf 395 644 Td (2) Tj ET
+q 0.3 g 410 640 20 20 re f Q
+q 0 G 0.3 w 430 640 20 20 re S Q
+BT 0 g /F1 7 Tf 435 644 Td (5) Tj ET
+q 0.3 g 450 640 20 20 re f Q
+q 0.3 g 330 620 20 20 re f Q
+q 0 G 0.3 w 350 620 20 20 re S Q
+BT 0 g /F1 7 Tf 355 624 Td (9) Tj ET
+q 0 G 0.3 w 370 620 20 20 re S Q
+BT 0 g /F1 7 Tf 375 624 Td (3) Tj ET
+q 0 G 0.3 w 390 620 20 20 re S Q
+BT 0 g /F1 7 Tf 395 624 Td (4) Tj ET
+q 0 G 0.3 w 410 620 20 20 re S Q
+BT 0 g /F1 7 Tf 415 624 Td (9) Tj ET
+q 0 G 0.3 w 430 620 20 20 re S Q
+BT 0 g /F1 7 Tf 435 624 Td (7) Tj ET
+q 0.3 g 450 620 20 20 re f Q
+q 0.3 g 330 600 20 20 re f Q
+q 0 G 0.3 w 350 600 20 20 re S Q
+BT 0 g /F1 7 Tf 355 604 Td (2) Tj ET
+q 0.3 g 370 600 20 20 re f Q
+q 0 G 0.3 w 390 600 20 20 re S Q
+BT 0 g /F1 7 Tf 395 604 Td (3) Tj ET
+q 0 G 0.3 w 410 600 20 20 re S Q
+BT 0 g /F1 7 Tf 415 604 Td (1) Tj ET
+q 0 G 0.3 w 430 600 20 20 re S Q
+BT 0 g /F1 7 Tf 435 604 Td (3) Tj ET
+q 0 G 0.3 w 450 600 20 20 re S Q
+BT 0 g /F1 7 Tf 455 604 Td (1) Tj ET
+q 0.3 g 330 580 20 20 re f Q
+q 0 G 0.3 w 350 580 20 20 re S Q
+BT 0 g /F1 7 Tf 355 584 Td (1) Tj ET
+q 0.3 g 370 580 20 20 re f Q
+q 0 G 0.3 w 390 580 20 20 re S Q
+BT 0 g /F1 7 Tf 395 584 Td (6) Tj ET
+q 0 G 0.3 w 410 580 20 20 re S Q
+BT 0 g /F1 7 Tf 415 584 Td (5) Tj ET
+q 0 G 0.3 w 430 580 20 20 re S Q
+BT 0 g /F1 7 Tf 435 584 Td (5) Tj ET
+q 0 G 0.3 w 450 580 20 20 re S Q
+BT 0 g /F1 7 Tf 455 584 Td (2) Tj ET
+q 0.3 g 330 560 20 20 re f Q
+q 0 G 0.3 w 350 560 20 20 re S Q
+BT 0 g /F1 7 Tf 355 564 Td (6) Tj ET
+q 0 G 0.3 w 370 560 20 20 re S Q
+BT 0 g /F1 7 Tf 375 564 Td (5) Tj ET
+q 0 G 0.3 w 390 560 20 20 re S Q
+BT 0 g /F1 7 Tf 395 564 Td (4) Tj ET
+q 0 G 0.3 w 410 560 20 20 re S Q
+BT 0 g /F1 7 Tf 415 564 Td (6) Tj ET
+q 0 G 0.3 w 430 560 20 20 re S Q
+BT 0 g /F1 7 Tf 435 564 Td (5) Tj ET
+q 0.3 g 450 560 20 20 re f Q
+BT 0 g /F2 9 Tf 50 474 Td (#13 \(Medium\)) Tj ET
+q 0.3 g 50 440 20 20 re f Q
+q 0.3 g 70 440 20 20 re f Q
+q 0.3 g 90 440 20 20 re f Q
+q 0.3 g 110 440 20 20 re f Q
+q 0.3 g 130 440 20 20 re f Q
+q 0.3 g 150 440 20 20 re f Q
+q 0.3 g 170 440 20 20 re f Q
+q 0.3 g 50 420 20 20 re f Q
+q 0.3 g 70 420 20 20 re f Q
+q 0 G 0.3 w 90 420 20 20 re S Q
+BT 0 g /F1 7 Tf 95 424 Td (2) Tj ET
+q 0 G 0.3 w 110 420 20 20 re S Q
+BT 0 g /F1 7 Tf 115 424 Td (8) Tj ET
+q 0 G 0.3 w 130 420 20 20 re S Q
+BT 0 g /F1 7 Tf 135 424 Td (9) Tj ET
+q 0 G 0.3 w 150 420 20 20 re S Q
+BT 0 g /F1 7 Tf 155 424 Td (4) Tj ET
+q 0.3 g 170 420 20 20 re f Q
+q 0.3 g 50 400 20 20 re f Q
+q 0 G 0.3 w 70 400 20 20 re S Q
+BT 0 g /F1 7 Tf 75 404 Td (1) Tj ET
+q 0 G 0.3 w 90 400 20 20 re S Q
+BT 0 g /F1 7 Tf 95 404 Td (2) Tj ET
+q 0 G 0.3 w 110 400 20 20 re S Q
+BT 0 g /F1 7 Tf 115 404 Td (1) Tj ET
+q 0.3 g 130 400 20 20 re f Q
+q 0 G 0.3 w 150 400 20 20 re S Q
+BT 0 g /F1 7 Tf 155 404 Td (6) Tj ET
+q 0.3 g 170 400 20 20 re f Q
+q 0.3 g 50 380 20 20 re f Q
+q 0 G 0.3 w 70 380 20 20 re S Q
+BT 0 g /F1 7 Tf 75 384 Td (9) Tj ET
+q 0.3 g 90 380 20 20 re f Q
+q 0 G 0.3 w 110 380 20 20 re S Q
+BT 0 g /F1 7 Tf 115 384 Td (3) Tj ET
+q 0 G 0.3 w 130 380 20 20 re S Q
+BT 0 g /F1 7 Tf 135 384 Td (8) Tj ET
+q 0.3 g 150 380 20 20 re f Q
+q 0.3 g 170 380 20 20 re f Q
+q 0.3 g 50 360 20 20 re f Q
+q 0.3 g 70 360 20 20 re f Q
+q 0 G 0.3 w 90 360 20 20 re S Q
+BT 0 g /F1 7 Tf 95 364 Td (6) Tj ET
+q 0.3 g 110 360 20 20 re f Q
+q 0 G 0.3 w 130 360 20 20 re S Q
+BT 0 g /F1 7 Tf 135 364 Td (9) Tj ET
+q 0 G 0.3 w 150 360 20 20 re S Q
+BT 0 g /F1 7 Tf 155 364 Td (7) Tj ET
+q 0 G 0.3 w 170 360 20 20 re S Q
+BT 0 g /F1 7 Tf 175 364 Td (2) Tj ET
+q 0.3 g 50 340 20 20 re f Q
+q 0.3 g 70 340 20 20 re f Q
+q 0 G 0.3 w 90 340 20 20 re S Q
+BT 0 g /F1 7 Tf 95 344 Td (4) Tj ET
+q 0.3 g 110 340 20 20 re f Q
+q 0.3 g 130 340 20 20 re f Q
+q 0 G 0.3 w 150 340 20 20 re S Q
+BT 0 g /F1 7 Tf 155 344 Td (3) Tj ET
+q 0.3 g 170 340 20 20 re f Q
+q 0.3 g 50 320 20 20 re f Q
+q 0.3 g 70 320 20 20 re f Q
+q 0 G 0.3 w 90 320 20 20 re S Q
+BT 0 g /F1 7 Tf 95 324 Td (9) Tj ET
+q 0.3 g 110 320 20 20 re f Q
+q 0 G 0.3 w 130 320 20 20 re S Q
+BT 0 g /F1 7 Tf 135 324 Td (6) Tj ET
+q 0 G 0.3 w 150 320 20 20 re S Q
+BT 0 g /F1 7 Tf 155 324 Td (9) Tj ET
+q 0 G 0.3 w 170 320 20 20 re S Q
+BT 0 g /F1 7 Tf 175 324 Td (7) Tj ET
+BT 0 g /F2 9 Tf 330 474 Td (#14 \(Medium\)) Tj ET
+q 0.3 g 330 440 20 20 re f Q
+q 0.3 g 350 440 20 20 re f Q
+q 0.3 g 370 440 20 20 re f Q
+q 0.3 g 390 440 20 20 re f Q
+q 0.3 g 410 440 20 20 re f Q
+q 0.3 g 430 440 20 20 re f Q
+q 0.3 g 450 440 20 20 re f Q
+q 0.3 g 330 420 20 20 re f Q
+q 0 G 0.3 w 350 420 20 20 re S Q
+BT 0 g /F1 7 Tf 355 424 Td (6) Tj ET
+q 0 G 0.3 w 370 420 20 20 re S Q
+BT 0 g /F1 7 Tf 375 424 Td (7) Tj ET
+q 0.3 g 390 420 20 20 re f Q
+q 0.3 g 410 420 20 20 re f Q
+q 0 G 0.3 w 430 420 20 20 re S Q
+BT 0 g /F1 7 Tf 435 424 Td (3) Tj ET
+q 0.3 g 450 420 20 20 re f Q
+q 0.3 g 330 400 20 20 re f Q
+q 0.3 g 350 400 20 20 re f Q
+q 0 G 0.3 w 370 400 20 20 re S Q
+BT 0 g /F1 7 Tf 375 404 Td (3) Tj ET
+q 0 G 0.3 w 390 400 20 20 re S Q
+BT 0 g /F1 7 Tf 395 404 Td (9) Tj ET
+q 0 G 0.3 w 410 400 20 20 re S Q
+BT 0 g /F1 7 Tf 415 404 Td (9) Tj ET
+q 0 G 0.3 w 430 400 20 20 re S Q
+BT 0 g /F1 7 Tf 435 404 Td (5) Tj ET
+q 0 G 0.3 w 450 400 20 20 re S Q
+BT 0 g /F1 7 Tf 455 404 Td (1) Tj ET
+q 0.3 g 330 380 20 20 re f Q
+q 0 G 0.3 w 350 380 20 20 re S Q
+BT 0 g /F1 7 Tf 355 384 Td (7) Tj ET
+q 0.3 g 370 380 20 20 re f Q
+q 0 G 0.3 w 390 380 20 20 re S Q
+BT 0 g /F1 7 Tf 395 384 Td (4) Tj ET
+q 0 G 0.3 w 410 380 20 20 re S Q
+BT 0 g /F1 7 Tf 415 384 Td (9) Tj ET
+q 0 G 0.3 w 430 380 20 20 re S Q
+BT 0 g /F1 7 Tf 435 384 Td (5) Tj ET
+q 0 G 0.3 w 450 380 20 20 re S Q
+BT 0 g /F1 7 Tf 455 384 Td (1) Tj ET
+q 0.3 g 330 360 20 20 re f Q
+q 0 G 0.3 w 350 360 20 20 re S Q
+BT 0 g /F1 7 Tf 355 364 Td (1) Tj ET
+q 0 G 0.3 w 370 360 20 20 re S Q
+BT 0 g /F1 7 Tf 375 364 Td (4) Tj ET
+q 0 G 0.3 w 390 360 20 20 re S Q
+BT 0 g /F1 7 Tf 395 364 Td (1) Tj ET
+q 0 G 0.3 w 410 360 20 20 re S Q
+BT 0 g /F1 7 Tf 415 364 Td (8) Tj ET
+q 0.3 g 430 360 20 20 re f Q
+q 0 G 0.3 w 450 360 20 20 re S Q
+BT 0 g /F1 7 Tf 455 364 Td (8) Tj ET
+q 0.3 g 330 340 20 20 re f Q
+q 0 G 0.3 w 350 340 20 20 re S Q
+BT 0 g /F1 7 Tf 355 344 Td (8) Tj ET
+q 0 G 0.3 w 370 340 20 20 re S Q
+BT 0 g /F1 7 Tf 375 344 Td (7) Tj ET
+q 0 G 0.3 w 390 340 20 20 re S Q
+BT 0 g /F1 7 Tf 395 344 Td (5) Tj ET
+q 0.3 g 410 340 20 20 re f Q
+q 0 G 0.3 w 430 340 20 20 re S Q
+BT 0 g /F1 7 Tf 435 344 Td (7) Tj ET
+q 0 G 0.3 w 450 340 20 20 re S Q
+BT 0 g /F1 7 Tf 455 344 Td (2) Tj ET
+q 0.3 g 330 320 20 20 re f Q
+q 0 G 0.3 w 350 320 20 20 re S Q
+BT 0 g /F1 7 Tf 355 324 Td (3) Tj ET
+q 0.3 g 370 320 20 20 re f Q
+q 0 G 0.3 w 390 320 20 20 re S Q
+BT 0 g /F1 7 Tf 395 324 Td (9) Tj ET
+q 0 G 0.3 w 410 320 20 20 re S Q
+BT 0 g /F1 7 Tf 415 324 Td (4) Tj ET
+q 0 G 0.3 w 430 320 20 20 re S Q
+BT 0 g /F1 7 Tf 435 324 Td (9) Tj ET
+q 0 G 0.3 w 450 320 20 20 re S Q
+BT 0 g /F1 7 Tf 455 324 Td (5) Tj ET
+BT 0 g /F2 9 Tf 50 234 Td (#15 \(Medium\)) Tj ET
+q 0.3 g 50 200 20 20 re f Q
+q 0.3 g 70 200 20 20 re f Q
+q 0.3 g 90 200 20 20 re f Q
+q 0.3 g 110 200 20 20 re f Q
+q 0.3 g 130 200 20 20 re f Q
+q 0.3 g 150 200 20 20 re f Q
+q 0.3 g 170 200 20 20 re f Q
+q 0.3 g 50 180 20 20 re f Q
+q 0.3 g 70 180 20 20 re f Q
+q 0.3 g 90 180 20 20 re f Q
+q 0 G 0.3 w 110 180 20 20 re S Q
+BT 0 g /F1 7 Tf 115 184 Td (1) Tj ET
+q 0.3 g 130 180 20 20 re f Q
+q 0.3 g 150 180 20 20 re f Q
+q 0 G 0.3 w 170 180 20 20 re S Q
+BT 0 g /F1 7 Tf 175 184 Td (6) Tj ET
+q 0.3 g 50 160 20 20 re f Q
+q 0 G 0.3 w 70 160 20 20 re S Q
+BT 0 g /F1 7 Tf 75 164 Td (6) Tj ET
+q 0 G 0.3 w 90 160 20 20 re S Q
+BT 0 g /F1 7 Tf 95 164 Td (7) Tj ET
+q 0 G 0.3 w 110 160 20 20 re S Q
+BT 0 g /F1 7 Tf 115 164 Td (5) Tj ET
+q 0 G 0.3 w 130 160 20 20 re S Q
+BT 0 g /F1 7 Tf 135 164 Td (2) Tj ET
+q 0.3 g 150 160 20 20 re f Q
+q 0 G 0.3 w 170 160 20 20 re S Q
+BT 0 g /F1 7 Tf 175 164 Td (3) Tj ET
+q 0.3 g 50 140 20 20 re f Q
+q 0.3 g 70 140 20 20 re f Q
+q 0.3 g 90 140 20 20 re f Q
+q 0.3 g 110 140 20 20 re f Q
+q 0 G 0.3 w 130 140 20 20 re S Q
+BT 0 g /F1 7 Tf 135 144 Td (8) Tj ET
+q 0 G 0.3 w 150 140 20 20 re S Q
+BT 0 g /F1 7 Tf 155 144 Td (9) Tj ET
+q 0 G 0.3 w 170 140 20 20 re S Q
+BT 0 g /F1 7 Tf 175 144 Td (1) Tj ET
+q 0.3 g 50 120 20 20 re f Q
+q 0 G 0.3 w 70 120 20 20 re S Q
+BT 0 g /F1 7 Tf 75 124 Td (5) Tj ET
+q 0 G 0.3 w 90 120 20 20 re S Q
+BT 0 g /F1 7 Tf 95 124 Td (3) Tj ET
+q 0 G 0.3 w 110 120 20 20 re S Q
+BT 0 g /F1 7 Tf 115 124 Td (7) Tj ET
+q 0.3 g 130 120 20 20 re f Q
+q 0 G 0.3 w 150 120 20 20 re S Q
+BT 0 g /F1 7 Tf 155 124 Td (7) Tj ET
+q 0 G 0.3 w 170 120 20 20 re S Q
+BT 0 g /F1 7 Tf 175 124 Td (1) Tj ET
+q 0.3 g 50 100 20 20 re f Q
+q 0.3 g 70 100 20 20 re f Q
+q 0 G 0.3 w 90 100 20 20 re S Q
+BT 0 g /F1 7 Tf 95 104 Td (3) Tj ET
+q 0 G 0.3 w 110 100 20 20 re S Q
+BT 0 g /F1 7 Tf 115 104 Td (3) Tj ET
+q 0 G 0.3 w 130 100 20 20 re S Q
+BT 0 g /F1 7 Tf 135 104 Td (8) Tj ET
+q 0 G 0.3 w 150 100 20 20 re S Q
+BT 0 g /F1 7 Tf 155 104 Td (8) Tj ET
+q 0.3 g 170 100 20 20 re f Q
+q 0.3 g 50 80 20 20 re f Q
+q 0 G 0.3 w 70 80 20 20 re S Q
+BT 0 g /F1 7 Tf 75 84 Td (6) Tj ET
+q 0.3 g 90 80 20 20 re f Q
+q 0 G 0.3 w 110 80 20 20 re S Q
+BT 0 g /F1 7 Tf 115 84 Td (2) Tj ET
+q 0 G 0.3 w 130 80 20 20 re S Q
+BT 0 g /F1 7 Tf 135 84 Td (9) Tj ET
+q 0 G 0.3 w 150 80 20 20 re S Q
+BT 0 g /F1 7 Tf 155 84 Td (7) Tj ET
+q 0 G 0.3 w 170 80 20 20 re S Q
+BT 0 g /F1 7 Tf 175 84 Td (6) Tj ET
+
+endstream
+endobj
+72 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 73 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+73 0 obj
+<< /Length 17946 >>
+stream
+BT 0 g /F2 16 Tf 236.88 750 Td (Solutions \(Page 4\)) Tj ET
+BT 0 g /F2 9 Tf 50 714 Td (#16 \(Medium\)) Tj ET
+q 0.3 g 50 680 20 20 re f Q
+q 0.3 g 70 680 20 20 re f Q
+q 0.3 g 90 680 20 20 re f Q
+q 0.3 g 110 680 20 20 re f Q
+q 0.3 g 130 680 20 20 re f Q
+q 0.3 g 150 680 20 20 re f Q
+q 0.3 g 170 680 20 20 re f Q
+q 0.3 g 50 660 20 20 re f Q
+q 0 G 0.3 w 70 660 20 20 re S Q
+BT 0 g /F1 7 Tf 75 664 Td (1) Tj ET
+q 0 G 0.3 w 90 660 20 20 re S Q
+BT 0 g /F1 7 Tf 95 664 Td (3) Tj ET
+q 0.3 g 110 660 20 20 re f Q
+q 0 G 0.3 w 130 660 20 20 re S Q
+BT 0 g /F1 7 Tf 135 664 Td (5) Tj ET
+q 0.3 g 150 660 20 20 re f Q
+q 0 G 0.3 w 170 660 20 20 re S Q
+BT 0 g /F1 7 Tf 175 664 Td (4) Tj ET
+q 0.3 g 50 640 20 20 re f Q
+q 0 G 0.3 w 70 640 20 20 re S Q
+BT 0 g /F1 7 Tf 75 644 Td (8) Tj ET
+q 0.3 g 90 640 20 20 re f Q
+q 0.3 g 110 640 20 20 re f Q
+q 0.3 g 130 640 20 20 re f Q
+q 0 G 0.3 w 150 640 20 20 re S Q
+BT 0 g /F1 7 Tf 155 644 Td (4) Tj ET
+q 0 G 0.3 w 170 640 20 20 re S Q
+BT 0 g /F1 7 Tf 175 644 Td (7) Tj ET
+q 0.3 g 50 620 20 20 re f Q
+q 0 G 0.3 w 70 620 20 20 re S Q
+BT 0 g /F1 7 Tf 75 624 Td (4) Tj ET
+q 0 G 0.3 w 90 620 20 20 re S Q
+BT 0 g /F1 7 Tf 95 624 Td (4) Tj ET
+q 0.3 g 110 620 20 20 re f Q
+q 0.3 g 130 620 20 20 re f Q
+q 0 G 0.3 w 150 620 20 20 re S Q
+BT 0 g /F1 7 Tf 155 624 Td (4) Tj ET
+q 0.3 g 170 620 20 20 re f Q
+q 0.3 g 50 600 20 20 re f Q
+q 0 G 0.3 w 70 600 20 20 re S Q
+BT 0 g /F1 7 Tf 75 604 Td (5) Tj ET
+q 0 G 0.3 w 90 600 20 20 re S Q
+BT 0 g /F1 7 Tf 95 604 Td (2) Tj ET
+q 0.3 g 110 600 20 20 re f Q
+q 0 G 0.3 w 130 600 20 20 re S Q
+BT 0 g /F1 7 Tf 135 604 Td (9) Tj ET
+q 0 G 0.3 w 150 600 20 20 re S Q
+BT 0 g /F1 7 Tf 155 604 Td (1) Tj ET
+q 0 G 0.3 w 170 600 20 20 re S Q
+BT 0 g /F1 7 Tf 175 604 Td (8) Tj ET
+q 0.3 g 50 580 20 20 re f Q
+q 0 G 0.3 w 70 580 20 20 re S Q
+BT 0 g /F1 7 Tf 75 584 Td (9) Tj ET
+q 0 G 0.3 w 90 580 20 20 re S Q
+BT 0 g /F1 7 Tf 95 584 Td (8) Tj ET
+q 0.3 g 110 580 20 20 re f Q
+q 0 G 0.3 w 130 580 20 20 re S Q
+BT 0 g /F1 7 Tf 135 584 Td (7) Tj ET
+q 0.3 g 150 580 20 20 re f Q
+q 0 G 0.3 w 170 580 20 20 re S Q
+BT 0 g /F1 7 Tf 175 584 Td (8) Tj ET
+q 0.3 g 50 560 20 20 re f Q
+q 0 G 0.3 w 70 560 20 20 re S Q
+BT 0 g /F1 7 Tf 75 564 Td (9) Tj ET
+q 0 G 0.3 w 90 560 20 20 re S Q
+BT 0 g /F1 7 Tf 95 564 Td (9) Tj ET
+q 0 G 0.3 w 110 560 20 20 re S Q
+BT 0 g /F1 7 Tf 115 564 Td (5) Tj ET
+q 0 G 0.3 w 130 560 20 20 re S Q
+BT 0 g /F1 7 Tf 135 564 Td (4) Tj ET
+q 0 G 0.3 w 150 560 20 20 re S Q
+BT 0 g /F1 7 Tf 155 564 Td (5) Tj ET
+q 0 G 0.3 w 170 560 20 20 re S Q
+BT 0 g /F1 7 Tf 175 564 Td (4) Tj ET
+BT 0 g /F2 9 Tf 330 714 Td (#17 \(Medium\)) Tj ET
+q 0.3 g 330 680 20 20 re f Q
+q 0.3 g 350 680 20 20 re f Q
+q 0.3 g 370 680 20 20 re f Q
+q 0.3 g 390 680 20 20 re f Q
+q 0.3 g 410 680 20 20 re f Q
+q 0.3 g 430 680 20 20 re f Q
+q 0.3 g 450 680 20 20 re f Q
+q 0.3 g 330 660 20 20 re f Q
+q 0 G 0.3 w 350 660 20 20 re S Q
+BT 0 g /F1 7 Tf 355 664 Td (1) Tj ET
+q 0 G 0.3 w 370 660 20 20 re S Q
+BT 0 g /F1 7 Tf 375 664 Td (5) Tj ET
+q 0 G 0.3 w 390 660 20 20 re S Q
+BT 0 g /F1 7 Tf 395 664 Td (9) Tj ET
+q 0 G 0.3 w 410 660 20 20 re S Q
+BT 0 g /F1 7 Tf 415 664 Td (3) Tj ET
+q 0 G 0.3 w 430 660 20 20 re S Q
+BT 0 g /F1 7 Tf 435 664 Td (1) Tj ET
+q 0 G 0.3 w 450 660 20 20 re S Q
+BT 0 g /F1 7 Tf 455 664 Td (4) Tj ET
+q 0.3 g 330 640 20 20 re f Q
+q 0.3 g 350 640 20 20 re f Q
+q 0 G 0.3 w 370 640 20 20 re S Q
+BT 0 g /F1 7 Tf 375 644 Td (2) Tj ET
+q 0 G 0.3 w 390 640 20 20 re S Q
+BT 0 g /F1 7 Tf 395 644 Td (7) Tj ET
+q 0 G 0.3 w 410 640 20 20 re S Q
+BT 0 g /F1 7 Tf 415 644 Td (5) Tj ET
+q 0 G 0.3 w 430 640 20 20 re S Q
+BT 0 g /F1 7 Tf 435 644 Td (7) Tj ET
+q 0 G 0.3 w 450 640 20 20 re S Q
+BT 0 g /F1 7 Tf 455 644 Td (6) Tj ET
+q 0.3 g 330 620 20 20 re f Q
+q 0 G 0.3 w 350 620 20 20 re S Q
+BT 0 g /F1 7 Tf 355 624 Td (6) Tj ET
+q 0 G 0.3 w 370 620 20 20 re S Q
+BT 0 g /F1 7 Tf 375 624 Td (4) Tj ET
+q 0.3 g 390 620 20 20 re f Q
+q 0 G 0.3 w 410 620 20 20 re S Q
+BT 0 g /F1 7 Tf 415 624 Td (6) Tj ET
+q 0 G 0.3 w 430 620 20 20 re S Q
+BT 0 g /F1 7 Tf 435 624 Td (7) Tj ET
+q 0 G 0.3 w 450 620 20 20 re S Q
+BT 0 g /F1 7 Tf 455 624 Td (7) Tj ET
+q 0.3 g 330 600 20 20 re f Q
+q 0 G 0.3 w 350 600 20 20 re S Q
+BT 0 g /F1 7 Tf 355 604 Td (3) Tj ET
+q 0 G 0.3 w 370 600 20 20 re S Q
+BT 0 g /F1 7 Tf 375 604 Td (7) Tj ET
+q 0 G 0.3 w 390 600 20 20 re S Q
+BT 0 g /F1 7 Tf 395 604 Td (5) Tj ET
+q 0.3 g 410 600 20 20 re f Q
+q 0 G 0.3 w 430 600 20 20 re S Q
+BT 0 g /F1 7 Tf 435 604 Td (5) Tj ET
+q 0.3 g 450 600 20 20 re f Q
+q 0.3 g 330 580 20 20 re f Q
+q 0 G 0.3 w 350 580 20 20 re S Q
+BT 0 g /F1 7 Tf 355 584 Td (3) Tj ET
+q 0.3 g 370 580 20 20 re f Q
+q 0 G 0.3 w 390 580 20 20 re S Q
+BT 0 g /F1 7 Tf 395 584 Td (8) Tj ET
+q 0.3 g 410 580 20 20 re f Q
+q 0 G 0.3 w 430 580 20 20 re S Q
+BT 0 g /F1 7 Tf 435 584 Td (8) Tj ET
+q 0 G 0.3 w 450 580 20 20 re S Q
+BT 0 g /F1 7 Tf 455 584 Td (2) Tj ET
+q 0.3 g 330 560 20 20 re f Q
+q 0.3 g 350 560 20 20 re f Q
+q 0.3 g 370 560 20 20 re f Q
+q 0.3 g 390 560 20 20 re f Q
+q 0 G 0.3 w 410 560 20 20 re S Q
+BT 0 g /F1 7 Tf 415 564 Td (6) Tj ET
+q 0 G 0.3 w 430 560 20 20 re S Q
+BT 0 g /F1 7 Tf 435 564 Td (1) Tj ET
+q 0 G 0.3 w 450 560 20 20 re S Q
+BT 0 g /F1 7 Tf 455 564 Td (5) Tj ET
+BT 0 g /F2 9 Tf 50 474 Td (#18 \(Hard\)) Tj ET
+q 0.3 g 50 440 20 20 re f Q
+q 0.3 g 70 440 20 20 re f Q
+q 0.3 g 90 440 20 20 re f Q
+q 0.3 g 110 440 20 20 re f Q
+q 0.3 g 130 440 20 20 re f Q
+q 0.3 g 150 440 20 20 re f Q
+q 0.3 g 170 440 20 20 re f Q
+q 0.3 g 190 440 20 20 re f Q
+q 0.3 g 210 440 20 20 re f Q
+q 0.3 g 50 420 20 20 re f Q
+q 0 G 0.3 w 70 420 20 20 re S Q
+BT 0 g /F1 7 Tf 75 424 Td (7) Tj ET
+q 0.3 g 90 420 20 20 re f Q
+q 0 G 0.3 w 110 420 20 20 re S Q
+BT 0 g /F1 7 Tf 115 424 Td (3) Tj ET
+q 0 G 0.3 w 130 420 20 20 re S Q
+BT 0 g /F1 7 Tf 135 424 Td (7) Tj ET
+q 0 G 0.3 w 150 420 20 20 re S Q
+BT 0 g /F1 7 Tf 155 424 Td (6) Tj ET
+q 0.3 g 170 420 20 20 re f Q
+q 0 G 0.3 w 190 420 20 20 re S Q
+BT 0 g /F1 7 Tf 195 424 Td (2) Tj ET
+q 0 G 0.3 w 210 420 20 20 re S Q
+BT 0 g /F1 7 Tf 215 424 Td (5) Tj ET
+q 0.3 g 50 400 20 20 re f Q
+q 0 G 0.3 w 70 400 20 20 re S Q
+BT 0 g /F1 7 Tf 75 404 Td (2) Tj ET
+q 0 G 0.3 w 90 400 20 20 re S Q
+BT 0 g /F1 7 Tf 95 404 Td (5) Tj ET
+q 0.3 g 110 400 20 20 re f Q
+q 0 G 0.3 w 130 400 20 20 re S Q
+BT 0 g /F1 7 Tf 135 404 Td (7) Tj ET
+q 0 G 0.3 w 150 400 20 20 re S Q
+BT 0 g /F1 7 Tf 155 404 Td (4) Tj ET
+q 0 G 0.3 w 170 400 20 20 re S Q
+BT 0 g /F1 7 Tf 175 404 Td (1) Tj ET
+q 0 G 0.3 w 190 400 20 20 re S Q
+BT 0 g /F1 7 Tf 195 404 Td (3) Tj ET
+q 0.3 g 210 400 20 20 re f Q
+q 0.3 g 50 380 20 20 re f Q
+q 0 G 0.3 w 70 380 20 20 re S Q
+BT 0 g /F1 7 Tf 75 384 Td (9) Tj ET
+q 0.3 g 90 380 20 20 re f Q
+q 0 G 0.3 w 110 380 20 20 re S Q
+BT 0 g /F1 7 Tf 115 384 Td (8) Tj ET
+q 0 G 0.3 w 130 380 20 20 re S Q
+BT 0 g /F1 7 Tf 135 384 Td (5) Tj ET
+q 0 G 0.3 w 150 380 20 20 re S Q
+BT 0 g /F1 7 Tf 155 384 Td (5) Tj ET
+q 0.3 g 170 380 20 20 re f Q
+q 0.3 g 190 380 20 20 re f Q
+q 0.3 g 210 380 20 20 re f Q
+q 0.3 g 50 360 20 20 re f Q
+q 0 G 0.3 w 70 360 20 20 re S Q
+BT 0 g /F1 7 Tf 75 364 Td (6) Tj ET
+q 0 G 0.3 w 90 360 20 20 re S Q
+BT 0 g /F1 7 Tf 95 364 Td (8) Tj ET
+q 0 G 0.3 w 110 360 20 20 re S Q
+BT 0 g /F1 7 Tf 115 364 Td (1) Tj ET
+q 0 G 0.3 w 130 360 20 20 re S Q
+BT 0 g /F1 7 Tf 135 364 Td (1) Tj ET
+q 0 G 0.3 w 150 360 20 20 re S Q
+BT 0 g /F1 7 Tf 155 364 Td (7) Tj ET
+q 0 G 0.3 w 170 360 20 20 re S Q
+BT 0 g /F1 7 Tf 175 364 Td (6) Tj ET
+q 0 G 0.3 w 190 360 20 20 re S Q
+BT 0 g /F1 7 Tf 195 364 Td (5) Tj ET
+q 0.3 g 210 360 20 20 re f Q
+q 0.3 g 50 340 20 20 re f Q
+q 0.3 g 70 340 20 20 re f Q
+q 0 G 0.3 w 90 340 20 20 re S Q
+BT 0 g /F1 7 Tf 95 344 Td (8) Tj ET
+q 0 G 0.3 w 110 340 20 20 re S Q
+BT 0 g /F1 7 Tf 115 344 Td (7) Tj ET
+q 0 G 0.3 w 130 340 20 20 re S Q
+BT 0 g /F1 7 Tf 135 344 Td (2) Tj ET
+q 0.3 g 150 340 20 20 re f Q
+q 0 G 0.3 w 170 340 20 20 re S Q
+BT 0 g /F1 7 Tf 175 344 Td (3) Tj ET
+q 0.3 g 190 340 20 20 re f Q
+q 0 G 0.3 w 210 340 20 20 re S Q
+BT 0 g /F1 7 Tf 215 344 Td (2) Tj ET
+q 0.3 g 50 320 20 20 re f Q
+q 0.3 g 70 320 20 20 re f Q
+q 0 G 0.3 w 90 320 20 20 re S Q
+BT 0 g /F1 7 Tf 95 324 Td (4) Tj ET
+q 0 G 0.3 w 110 320 20 20 re S Q
+BT 0 g /F1 7 Tf 115 324 Td (8) Tj ET
+q 0.3 g 130 320 20 20 re f Q
+q 0 G 0.3 w 150 320 20 20 re S Q
+BT 0 g /F1 7 Tf 155 324 Td (6) Tj ET
+q 0.3 g 170 320 20 20 re f Q
+q 0 G 0.3 w 190 320 20 20 re S Q
+BT 0 g /F1 7 Tf 195 324 Td (9) Tj ET
+q 0 G 0.3 w 210 320 20 20 re S Q
+BT 0 g /F1 7 Tf 215 324 Td (7) Tj ET
+q 0.3 g 50 300 20 20 re f Q
+q 0 G 0.3 w 70 300 20 20 re S Q
+BT 0 g /F1 7 Tf 75 304 Td (4) Tj ET
+q 0 G 0.3 w 90 300 20 20 re S Q
+BT 0 g /F1 7 Tf 95 304 Td (7) Tj ET
+q 0.3 g 110 300 20 20 re f Q
+q 0 G 0.3 w 130 300 20 20 re S Q
+BT 0 g /F1 7 Tf 135 304 Td (5) Tj ET
+q 0.3 g 150 300 20 20 re f Q
+q 0.3 g 170 300 20 20 re f Q
+q 0 G 0.3 w 190 300 20 20 re S Q
+BT 0 g /F1 7 Tf 195 304 Td (8) Tj ET
+q 0 G 0.3 w 210 300 20 20 re S Q
+BT 0 g /F1 7 Tf 215 304 Td (8) Tj ET
+q 0.3 g 50 280 20 20 re f Q
+q 0 G 0.3 w 70 280 20 20 re S Q
+BT 0 g /F1 7 Tf 75 284 Td (2) Tj ET
+q 0 G 0.3 w 90 280 20 20 re S Q
+BT 0 g /F1 7 Tf 95 284 Td (1) Tj ET
+q 0 G 0.3 w 110 280 20 20 re S Q
+BT 0 g /F1 7 Tf 115 284 Td (5) Tj ET
+q 0 G 0.3 w 130 280 20 20 re S Q
+BT 0 g /F1 7 Tf 135 284 Td (4) Tj ET
+q 0 G 0.3 w 150 280 20 20 re S Q
+BT 0 g /F1 7 Tf 155 284 Td (7) Tj ET
+q 0 G 0.3 w 170 280 20 20 re S Q
+BT 0 g /F1 7 Tf 175 284 Td (8) Tj ET
+q 0 G 0.3 w 190 280 20 20 re S Q
+BT 0 g /F1 7 Tf 195 284 Td (6) Tj ET
+q 0 G 0.3 w 210 280 20 20 re S Q
+BT 0 g /F1 7 Tf 215 284 Td (8) Tj ET
+BT 0 g /F2 9 Tf 330 474 Td (#19 \(Hard\)) Tj ET
+q 0.3 g 330 440 20 20 re f Q
+q 0.3 g 350 440 20 20 re f Q
+q 0.3 g 370 440 20 20 re f Q
+q 0.3 g 390 440 20 20 re f Q
+q 0.3 g 410 440 20 20 re f Q
+q 0.3 g 430 440 20 20 re f Q
+q 0.3 g 450 440 20 20 re f Q
+q 0.3 g 470 440 20 20 re f Q
+q 0.3 g 490 440 20 20 re f Q
+q 0.3 g 330 420 20 20 re f Q
+q 0 G 0.3 w 350 420 20 20 re S Q
+BT 0 g /F1 7 Tf 355 424 Td (6) Tj ET
+q 0 G 0.3 w 370 420 20 20 re S Q
+BT 0 g /F1 7 Tf 375 424 Td (6) Tj ET
+q 0 G 0.3 w 390 420 20 20 re S Q
+BT 0 g /F1 7 Tf 395 424 Td (2) Tj ET
+q 0 G 0.3 w 410 420 20 20 re S Q
+BT 0 g /F1 7 Tf 415 424 Td (7) Tj ET
+q 0 G 0.3 w 430 420 20 20 re S Q
+BT 0 g /F1 7 Tf 435 424 Td (3) Tj ET
+q 0 G 0.3 w 450 420 20 20 re S Q
+BT 0 g /F1 7 Tf 455 424 Td (6) Tj ET
+q 0 G 0.3 w 470 420 20 20 re S Q
+BT 0 g /F1 7 Tf 475 424 Td (4) Tj ET
+q 0 G 0.3 w 490 420 20 20 re S Q
+BT 0 g /F1 7 Tf 495 424 Td (8) Tj ET
+q 0.3 g 330 400 20 20 re f Q
+q 0 G 0.3 w 350 400 20 20 re S Q
+BT 0 g /F1 7 Tf 355 404 Td (2) Tj ET
+q 0 G 0.3 w 370 400 20 20 re S Q
+BT 0 g /F1 7 Tf 375 404 Td (6) Tj ET
+q 0 G 0.3 w 390 400 20 20 re S Q
+BT 0 g /F1 7 Tf 395 404 Td (3) Tj ET
+q 0 G 0.3 w 410 400 20 20 re S Q
+BT 0 g /F1 7 Tf 415 404 Td (7) Tj ET
+q 0.3 g 430 400 20 20 re f Q
+q 0.3 g 450 400 20 20 re f Q
+q 0 G 0.3 w 470 400 20 20 re S Q
+BT 0 g /F1 7 Tf 475 404 Td (6) Tj ET
+q 0 G 0.3 w 490 400 20 20 re S Q
+BT 0 g /F1 7 Tf 495 404 Td (9) Tj ET
+q 0.3 g 330 380 20 20 re f Q
+q 0 G 0.3 w 350 380 20 20 re S Q
+BT 0 g /F1 7 Tf 355 384 Td (5) Tj ET
+q 0.3 g 370 380 20 20 re f Q
+q 0 G 0.3 w 390 380 20 20 re S Q
+BT 0 g /F1 7 Tf 395 384 Td (2) Tj ET
+q 0 G 0.3 w 410 380 20 20 re S Q
+BT 0 g /F1 7 Tf 415 384 Td (2) Tj ET
+q 0.3 g 430 380 20 20 re f Q
+q 0 G 0.3 w 450 380 20 20 re S Q
+BT 0 g /F1 7 Tf 455 384 Td (6) Tj ET
+q 0.3 g 470 380 20 20 re f Q
+q 0 G 0.3 w 490 380 20 20 re S Q
+BT 0 g /F1 7 Tf 495 384 Td (9) Tj ET
+q 0.3 g 330 360 20 20 re f Q
+q 0 G 0.3 w 350 360 20 20 re S Q
+BT 0 g /F1 7 Tf 355 364 Td (8) Tj ET
+q 0.3 g 370 360 20 20 re f Q
+q 0.3 g 390 360 20 20 re f Q
+q 0.3 g 410 360 20 20 re f Q
+q 0 G 0.3 w 430 360 20 20 re S Q
+BT 0 g /F1 7 Tf 435 364 Td (7) Tj ET
+q 0.3 g 450 360 20 20 re f Q
+q 0 G 0.3 w 470 360 20 20 re S Q
+BT 0 g /F1 7 Tf 475 364 Td (5) Tj ET
+q 0 G 0.3 w 490 360 20 20 re S Q
+BT 0 g /F1 7 Tf 495 364 Td (2) Tj ET
+q 0.3 g 330 340 20 20 re f Q
+q 0.3 g 350 340 20 20 re f Q
+q 0 G 0.3 w 370 340 20 20 re S Q
+BT 0 g /F1 7 Tf 375 344 Td (1) Tj ET
+q 0 G 0.3 w 390 340 20 20 re S Q
+BT 0 g /F1 7 Tf 395 344 Td (8) Tj ET
+q 0.3 g 410 340 20 20 re f Q
+q 0 G 0.3 w 430 340 20 20 re S Q
+BT 0 g /F1 7 Tf 435 344 Td (6) Tj ET
+q 0.3 g 450 340 20 20 re f Q
+q 0 G 0.3 w 470 340 20 20 re S Q
+BT 0 g /F1 7 Tf 475 344 Td (5) Tj ET
+q 0.3 g 490 340 20 20 re f Q
+q 0.3 g 330 320 20 20 re f Q
+q 0 G 0.3 w 350 320 20 20 re S Q
+BT 0 g /F1 7 Tf 355 324 Td (7) Tj ET
+q 0 G 0.3 w 370 320 20 20 re S Q
+BT 0 g /F1 7 Tf 375 324 Td (9) Tj ET
+q 0 G 0.3 w 390 320 20 20 re S Q
+BT 0 g /F1 7 Tf 395 324 Td (2) Tj ET
+q 0.3 g 410 320 20 20 re f Q
+q 0 G 0.3 w 430 320 20 20 re S Q
+BT 0 g /F1 7 Tf 435 324 Td (9) Tj ET
+q 0 G 0.3 w 450 320 20 20 re S Q
+BT 0 g /F1 7 Tf 455 324 Td (3) Tj ET
+q 0.3 g 470 320 20 20 re f Q
+q 0 G 0.3 w 490 320 20 20 re S Q
+BT 0 g /F1 7 Tf 495 324 Td (4) Tj ET
+q 0.3 g 330 300 20 20 re f Q
+q 0 G 0.3 w 350 300 20 20 re S Q
+BT 0 g /F1 7 Tf 355 304 Td (4) Tj ET
+q 0 G 0.3 w 370 300 20 20 re S Q
+BT 0 g /F1 7 Tf 375 304 Td (8) Tj ET
+q 0 G 0.3 w 390 300 20 20 re S Q
+BT 0 g /F1 7 Tf 395 304 Td (2) Tj ET
+q 0.3 g 410 300 20 20 re f Q
+q 0.3 g 430 300 20 20 re f Q
+q 0 G 0.3 w 450 300 20 20 re S Q
+BT 0 g /F1 7 Tf 455 304 Td (8) Tj ET
+q 0 G 0.3 w 470 300 20 20 re S Q
+BT 0 g /F1 7 Tf 475 304 Td (7) Tj ET
+q 0 G 0.3 w 490 300 20 20 re S Q
+BT 0 g /F1 7 Tf 495 304 Td (9) Tj ET
+q 0.3 g 330 280 20 20 re f Q
+q 0 G 0.3 w 350 280 20 20 re S Q
+BT 0 g /F1 7 Tf 355 284 Td (9) Tj ET
+q 0 G 0.3 w 370 280 20 20 re S Q
+BT 0 g /F1 7 Tf 375 284 Td (9) Tj ET
+q 0.3 g 390 280 20 20 re f Q
+q 0 G 0.3 w 410 280 20 20 re S Q
+BT 0 g /F1 7 Tf 415 284 Td (6) Tj ET
+q 0 G 0.3 w 430 280 20 20 re S Q
+BT 0 g /F1 7 Tf 435 284 Td (2) Tj ET
+q 0 G 0.3 w 450 280 20 20 re S Q
+BT 0 g /F1 7 Tf 455 284 Td (4) Tj ET
+q 0.3 g 470 280 20 20 re f Q
+q 0.3 g 490 280 20 20 re f Q
+BT 0 g /F2 9 Tf 50 234 Td (#20 \(Hard\)) Tj ET
+q 0.3 g 50 200 20 20 re f Q
+q 0.3 g 70 200 20 20 re f Q
+q 0.3 g 90 200 20 20 re f Q
+q 0.3 g 110 200 20 20 re f Q
+q 0.3 g 130 200 20 20 re f Q
+q 0.3 g 150 200 20 20 re f Q
+q 0.3 g 170 200 20 20 re f Q
+q 0.3 g 190 200 20 20 re f Q
+q 0.3 g 210 200 20 20 re f Q
+q 0.3 g 50 180 20 20 re f Q
+q 0 G 0.3 w 70 180 20 20 re S Q
+BT 0 g /F1 7 Tf 75 184 Td (8) Tj ET
+q 0 G 0.3 w 90 180 20 20 re S Q
+BT 0 g /F1 7 Tf 95 184 Td (7) Tj ET
+q 0 G 0.3 w 110 180 20 20 re S Q
+BT 0 g /F1 7 Tf 115 184 Td (4) Tj ET
+q 0 G 0.3 w 130 180 20 20 re S Q
+BT 0 g /F1 7 Tf 135 184 Td (5) Tj ET
+q 0 G 0.3 w 150 180 20 20 re S Q
+BT 0 g /F1 7 Tf 155 184 Td (4) Tj ET
+q 0 G 0.3 w 170 180 20 20 re S Q
+BT 0 g /F1 7 Tf 175 184 Td (3) Tj ET
+q 0 G 0.3 w 190 180 20 20 re S Q
+BT 0 g /F1 7 Tf 195 184 Td (3) Tj ET
+q 0.3 g 210 180 20 20 re f Q
+q 0.3 g 50 160 20 20 re f Q
+q 0 G 0.3 w 70 160 20 20 re S Q
+BT 0 g /F1 7 Tf 75 164 Td (6) Tj ET
+q 0 G 0.3 w 90 160 20 20 re S Q
+BT 0 g /F1 7 Tf 95 164 Td (2) Tj ET
+q 0 G 0.3 w 110 160 20 20 re S Q
+BT 0 g /F1 7 Tf 115 164 Td (4) Tj ET
+q 0 G 0.3 w 130 160 20 20 re S Q
+BT 0 g /F1 7 Tf 135 164 Td (8) Tj ET
+q 0 G 0.3 w 150 160 20 20 re S Q
+BT 0 g /F1 7 Tf 155 164 Td (1) Tj ET
+q 0 G 0.3 w 170 160 20 20 re S Q
+BT 0 g /F1 7 Tf 175 164 Td (9) Tj ET
+q 0.3 g 190 160 20 20 re f Q
+q 0 G 0.3 w 210 160 20 20 re S Q
+BT 0 g /F1 7 Tf 215 164 Td (3) Tj ET
+q 0.3 g 50 140 20 20 re f Q
+q 0 G 0.3 w 70 140 20 20 re S Q
+BT 0 g /F1 7 Tf 75 144 Td (3) Tj ET
+q 0 G 0.3 w 90 140 20 20 re S Q
+BT 0 g /F1 7 Tf 95 144 Td (4) Tj ET
+q 0 G 0.3 w 110 140 20 20 re S Q
+BT 0 g /F1 7 Tf 115 144 Td (3) Tj ET
+q 0.3 g 130 140 20 20 re f Q
+q 0 G 0.3 w 150 140 20 20 re S Q
+BT 0 g /F1 7 Tf 155 144 Td (9) Tj ET
+q 0.3 g 170 140 20 20 re f Q
+q 0 G 0.3 w 190 140 20 20 re S Q
+BT 0 g /F1 7 Tf 195 144 Td (4) Tj ET
+q 0 G 0.3 w 210 140 20 20 re S Q
+BT 0 g /F1 7 Tf 215 144 Td (9) Tj ET
+q 0.3 g 50 120 20 20 re f Q
+q 0 G 0.3 w 70 120 20 20 re S Q
+BT 0 g /F1 7 Tf 75 124 Td (8) Tj ET
+q 0 G 0.3 w 90 120 20 20 re S Q
+BT 0 g /F1 7 Tf 95 124 Td (8) Tj ET
+q 0.3 g 110 120 20 20 re f Q
+q 0.3 g 130 120 20 20 re f Q
+q 0 G 0.3 w 150 120 20 20 re S Q
+BT 0 g /F1 7 Tf 155 124 Td (7) Tj ET
+q 0 G 0.3 w 170 120 20 20 re S Q
+BT 0 g /F1 7 Tf 175 124 Td (4) Tj ET
+q 0 G 0.3 w 190 120 20 20 re S Q
+BT 0 g /F1 7 Tf 195 124 Td (9) Tj ET
+q 0 G 0.3 w 210 120 20 20 re S Q
+BT 0 g /F1 7 Tf 215 124 Td (9) Tj ET
+q 0.3 g 50 100 20 20 re f Q
+q 0 G 0.3 w 70 100 20 20 re S Q
+BT 0 g /F1 7 Tf 75 104 Td (7) Tj ET
+q 0 G 0.3 w 90 100 20 20 re S Q
+BT 0 g /F1 7 Tf 95 104 Td (3) Tj ET
+q 0 G 0.3 w 110 100 20 20 re S Q
+BT 0 g /F1 7 Tf 115 104 Td (8) Tj ET
+q 0.3 g 130 100 20 20 re f Q
+q 0 G 0.3 w 150 100 20 20 re S Q
+BT 0 g /F1 7 Tf 155 104 Td (2) Tj ET
+q 0 G 0.3 w 170 100 20 20 re S Q
+BT 0 g /F1 7 Tf 175 104 Td (3) Tj ET
+q 0 G 0.3 w 190 100 20 20 re S Q
+BT 0 g /F1 7 Tf 195 104 Td (9) Tj ET
+q 0 G 0.3 w 210 100 20 20 re S Q
+BT 0 g /F1 7 Tf 215 104 Td (1) Tj ET
+q 0.3 g 50 80 20 20 re f Q
+q 0.3 g 70 80 20 20 re f Q
+q 0 G 0.3 w 90 80 20 20 re S Q
+BT 0 g /F1 7 Tf 95 84 Td (5) Tj ET
+q 0.3 g 110 80 20 20 re f Q
+q 0 G 0.3 w 130 80 20 20 re S Q
+BT 0 g /F1 7 Tf 135 84 Td (9) Tj ET
+q 0 G 0.3 w 150 80 20 20 re S Q
+BT 0 g /F1 7 Tf 155 84 Td (6) Tj ET
+q 0 G 0.3 w 170 80 20 20 re S Q
+BT 0 g /F1 7 Tf 175 84 Td (1) Tj ET
+q 0.3 g 190 80 20 20 re f Q
+q 0.3 g 210 80 20 20 re f Q
+q 0.3 g 50 60 20 20 re f Q
+q 0 G 0.3 w 70 60 20 20 re S Q
+BT 0 g /F1 7 Tf 75 64 Td (9) Tj ET
+q 0 G 0.3 w 90 60 20 20 re S Q
+BT 0 g /F1 7 Tf 95 64 Td (5) Tj ET
+q 0.3 g 110 60 20 20 re f Q
+q 0 G 0.3 w 130 60 20 20 re S Q
+BT 0 g /F1 7 Tf 135 64 Td (1) Tj ET
+q 0 G 0.3 w 150 60 20 20 re S Q
+BT 0 g /F1 7 Tf 155 64 Td (6) Tj ET
+q 0 G 0.3 w 170 60 20 20 re S Q
+BT 0 g /F1 7 Tf 175 64 Td (5) Tj ET
+q 0 G 0.3 w 190 60 20 20 re S Q
+BT 0 g /F1 7 Tf 195 64 Td (2) Tj ET
+q 0 G 0.3 w 210 60 20 20 re S Q
+BT 0 g /F1 7 Tf 215 64 Td (6) Tj ET
+q 0.3 g 50 40 20 20 re f Q
+q 0 G 0.3 w 70 40 20 20 re S Q
+BT 0 g /F1 7 Tf 75 44 Td (1) Tj ET
+q 0.3 g 90 40 20 20 re f Q
+q 0 G 0.3 w 110 40 20 20 re S Q
+BT 0 g /F1 7 Tf 115 44 Td (7) Tj ET
+q 0 G 0.3 w 130 40 20 20 re S Q
+BT 0 g /F1 7 Tf 135 44 Td (5) Tj ET
+q 0 G 0.3 w 150 40 20 20 re S Q
+BT 0 g /F1 7 Tf 155 44 Td (9) Tj ET
+q 0 G 0.3 w 170 40 20 20 re S Q
+BT 0 g /F1 7 Tf 175 44 Td (4) Tj ET
+q 0 G 0.3 w 190 40 20 20 re S Q
+BT 0 g /F1 7 Tf 195 44 Td (5) Tj ET
+q 0 G 0.3 w 210 40 20 20 re S Q
+BT 0 g /F1 7 Tf 215 44 Td (8) Tj ET
+
+endstream
+endobj
+74 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 75 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+75 0 obj
+<< /Length 21798 >>
+stream
+BT 0 g /F2 16 Tf 236.88 750 Td (Solutions \(Page 5\)) Tj ET
+BT 0 g /F2 9 Tf 50 714 Td (#21 \(Hard\)) Tj ET
+q 0.3 g 50 680 20 20 re f Q
+q 0.3 g 70 680 20 20 re f Q
+q 0.3 g 90 680 20 20 re f Q
+q 0.3 g 110 680 20 20 re f Q
+q 0.3 g 130 680 20 20 re f Q
+q 0.3 g 150 680 20 20 re f Q
+q 0.3 g 170 680 20 20 re f Q
+q 0.3 g 190 680 20 20 re f Q
+q 0.3 g 210 680 20 20 re f Q
+q 0.3 g 50 660 20 20 re f Q
+q 0 G 0.3 w 70 660 20 20 re S Q
+BT 0 g /F1 7 Tf 75 664 Td (1) Tj ET
+q 0 G 0.3 w 90 660 20 20 re S Q
+BT 0 g /F1 7 Tf 95 664 Td (3) Tj ET
+q 0 G 0.3 w 110 660 20 20 re S Q
+BT 0 g /F1 7 Tf 115 664 Td (9) Tj ET
+q 0 G 0.3 w 130 660 20 20 re S Q
+BT 0 g /F1 7 Tf 135 664 Td (9) Tj ET
+q 0.3 g 150 660 20 20 re f Q
+q 0 G 0.3 w 170 660 20 20 re S Q
+BT 0 g /F1 7 Tf 175 664 Td (5) Tj ET
+q 0 G 0.3 w 190 660 20 20 re S Q
+BT 0 g /F1 7 Tf 195 664 Td (3) Tj ET
+q 0.3 g 210 660 20 20 re f Q
+q 0.3 g 50 640 20 20 re f Q
+q 0 G 0.3 w 70 640 20 20 re S Q
+BT 0 g /F1 7 Tf 75 644 Td (7) Tj ET
+q 0 G 0.3 w 90 640 20 20 re S Q
+BT 0 g /F1 7 Tf 95 644 Td (1) Tj ET
+q 0.3 g 110 640 20 20 re f Q
+q 0.3 g 130 640 20 20 re f Q
+q 0 G 0.3 w 150 640 20 20 re S Q
+BT 0 g /F1 7 Tf 155 644 Td (5) Tj ET
+q 0.3 g 170 640 20 20 re f Q
+q 0 G 0.3 w 190 640 20 20 re S Q
+BT 0 g /F1 7 Tf 195 644 Td (9) Tj ET
+q 0 G 0.3 w 210 640 20 20 re S Q
+BT 0 g /F1 7 Tf 215 644 Td (9) Tj ET
+q 0.3 g 50 620 20 20 re f Q
+q 0 G 0.3 w 70 620 20 20 re S Q
+BT 0 g /F1 7 Tf 75 624 Td (7) Tj ET
+q 0 G 0.3 w 90 620 20 20 re S Q
+BT 0 g /F1 7 Tf 95 624 Td (9) Tj ET
+q 0 G 0.3 w 110 620 20 20 re S Q
+BT 0 g /F1 7 Tf 115 624 Td (4) Tj ET
+q 0 G 0.3 w 130 620 20 20 re S Q
+BT 0 g /F1 7 Tf 135 624 Td (1) Tj ET
+q 0 G 0.3 w 150 620 20 20 re S Q
+BT 0 g /F1 7 Tf 155 624 Td (1) Tj ET
+q 0 G 0.3 w 170 620 20 20 re S Q
+BT 0 g /F1 7 Tf 175 624 Td (6) Tj ET
+q 0 G 0.3 w 190 620 20 20 re S Q
+BT 0 g /F1 7 Tf 195 624 Td (5) Tj ET
+q 0.3 g 210 620 20 20 re f Q
+q 0.3 g 50 600 20 20 re f Q
+q 0.3 g 70 600 20 20 re f Q
+q 0.3 g 90 600 20 20 re f Q
+q 0 G 0.3 w 110 600 20 20 re S Q
+BT 0 g /F1 7 Tf 115 604 Td (2) Tj ET
+q 0.3 g 130 600 20 20 re f Q
+q 0 G 0.3 w 150 600 20 20 re S Q
+BT 0 g /F1 7 Tf 155 604 Td (7) Tj ET
+q 0 G 0.3 w 170 600 20 20 re S Q
+BT 0 g /F1 7 Tf 175 604 Td (7) Tj ET
+q 0 G 0.3 w 190 600 20 20 re S Q
+BT 0 g /F1 7 Tf 195 604 Td (9) Tj ET
+q 0 G 0.3 w 210 600 20 20 re S Q
+BT 0 g /F1 7 Tf 215 604 Td (6) Tj ET
+q 0.3 g 50 580 20 20 re f Q
+q 0 G 0.3 w 70 580 20 20 re S Q
+BT 0 g /F1 7 Tf 75 584 Td (9) Tj ET
+q 0 G 0.3 w 90 580 20 20 re S Q
+BT 0 g /F1 7 Tf 95 584 Td (9) Tj ET
+q 0 G 0.3 w 110 580 20 20 re S Q
+BT 0 g /F1 7 Tf 115 584 Td (8) Tj ET
+q 0.3 g 130 580 20 20 re f Q
+q 0 G 0.3 w 150 580 20 20 re S Q
+BT 0 g /F1 7 Tf 155 584 Td (8) Tj ET
+q 0 G 0.3 w 170 580 20 20 re S Q
+BT 0 g /F1 7 Tf 175 584 Td (1) Tj ET
+q 0 G 0.3 w 190 580 20 20 re S Q
+BT 0 g /F1 7 Tf 195 584 Td (8) Tj ET
+q 0 G 0.3 w 210 580 20 20 re S Q
+BT 0 g /F1 7 Tf 215 584 Td (1) Tj ET
+q 0.3 g 50 560 20 20 re f Q
+q 0 G 0.3 w 70 560 20 20 re S Q
+BT 0 g /F1 7 Tf 75 564 Td (9) Tj ET
+q 0 G 0.3 w 90 560 20 20 re S Q
+BT 0 g /F1 7 Tf 95 564 Td (2) Tj ET
+q 0 G 0.3 w 110 560 20 20 re S Q
+BT 0 g /F1 7 Tf 115 564 Td (8) Tj ET
+q 0 G 0.3 w 130 560 20 20 re S Q
+BT 0 g /F1 7 Tf 135 564 Td (5) Tj ET
+q 0 G 0.3 w 150 560 20 20 re S Q
+BT 0 g /F1 7 Tf 155 564 Td (6) Tj ET
+q 0.3 g 170 560 20 20 re f Q
+q 0 G 0.3 w 190 560 20 20 re S Q
+BT 0 g /F1 7 Tf 195 564 Td (4) Tj ET
+q 0 G 0.3 w 210 560 20 20 re S Q
+BT 0 g /F1 7 Tf 215 564 Td (4) Tj ET
+q 0.3 g 50 540 20 20 re f Q
+q 0.3 g 70 540 20 20 re f Q
+q 0 G 0.3 w 90 540 20 20 re S Q
+BT 0 g /F1 7 Tf 95 544 Td (6) Tj ET
+q 0 G 0.3 w 110 540 20 20 re S Q
+BT 0 g /F1 7 Tf 115 544 Td (8) Tj ET
+q 0 G 0.3 w 130 540 20 20 re S Q
+BT 0 g /F1 7 Tf 135 544 Td (8) Tj ET
+q 0 G 0.3 w 150 540 20 20 re S Q
+BT 0 g /F1 7 Tf 155 544 Td (6) Tj ET
+q 0 G 0.3 w 170 540 20 20 re S Q
+BT 0 g /F1 7 Tf 175 544 Td (2) Tj ET
+q 0 G 0.3 w 190 540 20 20 re S Q
+BT 0 g /F1 7 Tf 195 544 Td (9) Tj ET
+q 0 G 0.3 w 210 540 20 20 re S Q
+BT 0 g /F1 7 Tf 215 544 Td (6) Tj ET
+q 0.3 g 50 520 20 20 re f Q
+q 0 G 0.3 w 70 520 20 20 re S Q
+BT 0 g /F1 7 Tf 75 524 Td (5) Tj ET
+q 0 G 0.3 w 90 520 20 20 re S Q
+BT 0 g /F1 7 Tf 95 524 Td (8) Tj ET
+q 0.3 g 110 520 20 20 re f Q
+q 0.3 g 130 520 20 20 re f Q
+q 0.3 g 150 520 20 20 re f Q
+q 0 G 0.3 w 170 520 20 20 re S Q
+BT 0 g /F1 7 Tf 175 524 Td (5) Tj ET
+q 0 G 0.3 w 190 520 20 20 re S Q
+BT 0 g /F1 7 Tf 195 524 Td (3) Tj ET
+q 0.3 g 210 520 20 20 re f Q
+BT 0 g /F2 9 Tf 330 714 Td (#22 \(Hard\)) Tj ET
+q 0.3 g 330 680 20 20 re f Q
+q 0.3 g 350 680 20 20 re f Q
+q 0.3 g 370 680 20 20 re f Q
+q 0.3 g 390 680 20 20 re f Q
+q 0.3 g 410 680 20 20 re f Q
+q 0.3 g 430 680 20 20 re f Q
+q 0.3 g 450 680 20 20 re f Q
+q 0.3 g 470 680 20 20 re f Q
+q 0.3 g 490 680 20 20 re f Q
+q 0.3 g 330 660 20 20 re f Q
+q 0 G 0.3 w 350 660 20 20 re S Q
+BT 0 g /F1 7 Tf 355 664 Td (6) Tj ET
+q 0 G 0.3 w 370 660 20 20 re S Q
+BT 0 g /F1 7 Tf 375 664 Td (9) Tj ET
+q 0 G 0.3 w 390 660 20 20 re S Q
+BT 0 g /F1 7 Tf 395 664 Td (2) Tj ET
+q 0.3 g 410 660 20 20 re f Q
+q 0 G 0.3 w 430 660 20 20 re S Q
+BT 0 g /F1 7 Tf 435 664 Td (6) Tj ET
+q 0 G 0.3 w 450 660 20 20 re S Q
+BT 0 g /F1 7 Tf 455 664 Td (8) Tj ET
+q 0 G 0.3 w 470 660 20 20 re S Q
+BT 0 g /F1 7 Tf 475 664 Td (8) Tj ET
+q 0 G 0.3 w 490 660 20 20 re S Q
+BT 0 g /F1 7 Tf 495 664 Td (8) Tj ET
+q 0.3 g 330 640 20 20 re f Q
+q 0 G 0.3 w 350 640 20 20 re S Q
+BT 0 g /F1 7 Tf 355 644 Td (9) Tj ET
+q 0 G 0.3 w 370 640 20 20 re S Q
+BT 0 g /F1 7 Tf 375 644 Td (3) Tj ET
+q 0.3 g 390 640 20 20 re f Q
+q 0 G 0.3 w 410 640 20 20 re S Q
+BT 0 g /F1 7 Tf 415 644 Td (2) Tj ET
+q 0 G 0.3 w 430 640 20 20 re S Q
+BT 0 g /F1 7 Tf 435 644 Td (4) Tj ET
+q 0.3 g 450 640 20 20 re f Q
+q 0.3 g 470 640 20 20 re f Q
+q 0 G 0.3 w 490 640 20 20 re S Q
+BT 0 g /F1 7 Tf 495 644 Td (9) Tj ET
+q 0.3 g 330 620 20 20 re f Q
+q 0 G 0.3 w 350 620 20 20 re S Q
+BT 0 g /F1 7 Tf 355 624 Td (3) Tj ET
+q 0 G 0.3 w 370 620 20 20 re S Q
+BT 0 g /F1 7 Tf 375 624 Td (6) Tj ET
+q 0.3 g 390 620 20 20 re f Q
+q 0 G 0.3 w 410 620 20 20 re S Q
+BT 0 g /F1 7 Tf 415 624 Td (2) Tj ET
+q 0 G 0.3 w 430 620 20 20 re S Q
+BT 0 g /F1 7 Tf 435 624 Td (9) Tj ET
+q 0 G 0.3 w 450 620 20 20 re S Q
+BT 0 g /F1 7 Tf 455 624 Td (4) Tj ET
+q 0 G 0.3 w 470 620 20 20 re S Q
+BT 0 g /F1 7 Tf 475 624 Td (9) Tj ET
+q 0.3 g 490 620 20 20 re f Q
+q 0.3 g 330 600 20 20 re f Q
+q 0 G 0.3 w 350 600 20 20 re S Q
+BT 0 g /F1 7 Tf 355 604 Td (6) Tj ET
+q 0 G 0.3 w 370 600 20 20 re S Q
+BT 0 g /F1 7 Tf 375 604 Td (5) Tj ET
+q 0 G 0.3 w 390 600 20 20 re S Q
+BT 0 g /F1 7 Tf 395 604 Td (8) Tj ET
+q 0 G 0.3 w 410 600 20 20 re S Q
+BT 0 g /F1 7 Tf 415 604 Td (6) Tj ET
+q 0.3 g 430 600 20 20 re f Q
+q 0 G 0.3 w 450 600 20 20 re S Q
+BT 0 g /F1 7 Tf 455 604 Td (8) Tj ET
+q 0.3 g 470 600 20 20 re f Q
+q 0 G 0.3 w 490 600 20 20 re S Q
+BT 0 g /F1 7 Tf 495 604 Td (5) Tj ET
+q 0.3 g 330 580 20 20 re f Q
+q 0 G 0.3 w 350 580 20 20 re S Q
+BT 0 g /F1 7 Tf 355 584 Td (4) Tj ET
+q 0 G 0.3 w 370 580 20 20 re S Q
+BT 0 g /F1 7 Tf 375 584 Td (3) Tj ET
+q 0 G 0.3 w 390 580 20 20 re S Q
+BT 0 g /F1 7 Tf 395 584 Td (2) Tj ET
+q 0.3 g 410 580 20 20 re f Q
+q 0 G 0.3 w 430 580 20 20 re S Q
+BT 0 g /F1 7 Tf 435 584 Td (4) Tj ET
+q 0 G 0.3 w 450 580 20 20 re S Q
+BT 0 g /F1 7 Tf 455 584 Td (1) Tj ET
+q 0 G 0.3 w 470 580 20 20 re S Q
+BT 0 g /F1 7 Tf 475 584 Td (4) Tj ET
+q 0.3 g 490 580 20 20 re f Q
+q 0.3 g 330 560 20 20 re f Q
+q 0 G 0.3 w 350 560 20 20 re S Q
+BT 0 g /F1 7 Tf 355 564 Td (7) Tj ET
+q 0 G 0.3 w 370 560 20 20 re S Q
+BT 0 g /F1 7 Tf 375 564 Td (6) Tj ET
+q 0 G 0.3 w 390 560 20 20 re S Q
+BT 0 g /F1 7 Tf 395 564 Td (4) Tj ET
+q 0 G 0.3 w 410 560 20 20 re S Q
+BT 0 g /F1 7 Tf 415 564 Td (9) Tj ET
+q 0.3 g 430 560 20 20 re f Q
+q 0 G 0.3 w 450 560 20 20 re S Q
+BT 0 g /F1 7 Tf 455 564 Td (6) Tj ET
+q 0 G 0.3 w 470 560 20 20 re S Q
+BT 0 g /F1 7 Tf 475 564 Td (2) Tj ET
+q 0.3 g 490 560 20 20 re f Q
+q 0.3 g 330 540 20 20 re f Q
+q 0 G 0.3 w 350 540 20 20 re S Q
+BT 0 g /F1 7 Tf 355 544 Td (7) Tj ET
+q 0 G 0.3 w 370 540 20 20 re S Q
+BT 0 g /F1 7 Tf 375 544 Td (9) Tj ET
+q 0 G 0.3 w 390 540 20 20 re S Q
+BT 0 g /F1 7 Tf 395 544 Td (8) Tj ET
+q 0.3 g 410 540 20 20 re f Q
+q 0 G 0.3 w 430 540 20 20 re S Q
+BT 0 g /F1 7 Tf 435 544 Td (6) Tj ET
+q 0 G 0.3 w 450 540 20 20 re S Q
+BT 0 g /F1 7 Tf 455 544 Td (4) Tj ET
+q 0 G 0.3 w 470 540 20 20 re S Q
+BT 0 g /F1 7 Tf 475 544 Td (8) Tj ET
+q 0 G 0.3 w 490 540 20 20 re S Q
+BT 0 g /F1 7 Tf 495 544 Td (4) Tj ET
+q 0.3 g 330 520 20 20 re f Q
+q 0 G 0.3 w 350 520 20 20 re S Q
+BT 0 g /F1 7 Tf 355 524 Td (3) Tj ET
+q 0 G 0.3 w 370 520 20 20 re S Q
+BT 0 g /F1 7 Tf 375 524 Td (7) Tj ET
+q 0.3 g 390 520 20 20 re f Q
+q 0 G 0.3 w 410 520 20 20 re S Q
+BT 0 g /F1 7 Tf 415 524 Td (9) Tj ET
+q 0 G 0.3 w 430 520 20 20 re S Q
+BT 0 g /F1 7 Tf 435 524 Td (2) Tj ET
+q 0 G 0.3 w 450 520 20 20 re S Q
+BT 0 g /F1 7 Tf 455 524 Td (2) Tj ET
+q 0.3 g 470 520 20 20 re f Q
+q 0 G 0.3 w 490 520 20 20 re S Q
+BT 0 g /F1 7 Tf 495 524 Td (4) Tj ET
+BT 0 g /F2 9 Tf 50 474 Td (#23 \(Hard\)) Tj ET
+q 0.3 g 50 440 20 20 re f Q
+q 0.3 g 70 440 20 20 re f Q
+q 0.3 g 90 440 20 20 re f Q
+q 0.3 g 110 440 20 20 re f Q
+q 0.3 g 130 440 20 20 re f Q
+q 0.3 g 150 440 20 20 re f Q
+q 0.3 g 170 440 20 20 re f Q
+q 0.3 g 190 440 20 20 re f Q
+q 0.3 g 210 440 20 20 re f Q
+q 0.3 g 50 420 20 20 re f Q
+q 0 G 0.3 w 70 420 20 20 re S Q
+BT 0 g /F1 7 Tf 75 424 Td (5) Tj ET
+q 0 G 0.3 w 90 420 20 20 re S Q
+BT 0 g /F1 7 Tf 95 424 Td (3) Tj ET
+q 0 G 0.3 w 110 420 20 20 re S Q
+BT 0 g /F1 7 Tf 115 424 Td (2) Tj ET
+q 0.3 g 130 420 20 20 re f Q
+q 0.3 g 150 420 20 20 re f Q
+q 0 G 0.3 w 170 420 20 20 re S Q
+BT 0 g /F1 7 Tf 175 424 Td (6) Tj ET
+q 0 G 0.3 w 190 420 20 20 re S Q
+BT 0 g /F1 7 Tf 195 424 Td (4) Tj ET
+q 0 G 0.3 w 210 420 20 20 re S Q
+BT 0 g /F1 7 Tf 215 424 Td (4) Tj ET
+q 0.3 g 50 400 20 20 re f Q
+q 0 G 0.3 w 70 400 20 20 re S Q
+BT 0 g /F1 7 Tf 75 404 Td (2) Tj ET
+q 0 G 0.3 w 90 400 20 20 re S Q
+BT 0 g /F1 7 Tf 95 404 Td (5) Tj ET
+q 0 G 0.3 w 110 400 20 20 re S Q
+BT 0 g /F1 7 Tf 115 404 Td (6) Tj ET
+q 0 G 0.3 w 130 400 20 20 re S Q
+BT 0 g /F1 7 Tf 135 404 Td (6) Tj ET
+q 0 G 0.3 w 150 400 20 20 re S Q
+BT 0 g /F1 7 Tf 155 404 Td (2) Tj ET
+q 0 G 0.3 w 170 400 20 20 re S Q
+BT 0 g /F1 7 Tf 175 404 Td (6) Tj ET
+q 0 G 0.3 w 190 400 20 20 re S Q
+BT 0 g /F1 7 Tf 195 404 Td (5) Tj ET
+q 0 G 0.3 w 210 400 20 20 re S Q
+BT 0 g /F1 7 Tf 215 404 Td (5) Tj ET
+q 0.3 g 50 380 20 20 re f Q
+q 0.3 g 70 380 20 20 re f Q
+q 0 G 0.3 w 90 380 20 20 re S Q
+BT 0 g /F1 7 Tf 95 384 Td (5) Tj ET
+q 0.3 g 110 380 20 20 re f Q
+q 0.3 g 130 380 20 20 re f Q
+q 0 G 0.3 w 150 380 20 20 re S Q
+BT 0 g /F1 7 Tf 155 384 Td (1) Tj ET
+q 0 G 0.3 w 170 380 20 20 re S Q
+BT 0 g /F1 7 Tf 175 384 Td (5) Tj ET
+q 0 G 0.3 w 190 380 20 20 re S Q
+BT 0 g /F1 7 Tf 195 384 Td (9) Tj ET
+q 0.3 g 210 380 20 20 re f Q
+q 0.3 g 50 360 20 20 re f Q
+q 0 G 0.3 w 70 360 20 20 re S Q
+BT 0 g /F1 7 Tf 75 364 Td (5) Tj ET
+q 0 G 0.3 w 90 360 20 20 re S Q
+BT 0 g /F1 7 Tf 95 364 Td (8) Tj ET
+q 0.3 g 110 360 20 20 re f Q
+q 0 G 0.3 w 130 360 20 20 re S Q
+BT 0 g /F1 7 Tf 135 364 Td (6) Tj ET
+q 0 G 0.3 w 150 360 20 20 re S Q
+BT 0 g /F1 7 Tf 155 364 Td (7) Tj ET
+q 0 G 0.3 w 170 360 20 20 re S Q
+BT 0 g /F1 7 Tf 175 364 Td (6) Tj ET
+q 0 G 0.3 w 190 360 20 20 re S Q
+BT 0 g /F1 7 Tf 195 364 Td (4) Tj ET
+q 0 G 0.3 w 210 360 20 20 re S Q
+BT 0 g /F1 7 Tf 215 364 Td (4) Tj ET
+q 0.3 g 50 340 20 20 re f Q
+q 0 G 0.3 w 70 340 20 20 re S Q
+BT 0 g /F1 7 Tf 75 344 Td (3) Tj ET
+q 0 G 0.3 w 90 340 20 20 re S Q
+BT 0 g /F1 7 Tf 95 344 Td (2) Tj ET
+q 0 G 0.3 w 110 340 20 20 re S Q
+BT 0 g /F1 7 Tf 115 344 Td (5) Tj ET
+q 0 G 0.3 w 130 340 20 20 re S Q
+BT 0 g /F1 7 Tf 135 344 Td (3) Tj ET
+q 0.3 g 150 340 20 20 re f Q
+q 0 G 0.3 w 170 340 20 20 re S Q
+BT 0 g /F1 7 Tf 175 344 Td (3) Tj ET
+q 0 G 0.3 w 190 340 20 20 re S Q
+BT 0 g /F1 7 Tf 195 344 Td (6) Tj ET
+q 0.3 g 210 340 20 20 re f Q
+q 0.3 g 50 320 20 20 re f Q
+q 0 G 0.3 w 70 320 20 20 re S Q
+BT 0 g /F1 7 Tf 75 324 Td (1) Tj ET
+q 0 G 0.3 w 90 320 20 20 re S Q
+BT 0 g /F1 7 Tf 95 324 Td (4) Tj ET
+q 0 G 0.3 w 110 320 20 20 re S Q
+BT 0 g /F1 7 Tf 115 324 Td (8) Tj ET
+q 0 G 0.3 w 130 320 20 20 re S Q
+BT 0 g /F1 7 Tf 135 324 Td (4) Tj ET
+q 0 G 0.3 w 150 320 20 20 re S Q
+BT 0 g /F1 7 Tf 155 324 Td (6) Tj ET
+q 0 G 0.3 w 170 320 20 20 re S Q
+BT 0 g /F1 7 Tf 175 324 Td (5) Tj ET
+q 0 G 0.3 w 190 320 20 20 re S Q
+BT 0 g /F1 7 Tf 195 324 Td (1) Tj ET
+q 0 G 0.3 w 210 320 20 20 re S Q
+BT 0 g /F1 7 Tf 215 324 Td (5) Tj ET
+q 0.3 g 50 300 20 20 re f Q
+q 0 G 0.3 w 70 300 20 20 re S Q
+BT 0 g /F1 7 Tf 75 304 Td (3) Tj ET
+q 0 G 0.3 w 90 300 20 20 re S Q
+BT 0 g /F1 7 Tf 95 304 Td (9) Tj ET
+q 0 G 0.3 w 110 300 20 20 re S Q
+BT 0 g /F1 7 Tf 115 304 Td (6) Tj ET
+q 0 G 0.3 w 130 300 20 20 re S Q
+BT 0 g /F1 7 Tf 135 304 Td (3) Tj ET
+q 0 G 0.3 w 150 300 20 20 re S Q
+BT 0 g /F1 7 Tf 155 304 Td (1) Tj ET
+q 0 G 0.3 w 170 300 20 20 re S Q
+BT 0 g /F1 7 Tf 175 304 Td (2) Tj ET
+q 0.3 g 190 300 20 20 re f Q
+q 0 G 0.3 w 210 300 20 20 re S Q
+BT 0 g /F1 7 Tf 215 304 Td (3) Tj ET
+q 0.3 g 50 280 20 20 re f Q
+q 0 G 0.3 w 70 280 20 20 re S Q
+BT 0 g /F1 7 Tf 75 284 Td (6) Tj ET
+q 0.3 g 90 280 20 20 re f Q
+q 0 G 0.3 w 110 280 20 20 re S Q
+BT 0 g /F1 7 Tf 115 284 Td (1) Tj ET
+q 0 G 0.3 w 130 280 20 20 re S Q
+BT 0 g /F1 7 Tf 135 284 Td (9) Tj ET
+q 0 G 0.3 w 150 280 20 20 re S Q
+BT 0 g /F1 7 Tf 155 284 Td (2) Tj ET
+q 0 G 0.3 w 170 280 20 20 re S Q
+BT 0 g /F1 7 Tf 175 284 Td (3) Tj ET
+q 0 G 0.3 w 190 280 20 20 re S Q
+BT 0 g /F1 7 Tf 195 284 Td (3) Tj ET
+q 0 G 0.3 w 210 280 20 20 re S Q
+BT 0 g /F1 7 Tf 215 284 Td (3) Tj ET
+BT 0 g /F2 9 Tf 330 474 Td (#24 \(Hard\)) Tj ET
+q 0.3 g 330 440 20 20 re f Q
+q 0.3 g 350 440 20 20 re f Q
+q 0.3 g 370 440 20 20 re f Q
+q 0.3 g 390 440 20 20 re f Q
+q 0.3 g 410 440 20 20 re f Q
+q 0.3 g 430 440 20 20 re f Q
+q 0.3 g 450 440 20 20 re f Q
+q 0.3 g 470 440 20 20 re f Q
+q 0.3 g 490 440 20 20 re f Q
+q 0.3 g 330 420 20 20 re f Q
+q 0 G 0.3 w 350 420 20 20 re S Q
+BT 0 g /F1 7 Tf 355 424 Td (9) Tj ET
+q 0 G 0.3 w 370 420 20 20 re S Q
+BT 0 g /F1 7 Tf 375 424 Td (1) Tj ET
+q 0 G 0.3 w 390 420 20 20 re S Q
+BT 0 g /F1 7 Tf 395 424 Td (6) Tj ET
+q 0.3 g 410 420 20 20 re f Q
+q 0 G 0.3 w 430 420 20 20 re S Q
+BT 0 g /F1 7 Tf 435 424 Td (3) Tj ET
+q 0.3 g 450 420 20 20 re f Q
+q 0.3 g 470 420 20 20 re f Q
+q 0 G 0.3 w 490 420 20 20 re S Q
+BT 0 g /F1 7 Tf 495 424 Td (3) Tj ET
+q 0.3 g 330 400 20 20 re f Q
+q 0.3 g 350 400 20 20 re f Q
+q 0 G 0.3 w 370 400 20 20 re S Q
+BT 0 g /F1 7 Tf 375 404 Td (1) Tj ET
+q 0 G 0.3 w 390 400 20 20 re S Q
+BT 0 g /F1 7 Tf 395 404 Td (8) Tj ET
+q 0 G 0.3 w 410 400 20 20 re S Q
+BT 0 g /F1 7 Tf 415 404 Td (3) Tj ET
+q 0.3 g 430 400 20 20 re f Q
+q 0.3 g 450 400 20 20 re f Q
+q 0 G 0.3 w 470 400 20 20 re S Q
+BT 0 g /F1 7 Tf 475 404 Td (9) Tj ET
+q 0.3 g 490 400 20 20 re f Q
+q 0.3 g 330 380 20 20 re f Q
+q 0 G 0.3 w 350 380 20 20 re S Q
+BT 0 g /F1 7 Tf 355 384 Td (5) Tj ET
+q 0 G 0.3 w 370 380 20 20 re S Q
+BT 0 g /F1 7 Tf 375 384 Td (9) Tj ET
+q 0 G 0.3 w 390 380 20 20 re S Q
+BT 0 g /F1 7 Tf 395 384 Td (4) Tj ET
+q 0 G 0.3 w 410 380 20 20 re S Q
+BT 0 g /F1 7 Tf 415 384 Td (5) Tj ET
+q 0.3 g 430 380 20 20 re f Q
+q 0 G 0.3 w 450 380 20 20 re S Q
+BT 0 g /F1 7 Tf 455 384 Td (6) Tj ET
+q 0 G 0.3 w 470 380 20 20 re S Q
+BT 0 g /F1 7 Tf 475 384 Td (4) Tj ET
+q 0 G 0.3 w 490 380 20 20 re S Q
+BT 0 g /F1 7 Tf 495 384 Td (4) Tj ET
+q 0.3 g 330 360 20 20 re f Q
+q 0.3 g 350 360 20 20 re f Q
+q 0 G 0.3 w 370 360 20 20 re S Q
+BT 0 g /F1 7 Tf 375 364 Td (6) Tj ET
+q 0 G 0.3 w 390 360 20 20 re S Q
+BT 0 g /F1 7 Tf 395 364 Td (9) Tj ET
+q 0.3 g 410 360 20 20 re f Q
+q 0.3 g 430 360 20 20 re f Q
+q 0 G 0.3 w 450 360 20 20 re S Q
+BT 0 g /F1 7 Tf 455 364 Td (5) Tj ET
+q 0 G 0.3 w 470 360 20 20 re S Q
+BT 0 g /F1 7 Tf 475 364 Td (9) Tj ET
+q 0 G 0.3 w 490 360 20 20 re S Q
+BT 0 g /F1 7 Tf 495 364 Td (2) Tj ET
+q 0.3 g 330 340 20 20 re f Q
+q 0 G 0.3 w 350 340 20 20 re S Q
+BT 0 g /F1 7 Tf 355 344 Td (8) Tj ET
+q 0 G 0.3 w 370 340 20 20 re S Q
+BT 0 g /F1 7 Tf 375 344 Td (8) Tj ET
+q 0.3 g 390 340 20 20 re f Q
+q 0 G 0.3 w 410 340 20 20 re S Q
+BT 0 g /F1 7 Tf 415 344 Td (8) Tj ET
+q 0 G 0.3 w 430 340 20 20 re S Q
+BT 0 g /F1 7 Tf 435 344 Td (9) Tj ET
+q 0 G 0.3 w 450 340 20 20 re S Q
+BT 0 g /F1 7 Tf 455 344 Td (3) Tj ET
+q 0 G 0.3 w 470 340 20 20 re S Q
+BT 0 g /F1 7 Tf 475 344 Td (1) Tj ET
+q 0.3 g 490 340 20 20 re f Q
+q 0.3 g 330 320 20 20 re f Q
+q 0 G 0.3 w 350 320 20 20 re S Q
+BT 0 g /F1 7 Tf 355 324 Td (8) Tj ET
+q 0.3 g 370 320 20 20 re f Q
+q 0.3 g 390 320 20 20 re f Q
+q 0 G 0.3 w 410 320 20 20 re S Q
+BT 0 g /F1 7 Tf 415 324 Td (4) Tj ET
+q 0 G 0.3 w 430 320 20 20 re S Q
+BT 0 g /F1 7 Tf 435 324 Td (4) Tj ET
+q 0.3 g 450 320 20 20 re f Q
+q 0.3 g 470 320 20 20 re f Q
+q 0.3 g 490 320 20 20 re f Q
+q 0.3 g 330 300 20 20 re f Q
+q 0 G 0.3 w 350 300 20 20 re S Q
+BT 0 g /F1 7 Tf 355 304 Td (1) Tj ET
+q 0 G 0.3 w 370 300 20 20 re S Q
+BT 0 g /F1 7 Tf 375 304 Td (8) Tj ET
+q 0 G 0.3 w 390 300 20 20 re S Q
+BT 0 g /F1 7 Tf 395 304 Td (7) Tj ET
+q 0 G 0.3 w 410 300 20 20 re S Q
+BT 0 g /F1 7 Tf 415 304 Td (9) Tj ET
+q 0 G 0.3 w 430 300 20 20 re S Q
+BT 0 g /F1 7 Tf 435 304 Td (2) Tj ET
+q 0.3 g 450 300 20 20 re f Q
+q 0.3 g 470 300 20 20 re f Q
+q 0.3 g 490 300 20 20 re f Q
+q 0.3 g 330 280 20 20 re f Q
+q 0 G 0.3 w 350 280 20 20 re S Q
+BT 0 g /F1 7 Tf 355 284 Td (6) Tj ET
+q 0 G 0.3 w 370 280 20 20 re S Q
+BT 0 g /F1 7 Tf 375 284 Td (6) Tj ET
+q 0 G 0.3 w 390 280 20 20 re S Q
+BT 0 g /F1 7 Tf 395 284 Td (6) Tj ET
+q 0.3 g 410 280 20 20 re f Q
+q 0 G 0.3 w 430 280 20 20 re S Q
+BT 0 g /F1 7 Tf 435 284 Td (6) Tj ET
+q 0 G 0.3 w 450 280 20 20 re S Q
+BT 0 g /F1 7 Tf 455 284 Td (7) Tj ET
+q 0 G 0.3 w 470 280 20 20 re S Q
+BT 0 g /F1 7 Tf 475 284 Td (5) Tj ET
+q 0.3 g 490 280 20 20 re f Q
+BT 0 g /F2 9 Tf 50 234 Td (#25 \(Hard\)) Tj ET
+q 0.3 g 50 200 20 20 re f Q
+q 0.3 g 70 200 20 20 re f Q
+q 0.3 g 90 200 20 20 re f Q
+q 0.3 g 110 200 20 20 re f Q
+q 0.3 g 130 200 20 20 re f Q
+q 0.3 g 150 200 20 20 re f Q
+q 0.3 g 170 200 20 20 re f Q
+q 0.3 g 190 200 20 20 re f Q
+q 0.3 g 210 200 20 20 re f Q
+q 0.3 g 50 180 20 20 re f Q
+q 0 G 0.3 w 70 180 20 20 re S Q
+BT 0 g /F1 7 Tf 75 184 Td (9) Tj ET
+q 0 G 0.3 w 90 180 20 20 re S Q
+BT 0 g /F1 7 Tf 95 184 Td (4) Tj ET
+q 0 G 0.3 w 110 180 20 20 re S Q
+BT 0 g /F1 7 Tf 115 184 Td (1) Tj ET
+q 0 G 0.3 w 130 180 20 20 re S Q
+BT 0 g /F1 7 Tf 135 184 Td (2) Tj ET
+q 0.3 g 150 180 20 20 re f Q
+q 0 G 0.3 w 170 180 20 20 re S Q
+BT 0 g /F1 7 Tf 175 184 Td (1) Tj ET
+q 0 G 0.3 w 190 180 20 20 re S Q
+BT 0 g /F1 7 Tf 195 184 Td (8) Tj ET
+q 0.3 g 210 180 20 20 re f Q
+q 0.3 g 50 160 20 20 re f Q
+q 0 G 0.3 w 70 160 20 20 re S Q
+BT 0 g /F1 7 Tf 75 164 Td (2) Tj ET
+q 0 G 0.3 w 90 160 20 20 re S Q
+BT 0 g /F1 7 Tf 95 164 Td (4) Tj ET
+q 0 G 0.3 w 110 160 20 20 re S Q
+BT 0 g /F1 7 Tf 115 164 Td (4) Tj ET
+q 0 G 0.3 w 130 160 20 20 re S Q
+BT 0 g /F1 7 Tf 135 164 Td (2) Tj ET
+q 0.3 g 150 160 20 20 re f Q
+q 0 G 0.3 w 170 160 20 20 re S Q
+BT 0 g /F1 7 Tf 175 164 Td (3) Tj ET
+q 0 G 0.3 w 190 160 20 20 re S Q
+BT 0 g /F1 7 Tf 195 164 Td (2) Tj ET
+q 0.3 g 210 160 20 20 re f Q
+q 0.3 g 50 140 20 20 re f Q
+q 0 G 0.3 w 70 140 20 20 re S Q
+BT 0 g /F1 7 Tf 75 144 Td (9) Tj ET
+q 0 G 0.3 w 90 140 20 20 re S Q
+BT 0 g /F1 7 Tf 95 144 Td (5) Tj ET
+q 0 G 0.3 w 110 140 20 20 re S Q
+BT 0 g /F1 7 Tf 115 144 Td (3) Tj ET
+q 0 G 0.3 w 130 140 20 20 re S Q
+BT 0 g /F1 7 Tf 135 144 Td (7) Tj ET
+q 0.3 g 150 140 20 20 re f Q
+q 0 G 0.3 w 170 140 20 20 re S Q
+BT 0 g /F1 7 Tf 175 144 Td (3) Tj ET
+q 0 G 0.3 w 190 140 20 20 re S Q
+BT 0 g /F1 7 Tf 195 144 Td (3) Tj ET
+q 0 G 0.3 w 210 140 20 20 re S Q
+BT 0 g /F1 7 Tf 215 144 Td (3) Tj ET
+q 0.3 g 50 120 20 20 re f Q
+q 0 G 0.3 w 70 120 20 20 re S Q
+BT 0 g /F1 7 Tf 75 124 Td (4) Tj ET
+q 0 G 0.3 w 90 120 20 20 re S Q
+BT 0 g /F1 7 Tf 95 124 Td (9) Tj ET
+q 0 G 0.3 w 110 120 20 20 re S Q
+BT 0 g /F1 7 Tf 115 124 Td (7) Tj ET
+q 0 G 0.3 w 130 120 20 20 re S Q
+BT 0 g /F1 7 Tf 135 124 Td (4) Tj ET
+q 0 G 0.3 w 150 120 20 20 re S Q
+BT 0 g /F1 7 Tf 155 124 Td (6) Tj ET
+q 0 G 0.3 w 170 120 20 20 re S Q
+BT 0 g /F1 7 Tf 175 124 Td (3) Tj ET
+q 0 G 0.3 w 190 120 20 20 re S Q
+BT 0 g /F1 7 Tf 195 124 Td (2) Tj ET
+q 0 G 0.3 w 210 120 20 20 re S Q
+BT 0 g /F1 7 Tf 215 124 Td (8) Tj ET
+q 0.3 g 50 100 20 20 re f Q
+q 0 G 0.3 w 70 100 20 20 re S Q
+BT 0 g /F1 7 Tf 75 104 Td (3) Tj ET
+q 0 G 0.3 w 90 100 20 20 re S Q
+BT 0 g /F1 7 Tf 95 104 Td (2) Tj ET
+q 0 G 0.3 w 110 100 20 20 re S Q
+BT 0 g /F1 7 Tf 115 104 Td (9) Tj ET
+q 0 G 0.3 w 130 100 20 20 re S Q
+BT 0 g /F1 7 Tf 135 104 Td (3) Tj ET
+q 0.3 g 150 100 20 20 re f Q
+q 0 G 0.3 w 170 100 20 20 re S Q
+BT 0 g /F1 7 Tf 175 104 Td (3) Tj ET
+q 0 G 0.3 w 190 100 20 20 re S Q
+BT 0 g /F1 7 Tf 195 104 Td (9) Tj ET
+q 0 G 0.3 w 210 100 20 20 re S Q
+BT 0 g /F1 7 Tf 215 104 Td (6) Tj ET
+q 0.3 g 50 80 20 20 re f Q
+q 0 G 0.3 w 70 80 20 20 re S Q
+BT 0 g /F1 7 Tf 75 84 Td (3) Tj ET
+q 0 G 0.3 w 90 80 20 20 re S Q
+BT 0 g /F1 7 Tf 95 84 Td (7) Tj ET
+q 0 G 0.3 w 110 80 20 20 re S Q
+BT 0 g /F1 7 Tf 115 84 Td (5) Tj ET
+q 0 G 0.3 w 130 80 20 20 re S Q
+BT 0 g /F1 7 Tf 135 84 Td (6) Tj ET
+q 0.3 g 150 80 20 20 re f Q
+q 0 G 0.3 w 170 80 20 20 re S Q
+BT 0 g /F1 7 Tf 175 84 Td (7) Tj ET
+q 0 G 0.3 w 190 80 20 20 re S Q
+BT 0 g /F1 7 Tf 195 84 Td (1) Tj ET
+q 0 G 0.3 w 210 80 20 20 re S Q
+BT 0 g /F1 7 Tf 215 84 Td (1) Tj ET
+q 0.3 g 50 60 20 20 re f Q
+q 0.3 g 70 60 20 20 re f Q
+q 0 G 0.3 w 90 60 20 20 re S Q
+BT 0 g /F1 7 Tf 95 64 Td (1) Tj ET
+q 0.3 g 110 60 20 20 re f Q
+q 0 G 0.3 w 130 60 20 20 re S Q
+BT 0 g /F1 7 Tf 135 64 Td (1) Tj ET
+q 0.3 g 150 60 20 20 re f Q
+q 0 G 0.3 w 170 60 20 20 re S Q
+BT 0 g /F1 7 Tf 175 64 Td (2) Tj ET
+q 0 G 0.3 w 190 60 20 20 re S Q
+BT 0 g /F1 7 Tf 195 64 Td (1) Tj ET
+q 0 G 0.3 w 210 60 20 20 re S Q
+BT 0 g /F1 7 Tf 215 64 Td (7) Tj ET
+q 0.3 g 50 40 20 20 re f Q
+q 0.3 g 70 40 20 20 re f Q
+q 0 G 0.3 w 90 40 20 20 re S Q
+BT 0 g /F1 7 Tf 95 44 Td (1) Tj ET
+q 0.3 g 110 40 20 20 re f Q
+q 0 G 0.3 w 130 40 20 20 re S Q
+BT 0 g /F1 7 Tf 135 44 Td (8) Tj ET
+q 0.3 g 150 40 20 20 re f Q
+q 0 G 0.3 w 170 40 20 20 re S Q
+BT 0 g /F1 7 Tf 175 44 Td (6) Tj ET
+q 0 G 0.3 w 190 40 20 20 re S Q
+BT 0 g /F1 7 Tf 195 44 Td (7) Tj ET
+q 0 G 0.3 w 210 40 20 20 re S Q
+BT 0 g /F1 7 Tf 215 44 Td (5) Tj ET
+
+endstream
+endobj
+xref
+0 76
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000347 00000 n 
+0000000417 00000 n 
+0000000492 00000 n 
+0000000560 00000 n 
+0000000632 00000 n 
+0000000703 00000 n 
+0000000869 00000 n 
+0000001274 00000 n 
+0000001442 00000 n 
+0000001784 00000 n 
+0000001952 00000 n 
+0000002659 00000 n 
+0000002827 00000 n 
+0000005464 00000 n 
+0000005632 00000 n 
+0000008073 00000 n 
+0000008241 00000 n 
+0000010712 00000 n 
+0000010880 00000 n 
+0000013051 00000 n 
+0000013219 00000 n 
+0000015587 00000 n 
+0000015755 00000 n 
+0000018124 00000 n 
+0000018292 00000 n 
+0000020958 00000 n 
+0000021126 00000 n 
+0000023495 00000 n 
+0000023663 00000 n 
+0000028162 00000 n 
+0000028330 00000 n 
+0000032905 00000 n 
+0000033073 00000 n 
+0000037520 00000 n 
+0000037688 00000 n 
+0000041650 00000 n 
+0000041818 00000 n 
+0000046049 00000 n 
+0000046217 00000 n 
+0000050935 00000 n 
+0000051103 00000 n 
+0000055522 00000 n 
+0000055690 00000 n 
+0000060521 00000 n 
+0000060689 00000 n 
+0000065623 00000 n 
+0000065791 00000 n 
+0000072931 00000 n 
+0000073099 00000 n 
+0000080126 00000 n 
+0000080294 00000 n 
+0000087440 00000 n 
+0000087608 00000 n 
+0000095284 00000 n 
+0000095452 00000 n 
+0000101980 00000 n 
+0000102148 00000 n 
+0000109391 00000 n 
+0000109559 00000 n 
+0000116715 00000 n 
+0000116883 00000 n 
+0000123865 00000 n 
+0000124033 00000 n 
+0000124133 00000 n 
+0000124301 00000 n 
+0000130749 00000 n 
+0000130917 00000 n 
+0000139643 00000 n 
+0000139811 00000 n 
+0000152387 00000 n 
+0000152555 00000 n 
+0000170555 00000 n 
+0000170723 00000 n 
+trailer
+<< /Size 76 /Root 1 0 R >>
+startxref
+192575
+%%EOF
