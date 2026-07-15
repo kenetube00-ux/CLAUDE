@@ -1,257 +1,321 @@
 #!/usr/bin/env python3
 """Book 279 - Amazing Animals in the Bible: 10 Incredible Creature Stories"""
-import os, sys
+import random, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pdf_utils import PDFDoc
+random.seed(279)
+TITLE = "AMAZING ANIMALS IN THE BIBLE"
+SUBTITLE = "10 Incredible Creature Stories"
+AUTHOR = "Daniel Tesfamariam"
+FILENAME = "Book279_Bible_Animals_Stories.pdf"
+stories = [
+    {"title": "The Serpent in the Garden", "animal": "Serpent",
+     "verse": "The serpent was more subtle than any animal. - Genesis 3:1 (WEB)",
+     "moral": "Be careful of tricky lies - always check what God really said!",
+     "fact": "Snakes have over 200 vertebrae, can sense vibrations, and some species can go a year without eating!",
+     "p1": "In the beautiful Garden of Eden, God placed every kind of wonderful animal. Among them was the serpent - the cleverest creature of all. Adam and Eve lived in paradise with everything they could ever want. God gave them only one rule: do not eat from the tree of knowledge of good and evil in the middle of the garden.",
+     "p2": "One day the crafty serpent approached Eve near the forbidden tree. It twisted God's words, asking 'Did God REALLY say you cannot eat from any tree?' Eve corrected the serpent but then listened as it told her the biggest lie ever - that she would not die and would become like God. The fruit looked delicious and the promise of wisdom was tempting. Eve reached out, took the fruit, and ate it. She gave some to Adam too.",
+     "p3": "Immediately, everything changed. Adam and Eve felt shame and fear for the first time. They tried to hide from God among the trees. When God found them, He pronounced consequences for everyone. The serpent was cursed to crawl on its belly in the dust forever. But God also made a beautiful promise - one day a descendant of Eve would crush the serpent's head, defeating evil forever. That promise was fulfilled through Jesus!",
+     "words": ["SERPENT", "GARDEN", "EDEN", "FRUIT", "TREE", "SNAKE", "CRAFTY", "TRUTH"]},
+    {"title": "Noah's Animals - Two by Two", "animal": "all animals",
+     "verse": "Of every living thing, you shall bring two into the ark. - Genesis 6:19 (WEB)",
+     "moral": "God cares about every creature He made - big and small!",
+     "fact": "Scientists estimate there are about 8.7 million animal species on Earth, from tiny insects to massive blue whales!",
+     "p1": "When God told Noah to build an enormous ark to survive the coming flood, He gave very specific instructions about the animals. Two of every kind of creature - one male and one female - would come to Noah and enter the boat. Can you imagine the incredible parade that must have been? Lions, elephants, giraffes, birds, insects, reptiles - all walking, flying, and crawling toward one man and his giant wooden boat.",
+     "p2": "Noah must have been amazed as animals began arriving from every direction! Tall giraffes ducking through the door, tiny mice scurrying between elephant feet. Colorful parrots flying in beside silent owls. Fierce tigers walking peacefully alongside gentle deer. God brought them all - from the tiniest ant to the largest elephant. For clean animals, Noah brought seven pairs instead of just one. He stored enough food for every creature's special diet.",
+     "p3": "For over a year on the ark, Noah and his family cared for all these animals through the terrible flood. When the waters finally receded and the ark landed on dry ground, God opened the door and every creature burst out into the fresh new world! They spread across the earth, filling forests, oceans, deserts, and mountains. God had preserved every species through Noah's faithful obedience. Today when we see the amazing variety of animals, we see God's love for all His creatures.",
+     "words": ["NOAH", "ARK", "PAIRS", "ANIMALS", "FLOOD", "CARE", "TWO", "EVERY"]},
 
-def create_book():
-    pdf = PDFDoc(612, 792)
-    author = "Daniel Tesfamariam"
-    
-    def draw_border(pdf, x, y, w, h, gray=0.3):
-        pdf.add_rect(x, y, w, h, line_width=2, gray=gray)
-        pdf.add_rect(x+3, y+3, w-6, h-6, line_width=0.5, gray=gray)
+    {"title": "Balaam's Talking Donkey", "animal": "Donkey",
+     "verse": "The LORD opened the mouth of the donkey. - Numbers 22:28 (WEB)",
+     "moral": "God can use anyone - even a stubborn donkey - to deliver His message!",
+     "fact": "Donkeys have incredible memories, can live 25-30 years, and can carry up to 30% of their body weight!",
+     "p1": "A prophet named Balaam was hired by an evil king to curse Israel. He saddled his donkey and set off on the road. But God was angry and sent an angel with a drawn sword to block the path. The donkey could see the terrifying angel, but Balaam could not! The faithful donkey turned off the road into a field to avoid the angel, and Balaam beat her angrily.",
+     "p2": "The angel moved to a narrow path between vineyard walls. Again the donkey saw the angel and pressed against the wall, crushing Balaam's foot. He beat her again! Then the angel stood in a spot so narrow there was no room to pass at all. The poor donkey did the only thing she could - she lay down on the ground. Furious, Balaam beat her with his staff for the third time.",
+     "p3": "Then God did something extraordinary - He opened the donkey's mouth and she SPOKE! 'What have I done to you that you have beaten me three times?' she asked! Balaam was so angry he argued back without even being surprised a donkey was talking! Then God opened Balaam's eyes and he finally saw the angel with the sword. He fell on his face in terror. The angel told him the donkey had saved his life THREE times! God used a humble donkey to protect a stubborn man.",
+     "words": ["DONKEY", "ANGEL", "SPEAK", "BALAAM", "SWORD", "THREE", "ROAD", "EYES"]},
+    {"title": "David's Faithful Sheep", "animal": "Sheep",
+     "verse": "The LORD is my shepherd; I shall not want. - Psalm 23:1 (WEB)",
+     "moral": "God watches over us like a good shepherd protects his sheep!",
+     "fact": "Sheep can recognize up to 50 other sheep faces and remember them for years! They also have excellent peripheral vision.",
+     "p1": "Before David became king, he was a young shepherd boy caring for his father's flock in the hills near Bethlehem. Day after day, he led his sheep to green pastures and still waters, just as he later wrote in his famous Psalm 23. He knew each sheep by name and they knew his voice. Whenever he called, they would come running to him.",
+     "p2": "But being a shepherd was dangerous! One day a fierce lion crept toward the flock. David did not run away - he chased the lion, grabbed it, and struck it down to save his sheep! Another time a massive bear attacked. Again David fought it off bare-handed, rescuing the lamb from its jaws. His love for his sheep gave him incredible courage that would later help him face the giant Goliath.",
+     "p3": "David's experience as a shepherd taught him everything about how God cares for His people. Just as David led his sheep to food and water, God provides for us. Just as David protected his sheep from predators, God protects us from evil. And just as David's sheep trusted his voice completely, we can trust God's voice in our lives. When David wrote 'The Lord is my shepherd,' he understood exactly what that meant from years of faithful shepherding.",
+     "words": ["SHEEP", "SHEPHERD", "DAVID", "PROTECT", "GREEN", "FLOCK", "TRUST", "CARE"]},
+    {"title": "Elijah's Ravens - Special Delivery", "animal": "Ravens",
+     "verse": "I have commanded the ravens to feed you there. - 1 Kings 17:4 (WEB)",
+     "moral": "God can use unexpected things to provide for your needs!",
+     "fact": "Ravens are among the most intelligent birds - they can solve puzzles, use tools, and even plan for the future!",
+     "p1": "The prophet Elijah boldly told wicked King Ahab that no rain would fall until God said so. This made the king furious and Elijah's life was in danger! God told Elijah to hide by a brook called Cherith, far from the king's reach. Elijah obeyed and made camp beside the small stream where he could drink fresh water. But what would he eat all alone in the wilderness?",
+     "p2": "God had an amazing plan for feeding His prophet. He commanded ravens - large, black, intelligent birds - to bring food to Elijah every single day! Morning and evening, these wild birds would fly to Elijah carrying bread and meat in their beaks. They were like God's personal delivery service! Normally ravens are scavengers who keep food for themselves, but God changed their nature to serve His faithful prophet.",
+     "p3": "Day after day, the ravens came faithfully with their deliveries. Elijah had fresh bread and meat every morning and evening, and cool water from the brook. God showed that He can use anything in creation to provide for His people. He used birds as waiters! When the brook eventually dried up, God had another plan ready - sending Elijah to a widow who would provide for him. God always has a provision plan, sometimes from the most unexpected sources!",
+     "words": ["RAVENS", "BREAD", "MEAT", "BROOK", "ELIJAH", "FEED", "BIRDS", "PROVIDE"]},
 
-    def illus_box(pdf, y, desc, height=110):
-        pdf.add_filled_rect(60, y, 492, height, gray=0.95)
-        pdf.add_rect(60, y, 492, height, line_width=1.5, gray=0.4)
-        pdf.add_text(70, y+height-18, "[ILLUSTRATION:", font='F2', size=10, gray=0.3)
-        words = desc.split()
-        line, ly = "", y+height-33
-        for w in words:
-            if len(line+" "+w)>75:
-                pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-                ly -= 13; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-        pdf.add_text(70, ly-13, "]", font='F2', size=10, gray=0.3)
+    {"title": "Daniel's Lions - Mouths Shut Tight", "animal": "Lions",
+     "verse": "My God sent his angel and shut the lions' mouths. - Daniel 6:22 (WEB)",
+     "moral": "When you are faithful to God, He will protect you from every danger!",
+     "fact": "A lion's roar can be heard from 5 miles away! Male lions can weigh up to 500 pounds with jaws that exert 650 PSI of force.",
+     "p1": "Daniel was thrown into a den of hungry, roaring lions because he refused to stop praying to God. King Darius was heartbroken but the law could not be changed. As Daniel was lowered into the pit, he could hear the deep rumbling growls of the powerful beasts. Their eyes glowed in the darkness. Their massive paws had claws like knives. Any normal person would have been devoured in seconds.",
+     "p2": "But Daniel was not any normal person - he was a man of deep faith! As his feet touched the floor of the den, something miraculous happened. God sent an angel who stood between Daniel and the lions. The angel shut their powerful jaws tight! Those lions that could crush bones with a single bite suddenly became as gentle as kittens. Daniel spent the entire night in complete peace, surrounded by lions who could not harm him.",
+     "p3": "At dawn, King Darius rushed to the den calling out desperately for Daniel. To his overwhelming joy, Daniel answered! Not a single scratch was on him. The lions had not touched him because God's angel kept their mouths shut all night long. The king pulled Daniel out and declared that everyone must respect Daniel's God who has the power to shut the mouths of lions. God proved that faith is stronger than the fiercest predator on earth!",
+     "words": ["LIONS", "DANIEL", "DEN", "ANGEL", "SHUT", "MOUTHS", "FAITH", "NIGHT"]},
+    {"title": "Jonah's Great Fish", "animal": "Great Fish",
+     "verse": "The LORD prepared a great fish to swallow up Jonah. - Jonah 1:17 (WEB)",
+     "moral": "God's creatures obey Him perfectly - even when people refuse to!",
+     "fact": "Blue whales are the largest animals ever, with mouths big enough to hold 100 people! Whale sharks can also swallow very large prey.",
+     "p1": "When Jonah ran from God by boarding a ship going the wrong direction, God sent a terrible storm. The sailors threw Jonah into the raging sea. As Jonah plunged into the dark, cold waters and began sinking, all seemed lost. But God had prepared something extraordinary beneath the waves - an enormous fish, specially chosen for this exact moment.",
+     "p2": "The great fish opened its massive mouth and swallowed Jonah whole! Instead of drowning in the ocean, Jonah found himself alive inside the belly of this incredible creature. For three days and three nights, the fish served as Jonah's living submarine. In that dark, strange place, surrounded by seaweed and the sounds of the deep ocean, Jonah finally stopped running from God and started praying with a truly repentant heart.",
+     "p3": "After three days, at God's command, the great fish swam toward the shore and vomited Jonah out onto dry land! The fish had obeyed God perfectly - swallowing Jonah at exactly the right moment, keeping him alive for three days, and delivering him safely to land. While Jonah had disobeyed, the fish followed God's instructions flawlessly. This incredible creature was both Jonah's punishment and his rescue - proving that all of creation obeys its Creator.",
+     "words": ["FISH", "JONAH", "SWALLOW", "OCEAN", "THREE", "DAYS", "OBEY", "WHALE"]},
+    {"title": "Jesus Rides a Donkey", "animal": "Donkey",
+     "verse": "Your King comes to you, gentle, and riding on a donkey. - Matthew 21:5 (WEB)",
+     "moral": "Jesus chose humility over power - true kings serve their people!",
+     "fact": "In Bible times, kings rode horses in war but donkeys in peace. A donkey showed the king came as a friend, not a conqueror!",
+     "p1": "It was almost time for Jesus to complete His mission on earth. He sent two disciples ahead to a village where they would find a young donkey tied up that no one had ever ridden. They brought it to Jesus and placed their cloaks on its back as a saddle. Jesus, the King of Kings, chose to ride this humble donkey into Jerusalem rather than a powerful warhorse.",
+     "p2": "As Jesus rode the donkey down the Mount of Olives toward Jerusalem, an incredible thing happened. Huge crowds gathered along the road! People threw their cloaks on the ground before Him like a carpet. Others cut palm branches and waved them, shouting 'Hosanna! Blessed is He who comes in the name of the Lord!' The whole city was stirred with excitement. Children were singing His praises in the streets.",
+     "p3": "This fulfilled a prophecy written 500 years earlier - that Israel's king would come riding on a humble donkey. While earthly kings rode powerful horses with armies behind them, Jesus chose a simple donkey and came in peace and gentleness. The donkey carried the most important person in history, yet this humble animal perfectly represented Jesus' message - true greatness is found in service and humility, not in power and force.",
+     "words": ["DONKEY", "JESUS", "PALM", "HUMBLE", "KING", "PEACE", "RIDE", "CLOAKS"]},
 
-    def wrap(pdf, x, y, text, font='F4', size=11, mw=70, gray=0):
-        words = text.split()
-        line, cy = "", y
-        for w in words:
-            if len(line+" "+w)>mw:
-                pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray)
-                cy -= 15; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray); cy -= 15
-        return cy
-
-
-    # TITLE PAGE
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    draw_border(pdf, 30, 30, 552, 732, gray=0.2)
-    pdf.add_filled_rect(50, 600, 512, 130, gray=0.88)
-    pdf.add_centered_text(700, "AMAZING ANIMALS", font='F2', size=28, gray=0.1)
-    pdf.add_centered_text(668, "IN THE BIBLE", font='F2', size=22, gray=0.15)
-    pdf.add_centered_text(638, "10 Incredible Creature Stories", font='F5', size=16, gray=0.2)
-    illus_box(pdf, 370, "A colorful collection of Bible animals: a majestic lion lying peacefully, a white dove with olive branch, a large whale breaching the ocean surface, a raven carrying bread, a loyal donkey, and sheep in green pastures. All arranged in a circular composition with golden light.", 170)
-    pdf.add_centered_text(330, "For Kids Ages 5-15", font='F2', size=14, gray=0.3)
-    pdf.add_centered_text(300, "Real Animal Facts + Bible Stories + Activities", font='F4', size=12, gray=0.4)
-    pdf.add_centered_text(100, f"Written by {author}", font='F5', size=14, gray=0.2)
-
-    # COPYRIGHT
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    pdf.add_text(72, 700, "AMAZING ANIMALS IN THE BIBLE", font='F2', size=16, gray=0.1)
-    pdf.add_line(72, 688, 400, 688, width=0.5, gray=0.5)
-    pdf.add_text(72, 665, f"Copyright 2025 {author}. All rights reserved.", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 645, "Scripture from World English Bible (WEB) - Public Domain", font='F4', size=10, gray=0.3)
-    pdf.add_filled_rect(60, 100, 492, 50, gray=0.92)
-    pdf.add_text(72, 130, "For every kid who loves animals - God made them all amazing!", font='F5', size=11, gray=0.2)
-
-    animals = [
-        {
-            "title": "THE SERPENT IN THE GARDEN",
-            "ref": "Genesis 3",
-            "theme": "About Choices",
-            "illustration": "A beautiful green serpent coiled around the branch of a tree heavy with red fruit in the Garden of Eden. Lush tropical plants surround the tree - ferns, flowers in every color, butterflies. Eve stands nearby looking at the fruit curiously. The garden is incredibly beautiful with waterfalls and golden light.",
-            "story": "In the perfect Garden of Eden, a crafty serpent whispered lies to Eve. 'Did God really say you can't eat from any tree?' it twisted God's words. Eve knew the rule but listened anyway. The serpent promised she'd become like God. Eve took the fruit, ate it, and gave some to Adam. In that moment, sin entered the world and everything changed forever.",
-            "moral": "Be careful who you listen to! Not every voice that sounds friendly has good intentions. Always check what people say against what God says.",
-            "fact": "Snakes don't actually have vocal cords! They communicate through hissing, body language, and vibrations. The serpent in Eden was likely possessed by Satan himself.",
-            "verse": "The serpent said to the woman, 'You won't really die.' - Genesis 3:4 (WEB)",
-            "activity": "Draw the most beautiful garden you can imagine. Now think: what 'serpents' (bad influences) try to get you to break rules?"
-        },
-        {
-            "title": "NOAH'S ANIMALS",
-            "ref": "Genesis 7",
-            "theme": "God Cares for All Creatures",
-            "illustration": "Pairs of animals walking in an orderly line up a wooden ramp into the massive ark. Two giraffes stretch their necks, two elephants lumber along, two colorful parrots fly overhead, two striped tigers walk proudly, two penguins waddle. Noah gestures welcomingly at the door. Raindrops begin to fall from darkening sky.",
-            "story": "God didn't just save Noah's family - He saved EVERY kind of animal! Two of each (seven of some) marched onto the ark in perfect order. Lions walked beside lambs. Eagles didn't chase mice. God made them all peaceful together on that boat for over a year! He fed them, kept them calm, and protected every single one. After the flood, they all burst out onto fresh new land to fill the earth again.",
-            "moral": "God cares about ALL His creatures, not just people! Every animal matters to Him. And when He asks us to do something hard, He also provides everything we need.",
-            "fact": "Scientists estimate there are about 6.5 million land animal species on Earth today! The ark would have needed about 7,000 'kinds' of animals (not every variety, but original types).",
-            "verse": "Of every living thing, you shall bring two of every sort into the ship to keep them alive. - Genesis 6:19 (WEB)",
-            "activity": "List your 10 favorite animals. Thank God for making each one! Which would be hardest to have on a boat?"
-        },
-
-        {
-            "title": "BALAAM'S TALKING DONKEY",
-            "ref": "Numbers 22",
-            "theme": "God Uses Unexpected Things",
-            "illustration": "A gray donkey stopped on a narrow path between two stone walls, turning its head to look at its rider Balaam with an almost human expression of frustration. Balaam holds a stick raised in anger. An invisible angel with a flaming sword stands blocking the path - only visible in ethereal outline showing the donkey can see what the man cannot.",
-            "story": "Balaam was riding his donkey to do something God didn't want. Three times the donkey stopped or turned because it could see an angel blocking the path! Balaam hit the donkey each time. Then God opened the donkey's mouth and it SPOKE: 'What have I done to you that you've hit me three times?' Balaam argued with his donkey! Finally God opened Balaam's eyes to see the angel, and he realized his donkey had saved his life!",
-            "moral": "Sometimes God uses the most unexpected things to get our attention. Pay attention to the 'donkeys' in your life - the things that seem to be blocking you might actually be protecting you!",
-            "fact": "Donkeys are incredibly intelligent! They have a memory span of 25+ years, can recognize other donkeys they've met, and refuse to do anything they consider unsafe - that's why they're called 'stubborn'!",
-            "verse": "The LORD opened the mouth of the donkey, and she said to Balaam, 'What have I done to you?' - Numbers 22:28 (WEB)",
-            "activity": "Think of a time when something 'went wrong' but actually protected you. Write about how God might have been redirecting you!"
-        },
-        {
-            "title": "DAVID'S SHEEP",
-            "ref": "Psalm 23",
-            "theme": "God Is Our Shepherd",
-            "illustration": "Young David as a teenager sitting on a green hillside playing a small harp, surrounded by fluffy white sheep grazing peacefully. Some sheep drink from a crystal-clear stream. Green pastures stretch toward gentle hills. A sunset paints the sky in pinks and golds. David's shepherd's staff leans against a rock beside him.",
-            "story": "Before David was a king, he was a shepherd boy. He spent years caring for sheep - leading them to green grass, finding them clean water, protecting them from lions and bears! This experience inspired the most famous poem ever written: Psalm 23. 'The LORD is MY shepherd,' David wrote, realizing that God cared for him just like he cared for his sheep. God led him, fed him, protected him, and comforted him.",
-            "moral": "You are God's precious sheep! Just like a good shepherd provides everything his sheep need, God provides everything YOU need. You don't need to worry!",
-            "fact": "Sheep can recognize up to 50 other sheep faces AND 10 human faces for years! They also can't get up on their own if they fall on their backs - they need their shepherd to help them. Just like we need God!",
-            "verse": "The LORD is my shepherd; I shall not want. He makes me lie down in green pastures. He leads me beside still waters. - Psalm 23:1-2 (WEB)",
-            "activity": "Read all of Psalm 23. Draw a picture for each verse. How is God YOUR shepherd today?"
-        },
-        {
-            "title": "ELIJAH'S RAVENS",
-            "ref": "1 Kings 17",
-            "theme": "God Provides Through Nature",
-            "illustration": "Prophet Elijah sitting beside a rocky brook in a wilderness ravine. Two large black ravens fly toward him - one carrying bread in its beak, the other carrying meat. The brook has clear flowing water. Rocky desert canyon walls rise on both sides. Morning golden light filters through. Elijah looks up gratefully.",
-            "story": "A terrible drought hit the land because of evil King Ahab. God told Elijah to hide by a brook, and promised: 'I have commanded the ravens to feed you there.' Every morning AND every evening, ravens flew in carrying bread and meat in their beaks! Ravens - birds known for stealing food - were now DELIVERING meals! God used unlikely delivery birds to keep His prophet alive during the drought.",
-            "moral": "God has creative ways to provide for you! He's not limited to normal methods. Sometimes help comes from the most unexpected places - trust Him to provide!",
-            "fact": "Ravens are among the smartest birds on Earth! They can solve complex puzzles, use tools, and even plan for the future. They normally HIDE food for themselves - bringing food to someone else is totally against their nature. Only God could make them do that!",
-            "verse": "The ravens brought him bread and meat in the morning, and bread and meat in the evening; and he drank from the brook. - 1 Kings 17:6 (WEB)",
-            "activity": "List 5 unexpected ways God has provided for your family. Sometimes His delivery methods surprise us!"
-        },
-
-        {
-            "title": "DANIEL'S LIONS",
-            "ref": "Daniel 6",
-            "theme": "God Protects the Faithful",
-            "illustration": "Daniel sitting calmly in a stone pit with seven large lions lying around him peacefully. One lion rests its head near Daniel's lap like a giant house cat. Another lion yawns showing huge teeth but making no threat. A glowing angel stands protectively behind Daniel. Moonlight streams from the pit opening above. Daniel's hands are folded in prayer.",
-            "story": "Daniel was thrown into a den of hungry lions because he refused to stop praying to God. The king sealed the pit with a stone and spent a sleepless night worrying. But God sent an angel who shut the lions' mouths! The fierce predators became like gentle kittens around Daniel. In the morning, the king found Daniel perfectly safe - not a scratch on him! The lions hadn't even tried to hurt him.",
-            "moral": "When you stay faithful to God, He protects you in ways that seem impossible. The 'lions' in your life - bullies, fears, problems - cannot hurt you when God is your defender!",
-            "fact": "A lion's bite force is about 650 PSI - strong enough to crush bones! A male lion can eat 75 pounds of meat in one sitting. For these hungry lions to ignore Daniel, something truly supernatural had to happen!",
-            "verse": "My God sent his angel, and shut the lions' mouths, and they have not hurt me. - Daniel 6:22 (WEB)",
-            "activity": "Draw a lion looking fierce - then draw it looking gentle. What 'lions' (fears) in your life need God to shut their mouths?"
-        },
-        {
-            "title": "JONAH'S GREAT FISH",
-            "ref": "Jonah 1",
-            "theme": "You Can't Run from God",
-            "illustration": "A massive whale-like fish swimming in deep dark blue ocean waters. Inside its enormous belly (shown in cross-section), Jonah kneels in prayer surrounded by seaweed. The fish's eye is visible and wise-looking. Schools of smaller fish swim around the great fish. Light rays filter down from the distant surface. Bubbles rise from Jonah.",
-            "story": "When Jonah ran from God's mission, God sent a storm. The sailors threw Jonah overboard and GULP - a massive fish swallowed him whole! For three terrifying days inside that fish, Jonah finally prayed and repented. The fish then vomited Jonah onto dry land - alive, seaweed-covered, and ready to obey! This time Jonah went straight to Nineveh as God commanded.",
-            "moral": "You can't run from God! But here's the good news - even when you've messed up badly, God gives second chances. Running from God only makes things harder. Turn around and obey!",
-            "fact": "Sperm whales have been found with giant squid in their stomachs, proving they can swallow very large things! Their stomach acid is strong but there are reports of people surviving briefly inside large marine animals. Jonah's 3-day survival was definitely a miracle!",
-            "verse": "Jonah prayed to the LORD his God out of the fish's belly. - Jonah 2:1 (WEB)",
-            "activity": "Have you ever tried to run from something God wanted you to do? Write about what happened. Did you eventually obey?"
-        },
-        {
-            "title": "JESUS' DONKEY",
-            "ref": "Matthew 21",
-            "theme": "Humble Service Matters",
-            "illustration": "Jesus riding a small humble donkey through the streets of Jerusalem. People throw colorful cloaks and green palm branches on the road before Him. Children wave palm branches and shout joyfully. The donkey walks proudly carrying the King of Kings. Stone buildings of Jerusalem line the street. Crowds fill every space cheering.",
-            "story": "When Jesus entered Jerusalem as King, He didn't choose a mighty warhorse or a golden chariot. He chose a small, humble donkey! The animal had never been ridden before, yet it walked calmly carrying Jesus while thousands cheered. This humble donkey carried the King of the Universe! No one remembers the donkey's name, but it played the most important role that day.",
-            "moral": "God uses humble servants! You don't have to be the biggest, strongest, or most famous. Just be willing to carry Jesus - to let Him use you - and you'll play an important role in His story!",
-            "fact": "Donkeys have been working alongside humans for over 5,000 years! They can carry 20-30% of their body weight and walk 20+ miles per day. In Bible times, riding a donkey signified coming in peace (horses meant war).",
-            "verse": "Behold, your King comes to you, humble, and riding on a donkey. - Matthew 21:5 (WEB)",
-            "activity": "What 'small' job can you do for God this week? Remember - no job is too small if Jesus is the one you're serving!"
-        },
-        {
-            "title": "PETER'S ROOSTER",
-            "ref": "Matthew 26",
-            "theme": "Honesty and Repentance",
-            "illustration": "Peter standing in a courtyard at night by a fire, face showing shock and guilt as a rooster crows on a stone wall nearby. Tears stream down Peter's face. Firelight flickers on his features. In the background through an archway, Jesus is being led away by guards and turns to look at Peter with sad, loving eyes. Pre-dawn sky barely lightens the horizon.",
-            "story": "Peter swore he'd NEVER deny Jesus - even if everyone else did! But that very night, when people asked if he knew Jesus, Peter denied it. Once. Twice. Three times: 'I DON'T KNOW HIM!' Immediately, a rooster crowed - just as Jesus predicted. Peter looked up and saw Jesus looking at him. Peter ran outside and cried the bitterest tears of his life.",
-            "moral": "We all fail sometimes, even when we mean well. But failure isn't the end! Peter's story proves that tears of repentance lead to restoration. God uses broken people who are honest about their mistakes.",
-            "fact": "Roosters crow at dawn as a territorial call, but they can crow at any time! In the first century, the 'rooster crow' was also a term for the Roman trumpet call at the third watch of the night (around 3 AM).",
-            "verse": "Before the rooster crows, you will deny me three times. - Matthew 26:34 (WEB)",
-            "activity": "Have you ever let fear cause you to deny or hide your faith? Write about it. Remember - God forgives and restores!"
-        },
-        {
-            "title": "THE LAMB OF GOD",
-            "ref": "John 1:29",
-            "theme": "Jesus' Love for Us",
-            "illustration": "A pure white lamb standing in a beam of golden heavenly light on a green hill. A gentle cross shadow falls behind it. The lamb looks directly at the viewer with kind, innocent eyes. Flowers bloom around its feet - lilies and roses. In the sky, clouds part to reveal brilliant golden rays. Everything is peaceful and sacred.",
-            "story": "When John the Baptist saw Jesus coming toward him, he said something strange: 'Look! The Lamb of God who takes away the sin of the world!' In the Old Testament, people sacrificed lambs to cover their sins. But these lambs were temporary. Jesus came as the FINAL Lamb - perfect, pure, and willing to give His life so that we could be forgiven forever. He is the ultimate sacrifice of love.",
-            "moral": "Jesus gave everything for YOU because He loves you that much! The Lamb of God took your punishment so you could be free. That's the greatest love story ever told!",
-            "fact": "Lambs are symbols of innocence and gentleness. In Jesus' time, over 250,000 lambs were sacrificed at Passover in Jerusalem each year. Jesus fulfilled what all those lambs pointed to - one perfect sacrifice for all time!",
-            "verse": "Behold, the Lamb of God, who takes away the sin of the world! - John 1:29 (WEB)",
-            "activity": "Write a thank-you letter to Jesus for being your Lamb - for loving you enough to take your place. What does His love mean to you?"
-        }
-    ]
+    {"title": "Peter's Rooster - The Warning Cry", "animal": "Rooster",
+     "verse": "Before the rooster crows, you will deny me three times. - Matthew 26:34 (WEB)",
+     "moral": "Even when we fail, Jesus still loves us and gives us another chance!",
+     "fact": "Roosters crow at dawn as a natural alarm clock. They can crow up to 15 times each morning and can be heard over a mile away!",
+     "p1": "At the Last Supper, Jesus told Peter something shocking - that before the rooster crowed at dawn, Peter would deny knowing Jesus three times! Peter was outraged. 'Never! I would die for you!' he declared boldly. He truly believed he would never betray his beloved teacher. But Jesus knew what was coming and looked at Peter with eyes full of love and sadness.",
+     "p2": "That night, Jesus was arrested. Peter followed at a distance to the courtyard of the high priest. A servant girl recognized him and said, 'You were with Jesus!' Terrified, Peter lied: 'I don't know Him!' Another person pointed at him: 'You were with that Galilean!' Again Peter denied it. Then a third person insisted Peter was a follower of Jesus. Peter began cursing and swearing, 'I DO NOT KNOW THE MAN!'",
+     "p3": "At that exact moment, a rooster crowed, piercing the cold dawn air. Peter remembered Jesus' words and their eyes met across the courtyard. Jesus looked at him not with anger but with heartbreaking love. Peter broke down and wept bitterly, devastated by his failure. But this was not the end! After the resurrection, Jesus sought Peter out and restored him three times, asking 'Do you love me?' For every denial, Jesus offered forgiveness. The rooster reminded Peter of his weakness, but Jesus reminded him of grace.",
+     "words": ["ROOSTER", "PETER", "DENY", "CROW", "DAWN", "TEARS", "FORGIVE", "GRACE"]},
+    {"title": "The Lamb of God", "animal": "Lamb",
+     "verse": "Behold, the Lamb of God, who takes away the sin of the world! - John 1:29 (WEB)",
+     "moral": "Jesus is the perfect Lamb who gave His life to save everyone who believes!",
+     "fact": "Lambs are born helpless and completely dependent on their shepherd. They are symbols of innocence and purity in many cultures.",
+     "p1": "Throughout the Bible, lambs held a very special and sacred meaning. In the very first sacrifice, God provided a covering for Adam and Eve. When Abraham was about to sacrifice his son Isaac, God provided a ram caught in thorns instead. Each year at Passover, Jewish families sacrificed a perfect lamb without any blemish, and its blood protected them from death - just as it did in Egypt when they were slaves.",
+     "p2": "When John the Baptist saw Jesus approaching the Jordan River, he proclaimed something powerful: 'Behold! The Lamb of God who takes away the sin of the world!' John recognized that Jesus was THE lamb that all other sacrifices pointed toward. Jesus was perfect, without sin, innocent and pure - the ultimate sacrifice that would end all other sacrifices forever. He came not to be served but to give His life for others.",
+     "p3": "On the cross, Jesus became the final, perfect Lamb. Just as Passover lambs were sacrificed so families could be saved from death, Jesus was sacrificed so all humanity could be saved from eternal death. He was gentle and did not fight back. He was innocent yet took our punishment. In heaven, Jesus is worshiped as the Lamb who was slain - proving that the greatest power in the universe is not force but sacrificial love. The Lamb of God conquered death itself!",
+     "words": ["LAMB", "JESUS", "PURE", "SACRIFICE", "LOVE", "SAVE", "BLOOD", "ETERNAL"]}
+]
 
 
-    # RENDER ANIMAL STORIES
-    gray_vals = [0.88, 0.92, 0.95, 0.90, 0.93, 0.88, 0.97, 0.91, 0.94, 0.89]
-    
-    for idx, a in enumerate(animals):
-        bg = gray_vals[idx % len(gray_vals)]
-        
-        # Page 1: Title + Illustration + Story
-        pdf.new_page()
-        pdf.add_filled_rect(0, 720, 612, 72, gray=bg)
-        pdf.add_filled_rect(45, 725, 522, 60, gray=0.97)
-        draw_border(pdf, 45, 725, 522, 60, gray=0.3)
-        pdf.add_centered_text(762, f"Animal Story {idx+1} - {a['ref']}", font='F4', size=10, gray=0.5)
-        pdf.add_centered_text(742, a["title"], font='F2', size=18, gray=0.1)
-        pdf.add_centered_text(727, a["theme"], font='F5', size=11, gray=0.3)
-        
-        illus_box(pdf, 550, a["illustration"], 140)
-        
-        pdf.add_filled_rect(50, 350, 512, 180, gray=0.97)
-        pdf.add_rect(50, 350, 512, 180, line_width=0.5, gray=0.5)
-        pdf.add_text(60, 515, "THE BIBLE STORY:", font='F2', size=11, gray=0.2)
-        wrap(pdf, 60, 495, a["story"], font='F4', size=11, mw=72)
+def generate_word_search(words):
+    grid = [[random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(10)] for _ in range(10)]
+    for word in words[:8]:
+        word = word.upper()
+        for _ in range(50):
+            d = random.choice([(0,1),(1,0),(1,1)])
+            r = random.randint(0, max(0,9-len(word)*d[0]))
+            c = random.randint(0, max(0,9-len(word)*d[1]))
+            if r+len(word)*d[0]>10 or c+len(word)*d[1]>10: continue
+            for i,ch in enumerate(word): grid[r+i*d[0]][c+i*d[1]]=ch
+            break
+    return grid
 
-        # Page 2: Moral + Facts + Verse + Activity
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-        pdf.add_text(60, 760, a["title"] + " (continued)", font='F2', size=13, gray=0.2)
-        pdf.add_line(60, 752, 400, 752, width=0.5, gray=0.4)
-        
-        # Moral box
-        pdf.add_filled_rect(50, 650, 512, 80, gray=bg)
-        draw_border(pdf, 50, 650, 512, 80, gray=0.4)
-        pdf.add_text(65, 715, "MORAL / LIFE LESSON:", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, 695, a["moral"], font='F5', size=11, mw=70)
-        
-        # Did You Know? box
-        pdf.add_filled_rect(50, 530, 512, 100, gray=0.92)
-        pdf.add_rect(50, 530, 512, 100, line_width=1, gray=0.3)
-        pdf.add_text(65, 615, "DID YOU KNOW? (Animal Facts!):", font='F2', size=11, gray=0.1)
-        wrap(pdf, 65, 595, a["fact"], font='F4', size=10, mw=72)
-        
-        # Verse
-        pdf.add_filled_rect(50, 440, 512, 70, gray=0.95)
-        pdf.add_text(65, 495, "KEY VERSE:", font='F2', size=11, gray=0.2)
-        wrap(pdf, 65, 475, a["verse"], font='F3', size=9, mw=75)
-        
-        # Activity
-        pdf.add_filled_rect(50, 320, 512, 100, gray=0.88)
-        pdf.add_rect(50, 320, 512, 100, line_width=1, gray=0.4)
-        pdf.add_text(65, 405, "ACTIVITY:", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, 385, a["activity"], font='F4', size=11, mw=70)
-        
-        # Writing lines
-        for i in range(3):
-            pdf.add_line(60, 280-(i*25), 550, 280-(i*25), width=0.5, gray=0.6)
+def wrap_text(text, mx=75):
+    wds=text.split(); lines=[]; cur=""
+    for w in wds:
+        if len(cur)+len(w)+1<=mx: cur+=(" " if cur else "")+w
+        else:
+            if cur: lines.append(cur)
+            cur=w
+    if cur: lines.append(cur)
+    return lines
 
-    # FINAL PAGE - Animal Match Game
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.95)
-    pdf.add_filled_rect(40, 710, 532, 60, gray=0.88)
-    draw_border(pdf, 40, 710, 532, 60, gray=0.3)
-    pdf.add_centered_text(745, "BIBLE ANIMAL MATCHING GAME!", font='F2', size=16, gray=0.1)
-    pdf.add_centered_text(718, "Draw a line from each animal to its Bible story!", font='F4', size=11, gray=0.3)
-    
-    left_items = ["Serpent", "Dove (Noah's)", "Donkey (Balaam's)", "Sheep (David's)", "Ravens (Elijah's)", "Lions (Daniel's)", "Great Fish (Jonah's)", "Donkey (Jesus')", "Rooster (Peter's)", "Lamb of God"]
-    right_items = ["Carried the King", "Took away sin", "Warned of lies", "Provided food", "Showed peace", "Said 'What have I done?'", "Swallowed a prophet", "Announced a denial", "Lay down peacefully", "Showed God's care"]
-    
-    y = 670
-    for i in range(10):
-        pdf.add_text(70, y, f"{i+1}. {left_items[i]}", font='F4', size=10, gray=0.2)
-        pdf.add_text(370, y, f"{chr(65+i)}. {right_items[i]}", font='F4', size=10, gray=0.2)
-        y -= 30
+def build_pdf():
+    pdf=PDFDoc(); pc=0
+    # Title
+    pdf.new_page(); pc+=1
+    pdf.add_filled_rect(50,650,512,100,0.85)
+    pdf.add_centered_text(720,TITLE,'F2',26,0)
+    pdf.add_centered_text(690,SUBTITLE,'F4',14,0.2)
+    pdf.add_centered_text(660,"Written and Illustrated by",'F4',12,0.3)
+    pdf.add_centered_text(640,AUTHOR,'F2',16,0)
+    pdf.add_rect(100,200,412,380,2,0.3)
+    pdf.add_centered_text(420,"[ILLUSTRATION: A collection of Bible animals -",'F3',10,0.4)
+    pdf.add_centered_text(405,"lion, dove, fish, lamb, raven together]",'F3',10,0.4)
+    pdf.add_centered_text(100,"Discover God's amazing creatures!",'F4',12,0.3)
+    # Copyright
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(700,TITLE,'F2',16,0)
+    pdf.add_text(72,600,f"Written by {AUTHOR}",'F4',11,0.2)
+    pdf.add_text(72,580,"Copyright 2025. All Rights Reserved.",'F4',10,0.3)
+    pdf.add_text(72,550,"Scripture: World English Bible (WEB) - Public Domain.",'F4',10,0.3)
+    pdf.add_text(72,520,"For children ages 6-12.",'F4',10,0.3)
+    pdf.add_text(72,490,"Published by Kingdom Kids Publishing - First Edition 2025",'F4',10,0.3)
+    pdf.add_text(72,440,"Dedication: For every child who loves animals and loves God!",'F4',11,0.2)
+    # TOC
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"TABLE OF CONTENTS",'F2',18,0)
+    pdf.add_line(150,720,462,720,1,0.3); y=680
+    for i,s in enumerate(stories):
+        pdf.add_text(72,y,f"Animal {i+1}: {s['title']}",'F4',12,0.1); y-=28
+    pdf.add_text(72,y-10,"Quiz / Vocabulary / Journal / Certificate / Bonus",'F4',10,0.3)
+    # How to Use
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"HOW TO USE THIS BOOK",'F2',18,0)
+    pdf.add_line(150,720,462,720,1,0.3)
+    intro=["Welcome animal lovers! Did you know the Bible is FULL","of amazing animals? From snakes to whales, lions to lambs!","",
+        "Each animal story has SIX pages:","  1. The story begins + illustration",
+        "  2. The story continues + action scene","  3. Story ending + verse + moral + REAL animal facts!",
+        "  4. Reflection questions + prayer","  5. Word search puzzle","  6. Draw the animal!","",
+        "BONUS: Each story includes real science facts","about the animal! Learn Bible AND science!","",
+        "Ready to meet God's amazing creatures? Let's go!"]
+    y=680
+    for l in intro: pdf.add_text(72,y,l,'F4',11,0.15); y-=22
 
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Book279_Bible_Animals_Stories.pdf")
-    pdf.save(output_path)
-    print(f"Created: {output_path}")
 
-if __name__ == "__main__":
-    create_book()
+    # 10 stories x 6 pages = 60
+    for idx, story in enumerate(stories):
+        pdf.new_page(); pc+=1
+        pdf.add_filled_rect(50,700,512,60,0.88)
+        pdf.add_centered_text(735,f"Animal Story {idx+1}",'F1',10,0.4)
+        pdf.add_centered_text(715,story['title'].upper(),'F2',18,0)
+        pdf.add_rect(100,400,412,270,1.5,0.3)
+        pdf.add_centered_text(560,f"[ILLUSTRATION: {story['animal']} in Bible scene",'F3',9,0.4)
+        pdf.add_centered_text(545,"with detailed, colorful artwork]",'F3',9,0.4)
+        for i,line in enumerate(wrap_text(story['p1'],80)):
+            pdf.add_text(72,370-i*18,line,'F4',11,0.1)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (continued)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(story['p2'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        pdf.add_rect(100,y-260,412,240,1.5,0.3)
+        pdf.add_centered_text(y-120,f"[ILLUSTRATION: {story['animal']} action scene]",'F3',9,0.4)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (conclusion)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(story['p3'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        y-=15
+        pdf.add_filled_rect(72,y-30,468,40,0.9)
+        pdf.add_centered_text(y-5,"KEY BIBLE VERSE:",'F2',10,0.2)
+        pdf.add_centered_text(y-22,story['verse'],'F4',11,0)
+        y-=55
+        pdf.add_rect(72,y-40,468,50,2,0.2)
+        pdf.add_centered_text(y-5,"MORAL:",'F2',11,0.1)
+        pdf.add_centered_text(y-25,story['moral'],'F5',11,0)
+        y-=60
+        pdf.add_filled_rect(72,y-40,468,45,0.93)
+        pdf.add_text(80,y-8,"ANIMAL SCIENCE FACT:",'F2',10,0.1)
+        for i,fl in enumerate(wrap_text(story['fact'],70)):
+            pdf.add_text(80,y-25-i*14,fl,'F4',9,0.2)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"WHAT I LEARNED",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        pdf.add_text(72,710,f"Reflecting on: {story['title']}",'F4',11,0.2)
+        qs=[f"1. What role did the {story['animal'].lower()} play in this story?",
+            "2. What does this story teach us about God?",
+            "3. What is the most amazing thing about this animal?"]
+        y=670
+        for q in qs:
+            pdf.add_text(72,y,q,'F2',11,0.1); y-=20
+            for _ in range(3): pdf.add_line(90,y,530,y,0.5,0.6); y-=20
+            y-=10
+        pdf.add_filled_rect(72,y-120,468,130,0.92)
+        pdf.add_centered_text(y-5,"MY PRAYER",'F2',14,0.1)
+        pdf.add_text(80,y-25,"Thank you God for creating amazing animals like...",'F4',10,0.2)
+        for i in range(5): pdf.add_line(80,y-50-i*20,520,y-50-i*20,0.5,0.6)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"WORD SEARCH PUZZLE",'F2',16,0)
+        pdf.add_text(72,720,f"Find words about: {story['animal']}",'F4',11,0.2)
+        grid=generate_word_search(story['words']); y=680
+        for row in grid: pdf.add_centered_text(y,"   ".join(row),'F3',14,0.1); y-=24
+        y-=20; pdf.add_text(72,y,"Words to find:",'F2',11,0.1); y-=20
+        pdf.add_text(72,y,"  ".join(story['words']),'F3',10,0.2)
+        y-=40; pdf.add_text(72,y,"BONUS: What other animals are in the Bible?",'F4',10,0.3)
+        for _ in range(3): y-=22; pdf.add_line(72,y,540,y,0.5,0.6)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"DRAW THE {story['animal'].upper()}!",'F2',16,0)
+        pdf.add_text(72,720,f"Draw a {story['animal'].lower()} from this story:",'F4',11,0.2)
+        pdf.add_rect(72,280,468,420,1.5,0.3)
+        pdf.add_centered_text(260,"What is your favorite animal and why?",'F2',11,0.1)
+        y=230
+        for _ in range(4): pdf.add_line(72,y,540,y,0.5,0.6); y-=22
+
+
+    # Quiz (2 pages)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 1",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    qs=[("1. Which animal tricked Eve in the Garden?","a) Lion  b) Serpent  c) Raven"),
+        ("2. How many of each animal went on the ark?","a) 1  b) 2  c) 7"),
+        ("3. What did Balaam's donkey see?","a) A lion  b) An angel  c) A fire"),
+        ("4. What did ravens bring Elijah?","a) Water  b) Bread and meat  c) Fish"),
+        ("5. How long was Jonah inside the fish?","a) 1 day  b) 3 days  c) 7 days")]
+    y=700
+    for q,o in qs: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 2",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    qs2=[("6. What animal did Jesus ride into Jerusalem?","a) Horse  b) Camel  c) Donkey"),
+         ("7. Peter denied Jesus before the ____ crowed.","a) Eagle  b) Rooster  c) Dove"),
+         ("8. What did David protect his sheep from?","a) Lions and bears  b) Wolves  c) Foxes"),
+         ("9. Jesus is called the Lamb of ____","a) Peace  b) God  c) Israel"),
+         ("10. What shut the lions' mouths for Daniel?","a) A stone  b) An angel  c) Chains")]
+    y=700
+    for q,o in qs2: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.add_text(72,y-20,"Answers: 1b, 2b, 3b, 4b, 5b, 6c, 7b, 8a, 9b, 10b",'F3',9,0.4)
+
+    # Vocabulary
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"VOCABULARY & WORD LIST",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    vocab=[("Creature","Any living thing created by God"),("Flock","A group of sheep or birds"),
+           ("Predator","An animal that hunts other animals"),("Sacrifice","An offering given to God"),
+           ("Obedience","Following instructions willingly"),("Provision","God supplying what is needed"),
+           ("Shepherd","Someone who cares for sheep"),("Habitat","The natural home of an animal"),
+           ("Instinct","Natural behavior God built into animals"),("Stewardship","Caring for God's creation")]
+    y=710
+    for w,d in vocab: pdf.add_text(72,y,f"{w}:",'F2',11,0.1); pdf.add_text(200,y,d,'F4',10,0.2); y-=28
+
+    # Journal (4 pages)
+    prompts=["My favorite animal God created and why...","How animals show us God's creativity...",
+             "An animal I want to learn more about...","How I can care for God's animal creation..."]
+    for j in range(4):
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"MY FAITH JOURNAL - Page {j+1}",'F2',16,0)
+        pdf.add_text(72,710,prompts[j],'F5',12,0.2); y=680
+        for _ in range(24): pdf.add_line(72,y,540,y,0.5,0.7); y-=25
+
+    # Certificate
+    pdf.new_page(); pc+=1
+    pdf.add_rect(50,50,512,692,3,0.2); pdf.add_rect(60,60,492,672,1.5,0.4)
+    pdf.add_centered_text(680,"CERTIFICATE OF COMPLETION",'F2',22,0)
+    pdf.add_centered_text(640,"This certifies that",'F4',14,0.2)
+    pdf.add_line(180,600,432,600,1,0.3)
+    pdf.add_centered_text(540,"has studied all 10 animal stories in",'F4',12,0.2)
+    pdf.add_centered_text(510,TITLE,'F2',14,0)
+    pdf.add_centered_text(400,"Date: _______________",'F4',12,0.3)
+    pdf.add_centered_text(280,"\"Ask the animals, and they will teach you\" - Job 12:7",'F5',13,0.1)
+
+    # Memory Verse Cards (2 pages)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS",'F2',18,0); y=690
+    for i,s in enumerate(stories[:5]):
+        pdf.add_rect(72,y-55,468,55,1,0.3)
+        pdf.add_text(80,y-15,f"Card {i+1}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS (continued)",'F2',18,0); y=700
+    for i,s in enumerate(stories[5:]):
+        pdf.add_rect(72,y-55,468,55,1,0.3)
+        pdf.add_text(80,y-15,f"Card {i+6}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+
+    # Bonus
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MY ANIMAL FACTS COLLECTION",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    pdf.add_text(72,710,"Research and write one amazing fact about each animal:",'F4',11,0.2); y=680
+    for i,s in enumerate(stories):
+        pdf.add_text(72,y,f"{i+1}. {s['animal']}: ",'F2',10,0.1)
+        pdf.add_line(180,y-2,540,y-2,0.5,0.6); y-=30
+
+    out=os.path.join(os.path.dirname(os.path.abspath(__file__)),FILENAME)
+    pdf.save(out)
+    print(f"Generated {FILENAME} with {pc} pages")
+    return pc
+
+if __name__=="__main__":
+    build_pdf()

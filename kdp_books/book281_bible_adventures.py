@@ -1,271 +1,292 @@
 #!/usr/bin/env python3
 """Book 281 - Bible Adventures: 10 Action-Packed Stories for Brave Kids"""
-import os, sys
+import random, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pdf_utils import PDFDoc
+random.seed(281)
+TITLE = "BIBLE ADVENTURES"
+SUBTITLE = "10 Action-Packed Stories for Brave Kids"
+AUTHOR = "Daniel Tesfamariam"
+FILENAME = "Book281_Bible_Adventures_Kids.pdf"
+stories = [
+    {"title": "Red Sea Escape", "character": "Moses",
+     "verse": "The LORD will fight for you. You only need to be still. - Exodus 14:14 (WEB)",
+     "moral": "When danger surrounds you, God fights your battles!",
+     "choice": "If you were trapped between an army and a sea, would you: A) Try to swim, B) Trust God's miracle, or C) Surrender?",
+     "p1": "The night was dark and the sound of thundering hooves echoed across the desert. Six hundred Egyptian war chariots were racing toward the Israelites at full speed! Dust clouds billowed behind the massive army. Ahead, the Red Sea stretched endlessly with no bridge, no boats, and no escape. Two million people were trapped between the most powerful army in the world and miles of deep, churning water.",
+     "p2": "Panic erupted everywhere. Women screamed, children cried, and men argued. Some wanted to surrender and go back to slavery. But Moses stood like a rock against the wind of fear. He raised his staff toward the sky and shouted above the chaos: 'STAND FIRM! Watch what the Lord will do today!' A massive pillar of fire moved between the Israelites and the Egyptian army, blocking the enemy while lighting the night for God's people.",
+     "p3": "Moses stretched his hand over the sea and a supernatural wind roared to life! The waters split apart with a CRACK like thunder, rising into towering walls on both sides! A wide highway of dry ground appeared through the middle of the sea! The people rushed through with walls of water higher than buildings on each side, fish swimming behind the transparent walls! When the last person crossed safely, Moses let the walls collapse on the pursuing army. The greatest escape in history!",
+     "words": ["ESCAPE", "SEA", "SPLIT", "CHASE", "ARMY", "MIRACLE", "DRY", "FREE"]},
+    {"title": "Spy Mission at Jericho", "character": "the spies and Rahab",
+     "verse": "Be strong and very courageous. - Joshua 1:7 (WEB)",
+     "moral": "Courage means going into dangerous places when God sends you!",
+     "choice": "Would you: A) Sneak into an enemy city alone, B) Send a drone (if you had one!), or C) Wait for more info?",
+     "p1": "Joshua sent two of his bravest men on the most dangerous mission imaginable - sneak into the heavily fortified city of Jericho and spy out its defenses. The massive walls towered above them as they crept through the city gate disguised as travelers. Enemy soldiers patrolled everywhere. One wrong word, one suspicious look, and they would be captured and killed immediately.",
+     "p2": "Word reached the king that Israelite spies had entered the city! Soldiers began searching house by house. The spies had taken shelter with a woman named Rahab whose house was built into the city wall itself. Rahab had heard about God's mighty power and believed He would give Jericho to Israel. She hid the spies under stalks of flax on her rooftop while soldiers searched below. When guards knocked on her door, she bravely lied to protect them, sending the search party in the wrong direction.",
+     "p3": "In the dead of night, Rahab lowered the two spies down from her window on a scarlet rope - her house was on the outer wall! She asked them to spare her family when the attack came. They promised to protect anyone in her house marked by that red rope. The spies escaped into the hills, hiding for three days before returning to Joshua with their report: 'The people are terrified of us! God has given us this land!' The spy mission was a complete success thanks to one brave woman's faith.",
+     "words": ["SPY", "JERICHO", "RAHAB", "ROPE", "HIDE", "WALL", "BRAVE", "SECRET"]},
 
-def create_book():
-    pdf = PDFDoc(612, 792)
-    author = "Daniel Tesfamariam"
-    
-    def draw_border(pdf, x, y, w, h, gray=0.3):
-        pdf.add_rect(x, y, w, h, line_width=2, gray=gray)
-        pdf.add_rect(x+3, y+3, w-6, h-6, line_width=0.5, gray=gray)
+    {"title": "Gideon's Night Raid", "character": "Gideon",
+     "verse": "The sword of the LORD and of Gideon! - Judges 7:20 (WEB)",
+     "moral": "With God, you don't need a big army - just big faith!",
+     "choice": "Would you attack with: A) 300 men and torches, B) Wait for a bigger army, or C) Try to negotiate peace?",
+     "p1": "The Midianite army stretched across the valley like a swarm of locusts - over 135,000 warriors with their camels. Against them stood Gideon with only 300 men! No swords, no shields - just clay jars, torches hidden inside, and ram horn trumpets. It was the most ridiculous battle plan in military history. But God had designed it that way so everyone would know HE won the victory.",
+     "p2": "Under the cover of midnight darkness, Gideon divided his tiny force into three companies of 100 men each. They crept silently around the massive enemy camp, taking positions on three sides. Hearts pounding, hands trembling, they waited for Gideon's signal. The Midianite camp sprawled below them with thousands of tents and sleeping warriors. The night was perfectly still. Then Gideon raised his trumpet to his lips.",
+     "p3": "SMASH! Three hundred clay jars shattered simultaneously! Blazing torches burst into light from every direction! 'THE SWORD OF THE LORD AND OF GIDEON!' three hundred voices roared into the night! Trumpets blasted from all sides! The sleeping Midianites woke in total chaos, thinking a massive army surrounded them. In the confusion, they turned their swords on each other and fled in every direction! Without swinging a single weapon, Gideon's 300 won the most incredible victory in Israel's history!",
+     "words": ["GIDEON", "NIGHT", "TORCH", "JAR", "SHOUT", "THREE", "HUNDRED", "WIN"]},
+    {"title": "David vs the Giant", "character": "David",
+     "verse": "The battle is the LORD's! - 1 Samuel 17:47 (WEB)",
+     "moral": "Giants fall when you fight with God on your side!",
+     "choice": "Facing a giant, would you: A) Run away, B) Grab a sling like David, or C) Put on heavy armor?",
+     "p1": "BOOM. BOOM. BOOM. Each thunderous footstep shook the ground as Goliath, the champion of the Philistines, marched into the valley between the two armies. He stood over NINE FEET TALL - a walking mountain of muscle covered in bronze armor that weighed 125 pounds. His spear was as thick as a weaving beam with an iron point weighing fifteen pounds. For forty days he had challenged Israel and no one dared face him.",
+     "p2": "Then a teenage shepherd boy named David arrived with lunch for his brothers. When he heard Goliath's booming insults against God, fury blazed in his young heart. 'Who is this uncircumcised Philistine who defies the army of the LIVING GOD?' he demanded. King Saul tried to give David armor but it was too heavy. David stripped it off and walked toward the giant with nothing but his shepherd's staff, a sling, and five smooth stones from the stream.",
+     "p3": "Goliath LAUGHED when he saw the boy. 'Am I a dog that you come at me with sticks?' But David sprinted toward the giant at full speed, reaching into his bag. His sling whirled overhead faster and faster - WHIP WHIP WHIP - then RELEASE! The stone flew like a bullet and struck Goliath square in the forehead with a sickening CRACK! The giant's eyes went blank. He crashed face-first into the dirt like a falling tower. The ground shook. The army of Israel ROARED and charged! One boy, one stone, one God - VICTORY!",
+     "words": ["DAVID", "GIANT", "SLING", "STONE", "BATTLE", "BRAVE", "FAITH", "WIN"]},
+    {"title": "Noah's Flood - Surviving the Storm", "character": "Noah",
+     "verse": "Noah did everything just as God commanded. - Genesis 6:22 (WEB)",
+     "moral": "Obedience to God keeps you safe even in the worst storms!",
+     "choice": "If God told you to build a boat in your backyard, would you: A) Do it immediately, B) Ask questions first, or C) Ignore it?",
+     "p1": "For over 100 years, Noah hammered, sawed, and built while everyone laughed. The ark was ENORMOUS - 450 feet long, 75 feet wide, and 45 feet tall! It looked ridiculous sitting on dry ground with no ocean anywhere nearby. People mocked Noah mercilessly. But Noah kept building because God had warned him that the greatest catastrophe in history was coming.",
+     "p2": "When the ark was finally finished, something incredible happened. Animals began arriving from everywhere! Lions walked past Noah peacefully. Elephants thundered up the ramp. Eagles swooped in through the upper deck. Snakes slithered aboard. Mice scurried between the feet of hippos. Two by two, every kind of creature God created marched into the ark. Then God Himself shut the massive door with a thundering BOOM that echoed across the silent landscape.",
+     "p3": "For seven days, nothing happened. Then the sky turned black. Lightning split the heavens. Rain exploded from the clouds with unimaginable force. Underground springs burst open like geysers. Water rose with terrifying speed - inches became feet, feet became fathoms. The ark lifted off the ground and began to float! Inside, Noah's family clung to each other as the boat rocked in the churning flood. For 40 days it rained without stopping. But inside the ark, every person and animal was perfectly safe. God's obedient servant survived the greatest storm in history!",
+     "words": ["NOAH", "ARK", "FLOOD", "STORM", "ANIMALS", "RAIN", "SAFE", "OBEY"]},
 
-    def illus_box(pdf, y, desc, height=110):
-        pdf.add_filled_rect(60, y, 492, height, gray=0.95)
-        pdf.add_rect(60, y, 492, height, line_width=1.5, gray=0.4)
-        pdf.add_text(70, y+height-18, "[ACTION ILLUSTRATION:", font='F2', size=10, gray=0.3)
-        words = desc.split()
-        line, ly = "", y+height-33
-        for w in words:
-            if len(line+" "+w)>75:
-                pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-                ly -= 13; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-        pdf.add_text(70, ly-13, "]", font='F2', size=10, gray=0.3)
+    {"title": "Daniel in the Lions' Den", "character": "Daniel",
+     "verse": "My God sent his angel and shut the lions' mouths. - Daniel 6:22 (WEB)",
+     "moral": "Faith turns the scariest situations into incredible testimonies!",
+     "choice": "Would you: A) Keep praying openly like Daniel, B) Pray in secret, or C) Stop praying for 30 days?",
+     "p1": "The trap was set perfectly. Jealous officials had tricked King Darius into signing an unbreakable law - anyone who prayed to any god except the king for thirty days would be thrown to the lions. They knew Daniel prayed to God three times every day without fail. Soldiers hid outside Daniel's window, waiting. Sure enough, Daniel knelt before his open window and prayed boldly, just as he always had.",
+     "p2": "The officials rushed to the king with their evidence. Darius was devastated - he loved Daniel! He spent the entire day trying to find a legal loophole, but Persian law was unchangeable. At sunset, soldiers dragged Daniel to the lions' den. The king whispered with a breaking voice, 'May your God rescue you.' Daniel was thrown into the darkness below. Hungry lions ROARED, their eyes glowing in the torchlight. A massive stone was rolled over the opening and sealed.",
+     "p3": "King Darius could not sleep all night. At the first crack of dawn, he sprinted to the den. 'DANIEL! Has your God been able to save you?' Silence... then a calm voice echoed from below: 'O King, live forever! My God sent His angel and shut the lions' mouths. I am unhurt!' Guards hauled Daniel up - not a single scratch! The lions who had been starving for days had become gentle as kittens all night long. An angel had camped with Daniel in the den of death and turned it into a den of peace!",
+     "words": ["DANIEL", "LIONS", "DEN", "ANGEL", "PRAYER", "KING", "SHUT", "SAFE"]},
+    {"title": "Elijah's Fire from Heaven", "character": "Elijah",
+     "verse": "The God who answers by fire, He is God! - 1 Kings 18:24 (WEB)",
+     "moral": "The one true God always shows up when challenged!",
+     "choice": "Would you: A) Challenge 450 false prophets alone, B) Wait for backup, or C) Run and hide?",
+     "p1": "It was the ultimate showdown - one prophet of God against 450 prophets of the false god Baal on top of Mount Carmel! All of Israel gathered to watch. Elijah laid down the challenge: 'Build an altar, prepare a sacrifice, but light no fire. The god who answers by sending fire from heaven - HE is the true God!' The crowd held their breath. The prophets of Baal went first.",
+     "p2": "From morning until afternoon, the 450 prophets danced, screamed, and begged Baal to send fire. They shouted until they were hoarse. They leaped around the altar wildly. Elijah taunted them: 'Shout louder! Maybe your god is sleeping! Maybe he's on vacation!' They screamed louder but nothing happened. Not a spark. Not a flicker. Complete silence from their false god. By afternoon, they collapsed in exhaustion and humiliation.",
+     "p3": "Then Elijah rebuilt God's broken altar and laid the sacrifice on it. But then he did something CRAZY - he poured TWELVE huge jars of water over everything! The sacrifice was soaked. The wood was drenched. Water filled the trench around the altar! Then Elijah prayed one simple, quiet prayer. WHOOOOSH! Fire EXPLODED from the sky! Not ordinary fire - supernatural flames that consumed the sacrifice, the wood, the STONES, the dirt, and evaporated every drop of water! The people fell on their faces screaming: 'THE LORD - HE IS GOD!'",
+     "words": ["ELIJAH", "FIRE", "HEAVEN", "ALTAR", "WATER", "PROVE", "PRAYER", "GOD"]},
+    {"title": "Peter's Prison Break", "character": "Peter",
+     "verse": "An angel of the Lord stood by him and a light shone. - Acts 12:7 (WEB)",
+     "moral": "No prison can hold you when God decides to set you free!",
+     "choice": "Chained between guards in prison, would you: A) Sleep peacefully like Peter, B) Stay awake worrying, or C) Try to escape yourself?",
+     "p1": "King Herod had arrested the apostle Peter and planned to execute him the next morning. Peter was locked in the deepest cell of the maximum security prison, chained between TWO soldiers with guards at every door. It was impossible to escape. The entire church was praying desperately through the night for their beloved leader. But inside his cell, Peter was doing something remarkable - he was SLEEPING. Sound asleep between his guards, at total peace.",
+     "p2": "Suddenly at midnight, a blazing light filled the dark cell! An angel appeared and struck Peter on the side: 'Quick, get up!' The chains fell off Peter's wrists with a CLANG! Peter thought he was dreaming. 'Put on your sandals. Wrap your cloak around you. Follow me,' the angel commanded. Peter obeyed in a daze, stepping over the sleeping guards. They walked past the first guard post - no one noticed. Past the second - still invisible!",
+     "p3": "They reached the massive iron gate leading to the city. Without anyone touching it, the heavy gate swung open BY ITSELF! Peter and the angel walked through into the cool night air and down one street. Then the angel vanished! Peter finally realized he was actually awake - 'The Lord really sent His angel to rescue me!' He rushed to a house where Christians were praying for him. When the servant girl heard his voice, she was so shocked she forgot to open the door! God had broken Peter out of an unbreakable prison!",
+     "words": ["PETER", "PRISON", "ANGEL", "CHAINS", "GATE", "FREE", "PRAYER", "LIGHT"]},
 
-    def wrap(pdf, x, y, text, font='F4', size=11, mw=70, gray=0):
-        words = text.split()
-        line, cy = "", y
-        for w in words:
-            if len(line+" "+w)>mw:
-                pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray)
-                cy -= 15; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray); cy -= 15
-        return cy
-
-
-    # TITLE PAGE
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    draw_border(pdf, 30, 30, 552, 732, gray=0.2)
-    pdf.add_filled_rect(50, 590, 512, 140, gray=0.88)
-    pdf.add_centered_text(700, "BIBLE ADVENTURES", font='F2', size=30, gray=0.1)
-    pdf.add_centered_text(665, "10 Action-Packed Stories", font='F5', size=18, gray=0.2)
-    pdf.add_centered_text(638, "for Brave Kids", font='F5', size=18, gray=0.2)
-    illus_box(pdf, 370, "An epic action scene montage: Moses with staff raised as sea parts, David mid-sling against Goliath, Peter breaking free from chains with angel, Paul on a sinking ship in stormy seas, Gideon with torch blazing. Dynamic poses, movement lines, dramatic lighting. Pure adventure energy!", 160)
-    pdf.add_centered_text(330, "For Kids Ages 5-15", font='F2', size=14, gray=0.3)
-    pdf.add_centered_text(300, "Written in Exciting Adventure Style with Cliffhangers!", font='F4', size=11, gray=0.4)
-    pdf.add_centered_text(100, f"Written by {author}", font='F5', size=14, gray=0.2)
-
-    # COPYRIGHT
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    pdf.add_text(72, 700, "BIBLE ADVENTURES", font='F2', size=16, gray=0.1)
-    pdf.add_line(72, 688, 350, 688, width=0.5, gray=0.5)
-    pdf.add_text(72, 665, f"Copyright 2025 {author}. All rights reserved.", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 645, "Scripture from World English Bible (WEB) - Public Domain", font='F4', size=10, gray=0.3)
-    pdf.add_filled_rect(60, 100, 492, 50, gray=0.92)
-    pdf.add_text(72, 130, "For every kid who loves adventure - the Bible is the GREATEST!", font='F5', size=11, gray=0.2)
-
-    adventures = [
-        {
-            "title": "THE GREAT ESCAPE",
-            "subtitle": "Moses Leads Israel Through the Red Sea",
-            "illustration": "DYNAMIC ACTION: Moses at the edge of the sea, staff thrust skyward, wind blasting his robes sideways. Behind him a wall of dust from Pharaoh's charging chariots. Before him the sea begins to split with water spraying upward like an explosion. People run toward the opening. Lightning in the sky. Maximum dramatic tension!",
-            "opening": "BOOM! BOOM! BOOM! The ground shook with the thunder of a thousand chariots. Two million people were TRAPPED - the sea ahead, death behind. Children screamed. Women wept. Men grabbed their families and ran toward... nothing. There was nowhere to go!",
-            "action": "Moses SLAMMED his staff toward the sky. 'STAND STILL AND WATCH!' he roared over the wind. Then God's pillar of fire moved like a living wall between Israel and Egypt. The east wind hit like a hurricane - WHOOOOSH! The sea ripped apart! Water towered up on both sides like skyscrapers made of ocean! 'RUN! NOW! GO GO GO!' Moses commanded. Two million people SPRINTED through the impossible corridor of water!",
-            "cliffhanger": "But Pharaoh's army followed into the gap between the water walls. Six hundred chariots thundered across the seabed. The walls began to tremble...",
-            "climax": "CRAAAAAASH! At Moses' command, the walls of water COLLAPSED like a building demolition! The mightiest army on earth was swept away in seconds! On the far shore, Israel stood in stunned silence... then erupted in the greatest celebration the world had ever seen!",
-            "choice": "What would YOU do if you were trapped between an army and an ocean? Would you panic or trust God?",
-            "verse": "The LORD will fight for you, and you shall be still. - Exodus 14:14 (WEB)"
-        },
-        {
-            "title": "SPY MISSION",
-            "subtitle": "Joshua Sends Spies to Jericho - Rahab Helps!",
-            "illustration": "Two Israelite spies in dark cloaks climbing down a rope from a window in the massive city wall of Jericho at night. Rahab leans from the window above lowering the scarlet rope. Below, torches of searching soldiers flicker in the streets. The city wall is enormous. Stars and a crescent moon above. Tension and danger everywhere.",
-            "opening": "The mission: sneak into the most fortified city in the land. The risk: certain death if caught. Two of Joshua's bravest warriors crept through Jericho's gates at dusk, eyes scanning every shadow. But they'd already been spotted...",
-            "action": "BANG! BANG! BANG! Soldiers pounded on Rahab's door: 'OPEN UP! We know the spies are here!' The two men froze on the rooftop where Rahab had hidden them under stalks of flax. 'They already left,' Rahab called coolly. 'You might still catch them if you hurry toward the river!' The soldiers SPRINTED away. Heart pounding, Rahab raced to the roof: 'Quick! My window faces the outer wall. I'll lower you down by rope! Promise me - when you conquer this city, save my family!'",
-            "cliffhanger": "The rope swayed as they descended. Below, a patrol's torch flickered closer. One slip, one sound, and it was over...",
-            "climax": "The spies hit the ground running, disappearing into the dark hills. Three days later they reported to Joshua: 'God has given us the city! The people are TERRIFIED of us!' And Rahab? When the walls fell, the scarlet cord in her window saved her entire family! Her faith made her a hero - she's even listed in Jesus' family tree!",
-            "choice": "Would you risk your life to help God's people like Rahab did? What does real bravery look like?",
-            "verse": "The LORD your God, he is God in heaven above and on earth beneath. - Joshua 2:11 (WEB)"
-        },
-
-        {
-            "title": "NIGHT RAID",
-            "subtitle": "Gideon's 300 Defeat a Massive Army",
-            "illustration": "300 warriors on a dark hillside SMASHING clay jars to reveal blazing torches, blowing trumpets with full force! Below them, a panicked army of 135,000 scatters in total chaos, soldiers running into each other. Fire light reflects off terrified faces. Dynamic composition with torch sparks flying, broken pottery shards mid-air, sound effect energy!",
-            "opening": "Midnight. The valley below swarmed with 135,000 enemy warriors - their camp stretched as far as the eye could see, like locusts covering the ground. Gideon looked at his tiny force: 300 men. No swords. No spears. Just clay jars, torches, and trumpets. This was either the craziest plan in military history... or God's plan.",
-            "action": "Gideon raised his fist. Silence. Every man gripped his jar tighter. Then - 'FOR THE LORD AND FOR GIDEON!' SMASH! Three hundred jars EXPLODED in unison! BLAAAAM! Three hundred trumpets BLASTED! Three hundred torches BLAZED to life like a ring of fire surrounding the camp! The sleeping Midianites erupted in pure CHAOS!",
-            "cliffhanger": "In the darkness and confusion, the Midianites couldn't tell friend from foe. Swords clashed against their OWN soldiers...",
-            "climax": "The entire army of 135,000 turned and FLED - screaming, trampling each other, running for their lives! Three hundred men with torches and trumpets had routed one of the largest armies in the ancient world! God proved that He doesn't need big numbers. He just needs obedience!",
-            "choice": "Would you volunteer for a mission with 300 against 135,000? What if God told you He'd handle it?",
-            "verse": "The sword of the LORD and of Gideon! - Judges 7:20 (WEB)"
-        },
-        {
-            "title": "GIANT SLAYER",
-            "subtitle": "David Takes on Goliath",
-            "illustration": "FREEZE-FRAME ACTION: David's sling at full extension, the stone just leaving the leather pouch, flying toward camera. David's face shows fierce concentration. Behind the speeding stone, Goliath's massive armored figure looms with spear raised. The two armies watch from opposing hills. Dust, movement lines, raw power in the moment!",
-            "opening": "For FORTY DAYS, the giant's voice boomed across the valley like thunder: 'IS THERE NO ONE BRAVE ENOUGH TO FACE ME?' Nine feet tall. Bronze armor weighing 125 pounds. A spear like a telephone pole. Goliath was a walking tank. And every soldier in Israel was TERRIFIED.",
-            "action": "A teenager stepped forward. No armor. No sword. Just a leather sling and five smooth stones from the brook. 'You come with sword and spear,' David shouted, his young voice ringing with supernatural courage, 'but I come in the name of the LORD of ARMIES!' David broke into a SPRINT toward the giant! His sling whipped in three lightning-fast circles above his head - WHOOSH WHOOSH WHOOSH!",
-            "cliffhanger": "The stone flew. Time seemed to slow. Every eye in both armies tracked that single stone through the air...",
-            "climax": "CRACK! The stone buried itself in Goliath's forehead! The giant's eyes went blank. His massive body swayed... and CRASHED to the earth like a falling tree! THUD! The ground shook! For one shocked second, total silence. Then Israel ERUPTED in a victory roar that shook the hills! The Philistines turned and RAN!",
-            "choice": "What's YOUR Goliath - the big, scary thing that seems impossible? Are you willing to run at it with faith?",
-            "verse": "The battle is the LORD's, and he will give you into our hand. - 1 Samuel 17:47 (WEB)"
-        },
-        {
-            "title": "GREAT FLOOD",
-            "subtitle": "Noah Builds the Ark While Others Laugh",
-            "illustration": "Noah and his sons hammering the final planks on the massive ark as dark storm clouds roll in ominously. People in the background point and laugh, unaware of the coming disaster. Lightning flickers in approaching clouds. Animals begin arriving in pairs from every direction. The ark towers above like a wooden skyscraper. First raindrops fall.",
-            "opening": "For 100 YEARS they laughed. 'Old Noah's lost his mind!' they mocked. 'Building a boat in the desert? What's RAIN?' Day after day, year after year, Noah hammered, sawed, and sealed that massive ark. His neighbors threw rotten fruit. His friends abandoned him. But Noah never stopped building.",
-            "action": "Then one day, the animals came. From every direction - marching, flying, slithering, crawling - in perfect pairs! Lions walked beside lambs. Eagles flew alongside sparrows. The mockers finally fell silent as thousands of creatures filed into the ark. Then Noah's family entered. God Himself sealed the door. For seven days, nothing happened. The world held its breath...",
-            "cliffhanger": "On the eighth day, the sky turned black. A sound no human had ever heard before - the roar of falling water - grew from a whisper to a THUNDERING wall of sound...",
-            "climax": "EVERY fountain of the deep BURST open! Rain didn't fall - it CRASHED from the sky in sheets! In hours, rivers overflowed. In days, cities vanished. In weeks, mountains disappeared. But inside the ark? Dry. Safe. Rocking gently. God's promise held. And 371 days later, a rainbow painted the sky - God's eternal promise!",
-            "choice": "Could you keep doing the right thing for 100 years while everyone laughed at you? What keeps you going?",
-            "verse": "Noah did everything that God commanded him. - Genesis 6:22 (WEB)"
-        },
-
-        {
-            "title": "LION TAMER",
-            "subtitle": "Daniel Survives the Lion's Den",
-            "illustration": "Daniel being lowered by rope into a dark stone pit while massive lions pace below with gleaming eyes. Above, the king watches with anguish. Below, as Daniel's feet touch ground, a brilliant angel materializes with sword drawn, pushing lions back. Lion eyes glow in the darkness. Dramatic top-down perspective showing the depth of the pit.",
-            "opening": "The trap was set perfectly. Jealous officials tricked the king into signing a law that no one could pray to anyone but the king for 30 days. Penalty? The LION PIT. They knew Daniel prayed three times daily. They were counting on it.",
-            "action": "Daniel heard about the law. He walked home. Opened his window toward Jerusalem. And PRAYED - openly, loudly, faithfully. Just like always. The officials watched from outside, grinning wickedly. 'CAUGHT YOU!' That evening, soldiers dragged Daniel before the heartbroken king. 'I cannot change my own law,' the king wept. The stone lid of the lion pit groaned open. The smell of death rose from below. ROOOAAAR!",
-            "cliffhanger": "They threw Daniel in. The stone crashed shut above him. Total darkness. The sound of padding paws. Hot breath on his neck. A low growl inches from his face...",
-            "climax": "FLASH! Light exploded in the pit! An angel stood with blazing wings spread wide. Every lion FROZE. Then, like house cats, they lay down at Daniel's feet. One even rested its head against him! Daniel slept peacefully all night. At dawn, the king RACED to the pit: 'DANIEL! Did your God save you?!' 'O king, live forever! God sent His angel and shut the lions' mouths!'",
-            "choice": "Would you keep praying even if it meant being thrown to lions? What would it take to stop YOUR prayer life?",
-            "verse": "My God sent his angel and shut the lions' mouths. - Daniel 6:22 (WEB)"
-        },
-        {
-            "title": "FIRESTORM",
-            "subtitle": "Elijah Calls Fire from Heaven",
-            "illustration": "THE MOMENT: A column of divine fire BLASTING down from heaven like a laser beam striking a water-soaked stone altar on Mount Carmel! The fire is white-hot at center, orange at edges. Water vaporizes into massive steam clouds. Stones MELT. Elijah stands with arms raised triumphantly. 450 prophets of Baal cower and flee. The crowd falls on their faces. Pure power!",
-            "opening": "The showdown: 1 prophet of God versus 450 prophets of Baal. The contest: build an altar, call on your god to send fire. The stakes: the losing side dies. Elijah stood alone on Mount Carmel facing the largest crowd he'd ever seen. 'How long will you waver between two gods?' he thundered. 'If the LORD is God, follow Him!'",
-            "action": "The Baal prophets went first. They danced. They shouted. They cut themselves. From morning until afternoon - NOTHING. Elijah taunted them: 'SHOUT LOUDER! Maybe your god is sleeping! Or maybe he's on vacation!' Then Elijah rebuilt God's altar. He SOAKED it with water - three times! The trench overflowed. 'NOW,' Elijah prayed one simple, calm prayer...",
-            "cliffhanger": "Silence. Every eye looked skyward. The water-drenched altar glistened. Was God going to answer? Had Elijah made a terrible mistake?",
-            "climax": "WHOOOOOOOOM! Fire fell from heaven like a bomb! Not just regular fire - supernatural fire that consumed the sacrifice, the wood, the STONES, the soil, and ALL the water! It even licked up the water in the trench! The crowd SLAMMED to the ground screaming: 'THE LORD, HE IS GOD! THE LORD, HE IS GOD!' And then the rain came...",
-            "choice": "Would you stand alone for God against 450 opponents? What gives you courage when you're outnumbered?",
-            "verse": "Then the fire of the LORD fell and consumed the burnt offering. - 1 Kings 18:38 (WEB)"
-        },
-        {
-            "title": "PRISON BREAK",
-            "subtitle": "An Angel Frees Peter from Chains",
-            "illustration": "Peter's prison cell glowing with supernatural light as an angel in blazing white touches his chains. The iron chains SNAP and fall to the ground in pieces. Two sleeping guards slump against walls, undisturbed. The cell door swings open by itself. Peter blinks awake in confusion, thinking it's a dream. Light radiates from the angel like a star.",
-            "opening": "King Herod had already killed James. Now Peter sat in maximum-security prison - chained between two soldiers, with two more guarding the door. Sixteen soldiers total. Iron chains. Locked gates. He was scheduled for execution at dawn. But across the city, the church was praying ALL NIGHT...",
-            "action": "3 AM. Suddenly - LIGHT! Blinding, supernatural light filled the cell! The soldiers didn't even flinch (supernatural sleep!). An angel STRUCK Peter's side: 'QUICK! GET UP!' Peter's chains CRASHED to the floor! 'Put on your sandals. Wrap your cloak. Follow me!' Peter stumbled after the glowing figure, sure he was dreaming. Past the first guard post - no one moved. Past the second - nothing. Then the iron gate to the city...",
-            "cliffhanger": "The massive iron gate was locked, bolted, and guarded. There was no way through. But the angel kept walking straight toward it...",
-            "climax": "The iron gate swung open BY ITSELF! Peter walked through into the cool night air. The angel vanished! 'This is REAL!' Peter gasped. He ran to the house where believers were praying for him. He knocked. A servant girl answered, saw Peter, and was so shocked she SLAMMED THE DOOR IN HIS FACE and ran inside screaming: 'Peter is at the door!' 'You're crazy!' they said. Meanwhile, Peter kept knocking!",
-            "choice": "The church prayed and God answered! Do you believe YOUR prayers can break chains and open gates?",
-            "verse": "Behold, an angel of the Lord stood by him, and a light shone in the cell. - Acts 12:7 (WEB)"
-        },
-
-        {
-            "title": "SHIPWRECK",
-            "subtitle": "Paul Survives a Storm at Sea",
-            "illustration": "A massive ancient sailing ship being torn apart by enormous dark waves during a hurricane. Mast snaps. Sails rip. Cargo flies overboard. 276 people cling to wreckage as the ship breaks in half. Through the chaos, Paul stands calmly holding a rope, face set with faith. Lightning illuminates the terrifying scene. Green-black ocean waves tower over the ship.",
-            "opening": "Fourteen days. FOURTEEN DAYS of non-stop hurricane. No sun. No stars. No hope. 276 people aboard a disintegrating ship hadn't eaten in two weeks. The sailors had thrown everything overboard. The ship groaned and cracked. Everyone had given up hope of survival. Everyone... except Paul.",
-            "action": "Paul stood up in the howling wind: 'TAKE COURAGE! An angel appeared to me last night. God promised that EVERY PERSON on this ship will survive! Not one life will be lost! We WILL run aground on an island, but we WILL live!' The crew stared. Was he crazy? Then Paul did something incredible - he took bread, thanked God in front of everyone, and ATE. One by one, 275 others found courage to eat too.",
-            "cliffhanger": "CRACK! The ship struck a sandbar! The bow stuck fast while the stern was RIPPED APART by the pounding surf! Soldiers drew swords to kill the prisoners (so none would escape). Paul's life hung by a thread...",
-            "climax": "The centurion stopped the soldiers - he wanted to save Paul! 'EVERYONE WHO CAN SWIM - JUMP! Everyone else - grab planks and hold on!' One by one, through the crashing surf, 276 people washed ashore on the island of Malta. Every. Single. One. Alive! God's promise through Paul was fulfilled perfectly!",
-            "choice": "When life feels like a 14-day hurricane, can you trust God's promise that you'll make it through?",
-            "verse": "Therefore take courage, men, for I believe God that it will be just as it has been spoken to me. - Acts 27:25 (WEB)"
-        },
-        {
-            "title": "THE EMPTY TOMB",
-            "subtitle": "The Greatest Adventure: Resurrection!",
-            "illustration": "THE EMPTY TOMB at sunrise - the massive stone rolled aside, BRILLIANT golden-white light pouring from inside. Roman soldiers lie unconscious on the ground. An angel in blazing white sits on the stone. Mary Magdalene arrives with spice jars and DROPS them in shock. The sunrise behind paints the sky in resurrection glory - gold, pink, orange. LIFE defeating death!",
-            "opening": "It was over. Or so everyone thought. Jesus - their leader, their hope, their friend - was dead. Buried. A massive stone sealed His tomb. Roman soldiers guarded it. The disciples hid behind locked doors, shaking with fear. Three days of darkness. Three days of despair. Three days of death having the last word...",
-            "action": "EARTHQUAKE! The ground SHOOK violently at dawn on Sunday. An angel descended from heaven like a bolt of lightning! His appearance was blinding white. He rolled the massive stone away with one hand! The tough Roman guards fainted like dead men! When the women arrived with burial spices, the angel said the GREATEST WORDS IN HISTORY: 'He is NOT here! HE IS RISEN! Just as He said!'",
-            "cliffhanger": "But was it really true? Could death actually be defeated? The women ran to tell the disciples, but would anyone believe them?",
-            "climax": "Peter and John SPRINTED to the tomb - EMPTY! Just folded grave clothes inside! Over the next 40 days, Jesus appeared to Mary, to the disciples, to 500 people at once! He ate fish! He showed His wounds! He was ALIVE! Death - the ultimate enemy - had been DESTROYED! The greatest adventure in history wasn't about fighting armies or slaying giants. It was about LIFE conquering death forever!",
-            "choice": "Jesus conquered death so YOU could live forever! Have you accepted His invitation to eternal adventure?",
-            "verse": "He is not here, for he has risen, just like he said. - Matthew 28:6 (WEB)"
-        }
-    ]
+    {"title": "Paul's Shipwreck", "character": "Paul",
+     "verse": "Not a hair will perish from the head of any of you. - Acts 27:34 (WEB)",
+     "moral": "God's promises hold even in the worst catastrophes!",
+     "choice": "In a sinking ship, would you: A) Trust God like Paul, B) Panic, or C) Abandon the mission?",
+     "p1": "Paul was a prisoner on a ship heading to Rome when the most terrifying storm in memory struck. For FOURTEEN DAYS the ship was battered by hurricane-force winds! The sun and stars disappeared behind black clouds. Waves crashed over the deck. The crew threw cargo overboard to lighten the ship. They wrapped ropes around the hull to keep it from breaking apart. All hope of survival was lost.",
+     "p2": "While 276 people on board despaired for their lives, Paul stood up with confidence. 'Take heart, men! Last night an angel told me that God will save everyone on this ship! Not one person will die - but we will run aground on an island.' The sailors did not quite believe it, but Paul's calm faith steadied their nerves. He even made everyone EAT a meal, giving thanks to God in the middle of the storm! Fourteen days without food, and Paul was hosting dinner.",
+     "p3": "On the fourteenth night, the sailors sensed land was near. At dawn, they spotted a bay with a beach! They cut the anchors, raised a sail, and aimed for shore. CRUNCH! The ship hit a sandbar and the stern began breaking apart under the pounding waves! Soldiers wanted to kill the prisoners to prevent escape, but the centurion stopped them to save Paul. Everyone jumped into the raging sea - some swimming, some clinging to broken planks. And just as God promised through Paul, all 276 people made it safely to shore on the island of Malta! Not one life was lost!",
+     "words": ["PAUL", "SHIP", "STORM", "WRECK", "WAVES", "ANGEL", "SAFE", "ISLAND"]},
+    {"title": "The Empty Tomb - Greatest Adventure Ever", "character": "the women and disciples",
+     "verse": "He is not here! He is risen! - Luke 24:6 (WEB)",
+     "moral": "The greatest adventure is discovering that death has been DEFEATED!",
+     "choice": "Finding an empty tomb, would you: A) Run to tell everyone, B) Look inside, or C) Both!",
+     "p1": "It was early Sunday morning, still dark, when several women crept toward the tomb where Jesus had been buried. They carried burial spices, their hearts heavy with grief. Their beloved teacher was dead. A massive stone blocked the entrance and Roman soldiers guarded it. How would they even get inside? Every step felt heavier than the last as they walked through the pre-dawn darkness.",
+     "p2": "Suddenly the ground SHOOK! An earthquake rocked the area as an angel descended from heaven like lightning! The angel rolled the enormous stone away as easily as a pebble. The Roman guards - trained elite soldiers - fainted in terror! When the women arrived, they found the stone moved, the guards unconscious, and the tomb OPEN. Heart pounding, they peered inside. The burial cloths were there, neatly folded... but Jesus' body was GONE!",
+     "p3": "The angel spoke: 'Do not be afraid! You are looking for Jesus who was crucified. HE IS NOT HERE - HE IS RISEN!' Then Jesus Himself appeared to them, alive and glorious! Mary Magdalene grabbed His feet. 'Go tell my brothers!' Jesus said. The women SPRINTED back to the disciples with the most incredible news in human history - DEATH HAD BEEN DEFEATED! Jesus was alive! The tomb was empty! The greatest adventure of all time reached its triumphant climax - love won, death lost, and hope was reborn forever!",
+     "words": ["RISEN", "TOMB", "EMPTY", "ALIVE", "ANGEL", "STONE", "HOPE", "SUNDAY"]}
+]
 
 
-    # RENDER ADVENTURES
-    gray_vals = [0.88, 0.92, 0.95, 0.90, 0.93, 0.88, 0.97, 0.91, 0.94, 0.89]
-    
-    for idx, adv in enumerate(adventures):
-        bg = gray_vals[idx % len(gray_vals)]
-        
-        # Page 1: Title + Illustration + Opening
-        pdf.new_page()
-        pdf.add_filled_rect(0, 720, 612, 72, gray=bg)
-        pdf.add_filled_rect(45, 725, 522, 60, gray=0.97)
-        draw_border(pdf, 45, 725, 522, 60, gray=0.2)
-        pdf.add_centered_text(762, f"Adventure {idx+1}", font='F4', size=10, gray=0.5)
-        pdf.add_centered_text(742, adv["title"], font='F2', size=22, gray=0.1)
-        pdf.add_centered_text(727, adv["subtitle"], font='F4', size=10, gray=0.3)
-        
-        illus_box(pdf, 550, adv["illustration"], 140)
-        
-        # Opening - exciting start
-        pdf.add_filled_rect(50, 380, 512, 150, gray=0.97)
-        pdf.add_rect(50, 380, 512, 150, line_width=0.5, gray=0.5)
-        wrap(pdf, 60, 515, adv["opening"], font='F5', size=11, mw=72)
-        
-        # Accent bar
-        pdf.add_filled_rect(50, 365, 512, 8, gray=0.3)
-        
-        # Page 2: Action + Cliffhanger
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.98)
-        pdf.add_filled_rect(40, 750, 532, 5, gray=bg)
-        pdf.add_text(60, 740, adv["title"] + " (THE ACTION!)", font='F2', size=14, gray=0.1)
-        pdf.add_line(60, 732, 350, 732, width=1, gray=0.4)
-        
-        y = wrap(pdf, 60, 710, adv["action"], font='F4', size=11, mw=72)
-        
-        # Cliffhanger box
-        y -= 20
-        pdf.add_filled_rect(50, y-55, 512, 65, gray=0.88)
-        draw_border(pdf, 50, y-55, 512, 65, gray=0.3)
-        pdf.add_text(60, y-2, "CLIFFHANGER...", font='F2', size=12, gray=0.1)
-        wrap(pdf, 60, y-20, adv["cliffhanger"], font='F5', size=11, mw=72)
-        
-        # Page 3: Climax + Choice + Verse
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-        pdf.add_filled_rect(40, 720, 532, 50, gray=0.88)
-        pdf.add_text(60, 745, adv["title"] + " - THE CLIMAX!", font='F2', size=14, gray=0.1)
-        
-        y = wrap(pdf, 60, 700, adv["climax"], font='F4', size=11, mw=72)
-        
-        # What Would YOU Do?
-        y -= 20
-        pdf.add_filled_rect(50, y-70, 512, 80, gray=bg)
-        pdf.add_rect(50, y-70, 512, 80, line_width=1.5, gray=0.3)
-        pdf.add_text(65, y-5, "WHAT WOULD YOU DO?", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, y-25, adv["choice"], font='F5', size=11, mw=68)
-        
-        # Writing lines
-        y -= 100
-        for i in range(3):
-            pdf.add_line(60, y-(i*25), 550, y-(i*25), width=0.5, gray=0.6)
-        
-        # Verse at bottom
-        pdf.add_filled_rect(50, 80, 512, 50, gray=0.92)
-        pdf.add_text(65, 115, "ADVENTURE VERSE:", font='F2', size=10, gray=0.2)
-        wrap(pdf, 65, 98, adv["verse"], font='F3', size=9, mw=75)
+def generate_word_search(words):
+    grid=[[random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(10)] for _ in range(10)]
+    for word in words[:8]:
+        word=word.upper()
+        for _ in range(50):
+            d=random.choice([(0,1),(1,0),(1,1)])
+            r=random.randint(0,max(0,9-len(word)*d[0])); c=random.randint(0,max(0,9-len(word)*d[1]))
+            if r+len(word)*d[0]>10 or c+len(word)*d[1]>10: continue
+            for i,ch in enumerate(word): grid[r+i*d[0]][c+i*d[1]]=ch
+            break
+    return grid
+def wrap_text(text,mx=75):
+    wds=text.split(); lines=[]; cur=""
+    for w in wds:
+        if len(cur)+len(w)+1<=mx: cur+=(" " if cur else "")+w
+        else:
+            if cur: lines.append(cur)
+            cur=w
+    if cur: lines.append(cur)
+    return lines
+def build_pdf():
+    pdf=PDFDoc(); pc=0
+    pdf.new_page(); pc+=1
+    pdf.add_filled_rect(50,650,512,100,0.85)
+    pdf.add_centered_text(720,TITLE,'F2',28,0)
+    pdf.add_centered_text(690,SUBTITLE,'F4',14,0.2)
+    pdf.add_centered_text(660,"Written and Illustrated by",'F4',12,0.3)
+    pdf.add_centered_text(640,AUTHOR,'F2',16,0)
+    pdf.add_rect(100,200,412,380,2,0.3)
+    pdf.add_centered_text(420,"[ILLUSTRATION: Epic adventure collage - parting sea,",'F3',10,0.4)
+    pdf.add_centered_text(405,"boy vs giant, shipwreck, prison break]",'F3',10,0.4)
+    pdf.add_centered_text(100,"Are you ready for the adventure of a lifetime?",'F4',12,0.3)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(700,TITLE,'F2',16,0)
+    pdf.add_text(72,600,f"Written by {AUTHOR}",'F4',11,0.2)
+    pdf.add_text(72,580,"Copyright 2025. All Rights Reserved.",'F4',10,0.3)
+    pdf.add_text(72,550,"Scripture: World English Bible (WEB) - Public Domain.",'F4',10,0.3)
+    pdf.add_text(72,520,"For children ages 6-12. Published by Kingdom Kids Publishing",'F4',10,0.3)
+    pdf.add_text(72,440,"Dedication: For every kid who loves action and adventure - God's stories are the BEST!",'F4',10,0.2)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"TABLE OF CONTENTS",'F2',18,0)
+    pdf.add_line(150,720,462,720,1,0.3); y=680
+    for i,s in enumerate(stories):
+        pdf.add_text(72,y,f"Adventure {i+1}: {s['title']}",'F4',12,0.1); y-=28
+    pdf.add_text(72,y-10,"Quiz / Vocabulary / Journal / Certificate / Bonus",'F4',10,0.3)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"HOW TO USE THIS BOOK",'F2',18,0)
+    pdf.add_line(150,720,462,720,1,0.3)
+    intro=["GET READY FOR THE MOST EXCITING STORIES EVER TOLD!","",
+        "These are REAL adventures from the Bible - not made up!","Every story actually happened to real people!","",
+        "Each adventure has SIX pages:","  1. The adventure begins! (with illustration)",
+        "  2. The action intensifies! (with scene)","  3. The epic conclusion + verse + 'What Would YOU Do?'",
+        "  4. Reflection + prayer","  5. Word search puzzle","  6. Draw the adventure!","",
+        "SPECIAL FEATURE: Each story has a 'What Would YOU Do?'","choice where you decide how you would handle the situation!","",
+        "Buckle up, adventurer. Here we go!"]
+    y=680
+    for l in intro: pdf.add_text(72,y,l,'F4',11,0.15); y-=22
 
-    # FINAL PAGE - Adventure Rank
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.95)
-    pdf.add_filled_rect(40, 710, 532, 60, gray=0.88)
-    draw_border(pdf, 40, 710, 532, 60, gray=0.3)
-    pdf.add_centered_text(745, "YOUR ADVENTURE RANK!", font='F2', size=18, gray=0.1)
-    pdf.add_centered_text(718, "Rate each adventure 1-5 stars!", font='F4', size=12, gray=0.3)
-    
-    y = 680
-    for idx, adv in enumerate(adventures):
-        pdf.add_filled_rect(50, y-5, 512, 25, gray=0.97 if idx%2==0 else 0.92)
-        pdf.add_text(60, y, f"{idx+1}. {adv['title']}", font='F4', size=10, gray=0.2)
-        pdf.add_text(400, y, "Stars: _____", font='F4', size=10, gray=0.4)
-        y -= 30
-    
-    pdf.add_centered_text(350, "CONGRATULATIONS, ADVENTURER!", font='F2', size=14, gray=0.2)
-    pdf.add_centered_text(320, "You've experienced 10 of the Bible's greatest adventures!", font='F4', size=11, gray=0.3)
-    pdf.add_centered_text(295, "Remember: YOUR life with God is the greatest adventure of all!", font='F5', size=11, gray=0.3)
 
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Book281_Bible_Adventures_Kids.pdf")
-    pdf.save(output_path)
-    print(f"Created: {output_path}")
+    for idx, story in enumerate(stories):
+        pdf.new_page(); pc+=1
+        pdf.add_filled_rect(50,700,512,60,0.88)
+        pdf.add_centered_text(735,f"Adventure {idx+1}",'F1',10,0.4)
+        pdf.add_centered_text(715,story['title'].upper(),'F2',18,0)
+        pdf.add_rect(100,400,412,270,1.5,0.3)
+        pdf.add_centered_text(560,f"[ILLUSTRATION: Epic action scene - {story['title']}",'F3',9,0.4)
+        pdf.add_centered_text(545,"with dramatic lighting and movement]",'F3',9,0.4)
+        for i,line in enumerate(wrap_text(story['p1'],80)):
+            pdf.add_text(72,370-i*18,line,'F4',11,0.1)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (the action builds!)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(story['p2'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        pdf.add_rect(100,y-260,412,240,1.5,0.3)
+        pdf.add_centered_text(y-120,"[ILLUSTRATION: Intense action moment!",'F3',9,0.4)
+        pdf.add_centered_text(y-135,f"{story['character']} facing incredible odds]",'F3',9,0.4)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (EPIC CONCLUSION!)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(story['p3'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        y-=12
+        pdf.add_filled_rect(72,y-30,468,40,0.9)
+        pdf.add_centered_text(y-5,"KEY BIBLE VERSE:",'F2',10,0.2)
+        pdf.add_centered_text(y-22,story['verse'],'F4',11,0)
+        y-=50
+        pdf.add_rect(72,y-50,468,55,2,0.2)
+        pdf.add_centered_text(y-5,"WHAT WOULD YOU DO?",'F2',11,0.1)
+        for i,cl in enumerate(wrap_text(story['choice'],70)):
+            pdf.add_text(80,y-22-i*14,cl,'F4',10,0.2)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"ADVENTURE REFLECTION",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        qs=["1. What was the most exciting moment in this adventure?",
+            f"2. How did {story['character']} show faith under pressure?",
+            "3. What would you have done differently?"]
+        y=700
+        for q in qs:
+            pdf.add_text(72,y,q,'F2',11,0.1); y-=20
+            for _ in range(3): pdf.add_line(90,y,530,y,0.5,0.6); y-=20
+            y-=10
+        pdf.add_filled_rect(72,y-120,468,130,0.92)
+        pdf.add_centered_text(y-5,"MY ADVENTURE PRAYER",'F2',14,0.1)
+        pdf.add_text(80,y-25,"God, give me the courage to face my own adventures...",'F4',10,0.2)
+        for i in range(5): pdf.add_line(80,y-50-i*20,520,y-50-i*20,0.5,0.6)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"WORD SEARCH PUZZLE",'F2',16,0)
+        pdf.add_text(72,720,f"Find words from: {story['title']}",'F4',11,0.2)
+        grid=generate_word_search(story['words']); y=680
+        for row in grid: pdf.add_centered_text(y,"   ".join(row),'F3',14,0.1); y-=24
+        y-=20; pdf.add_text(72,y,"Words:",'F2',11,0.1); y-=20
+        pdf.add_text(72,y,"  ".join(story['words']),'F3',10,0.2)
+        y-=40; pdf.add_text(72,y,"Rate this adventure! Circle: 1 2 3 4 5 (5 = AMAZING!)",'F4',10,0.3)
+        for _ in range(2): y-=22; pdf.add_line(72,y,540,y,0.5,0.6)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"DRAW THIS ADVENTURE!",'F2',16,0)
+        pdf.add_text(72,720,f"Draw the most exciting scene from: {story['title']}",'F4',11,0.2)
+        pdf.add_rect(72,280,468,420,1.5,0.3)
+        pdf.add_centered_text(260,"My biggest adventure this week will be:",'F2',11,0.1)
+        y=230
+        for _ in range(4): pdf.add_line(72,y,540,y,0.5,0.6); y-=22
 
-if __name__ == "__main__":
-    create_book()
+
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 1",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    qs=[("1. How many chariots chased the Israelites?","a) 100  b) 600  c) 1000"),
+        ("2. Who hid the spies in Jericho?","a) Rahab  b) Ruth  c) Esther"),
+        ("3. How many warriors did Gideon have?","a) 3000  b) 300  c) 30"),
+        ("4. What did David use to defeat Goliath?","a) Sword  b) Sling  c) Spear"),
+        ("5. How long did it rain in Noah's flood?","a) 7 days  b) 40 days  c) 100 days")]
+    y=700
+    for q,o in qs: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 2",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    qs2=[("6. What shut the lions' mouths?","a) Chain  b) Angel  c) Stone"),
+         ("7. How many jars of water did Elijah use?","a) 3  b) 7  c) 12"),
+         ("8. How was Peter chained in prison?","a) By feet  b) Between 2 guards  c) To wall"),
+         ("9. How many people survived Paul's shipwreck?","a) 76  b) 176  c) 276"),
+         ("10. What day did Jesus rise from the dead?","a) Friday  b) Saturday  c) Sunday")]
+    y=700
+    for q,o in qs2: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.add_text(72,y-20,"Answers: 1b, 2a, 3b, 4b, 5b, 6b, 7c, 8b, 9c, 10c",'F3',9,0.4)
+
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"VOCABULARY & WORD LIST",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    vocab=[("Adventure","An exciting or daring experience"),("Courageous","Brave in the face of danger"),
+           ("Supernatural","Beyond natural explanation - God's power"),("Catastrophe","A sudden great disaster"),
+           ("Deliverance","Being rescued from danger or captivity"),("Impossible","Something beyond human ability"),
+           ("Providence","God's protective care and guidance"),("Testimony","A story of what God has done"),
+           ("Triumph","A great victory or achievement"),("Unstoppable","Cannot be prevented or stopped")]
+    y=710
+    for w,d in vocab: pdf.add_text(72,y,f"{w}:",'F2',11,0.1); pdf.add_text(200,y,d,'F4',10,0.2); y-=28
+
+    prompts=["The most adventurous thing I have ever done...","An adventure I want God to take me on...",
+             "A time God helped me when I was scared...","My adventure prayer for this week..."]
+    for j in range(4):
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"MY ADVENTURE JOURNAL - Page {j+1}",'F2',16,0)
+        pdf.add_text(72,710,prompts[j],'F5',12,0.2); y=680
+        for _ in range(24): pdf.add_line(72,y,540,y,0.5,0.7); y-=25
+
+    pdf.new_page(); pc+=1
+    pdf.add_rect(50,50,512,692,3,0.2); pdf.add_rect(60,60,492,672,1.5,0.4)
+    pdf.add_centered_text(680,"CERTIFICATE OF COMPLETION",'F2',22,0)
+    pdf.add_centered_text(640,"This certifies that",'F4',14,0.2)
+    pdf.add_line(180,600,432,600,1,0.3)
+    pdf.add_centered_text(540,"has completed all 10 adventures in",'F4',12,0.2)
+    pdf.add_centered_text(510,"BIBLE ADVENTURES",'F2',16,0)
+    pdf.add_centered_text(400,"Date: _______________",'F4',12,0.3)
+    pdf.add_centered_text(280,"\"Be strong and courageous!\" - Joshua 1:9",'F5',14,0.1)
+
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS",'F2',18,0); y=690
+    for i,s in enumerate(stories[:5]):
+        pdf.add_rect(72,y-55,468,55,1,0.3)
+        pdf.add_text(80,y-15,f"Card {i+1}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS (cont.)",'F2',18,0); y=700
+    for i,s in enumerate(stories[5:]):
+        pdf.add_rect(72,y-55,468,55,1,0.3)
+        pdf.add_text(80,y-15,f"Card {i+6}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MY ADVENTURE RANKING",'F2',18,0)
+    pdf.add_text(72,710,"Rank all 10 adventures from most exciting to least:",'F4',11,0.2); y=680
+    for i in range(10):
+        pdf.add_text(72,y,f"#{i+1}:",'F2',11,0.1); pdf.add_line(110,y-2,540,y-2,0.5,0.6); y-=28
+    pdf.add_text(72,y-20,"The adventure that made me feel MOST brave:",'F4',10,0.2)
+    pdf.add_line(72,y-40,540,y-40,0.5,0.6)
+
+    out=os.path.join(os.path.dirname(os.path.abspath(__file__)),FILENAME)
+    pdf.save(out); print(f"Generated {FILENAME} with {pc} pages"); return pc
+
+if __name__=="__main__": build_pdf()

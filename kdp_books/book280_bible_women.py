@@ -1,238 +1,315 @@
 #!/usr/bin/env python3
 """Book 280 - Amazing Women of the Bible: 10 Stories of Faith, Strength & Wisdom"""
-import os, sys
+import random, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pdf_utils import PDFDoc
+random.seed(280)
+TITLE = "AMAZING WOMEN OF THE BIBLE"
+SUBTITLE = "10 Stories of Faith, Strength & Wisdom"
+AUTHOR = "Daniel Tesfamariam"
+FILENAME = "Book280_Amazing_Women_Bible.pdf"
+stories = [
+    {"title": "Eve - The Mother of All Living", "character": "Eve",
+     "verse": "The man called his wife Eve because she was the mother of all living. - Genesis 3:20 (WEB)",
+     "moral": "Even after mistakes, God still has a beautiful plan for your life!",
+     "application": "I can start fresh after making mistakes because God always offers new beginnings.",
+     "p1": "Eve was the very first woman ever created, formed by God from Adam's rib to be his perfect partner. She lived in the stunning Garden of Eden surrounded by beauty beyond imagination. Every fruit tree, every flower, every animal was hers to enjoy. She walked with God in the cool of the evening, talking with Him directly. Life was absolutely perfect.",
+     "p2": "But one day the cunning serpent tempted Eve with the one fruit God had forbidden. She listened to the lie that God was holding something good back from her. She ate the fruit and shared it with Adam. Immediately everything changed - shame, fear, and pain entered the world. They were sent out of the beautiful garden. It was the saddest day in human history and Eve must have carried terrible guilt.",
+     "p3": "Yet God did not abandon Eve! He made clothes for her and Adam, showing His continued care. He promised that one day her descendant would crush the serpent and defeat evil forever. Eve became the mother of all people. Despite her mistake, God chose to bring salvation through her offspring. Eve teaches us that even our biggest failures cannot cancel God's purposes for our lives. He always offers redemption and a new beginning!",
+     "words": ["EVE", "GARDEN", "MOTHER", "WOMAN", "LIFE", "HOPE", "CREATE", "NEW"]},
+    {"title": "Sarah - Mother of a Nation", "character": "Sarah",
+     "verse": "Is anything too hard for the LORD? - Genesis 18:14 (WEB)",
+     "moral": "Nothing is impossible for God - even when it seems way too late!",
+     "application": "I can trust God's timing even when His promises seem to take forever.",
+     "p1": "Sarah was Abraham's wife, and God had promised them a son who would be the beginning of a great nation. But years passed - ten years, twenty years, thirty years - and no baby came. Sarah grew old, far past the age of having children. She was now ninety years old! Everyone would have given up on such a promise by now. How could God possibly keep this promise?",
+     "p2": "One day three visitors appeared at their tent. One of them, the Lord Himself, told Abraham that Sarah would have a son within a year. Sarah was listening from inside the tent and she actually LAUGHED! She could not believe it - she was too old! The visitor asked, 'Is anything too hard for the Lord?' Sarah was embarrassed and tried to deny laughing, but God had heard her doubt.",
+     "p3": "Yet exactly as God promised, the impossible happened. Sarah became pregnant and gave birth to a healthy baby boy when she was ninety years old! They named him Isaac, which means 'laughter' - because Sarah said, 'God has brought me laughter! Everyone who hears about this will laugh with joy!' From Sarah and Abraham came the entire nation of Israel and eventually Jesus Himself. Sarah proves that God's promises never expire, no matter how impossible they seem!",
+     "words": ["SARAH", "PROMISE", "LAUGH", "BABY", "ISAAC", "FAITH", "NATION", "TRUST"]},
 
-def create_book():
-    pdf = PDFDoc(612, 792)
-    author = "Daniel Tesfamariam"
-    
-    def draw_border(pdf, x, y, w, h, gray=0.3):
-        pdf.add_rect(x, y, w, h, line_width=2, gray=gray)
-        pdf.add_rect(x+3, y+3, w-6, h-6, line_width=0.5, gray=gray)
+    {"title": "Miriam - The Brave Big Sister", "character": "Miriam",
+     "verse": "Miriam the prophetess took a tambourine in her hand. - Exodus 15:20 (WEB)",
+     "moral": "Big sisters (and brothers) can be brave heroes in God's story!",
+     "application": "I can be brave and protective of my family just like Miriam was.",
+     "p1": "When baby Moses was born, Pharaoh had ordered all Hebrew baby boys thrown into the river. Moses' mother hid him for three months, then placed him in a waterproof basket in the reeds of the Nile River. His big sister Miriam, probably about twelve years old, hid nearby watching to see what would happen to her precious baby brother. Her heart pounded with worry and hope.",
+     "p2": "Pharaoh's own daughter came to the river to bathe and found the crying baby! Miriam had to think fast. With incredible courage for a young girl, she stepped out from her hiding place and approached the princess of Egypt. 'Shall I find a Hebrew woman to nurse the baby for you?' she asked boldly. The princess agreed! Miriam ran to get her own mother, who was then PAID to raise her own son in safety.",
+     "p3": "Miriam's quick thinking and brave action saved Moses who would later lead all of Israel to freedom! Years later, after crossing the Red Sea, Miriam led all the women in a triumphant song and dance of celebration. She became a prophetess and leader alongside Moses and Aaron. From a brave girl watching a basket to a leader of a nation - Miriam shows that God uses young people who are willing to step up with courage in scary moments!",
+     "words": ["MIRIAM", "BRAVE", "SISTER", "BASKET", "RIVER", "DANCE", "SONG", "LEADER"]},
+    {"title": "Deborah - The Warrior Judge", "character": "Deborah",
+     "verse": "Deborah, a prophetess, judged Israel at that time. - Judges 4:4 (WEB)",
+     "moral": "God raises up strong women to lead and bring justice!",
+     "application": "I can be a leader and stand up for what is right, no matter my age or gender.",
+     "p1": "In a time when Israel had no king, God raised up judges to lead the people. Deborah was one of the most remarkable leaders in all the Bible - she was a prophetess, judge, and military strategist! People came from all over Israel to sit under her palm tree and receive her wise decisions. She settled disputes, gave counsel, and spoke God's words with authority and grace.",
+     "p2": "When a cruel king named Jabin was oppressing Israel with 900 iron chariots, God gave Deborah a message. She summoned the general Barak and told him to gather ten thousand warriors to fight. But Barak was afraid and said he would only go if Deborah went with him! Without hesitation, Deborah agreed to go to the battlefield. She was not afraid because she knew God would give them the victory He had promised.",
+     "p3": "On the day of battle, Deborah gave the command to charge. She declared, 'Go! This is the day the Lord has given the enemy into your hands!' The Israelites swept down from Mount Tabor and God confused the enemy army. A great storm flooded the river and their chariots got stuck in the mud! Israel won a complete victory with Deborah's faith-filled leadership. She led Israel in peace for forty years, proving that God empowers women to be mighty leaders!",
+     "words": ["DEBORAH", "JUDGE", "LEADER", "WISE", "BRAVE", "PALM", "BATTLE", "PEACE"]},
+    {"title": "Ruth - Loyalty and Love", "character": "Ruth",
+     "verse": "Where you go, I will go. Your people will be my people. - Ruth 1:16 (WEB)",
+     "moral": "Loyalty and hard work lead to blessings beyond imagination!",
+     "application": "I can show loyalty by sticking with people I love even when life gets hard.",
+     "p1": "Ruth was a young woman from Moab who married into an Israelite family. When her husband died, she faced a terrible choice - return to her own family in Moab where life would be comfortable, or stay with her grieving mother-in-law Naomi who had nothing to offer. Ruth's sister-in-law chose to leave, but Ruth's heart was bonded to Naomi with unbreakable love.",
+     "p2": "With one of the most beautiful speeches in all of Scripture, Ruth declared her loyalty: 'Where you go, I will go. Where you stay, I will stay. Your people will be my people, and your God will be my God.' They traveled together to Bethlehem, arriving poor and hungry. Ruth immediately went to work gleaning leftover grain in the fields - back-breaking labor from dawn to dusk. She never complained, working tirelessly to provide for Naomi.",
+     "p3": "The field owner, a wealthy man named Boaz, noticed Ruth's extraordinary character. He admired her loyalty to Naomi, her hard work, and her faith in choosing to follow God. Boaz and Ruth fell in love and married. God blessed them with a son named Obed, who became the grandfather of King David! Ruth, a foreign woman who chose loyalty and love, became part of the family line of Jesus Christ Himself. Her story proves that faithful love is always rewarded.",
+     "words": ["RUTH", "LOYAL", "LOVE", "NAOMI", "GLEAM", "BOAZ", "FAITH", "FAMILY"]},
 
-    def illus_box(pdf, y, desc, height=110):
-        pdf.add_filled_rect(60, y, 492, height, gray=0.95)
-        pdf.add_rect(60, y, 492, height, line_width=1.5, gray=0.4)
-        pdf.add_text(70, y+height-18, "[ILLUSTRATION:", font='F2', size=10, gray=0.3)
-        words = desc.split()
-        line, ly = "", y+height-33
-        for w in words:
-            if len(line+" "+w)>75:
-                pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-                ly -= 13; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-        pdf.add_text(70, ly-13, "]", font='F2', size=10, gray=0.3)
+    {"title": "Hannah - The Praying Mother", "character": "Hannah",
+     "verse": "For this child I prayed, and the LORD granted my petition. - 1 Samuel 1:27 (WEB)",
+     "moral": "Pour your heart out to God in prayer - He hears every word!",
+     "application": "I can bring my biggest wishes and deepest hurts to God in prayer.",
+     "p1": "Hannah desperately wanted a baby, but year after year she could not have children. In her culture, this brought great shame and sadness. To make things worse, another woman in her household constantly mocked and bullied her about it. Each year when they traveled to the temple, Hannah would cry so much she could barely eat. Her heart was breaking under the weight of unfulfilled longing.",
+     "p2": "One day at the temple, Hannah could hold back no more. She fell to her knees and poured out her soul to God in the most intense, heartfelt prayer of her life. She wept and prayed so passionately that her lips moved but no sound came out. The priest Eli thought she was drunk! But Hannah explained she was pouring out her anguish to God. She made a sacred promise that if God gave her a son, she would dedicate him to serve God his entire life.",
+     "p3": "God heard Hannah's prayer and remembered her! She became pregnant and gave birth to a son named Samuel. True to her promise, when Samuel was old enough, she brought him to the temple to serve God. It must have been incredibly hard to let her precious answered prayer go, but Hannah trusted God completely. Samuel grew up to become one of the greatest prophets in Israel's history! Hannah's passionate prayer and faithful promise changed a nation.",
+     "words": ["HANNAH", "PRAYER", "SAMUEL", "TEMPLE", "PROMISE", "FAITH", "MOTHER", "HEAR"]},
+    {"title": "Esther - For Such a Time as This", "character": "Esther",
+     "verse": "Who knows if you haven't come to the kingdom for such a time as this? - Esther 4:14 (WEB)",
+     "moral": "God places you exactly where you need to be to make a difference!",
+     "application": "I can be brave at school, at home, anywhere God has placed me to help others.",
+     "p1": "Esther was a young Jewish orphan raised by her cousin Mordecai in the mighty Persian Empire. When the king searched for a new queen, Esther's beauty and grace won his heart. She became Queen of the most powerful empire on earth! But Mordecai warned her to keep her Jewish identity secret. Everything seemed like a fairy tale until a dark shadow fell over the kingdom.",
+     "p2": "The king's advisor Haman hated the Jewish people and convinced the king to sign a decree ordering their complete destruction. Mordecai sent an urgent message to Esther: 'Perhaps you have become queen for such a time as this!' But approaching the king uninvited meant risking death. Esther was terrified. She asked all the Jewish people to fast and pray for three days. Then she spoke those brave words: 'If I perish, I perish.'",
+     "p3": "Queen Esther put on her royal robes, took a deep breath, and walked uninvited into the king's throne room. The king extended his golden scepter - she was safe! Over two dinners, Esther revealed Haman's evil plot and her own Jewish identity. The king was furious at Haman and saved the Jewish people. Esther's courage saved an entire nation from destruction. She proved that God positions His people in the right place at the right time to change history!",
+     "words": ["ESTHER", "QUEEN", "BRAVE", "SAVE", "FAST", "PRAY", "NATION", "TIME"]},
+    {"title": "Mary - Mother of Jesus", "character": "Mary",
+     "verse": "Behold, the handmaid of the Lord; be it to me according to your word. - Luke 1:38 (WEB)",
+     "moral": "Say YES to God even when His plans seem impossible or scary!",
+     "application": "I can say yes to God even when I don't fully understand His plan for me.",
+     "p1": "Mary was a young Jewish teenager in the small town of Nazareth, engaged to be married to a carpenter named Joseph. She was ordinary in every way except one - her extraordinary faith and humble heart. One day an angel named Gabriel suddenly appeared before her with the most astonishing announcement any person has ever received. Her simple life was about to change forever.",
+     "p2": "Gabriel told Mary she would become pregnant by the Holy Spirit and give birth to the Son of God - the Savior the world had been waiting for! Mary was confused and afraid - how could this be? She was not yet married. People would not understand. She could be shamed, rejected, even punished. Everything about this plan seemed impossible and dangerous for a young girl in her world.",
+     "p3": "But Mary's response was breathtaking in its humble faith: 'I am the Lord's servant. Let it be done according to your word.' She said YES to God without knowing how everything would work out. Mary carried Jesus, raised Him, stood by Him through His ministry, and was there at the cross. She is remembered forever as the most blessed woman in history - not because she was powerful or wealthy, but because she said yes to God with a humble, trusting heart.",
+     "words": ["MARY", "ANGEL", "MOTHER", "JESUS", "HUMBLE", "YES", "FAITH", "BLESSED"]},
 
-    def wrap(pdf, x, y, text, font='F4', size=11, mw=70, gray=0):
-        words = text.split()
-        line, cy = "", y
-        for w in words:
-            if len(line+" "+w)>mw:
-                pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray)
-                cy -= 15; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray); cy -= 15
-        return cy
-
-
-    # TITLE PAGE
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    draw_border(pdf, 30, 30, 552, 732, gray=0.2)
-    pdf.add_filled_rect(50, 600, 512, 130, gray=0.88)
-    pdf.add_centered_text(700, "AMAZING WOMEN", font='F2', size=28, gray=0.1)
-    pdf.add_centered_text(668, "OF THE BIBLE", font='F2', size=22, gray=0.15)
-    pdf.add_centered_text(638, "10 Stories of Faith, Strength & Wisdom", font='F5', size=15, gray=0.2)
-    illus_box(pdf, 370, "A beautiful montage of Bible women: Queen Esther in royal purple, Ruth gathering wheat in golden fields, Miriam dancing with a tambourine, Deborah in warrior armor, Mary holding baby Jesus, all radiating strength and grace. Warm golden background with decorative floral border.", 170)
-    pdf.add_centered_text(330, "For Kids Ages 5-15", font='F2', size=14, gray=0.3)
-    pdf.add_centered_text(300, "Inspiring Stories of Women Who Changed the World", font='F4', size=12, gray=0.4)
-    pdf.add_centered_text(100, f"Written by {author}", font='F5', size=14, gray=0.2)
-
-    # COPYRIGHT
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    pdf.add_text(72, 700, "AMAZING WOMEN OF THE BIBLE", font='F2', size=16, gray=0.1)
-    pdf.add_line(72, 688, 400, 688, width=0.5, gray=0.5)
-    pdf.add_text(72, 665, f"Copyright 2025 {author}. All rights reserved.", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 645, "Scripture from World English Bible (WEB) - Public Domain", font='F4', size=10, gray=0.3)
-    pdf.add_filled_rect(60, 100, 492, 50, gray=0.92)
-    pdf.add_text(72, 130, "For every girl AND boy - these women inspire us all!", font='F5', size=11, gray=0.2)
-
-    women = [
-        {
-            "title": "EVE", "subtitle": "The First Woman",
-            "theme": "Courage to Start New",
-            "illustration": "Eve in the Garden of Eden, a beautiful woman with long dark hair adorned with flowers, wearing a simple flowing dress made of leaves. She stands in awe among incredible plants - giant ferns, blooming roses, orchids. Animals surround her peacefully - a deer nuzzles her hand, birds perch on her shoulder. Garden of Eden in full glory with waterfall behind.",
-            "story": "Eve was the first woman ever created - made by God Himself from Adam's rib. She was perfect, beautiful, and lived in Paradise! She walked with God in the cool of the day. Though Eve made a terrible mistake listening to the serpent, she also showed incredible courage afterward - facing a completely new world outside Eden, becoming the mother of all humanity, and learning to trust God even after failure.",
-            "amazing": "Eve is amazing because she was the first to experience EVERYTHING - the first sunset, first laugh, first friendship. And even after her worst mistake, she didn't give up. She kept going and trusted God's promise of a future Savior.",
-            "verse": "Adam named his wife Eve because she would be the mother of all the living. - Genesis 3:20 (WEB)",
-            "be_like_her": "When you make a mistake, don't give up! Get back up, trust God's grace, and keep moving forward. Every new day is a fresh start!"
-        },
-        {
-            "title": "SARAH", "subtitle": "Laughing at Impossible Promises",
-            "theme": "Faith in Waiting",
-            "illustration": "Elderly Sarah with silver hair and warm smile, holding baby Isaac in her arms inside a decorated tent. Her face shows pure joy and disbelief. Abraham stands beside her beaming with pride. The tent is luxurious with colorful woven tapestries. A cradle and baby items visible. Stars visible through the tent opening.",
-            "story": "God promised Abraham and Sarah a baby. Simple, right? Except Sarah was 90 years old! When angels told Abraham the promise would finally come true, Sarah laughed behind the tent door - it seemed absolutely impossible! But God asked: 'Is anything too hard for the LORD?' And sure enough, baby Isaac was born. His name means 'laughter' because Sarah said: 'God has made me laugh; everyone who hears will laugh with me!'",
-            "amazing": "Sarah is amazing because she waited 25 years for God's promise without giving up entirely. She reminds us that God's timing is perfect even when it feels impossibly slow. Her laughter of disbelief turned into laughter of pure joy!",
-            "verse": "Is anything too hard for the LORD? - Genesis 18:14 (WEB)",
-            "be_like_her": "When you're waiting for something and it feels like it will NEVER happen, remember Sarah. God keeps His promises - His timing is always perfect!"
-        },
-
-        {
-            "title": "MIRIAM", "subtitle": "Dancing with Joy After Deliverance",
-            "theme": "Worship & Celebration",
-            "illustration": "Miriam, a joyful woman with flowing dark hair and colorful robes of blue and gold, dancing on the shore of the Red Sea with a tambourine raised high. Behind her, hundreds of women dance and celebrate. The parted Red Sea is visible in the background with water walls. Freedom and pure joy radiate from her expression.",
-            "story": "Miriam watched over baby Moses in his basket on the Nile River when she was just a young girl - brave even as a child! Years later, when God parted the Red Sea and Israel walked to freedom, Miriam grabbed her tambourine and LED all the women in the greatest victory dance ever! She sang: 'Sing to the LORD for He has triumphed gloriously!' She was a prophet, a leader, and a worshiper.",
-            "amazing": "Miriam is amazing because she was brave from childhood (protecting baby Moses) through adulthood (leading worship). She shows us that praising God with all our energy is the right response to His goodness!",
-            "verse": "Miriam the prophetess took a tambourine in her hand, and all the women went out after her with tambourines and with dances. - Exodus 15:20 (WEB)",
-            "be_like_her": "When God does something good in your life - CELEBRATE! Don't hold back your joy! Sing, dance, shout praise - worship God with all your heart!"
-        },
-        {
-            "title": "DEBORAH", "subtitle": "The Warrior Judge",
-            "theme": "Leadership",
-            "illustration": "Deborah sitting under a large palm tree on a hill, dressed in strong yet elegant robes of deep red and gold. People line up for her wise judgment. Behind her, she rises to point toward battle - a female warrior leading troops. Her expression shows confidence and divine authority. Military tents and the army of Israel visible in the valley below.",
-            "story": "In a time when Israel had no king, God raised up Deborah as judge over all the land! She sat under her palm tree and people came from everywhere for her wise decisions. When a cruel general named Sisera terrorized Israel, Deborah called the commander Barak and said: 'God commands you to fight!' Barak said: 'Only if you come with me!' So Deborah marched to war alongside 10,000 soldiers. Israel won a total victory!",
-            "amazing": "Deborah is amazing because she was a prophet, judge, military leader, and poet - all in one! She didn't wait for someone else to lead. She stepped up with courage and wisdom when her nation needed her.",
-            "verse": "The villagers ceased in Israel until I, Deborah, arose as a mother in Israel. - Judges 5:7 (WEB)",
-            "be_like_her": "Don't wait for others to step up! If you see a need, be a leader. God gives both boys AND girls wisdom and courage to lead!"
-        },
-        {
-            "title": "RUTH", "subtitle": "Loyalty That Changed History",
-            "theme": "Devotion",
-            "illustration": "Ruth kneeling to embrace her mother-in-law Naomi on a country road, both women wearing simple traveling clothes. Ruth's face shows fierce determination and love. In the background, the land of Moab fades behind and green Bethlehem beckons ahead. Wind blows their hair. A single shaft of golden sunlight illuminates the two women.",
-            "story": "Ruth was from Moab - a foreigner to Israel. When her husband died, her mother-in-law Naomi said: 'Go home to your family.' But Ruth refused! She clung to Naomi and said the most beautiful loyalty pledge ever: 'Where you go, I will go. Your people will be my people. Your God will be my God.' In Bethlehem, Ruth worked humbly in the fields. Her loyalty was rewarded when she married Boaz - and became the great-grandmother of King David!",
-            "amazing": "Ruth is amazing because she chose love over comfort, loyalty over convenience, and God over familiar gods. She's one of only five women named in Jesus' family tree!",
-            "verse": "Where you go, I will go; your people will be my people, and your God, my God. - Ruth 1:16 (WEB)",
-            "be_like_her": "Be loyal! Stick with people who need you. Don't choose the easy path - choose the loving path. God honors faithfulness!"
-        },
-        {
-            "title": "HANNAH", "subtitle": "Prayer That Moved Heaven",
-            "theme": "Persistence in Prayer",
-            "illustration": "Hannah kneeling in the tabernacle, tears streaming down her face, hands raised in desperate prayer. Light streams through the tent fabric onto her. Her lips move silently. The altar and lampstand glow nearby. Her expression shows both agony and faith. After: Hannah joyfully presenting young Samuel to the priest Eli at the temple.",
-            "story": "Hannah desperately wanted a child but couldn't have one. Year after year she wept and prayed. Her rival mocked her cruelly. But Hannah didn't stop praying! She poured her heart out to God so passionately that the priest thought she was drunk! She promised: 'If You give me a son, I'll give him back to serve You.' God heard her cry and gave her Samuel - who became one of Israel's greatest prophets! Hannah kept her promise and dedicated Samuel to God.",
-            "amazing": "Hannah is amazing because she never stopped praying, never stopped believing, and when God answered, she kept her promise! Her prayer in 1 Samuel 2 is one of the most beautiful worship songs in the Bible.",
-            "verse": "For this child I prayed, and the LORD has given me my petition. - 1 Samuel 1:27 (WEB)",
-            "be_like_her": "Never give up praying! Even when it takes years, keep pouring your heart out to God. He hears every prayer!"
-        },
-
-        {
-            "title": "ESTHER", "subtitle": "Beauty with Purpose",
-            "theme": "Courage for Others",
-            "illustration": "Queen Esther in her finest royal robes of deep purple and gold, crown sparkling on her head, walking bravely into the king's throne room. Her face shows calm determination despite fear. Persian palace with tall golden pillars, intricate mosaic floors, hanging gardens visible through windows. Guards stand at attention.",
-            "story": "Esther was an orphan raised by her cousin Mordecai. Her beauty won the king's heart and she became queen - but she hid her Jewish identity. When wicked Haman plotted to destroy all Jews, Mordecai told Esther: 'Perhaps you became queen for such a time as this!' Going to the king uninvited meant risking death. Esther fasted three days, then bravely entered the throne room. The king extended mercy, and Esther exposed Haman's evil plot. She saved her entire nation!",
-            "amazing": "Esther is amazing because she used her position not for personal luxury but to save others! She risked everything - even her life - for her people. True beauty is beauty with purpose!",
-            "verse": "Who knows whether you haven't come to the kingdom for such a time as this? - Esther 4:14 (WEB)",
-            "be_like_her": "Use whatever position God gives you to help others! Whether you're popular, talented, or in leadership - use it for good!"
-        },
-        {
-            "title": "MARY", "subtitle": "Saying Yes to God",
-            "theme": "Trust & Obedience",
-            "illustration": "Young Mary, about 14-15 years old, kneeling in a simple room in Nazareth. Angel Gabriel stands before her in brilliant white light with golden wings spread. Mary's expression shows surprise turning to humble acceptance. Her hands are open in surrender. Simple pottery and woven items in her modest home. Divine light fills the room.",
-            "story": "Mary was just a young teenager when the angel Gabriel appeared with the most incredible news: she would be the mother of God's Son! This was terrifying - she wasn't married, people wouldn't understand, her life would never be normal. But Mary's response was pure faith: 'I am the Lord's servant. Let it be as you have said.' She said YES to God's impossible plan without knowing how it would work out. And she became the mother of Jesus - the Savior of the world!",
-            "amazing": "Mary is amazing because she trusted God completely at such a young age! She didn't understand everything but she said yes anyway. Her willingness changed the course of human history forever.",
-            "verse": "Behold, the servant of the Lord; let it be done to me according to your word. - Luke 1:38 (WEB)",
-            "be_like_her": "When God asks you to do something that seems impossible or scary, say YES! You don't need to understand everything - just trust Him!"
-        },
-        {
-            "title": "MARTHA & MARY", "subtitle": "Two Ways to Love Jesus",
-            "theme": "Balance",
-            "illustration": "Inside a cozy home: Mary sitting at Jesus' feet on the floor, looking up with rapt attention, completely focused on His words. Meanwhile Martha rushes past with dishes, food, and a slightly frustrated expression. Jesus sits on a cushion teaching gently. The home is warm with oil lamps, bread baking, flowers on the table.",
-            "story": "When Jesus visited their home, the two sisters showed love in totally different ways. Martha rushed around cooking and cleaning - showing love through SERVICE. Mary sat at Jesus' feet and listened - showing love through PRESENCE. Martha got frustrated: 'Jesus, tell Mary to help me!' But Jesus gently said: 'Martha, you're worried about many things. Mary has chosen what is better.' Both ways of loving are good, but spending time WITH Jesus comes first!",
-            "amazing": "Martha and Mary together show us that serving God and spending time with God are BOTH important! Martha later showed incredible faith when Lazarus died. Both sisters were deeply loved by Jesus.",
-            "verse": "Mary has chosen the good portion, which will not be taken away from her. - Luke 10:42 (WEB)",
-            "be_like_her": "Don't get so busy DOING things for God that you forget to SIT with God! Both service and quiet time matter. Find your balance!"
-        },
-        {
-            "title": "PRISCILLA", "subtitle": "Teaching God's Word",
-            "theme": "Using Your Gifts",
-            "illustration": "Priscilla and her husband Aquila sitting with the eloquent speaker Apollos in their tent-making workshop, scrolls spread on a wooden table. Priscilla points to a passage and explains it warmly. Leather and tentmaking tools visible in background. Oil lamp illuminates the scripture. All three show mutual respect and eagerness to learn.",
-            "story": "Priscilla and her husband Aquila were tent-makers who also taught God's word! When they heard the brilliant preacher Apollos speak, they noticed he didn't know the full story about Jesus. Instead of embarrassing him publicly, they invited him to their home and taught him privately. Priscilla is always mentioned alongside her husband - an equal partner in ministry! Paul called them his 'fellow workers in Christ Jesus' who risked their lives for him.",
-            "amazing": "Priscilla is amazing because she used her intelligence and knowledge to teach others - including famous preachers! She hosted churches in her home and risked her life for the gospel. She proves that women are meant to teach and lead!",
-            "verse": "Greet Prisca and Aquila, my fellow workers in Christ Jesus, who risked their own necks for my life. - Romans 16:3-4 (WEB)",
-            "be_like_her": "Use your gifts to teach and help others grow! You're never too young or too anything to share what God has taught you!"
-        }
-    ]
+    {"title": "Martha and Mary - Two Ways to Love Jesus", "character": "Martha and Mary",
+     "verse": "Mary has chosen the good part, which will not be taken from her. - Luke 10:42 (WEB)",
+     "moral": "Both serving AND spending time with Jesus are important - but know which comes first!",
+     "application": "I will balance busy work with quiet time listening to God each day.",
+     "p1": "Jesus had two dear friends who were sisters - Martha and Mary - who lived in the village of Bethany with their brother Lazarus. One day Jesus came to visit their home with His disciples. It was a great honor and Martha wanted everything to be absolutely perfect. She rushed around the kitchen preparing food, setting the table, and making sure every detail was just right.",
+     "p2": "Meanwhile, Mary sat at Jesus' feet listening to every word He spoke. She was completely focused on learning from the Master, soaking in His wisdom like a sponge. Martha grew more and more frustrated as she worked alone. Finally she burst out to Jesus, 'Lord, don't you care that my sister has left me to serve alone? Tell her to help me!' She expected Jesus to send Mary to the kitchen immediately.",
+     "p3": "But Jesus gently said, 'Martha, Martha, you are worried about many things. But only one thing is truly needed. Mary has chosen the better part, and it will not be taken from her.' Jesus was not saying serving is wrong - Martha's hospitality was beautiful. But He was teaching that spending time with God must come FIRST, before all our busy activity. Both sisters loved Jesus deeply - Martha through serving, Mary through listening. Both are needed, but relationship with God always comes first.",
+     "words": ["MARTHA", "MARY", "LISTEN", "SERVE", "JESUS", "HEART", "STILL", "LOVE"]},
+    {"title": "Priscilla - Teacher and Leader", "character": "Priscilla",
+     "verse": "Greet Priscilla and Aquila, my fellow workers in Christ. - Romans 16:3 (WEB)",
+     "moral": "Use your knowledge to help others grow - share what God teaches you!",
+     "application": "I can help teach others what I know about God and be a spiritual leader.",
+     "p1": "Priscilla and her husband Aquila were an amazing team in the early church. They were tentmakers by trade who opened their home as a church meeting place. When the apostle Paul came to Corinth, he stayed and worked with them. Together they traveled spreading the gospel, teaching new believers, and risking their lives for the faith. Priscilla was known as a brilliant teacher and theologian.",
+     "p2": "One day a powerful speaker named Apollos came to their city preaching about Jesus. He was eloquent and passionate, but his understanding of the gospel was incomplete. Instead of publicly embarrassing him, Priscilla and Aquila invited Apollos to their home. There, Priscilla helped explain the way of God more accurately and completely. She taught a great preacher because she knew the Scriptures deeply.",
+     "p3": "The Bible mentions Priscilla's name BEFORE her husband's in most references - unusual in that culture - suggesting she was the more prominent teacher. She risked her life for Paul's ministry. Churches met in her home. She discipled new believers and corrected incomplete teaching with grace and wisdom. Priscilla proves that God calls women to be teachers, leaders, and theologians who shape the church and advance His kingdom through their knowledge and boldness.",
+     "words": ["PRISCILLA", "TEACH", "LEADER", "CHURCH", "WISE", "BOLD", "SHARE", "GROW"]}
+]
 
 
-    # RENDER WOMEN STORIES
-    gray_vals = [0.88, 0.92, 0.95, 0.90, 0.93, 0.88, 0.97, 0.91, 0.94, 0.89]
-    
-    for idx, w in enumerate(women):
-        bg = gray_vals[idx % len(gray_vals)]
-        
-        # Page 1: Title + Illustration + Story
-        pdf.new_page()
-        pdf.add_filled_rect(0, 720, 612, 72, gray=bg)
-        pdf.add_filled_rect(45, 725, 522, 60, gray=0.97)
-        draw_border(pdf, 45, 725, 522, 60, gray=0.3)
-        pdf.add_centered_text(762, f"Story {idx+1}: {w['subtitle']}", font='F4', size=10, gray=0.5)
-        pdf.add_centered_text(742, w["title"], font='F2', size=22, gray=0.1)
-        pdf.add_centered_text(727, w["theme"], font='F5', size=11, gray=0.3)
-        
-        illus_box(pdf, 545, w["illustration"], 145)
-        
-        pdf.add_filled_rect(50, 340, 512, 185, gray=0.97)
-        pdf.add_rect(50, 340, 512, 185, line_width=0.5, gray=0.5)
-        pdf.add_text(60, 510, "HER STORY:", font='F2', size=11, gray=0.2)
-        wrap(pdf, 60, 490, w["story"], font='F4', size=11, mw=72)
+def generate_word_search(words):
+    grid=[[random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(10)] for _ in range(10)]
+    for word in words[:8]:
+        word=word.upper()
+        for _ in range(50):
+            d=random.choice([(0,1),(1,0),(1,1)])
+            r=random.randint(0,max(0,9-len(word)*d[0])); c=random.randint(0,max(0,9-len(word)*d[1]))
+            if r+len(word)*d[0]>10 or c+len(word)*d[1]>10: continue
+            for i,ch in enumerate(word): grid[r+i*d[0]][c+i*d[1]]=ch
+            break
+    return grid
+def wrap_text(text,mx=75):
+    wds=text.split(); lines=[]; cur=""
+    for w in wds:
+        if len(cur)+len(w)+1<=mx: cur+=(" " if cur else "")+w
+        else:
+            if cur: lines.append(cur)
+            cur=w
+    if cur: lines.append(cur)
+    return lines
 
-        # Page 2: Amazing + Verse + Be Like Her + Prayer
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-        pdf.add_text(60, 760, w["title"] + " - Why She Inspires Us", font='F2', size=13, gray=0.2)
-        pdf.add_line(60, 752, 400, 752, width=0.5, gray=0.4)
-        
-        # She Was Amazing Because box
-        pdf.add_filled_rect(50, 630, 512, 100, gray=bg)
-        draw_border(pdf, 50, 630, 512, 100, gray=0.4)
-        pdf.add_text(65, 715, "SHE WAS AMAZING BECAUSE...", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, 695, w["amazing"], font='F5', size=11, mw=70)
-        
-        # Verse box
-        pdf.add_filled_rect(50, 550, 512, 60, gray=0.92)
-        pdf.add_text(65, 595, "KEY VERSE:", font='F2', size=11, gray=0.2)
-        wrap(pdf, 65, 575, w["verse"], font='F3', size=9, mw=75)
-        
-        # I Can Be Like Her By
-        pdf.add_filled_rect(50, 430, 512, 100, gray=0.95)
-        pdf.add_rect(50, 430, 512, 100, line_width=1, gray=0.4)
-        pdf.add_text(65, 515, "I CAN BE LIKE HER BY...", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, 495, w["be_like_her"], font='F4', size=11, mw=70)
-        
-        # Prayer & writing space
-        pdf.add_filled_rect(50, 310, 512, 100, gray=0.88)
-        pdf.add_text(65, 395, "MY PRAYER:", font='F2', size=11, gray=0.1)
-        pdf.add_text(65, 375, f"Dear God, help me be like {w['title'].title()} by...", font='F5', size=11, gray=0.3)
-        for i in range(3):
-            pdf.add_line(65, 345-(i*25), 545, 345-(i*25), width=0.5, gray=0.6)
+def build_pdf():
+    pdf=PDFDoc(); pc=0
+    pdf.new_page(); pc+=1
+    pdf.add_filled_rect(50,650,512,100,0.85)
+    pdf.add_centered_text(720,TITLE,'F2',24,0)
+    pdf.add_centered_text(690,SUBTITLE,'F4',14,0.2)
+    pdf.add_centered_text(660,"Written and Illustrated by",'F4',12,0.3)
+    pdf.add_centered_text(640,AUTHOR,'F2',16,0)
+    pdf.add_rect(100,200,412,380,2,0.3)
+    pdf.add_centered_text(420,"[ILLUSTRATION: Beautiful collage of Bible women -",'F3',10,0.4)
+    pdf.add_centered_text(405,"Esther, Ruth, Mary, Deborah standing strong]",'F3',10,0.4)
+    pdf.add_centered_text(100,"For every girl who wants to be strong and wise!",'F4',12,0.3)
 
-    # FINAL PAGE - Role Model Reflection
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.95)
-    pdf.add_filled_rect(40, 710, 532, 60, gray=0.88)
-    draw_border(pdf, 40, 710, 532, 60, gray=0.3)
-    pdf.add_centered_text(745, "MY ROLE MODEL REFLECTION", font='F2', size=18, gray=0.1)
-    pdf.add_centered_text(718, "Which woman inspired you most?", font='F4', size=12, gray=0.3)
-    
-    pdf.add_text(60, 680, "The woman who inspired me most is:", font='F5', size=12, gray=0.2)
-    pdf.add_line(60, 660, 550, 660, width=0.5, gray=0.6)
-    pdf.add_text(60, 630, "She inspires me because:", font='F5', size=12, gray=0.2)
-    for i in range(3):
-        pdf.add_line(60, 605-(i*25), 550, 605-(i*25), width=0.5, gray=0.6)
-    pdf.add_text(60, 510, "Three qualities I want to develop:", font='F5', size=12, gray=0.2)
-    pdf.add_text(60, 485, "1.", font='F4', size=11, gray=0.3)
-    pdf.add_line(80, 485, 550, 485, width=0.5, gray=0.6)
-    pdf.add_text(60, 455, "2.", font='F4', size=11, gray=0.3)
-    pdf.add_line(80, 455, 550, 455, width=0.5, gray=0.6)
-    pdf.add_text(60, 425, "3.", font='F4', size=11, gray=0.3)
-    pdf.add_line(80, 425, 550, 425, width=0.5, gray=0.6)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(700,TITLE,'F2',16,0)
+    pdf.add_text(72,600,f"Written by {AUTHOR}",'F4',11,0.2)
+    pdf.add_text(72,580,"Copyright 2025. All Rights Reserved.",'F4',10,0.3)
+    pdf.add_text(72,550,"Scripture: World English Bible (WEB) - Public Domain.",'F4',10,0.3)
+    pdf.add_text(72,520,"For children ages 6-12. Published by Kingdom Kids Publishing",'F4',10,0.3)
+    pdf.add_text(72,490,"First Edition - 2025",'F4',10,0.3)
+    pdf.add_text(72,440,"Dedication: For every girl who dreams big - God has amazing plans for you!",'F4',11,0.2)
 
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Book280_Amazing_Women_Bible.pdf")
-    pdf.save(output_path)
-    print(f"Created: {output_path}")
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"TABLE OF CONTENTS",'F2',18,0)
+    pdf.add_line(150,720,462,720,1,0.3); y=680
+    for i,s in enumerate(stories):
+        pdf.add_text(72,y,f"Woman {i+1}: {s['title']}",'F4',12,0.1); y-=28
+    pdf.add_text(72,y-10,"Quiz / Vocabulary / Journal / Certificate / Bonus",'F4',10,0.3)
 
-if __name__ == "__main__":
-    create_book()
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"HOW TO USE THIS BOOK",'F2',18,0)
+    pdf.add_line(150,720,462,720,1,0.3)
+    intro=["Welcome! The Bible is filled with incredible women who","changed history through their faith, courage, and wisdom!","",
+        "Each woman's story has SIX pages:","  1. Her story begins + illustration",
+        "  2. The story continues + action scene","  3. Story conclusion + verse + moral + application",
+        "  4. Reflection questions + prayer","  5. Word search puzzle",
+        "  6. Draw her + 'I Can Be Like Her By...'","",
+        "These women were real people who faced real challenges.","They can inspire YOU to be brave and faithful too!","",
+        "Ready to meet these amazing women? Turn the page!"]
+    y=680
+    for l in intro: pdf.add_text(72,y,l,'F4',11,0.15); y-=22
+
+
+    for idx, story in enumerate(stories):
+        pdf.new_page(); pc+=1
+        pdf.add_filled_rect(50,700,512,60,0.88)
+        pdf.add_centered_text(735,f"Woman of Faith {idx+1}",'F1',10,0.4)
+        pdf.add_centered_text(715,story['title'].upper(),'F2',18,0)
+        pdf.add_rect(100,400,412,270,1.5,0.3)
+        pdf.add_centered_text(560,f"[ILLUSTRATION: {story['character']} in a beautiful scene",'F3',9,0.4)
+        pdf.add_centered_text(545,"showing strength and grace]",'F3',9,0.4)
+        for i,line in enumerate(wrap_text(story['p1'],80)):
+            pdf.add_text(72,370-i*18,line,'F4',11,0.1)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (continued)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(story['p2'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        pdf.add_rect(100,y-260,412,240,1.5,0.3)
+        pdf.add_centered_text(y-120,f"[ILLUSTRATION: {story['character']} in action]",'F3',9,0.4)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (conclusion)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(story['p3'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        y-=15
+        pdf.add_filled_rect(72,y-30,468,40,0.9)
+        pdf.add_centered_text(y-5,"KEY BIBLE VERSE:",'F2',10,0.2)
+        pdf.add_centered_text(y-22,story['verse'],'F4',10,0)
+        y-=55
+        pdf.add_rect(72,y-40,468,50,2,0.2)
+        pdf.add_centered_text(y-5,"MORAL:",'F2',11,0.1)
+        pdf.add_centered_text(y-25,story['moral'],'F5',11,0)
+        y-=60
+        pdf.add_filled_rect(72,y-35,468,40,0.93)
+        pdf.add_text(80,y-8,"I CAN BE LIKE HER BY:",'F2',10,0.1)
+        pdf.add_text(80,y-25,story['application'],'F4',10,0.2)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"WHAT I LEARNED",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        pdf.add_text(72,710,f"Reflecting on: {story['title']}",'F4',11,0.2)
+        qs=[f"1. What challenge did {story['character']} face?",
+            f"2. How did {story['character']} show faith and courage?",
+            "3. How can I apply her example in my own life?"]
+        y=670
+        for q in qs:
+            pdf.add_text(72,y,q,'F2',11,0.1); y-=20
+            for _ in range(3): pdf.add_line(90,y,530,y,0.5,0.6); y-=20
+            y-=10
+        pdf.add_filled_rect(72,y-120,468,130,0.92)
+        pdf.add_centered_text(y-5,"MY PRAYER",'F2',14,0.1)
+        pdf.add_text(80,y-25,f"God, help me be strong and faithful like {story['character']}...",'F4',10,0.2)
+        for i in range(5): pdf.add_line(80,y-50-i*20,520,y-50-i*20,0.5,0.6)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"WORD SEARCH PUZZLE",'F2',16,0)
+        pdf.add_text(72,720,f"Find words from: {story['title']}",'F4',11,0.2)
+        grid=generate_word_search(story['words']); y=680
+        for row in grid: pdf.add_centered_text(y,"   ".join(row),'F3',14,0.1); y-=24
+        y-=20; pdf.add_text(72,y,"Words:",'F2',11,0.1); y-=20
+        pdf.add_text(72,y,"  ".join(story['words']),'F3',10,0.2)
+        y-=40; pdf.add_text(72,y,"What quality of this woman inspires you most?",'F4',10,0.3)
+        for _ in range(3): y-=22; pdf.add_line(72,y,540,y,0.5,0.6)
+
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"DRAW {story['character'].upper()}!",'F2',16,0)
+        pdf.add_text(72,720,f"Draw {story['character']} showing courage:",'F4',11,0.2)
+        pdf.add_rect(72,300,468,400,1.5,0.3)
+        pdf.add_centered_text(280,f"I CAN BE LIKE {story['character'].upper()} BY...",'F2',11,0.1)
+        y=250
+        for _ in range(4): pdf.add_line(72,y,540,y,0.5,0.6); y-=22
+
+
+    # Quiz (2 pages)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 1",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    qs=[("1. Who was the first woman God created?","a) Sarah  b) Eve  c) Mary"),
+        ("2. How old was Sarah when Isaac was born?","a) 30  b) 60  c) 90"),
+        ("3. Who watched baby Moses in the basket?","a) Miriam  b) Hannah  c) Ruth"),
+        ("4. Deborah judged Israel under a ___","a) Oak tree  b) Palm tree  c) Fig tree"),
+        ("5. Who said 'Where you go, I will go'?","a) Esther  b) Mary  c) Ruth")]
+    y=700
+    for q,o in qs: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 2",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    qs2=[("6. Hannah prayed for a ___","a) Daughter  b) Son  c) House"),
+         ("7. Esther was queen of which empire?","a) Rome  b) Persia  c) Egypt"),
+         ("8. Who said 'Be it unto me according to your word'?","a) Ruth  b) Esther  c) Mary"),
+         ("9. Who sat at Jesus' feet to learn?","a) Martha  b) Mary  c) Priscilla"),
+         ("10. Priscilla taught which preacher?","a) Paul  b) Peter  c) Apollos")]
+    y=700
+    for q,o in qs2: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.add_text(72,y-20,"Answers: 1b, 2c, 3a, 4b, 5c, 6b, 7b, 8c, 9b, 10c",'F3',9,0.4)
+
+    # Vocabulary
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"VOCABULARY & WORD LIST",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    vocab=[("Prophetess","A woman who speaks God's messages"),("Matriarch","A respected female leader of a family"),
+           ("Courage","Doing the right thing even when afraid"),("Devotion","Deep love and commitment"),
+           ("Wisdom","Using knowledge in the best way"),("Grace","Undeserved kindness and favor"),
+           ("Intercession","Praying on behalf of others"),("Redemption","Being rescued from trouble"),
+           ("Legacy","What you leave behind for future generations"),("Virtue","Moral excellence and goodness")]
+    y=710
+    for w,d in vocab: pdf.add_text(72,y,f"{w}:",'F2',11,0.1); pdf.add_text(200,y,d,'F4',10,0.2); y-=28
+
+    prompts=["A woman I admire and want to be like...","How I can show courage this week...",
+             "A time I stood up for what was right...","My prayer for strength and wisdom..."]
+    for j in range(4):
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"MY FAITH JOURNAL - Page {j+1}",'F2',16,0)
+        pdf.add_text(72,710,prompts[j],'F5',12,0.2); y=680
+        for _ in range(24): pdf.add_line(72,y,540,y,0.5,0.7); y-=25
+
+    pdf.new_page(); pc+=1
+    pdf.add_rect(50,50,512,692,3,0.2); pdf.add_rect(60,60,492,672,1.5,0.4)
+    pdf.add_centered_text(680,"CERTIFICATE OF COMPLETION",'F2',22,0)
+    pdf.add_centered_text(640,"This certifies that",'F4',14,0.2)
+    pdf.add_line(180,600,432,600,1,0.3)
+    pdf.add_centered_text(540,"has studied all 10 amazing women in",'F4',12,0.2)
+    pdf.add_centered_text(510,TITLE,'F2',14,0)
+    pdf.add_centered_text(400,"Date: _______________",'F4',12,0.3)
+    pdf.add_centered_text(280,"\"She is clothed with strength and dignity\" - Proverbs 31:25",'F5',13,0.1)
+
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS",'F2',18,0); y=690
+    for i,s in enumerate(stories[:5]):
+        pdf.add_rect(72,y-55,468,55,1,0.3)
+        pdf.add_text(80,y-15,f"Card {i+1}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS (continued)",'F2',18,0); y=700
+    for i,s in enumerate(stories[5:]):
+        pdf.add_rect(72,y-55,468,55,1,0.3)
+        pdf.add_text(80,y-15,f"Card {i+6}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MY ROLE MODEL PROFILE",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    pdf.add_text(72,710,"Choose your favorite woman from this book and create her profile:",'F4',11,0.2)
+    y=680
+    fields=["Name:","Her greatest quality:","The challenge she faced:","How she showed faith:",
+            "What I admire most:","How I will be like her:","My prayer to be more like her:"]
+    for f in fields:
+        pdf.add_text(72,y,f,'F2',10,0.1); pdf.add_line(220,y-2,540,y-2,0.5,0.6); y-=35
+
+    out=os.path.join(os.path.dirname(os.path.abspath(__file__)),FILENAME)
+    pdf.save(out)
+    print(f"Generated {FILENAME} with {pc} pages")
+    return pc
+
+if __name__=="__main__":
+    build_pdf()

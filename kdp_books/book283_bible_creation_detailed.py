@@ -1,242 +1,291 @@
 #!/usr/bin/env python3
 """Book 283 - In the Beginning God Created: The 7 Days of Creation Beautifully Told"""
-import os, sys
+import random, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pdf_utils import PDFDoc
+random.seed(283)
+TITLE = "IN THE BEGINNING GOD CREATED"
+SUBTITLE = "The 7 Days of Creation Beautifully Told"
+AUTHOR = "Daniel Tesfamariam"
+FILENAME = "Book283_Creation_Story_Detailed.pdf"
+days = [
+    {"day": 1, "title": "Light!", "verse": "God said, 'Let there be light,' and there was light. - Genesis 1:3 (WEB)",
+     "story1": "Before anything existed, there was only darkness - deep, total, complete darkness everywhere. No sun, no stars, no glow of any kind. The earth was empty and formless, covered in endless dark waters. But God was there, and His Spirit hovered over the surface of the deep. Then God spoke the most powerful words ever uttered in all of eternity.",
+     "story2": "GOD SAID, 'LET THERE BE LIGHT!' And instantly - BANG! - brilliant, glorious, radiant light burst into existence! For the very first time, light pushed back the darkness. It was the first sunrise that ever was! God looked at the light and saw that it was good. He separated the light from the darkness, calling the light 'Day' and the darkness 'Night.' Evening came, then morning. The first day was complete.",
+     "science": "Light travels at 186,000 miles per SECOND! That means it could circle the Earth 7.5 times in just one second. Scientists say light is both a wave and a particle at the same time!",
+     "gratitude": "Thank you God for: Sunshine, Flashlights, Stars, Rainbows, Colors!",
+     "words": ["LIGHT", "DARK", "FIRST", "SPEAK", "GOOD", "DAY", "NIGHT", "CREATE"]},
+    {"day": 2, "title": "Sky and Water!", "verse": "God made the expanse, and separated the waters. - Genesis 1:7 (WEB)",
+     "story1": "On the second day, God looked at all the water that covered everything and had a magnificent plan. He needed to create space - room for air, clouds, and the beautiful blue sky. God spoke again with creative power: 'Let there be an expanse in the middle of the waters, and let it separate the waters from the waters!'",
+     "story2": "The waters obeyed their Creator's voice! Some water stayed below, forming the vast oceans, seas, and rivers. Other water rose up above, forming clouds full of rain and moisture. Between them God stretched out the magnificent sky - the expanse we call the atmosphere. Miles and miles of breathable air, perfect for the creatures He would soon create. God called this expanse 'Heaven.' The second day was complete!",
+     "science": "Earth's atmosphere is about 60 miles thick and contains the perfect mix of gases for life: 78% nitrogen, 21% oxygen! Without our atmosphere, Earth would be -270 degrees at night and 250 degrees in the day!",
+     "gratitude": "Thank you God for: Blue sky, Clouds, Rain, Fresh air, Sunsets!",
+     "words": ["SKY", "WATER", "CLOUDS", "AIR", "BLUE", "ABOVE", "BELOW", "BREATH"]},
+    {"day": 3, "title": "Land and Plants!", "verse": "God said, 'Let the dry land appear,' and it was so. - Genesis 1:9 (WEB)",
+     "story1": "On day three, God commanded the waters below the sky to gather together in one place and for dry land to appear. With a rumble and surge, the waters rushed together forming mighty oceans and seas! Mountains rose up from beneath the waves. Valleys formed. Continents appeared. Sandy beaches, rocky cliffs, rolling hills, and flat plains emerged from the retreating waters.",
+     "story2": "Then God spoke again: 'Let the earth produce vegetation - seed-bearing plants and trees!' Instantly the bare ground erupted with life! Green grass carpeted the hills. Wildflowers of every color burst into bloom. Mighty oak trees stretched toward the sky. Apple trees appeared laden with fruit. Roses, tulips, sunflowers, and a million other varieties painted the earth in breathtaking color. Each plant contained seeds to reproduce its own kind forever.",
+     "science": "There are over 400,000 species of plants on Earth! Trees can live thousands of years - the oldest known tree is over 5,000 years old. Plants produce the oxygen we breathe through photosynthesis!",
+     "gratitude": "Thank you God for: Mountains, Flowers, Fruit trees, Green grass, Forests!",
+     "words": ["LAND", "PLANTS", "TREES", "FLOWERS", "GREEN", "GROW", "SEEDS", "EARTH"]},
+    {"day": 4, "title": "Sun, Moon, and Stars!", "verse": "God made the two great lights and the stars. - Genesis 1:16 (WEB)",
+     "story1": "On the fourth day, God filled the sky with the most spectacular lights. He created the great blazing sun to rule the day - a massive ball of fire so hot its surface burns at 10,000 degrees! He set it at the perfect distance from Earth: close enough to warm us but far enough not to burn us. Then He made the gentle moon to rule the night, reflecting soft silver light.",
+     "story2": "But God was not finished! He scattered BILLIONS of stars across the darkness of space like diamonds thrown on black velvet. Each star is a burning sun, many far bigger than our own. He grouped them into galaxies - swirling pinwheels of light. He created the Milky Way with over 200 billion stars! God placed them all in precise positions to mark seasons, days, and years. The night sky became God's spectacular art gallery.",
+     "science": "Our sun is 93 million miles from Earth and over 1 million Earths could fit inside it! There are more stars in the universe than grains of sand on all Earth's beaches - estimated at 200 billion trillion!",
+     "gratitude": "Thank you God for: Sunshine, Moonlight, Stars, Seasons, Beautiful sunsets!",
+     "words": ["SUN", "MOON", "STARS", "LIGHT", "SHINE", "SPACE", "NIGHT", "BRIGHT"]},
 
-def create_book():
-    pdf = PDFDoc(612, 792)
-    author = "Daniel Tesfamariam"
-    
-    def draw_border(pdf, x, y, w, h, gray=0.3):
-        pdf.add_rect(x, y, w, h, line_width=2, gray=gray)
-        pdf.add_rect(x+3, y+3, w-6, h-6, line_width=0.5, gray=gray)
-
-    def illus_box(pdf, y, desc, height=130):
-        pdf.add_filled_rect(60, y, 492, height, gray=0.95)
-        pdf.add_rect(60, y, 492, height, line_width=1.5, gray=0.4)
-        pdf.add_text(70, y+height-18, "[ILLUSTRATION:", font='F2', size=10, gray=0.3)
-        words = desc.split()
-        line, ly = "", y+height-33
-        for w in words:
-            if len(line+" "+w)>75:
-                pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-                ly -= 13; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-        pdf.add_text(70, ly-13, "]", font='F2', size=10, gray=0.3)
-
-    def wrap(pdf, x, y, text, font='F4', size=11, mw=70, gray=0):
-        words = text.split()
-        line, cy = "", y
-        for w in words:
-            if len(line+" "+w)>mw:
-                pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray)
-                cy -= 15; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray); cy -= 15
-        return cy
-
-
-    # TITLE PAGE
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    draw_border(pdf, 30, 30, 552, 732, gray=0.2)
-    pdf.add_filled_rect(50, 590, 512, 140, gray=0.88)
-    pdf.add_centered_text(700, "IN THE BEGINNING", font='F2', size=26, gray=0.1)
-    pdf.add_centered_text(668, "GOD CREATED", font='F2', size=26, gray=0.1)
-    pdf.add_centered_text(635, "The 7 Days of Creation Beautifully Told", font='F5', size=15, gray=0.2)
-    illus_box(pdf, 360, "A stunning panorama showing all seven days of creation in sequence: golden light bursting from darkness, blue sky and ocean separating, green mountains with flowers, brilliant sun and silver moon with stars, colorful fish and birds in flight, animals of every kind, and a peaceful garden with man and woman. Rainbow of colors across the scene.", 170)
-    pdf.add_centered_text(320, "For Kids Ages 5-15", font='F2', size=14, gray=0.3)
-    pdf.add_centered_text(290, "With Science Connections & Gratitude Prompts", font='F4', size=12, gray=0.4)
-    pdf.add_centered_text(100, f"Written by {author}", font='F5', size=14, gray=0.2)
-
-    # COPYRIGHT
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    pdf.add_text(72, 700, "IN THE BEGINNING GOD CREATED", font='F2', size=14, gray=0.1)
-    pdf.add_line(72, 688, 400, 688, width=0.5, gray=0.5)
-    pdf.add_text(72, 665, f"Copyright 2025 {author}. All rights reserved.", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 645, "Scripture from World English Bible (WEB) - Public Domain", font='F4', size=10, gray=0.3)
-    pdf.add_filled_rect(60, 100, 492, 50, gray=0.92)
-    pdf.add_text(72, 130, "For every kid amazed by God's creation - it's all for YOU!", font='F5', size=11, gray=0.2)
-
-    days = [
-        {
-            "day": "DAY 1", "title": "LIGHT & DARKNESS",
-            "illustration": "An explosion of pure golden-white light bursting dramatically from absolute darkness. Rays spread outward in every direction like a cosmic sunrise. The light pushes back the deep void of darkness. Sparkles and energy radiate from the center. The contrast between brilliant light and deep darkness is stunning. Pure, raw creative power visualized.",
-            "story_p1": "In the beginning, there was nothing but God. No stars, no planets, no light - just vast, empty darkness stretching in every direction forever. It was darker than the deepest cave, darker than closing your eyes at midnight. Nothing existed except God Himself.",
-            "story_p2": "Then God spoke the first words ever spoken: 'LET THERE BE LIGHT!' And instantly - BOOM! - light exploded across the void! Beautiful, brilliant, golden light flooded the darkness! God looked at the light and smiled: 'This is GOOD.' He separated the light from the darkness, calling one 'Day' and the other 'Night.' The very first morning dawned. The very first evening settled. Day One was complete!",
-            "science": "Light travels at 186,000 miles per SECOND! That's fast enough to circle the Earth 7.5 times in one second! And God created all that speed and energy just by speaking!",
-            "verse": "God said, 'Let there be light,' and there was light. God saw the light, and saw that it was good. - Genesis 1:3-4 (WEB)",
-            "gratitude": "Thank God for: Sunshine, flashlights, stars, fireflies, rainbows - all the beautiful light He created!",
-            "coloring": "Draw the moment light first appeared - use your brightest yellows and golds against dark black!"
-        },
-        {
-            "day": "DAY 2", "title": "SKY & WATER",
-            "illustration": "A breathtaking scene of deep blue sky above and vast blue ocean below, with the separation happening dramatically. Beautiful wispy white clouds form in the new sky. The ocean stretches endlessly with gentle waves. Where sky meets water at the horizon, golden light glows. The atmosphere is being created - air between the waters above and below.",
-            "story_p1": "On the second day, God looked at the waters covering everything and created something amazing: SPACE! He stretched out the sky like an enormous tent between waters above and waters below. The air we breathe, the atmosphere that protects us, the beautiful blue canopy above - all created in one word!",
-            "story_p2": "Imagine the most beautiful blue sky you've ever seen - God painted that! The fluffy white clouds, the way the sky turns orange at sunset and purple at twilight - all designed by the Master Artist. Below, the deep waters waited, and above, the sky arched in perfect beauty. God was building a home for everything that would come next!",
-            "science": "Our atmosphere is about 300 miles thick and contains exactly the right mix of gases for life: 78% nitrogen, 21% oxygen, and 1% other gases. Change any amount slightly and life couldn't exist!",
-            "verse": "God said, 'Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.' - Genesis 1:6 (WEB)",
-            "gratitude": "Thank God for: Rain, clouds, blue sky, the air you breathe, storms that water the earth!",
-            "coloring": "Draw the most beautiful sky you can imagine - sunrise colors, sunset colors, or starry night!"
-        },
-
-        {
-            "day": "DAY 3", "title": "LAND, MOUNTAINS & PLANTS",
-            "illustration": "Majestic snow-capped mountains rising from the newly formed earth, with lush green forests covering the foothills. In the foreground, an incredible garden bursts with color: red roses, purple lavender, yellow sunflowers, orange tulips, pink cherry blossoms. Tall trees bear fruit - apples, oranges, grapes. Emerald green grass carpets everything. Waterfalls cascade from rocky cliffs.",
-            "story_p1": "On the third day, God gathered all the waters together, and dry ground appeared for the first time! Mountains shot up toward the sky. Valleys formed between rolling hills. Beaches lined the new coastlands. Deserts, plains, and islands - all rising from the waters at God's command!",
-            "story_p2": "But God wasn't done! He spoke again, and the bare ground EXPLODED with life! Grass sprouted in waves of green. Trees rocketed upward - oaks, cedars, palms. Flowers burst open in every color imaginable - reds, blues, yellows, purples! Fruit grew instantly on trees: juicy apples, sweet oranges, perfect grapes. Seeds and nuts filled the branches. In one day, God turned bare rock into a garden paradise!",
-            "science": "There are over 400,000 species of plants on Earth! Plants produce the oxygen we breathe through photosynthesis - they literally turn sunlight into food and air. Without plants, we couldn't survive!",
-            "verse": "God said, 'Let the earth produce grass, herbs yielding seeds, and fruit trees bearing fruit after their kind.' And it was so. - Genesis 1:11 (WEB)",
-            "gratitude": "Thank God for: Your favorite fruit, flowers, trees for climbing, grass for playing, vegetables for health!",
-            "coloring": "Draw the most colorful garden ever created - include as many different flowers and trees as you can!"
-        },
-        {
-            "day": "DAY 4", "title": "SUN, MOON & STARS",
-            "illustration": "A stunning cosmic scene: the brilliant golden sun blazing with corona and solar flares on one side, the silvery-white moon with its craters and gentle glow on the other side, and between and behind them THOUSANDS of twinkling stars in every size. The Milky Way streaks across the deep blue-black sky. Planets visible in the distance. Pure celestial majesty.",
-            "story_p1": "On the fourth day, God hung lights in the sky! First, the SUN - a blazing ball of fire so enormous that a million Earths could fit inside it! It provides light, warmth, energy for all plants, and marks our days. Then the gentle MOON - a faithful companion reflecting sunlight through our nights, controlling our tides.",
-            "story_p2": "But God wasn't finished! He scattered STARS across the heavens like diamonds thrown across black velvet! Billions upon billions of stars - some bigger than our sun, some so far away their light takes millions of years to reach us! He named every single one! He set planets spinning in orbit, arranged galaxies in spirals, and painted nebulas in impossible colors. All in ONE DAY!",
-            "science": "Our sun is 93 million miles away - exactly the right distance! Any closer, we'd burn. Any farther, we'd freeze. The sun's core is 27 million degrees! And there are more stars in the universe than grains of sand on all Earth's beaches!",
-            "verse": "God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. He also made the stars. - Genesis 1:16 (WEB)",
-            "gratitude": "Thank God for: Sunny days, moonlit nights, stars to wish on, seasons, sunrise and sunset!",
-            "coloring": "Draw a night sky full of stars, the moon, and maybe a shooting star! Add your favorite constellation!"
-        },
-        {
-            "day": "DAY 5", "title": "SEA CREATURES & BIRDS",
-            "illustration": "A vibrant split scene - below the waterline: colorful coral reefs with rainbow fish in orange, blue, yellow, and purple, a majestic blue whale, playful dolphins jumping, an octopus, jellyfish glowing, sea turtles swimming. Above the waterline: eagles soaring, colorful parrots flying, a hummingbird hovering at a flower, flamingos in pink, a peacock displaying its feathers, tiny sparrows.",
-            "story_p1": "On the fifth day, God filled the waters with LIFE! Tiny colorful fish darted through coral reefs. Massive blue whales glided through the deep. Dolphins leaped for joy! Octopuses changed colors. Jellyfish pulsed with light. Sharks patrolled the depths. Seahorses swayed in currents. From the tiniest krill to the mightiest whale - the oceans TEEMED with millions of species!",
-            "story_p2": "Then God filled the skies! Eagles with six-foot wingspans caught the wind. Tiny hummingbirds hovered like helicopters. Parrots exploded in reds, blues, and greens. Penguins waddled and swam. Owls prepared for night patrol. Flamingos stood in pink formations. Every bird sang a different song - God composed a symphony with wings! 'Be fruitful and multiply!' God blessed them.",
-            "science": "There are over 35,000 species of fish and 10,000 species of birds! The blue whale is the largest animal to ever live - up to 100 feet long, bigger than any dinosaur! A hummingbird's wings beat 80 times per SECOND!",
-            "verse": "God created the large sea creatures and every living creature that moves, with which the waters swarmed, and every winged bird. God saw that it was good. - Genesis 1:21 (WEB)",
-            "gratitude": "Thank God for: Dolphins, eagles, your favorite fish, birdsong in the morning, penguins making you laugh!",
-            "coloring": "Draw your favorite ocean animal AND your favorite bird together! Make them colorful!"
-        },
-
-        {
-            "day": "DAY 6", "title": "ANIMALS & PEOPLE",
-            "illustration": "An incredible scene of animals covering a green landscape: majestic lion with full mane, tall giraffe reaching tree tops, gray elephant with baby, black and orange tiger, fluffy panda, zebra with stripes, colorful butterflies floating, playful puppies, kittens, horses galloping. In the center, a happy man and woman stand together in a beautiful garden, smiling with arms outstretched in wonder.",
-            "story_p1": "The sixth day was God's masterpiece day! First, He created land animals: mighty lions with golden manes, gentle elephants with their babies, tall giraffes reaching the treetops, playful monkeys swinging through trees, horses galloping across plains, tiny ladybugs and huge hippos! Every creature in its perfect design!",
-            "story_p2": "Then came the GREATEST creation of all! God said: 'Let Us make humans in OUR IMAGE!' God personally formed the first man from the dust - then breathed His own breath of life into him! Adam opened his eyes and saw paradise. God then created Eve from Adam's side - a perfect companion. Together they were given dominion over all creation. They walked with God in the cool of the day. They were the crown of creation - made in GOD'S image!",
-            "science": "There are over 6,000 species of mammals, 10,000 reptile species, and over 1 million insect species! The human body alone has 37 TRILLION cells, 206 bones, and a brain with 86 billion neurons. We are fearfully and wonderfully made!",
-            "verse": "God created man in his own image. In God's image he created him; male and female he created them. - Genesis 1:27 (WEB)",
-            "gratitude": "Thank God for: Your amazing body, your family, animals, pets, and being made in God's own image!",
-            "coloring": "Draw yourself surrounded by your favorite animals in a beautiful garden - you are God's masterpiece!"
-        },
-        {
-            "day": "DAY 7", "title": "REST",
-            "illustration": "A serene, peaceful garden scene at sunset. Everything is in perfect harmony: animals resting together peacefully (lion beside lamb, deer beside bear), flowers in full bloom, a crystal-clear river flowing gently, fruit hanging perfectly from trees. Adam and Eve rest together in the shade. The sky is painted in the most beautiful sunset colors - golds, pinks, purples, oranges. Complete peace and perfection.",
-            "story_p1": "On the seventh day, God looked at EVERYTHING He had made - light and darkness, sky and seas, mountains and flowers, sun and stars, fish and birds, animals and humans - and He declared it was VERY good! Every piece fit together perfectly. Every creature was in its place. Paradise was complete.",
-            "story_p2": "So God RESTED. Not because He was tired (God never gets tired!) but because His work was FINISHED. Everything was perfect. He blessed the seventh day and made it holy - a gift of rest for all creation. This day reminds us that we don't always have to DO something. Sometimes the most important thing is to stop, rest, and enjoy what God has made! He created rest as a gift for us!",
-            "science": "Scientists have proven that humans need rest! Our bodies repair cells, strengthen immune systems, and consolidate memories during sleep. Even our brains need 'down time' to process information. God designed us to need rest!",
-            "verse": "God blessed the seventh day and made it holy, because in it he rested from all his work of creation. - Genesis 2:3 (WEB)",
-            "gratitude": "Thank God for: Rest, sleep, weekends, vacation, peaceful quiet moments, and the gift of Sabbath!",
-            "coloring": "Draw the most peaceful scene you can imagine - a place where everything is perfect and at rest."
-        }
-    ]
+    {"day": 5, "title": "Fish and Birds!", "verse": "God created the large sea creatures and every living creature that moves in the waters, and every winged bird. - Genesis 1:21 (WEB)",
+     "story1": "On day five, God turned His attention to filling the waters and skies with LIFE! He spoke and the empty oceans suddenly teemed with creatures. Tiny colorful tropical fish darted through coral reefs. Enormous whales breached the surface. Dolphins leaped joyfully. Octopuses changed colors. Jellyfish glowed. Sea turtles glided gracefully. From microscopic plankton to the massive blue whale, every water creature appeared at God's command!",
+     "story2": "Then God filled the sky with birds of every kind! Eagles soared on mighty wings. Hummingbirds hovered before flowers, their wings beating 80 times per second. Colorful parrots chattered in tropical trees. Penguins waddled on icy shores. Owls prepared for nighttime hunting. Flamingos stood on one leg. God created over 10,000 species of birds and countless ocean creatures, each one unique and perfectly designed. He blessed them saying, 'Be fruitful and multiply!'",
+     "science": "The ocean covers 71% of Earth's surface and contains 97% of all water! Blue whales are the largest animals ever - up to 100 feet long. Hummingbirds can fly backwards and their hearts beat over 1,200 times per minute!",
+     "gratitude": "Thank you God for: Fish, Dolphins, Eagles, Songbirds, Ocean life!",
+     "words": ["FISH", "BIRDS", "OCEAN", "WINGS", "SWIM", "FLY", "WHALE", "EAGLE"]},
+    {"day": 6, "title": "Animals and People!", "verse": "God created man in his own image. - Genesis 1:27 (WEB)",
+     "story1": "The sixth day was the most incredible of all! God filled the land with animals - lions roared, elephants trumpeted, horses galloped, rabbits hopped, and monkeys swung through trees. He created every kind: massive dinosaurs, tiny insects, slithering snakes, and jumping frogs. Cats purred, dogs wagged their tails, and butterflies floated on the breeze. Each animal was perfectly designed for its environment.",
+     "story2": "But God saved the BEST for last. He said, 'Let Us make man in Our image!' From the dust of the ground, God carefully formed a man and breathed life into his nostrils. Adam opened his eyes and saw his Creator! God made Eve from Adam's rib to be his partner. They were made in God's IMAGE - able to think, love, create, and have relationship with God. God gave them authority over all creation and called everything 'VERY good!'",
+     "science": "The human body has 206 bones, 600 muscles, 60,000 miles of blood vessels, and a brain with 86 billion neurons! DNA in one human cell would stretch 6 feet if uncoiled. You are incredibly designed!",
+     "gratitude": "Thank you God for: My body, Animals, My family, Being made in God's image!",
+     "words": ["ANIMALS", "PEOPLE", "IMAGE", "ADAM", "EVE", "LIFE", "BREATH", "GOOD"]},
+    {"day": 7, "title": "God Rested!", "verse": "God blessed the seventh day and made it holy, because He rested. - Genesis 2:3 (WEB)",
+     "story1": "On the seventh day, something different happened. God did not create anything new. Instead, He RESTED. Not because He was tired - God never gets tired! He rested because His work was FINISHED. Everything was perfect. Every star was in place. Every creature was alive. Every plant was blooming. Adam and Eve walked in perfect relationship with their Creator. It was paradise beyond imagination.",
+     "story2": "God blessed the seventh day and made it HOLY - set apart and special. He created the pattern of rest for all humanity to follow. Six days of work, one day of rest and worship. This rhythm of work and rest is built into the fabric of creation itself. God wanted humans to take time to stop, appreciate His creation, worship Him, and enjoy relationship. The Sabbath was God's gift to humanity - proof that we are more than machines.",
+     "science": "Scientists confirm that humans need regular rest to function. Sleep deprivation affects memory, immune system, and emotions. Our bodies actually heal and grow during rest! God designed us to need regular renewal.",
+     "gratitude": "Thank you God for: Rest, Weekends, Family time, Worship, Peace!",
+     "words": ["REST", "HOLY", "BLESSED", "FINISH", "PEACE", "WORSHIP", "SABBATH", "PERFECT"]}
+]
 
 
-    # RENDER CREATION DAYS
-    day_grays = [0.88, 0.90, 0.92, 0.94, 0.88, 0.91, 0.95]
-    
-    for idx, day in enumerate(days):
-        bg = day_grays[idx]
-        pages_for_day = 4 if idx < 6 else 3
-        
-        # Page 1: Day title + Illustration
-        pdf.new_page()
-        pdf.add_filled_rect(0, 700, 612, 92, gray=bg)
-        pdf.add_filled_rect(40, 705, 532, 80, gray=0.97)
-        draw_border(pdf, 40, 705, 532, 80, gray=0.3)
-        pdf.add_centered_text(765, day["day"], font='F2', size=14, gray=0.5)
-        pdf.add_centered_text(740, day["title"], font='F2', size=24, gray=0.1)
-        pdf.add_centered_text(715, "God Speaks and It Happens!", font='F4', size=11, gray=0.4)
-        
-        illus_box(pdf, 450, day["illustration"], 200)
-        
-        # Decorative accent
-        pdf.add_filled_rect(50, 430, 512, 8, gray=0.3)
-        
-        # Story part 1
-        pdf.add_filled_rect(50, 250, 512, 165, gray=0.97)
-        pdf.add_rect(50, 250, 512, 165, line_width=0.5, gray=0.5)
-        wrap(pdf, 65, 400, day["story_p1"], font='F5', size=12, mw=68)
-        
-        # Page 2: Story part 2
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.98)
-        pdf.add_filled_rect(40, 750, 532, 5, gray=bg)
-        pdf.add_text(60, 740, f"{day['day']}: {day['title']} (continued)", font='F2', size=14, gray=0.2)
-        pdf.add_line(60, 732, 350, 732, width=1, gray=0.4)
-        
-        pdf.add_filled_rect(50, 550, 512, 170, gray=0.97)
-        pdf.add_rect(50, 550, 512, 170, line_width=0.5, gray=0.5)
-        wrap(pdf, 65, 705, day["story_p2"], font='F5', size=12, mw=68)
-        
-        # Science connection
-        pdf.add_filled_rect(50, 400, 512, 130, gray=0.92)
-        draw_border(pdf, 50, 400, 512, 130, gray=0.4)
-        pdf.add_text(65, 515, "DID YOU KNOW? (Science Connection)", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, 495, day["science"], font='F4', size=11, mw=70)
-        
-        # Verse
-        pdf.add_filled_rect(50, 300, 512, 80, gray=0.95)
-        pdf.add_text(65, 365, "MEMORY VERSE:", font='F2', size=11, gray=0.2)
-        wrap(pdf, 65, 345, day["verse"], font='F3', size=10, mw=72)
-        
-        # Page 3: Gratitude + Coloring reference
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-        pdf.add_filled_rect(40, 720, 532, 50, gray=bg)
-        pdf.add_centered_text(748, f"{day['day']}: THANK GOD FOR...", font='F2', size=16, gray=0.1)
-        
-        # Gratitude prompt
-        pdf.add_filled_rect(50, 600, 512, 100, gray=0.88)
-        draw_border(pdf, 50, 600, 512, 100, gray=0.3)
-        pdf.add_text(65, 685, "THANK GOD FOR:", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, 665, day["gratitude"], font='F5', size=11, mw=70)
-        
-        # Personal gratitude writing
-        pdf.add_text(60, 570, "What else from " + day["day"] + " are you grateful for?", font='F4', size=11, gray=0.3)
-        for i in range(4):
-            pdf.add_line(60, 545-(i*25), 550, 545-(i*25), width=0.5, gray=0.6)
-        
-        # Coloring activity
-        pdf.add_filled_rect(50, 250, 512, 170, gray=0.95)
-        pdf.add_rect(50, 250, 512, 170, line_width=1.5, gray=0.4)
-        pdf.add_text(65, 405, "COLOR / DRAW:", font='F2', size=12, gray=0.2)
-        wrap(pdf, 65, 385, day["coloring"], font='F4', size=11, mw=70)
-        pdf.add_centered_text(280, "[Your artwork here]", font='F3', size=11, gray=0.5)
+def generate_word_search(words):
+    grid=[[random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(10)] for _ in range(10)]
+    for word in words[:8]:
+        word=word.upper()
+        for _ in range(50):
+            d=random.choice([(0,1),(1,0),(1,1)]); r=random.randint(0,max(0,9-len(word)*d[0])); c=random.randint(0,max(0,9-len(word)*d[1]))
+            if r+len(word)*d[0]>10 or c+len(word)*d[1]>10: continue
+            for i,ch in enumerate(word): grid[r+i*d[0]][c+i*d[1]]=ch
+            break
+    return grid
+def wrap_text(text,mx=75):
+    wds=text.split(); lines=[]; cur=""
+    for w in wds:
+        if len(cur)+len(w)+1<=mx: cur+=(" " if cur else "")+w
+        else:
+            if cur: lines.append(cur)
+            cur=w
+    if cur: lines.append(cur)
+    return lines
+def build_pdf():
+    pdf=PDFDoc(); pc=0
+    # Title
+    pdf.new_page(); pc+=1
+    pdf.add_filled_rect(50,650,512,100,0.85)
+    pdf.add_centered_text(720,TITLE,'F2',22,0); pdf.add_centered_text(690,SUBTITLE,'F4',13,0.2)
+    pdf.add_centered_text(660,"Written and Illustrated by",'F4',12,0.3)
+    pdf.add_centered_text(640,AUTHOR,'F2',16,0)
+    pdf.add_rect(100,200,412,380,2,0.3)
+    pdf.add_centered_text(420,"[ILLUSTRATION: Spectacular creation scene with",'F3',10,0.4)
+    pdf.add_centered_text(405,"light bursting through darkness, animals, stars]",'F3',10,0.4)
+    pdf.add_centered_text(100,"Explore each day of creation in beautiful detail!",'F4',12,0.3)
+    # Copyright
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(700,TITLE,'F2',14,0)
+    pdf.add_text(72,600,f"Written by {AUTHOR}",'F4',11,0.2)
+    pdf.add_text(72,580,"Copyright 2025. All Rights Reserved.",'F4',10,0.3)
+    pdf.add_text(72,550,"Scripture: World English Bible (WEB) - Public Domain.",'F4',10,0.3)
+    pdf.add_text(72,520,"For children ages 6-12. Published by Kingdom Kids Publishing",'F4',10,0.3)
+    pdf.add_text(72,440,"Dedication: For every child who looks at creation with wonder!",'F4',11,0.2)
+    # TOC
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"TABLE OF CONTENTS",'F2',18,0); pdf.add_line(150,720,462,720,1,0.3); y=680
+    for d in days: pdf.add_text(72,y,f"Day {d['day']}: {d['title']}",'F4',12,0.1); y-=35
+    pdf.add_text(72,y-10,"Quiz / Vocabulary / Journal / Certificate / Bonus",'F4',10,0.3)
+    # Intro
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"HOW TO USE THIS BOOK",'F2',18,0); pdf.add_line(150,720,462,720,1,0.3)
+    intro=["Have you ever wondered HOW God created everything?","This book explores each of the 7 days of creation!","",
+        "Each day has NINE exciting pages:","  1-2. The creation story told poetically",
+        "  3. Full-page illustration","  4. REAL science connections!","  5. Activity page",
+        "  6. Coloring/drawing page","  7. Gratitude list","  8. Memory verse page",
+        "  9. Discussion questions","","Plus quizzes, vocabulary, journal, and bonus pages!","",
+        "Ready to explore how God made EVERYTHING? Let's go!"]
+    y=680
+    for l in intro: pdf.add_text(72,y,l,'F4',11,0.15); y-=22
 
-        # Page 4 (extra page for days 1-6)
-        if pages_for_day == 4:
-            pdf.new_page()
-            pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-            pdf.add_filled_rect(40, 720, 532, 50, gray=bg)
-            pdf.add_centered_text(748, f"{day['day']} REFLECTION", font='F2', size=16, gray=0.1)
-            pdf.add_text(60, 680, f"What amazes you most about {day['title']}?", font='F5', size=12, gray=0.2)
-            for i in range(5):
-                pdf.add_line(60, 650-(i*30), 550, 650-(i*30), width=0.5, gray=0.6)
-            pdf.add_text(60, 470, "Draw or write a praise to God for this day of creation:", font='F5', size=12, gray=0.2)
-            pdf.add_filled_rect(50, 200, 512, 250, gray=0.95)
-            pdf.add_rect(50, 200, 512, 250, line_width=1, gray=0.4)
 
-    # FINAL PAGE
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.95)
-    draw_border(pdf, 40, 40, 532, 712, gray=0.2)
-    pdf.add_centered_text(700, "GOD SAW EVERYTHING HE MADE", font='F2', size=18, gray=0.1)
-    pdf.add_centered_text(670, "AND IT WAS VERY GOOD!", font='F2', size=18, gray=0.1)
-    pdf.add_centered_text(630, "- Genesis 1:31 -", font='F5', size=14, gray=0.3)
-    pdf.add_centered_text(570, "You are part of God's VERY GOOD creation!", font='F5', size=13, gray=0.2)
-    pdf.add_centered_text(540, "He made you on purpose, for a purpose.", font='F5', size=13, gray=0.2)
-    pdf.add_centered_text(510, "You are fearfully and wonderfully made!", font='F5', size=13, gray=0.2)
-    pdf.add_centered_text(450, "Thank God every day for His amazing creation!", font='F4', size=12, gray=0.3)
+    # 7 days x 9 pages = 63 pages
+    for day in days:
+        # P1: Story part 1
+        pdf.new_page(); pc+=1
+        pdf.add_filled_rect(50,700,512,60,0.88)
+        pdf.add_centered_text(735,f"Day {day['day']} of Creation",'F1',10,0.4)
+        pdf.add_centered_text(715,day['title'].upper(),'F2',22,0)
+        pdf.add_line(72,690,540,690,1,0.3); y=670
+        for line in wrap_text(day['story1'],78): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        y-=20
+        pdf.add_filled_rect(72,y-25,468,30,0.92)
+        pdf.add_centered_text(y-8,day['verse'],'F5',10,0)
+        # P2: Story part 2
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"Day {day['day']}: {day['title']} (continued)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(day['story2'],78): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        y-=30
+        pdf.add_rect(72,y-200,468,200,1.5,0.3)
+        pdf.add_centered_text(y-80,f"[ILLUSTRATION: Day {day['day']} - {day['title']}",'F3',10,0.4)
+        pdf.add_centered_text(y-100,"Beautiful detailed scene of what God created]",'F3',10,0.4)
+        # P3: Full illustration page
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"DAY {day['day']}: {day['title'].upper()}",'F2',18,0)
+        pdf.add_rect(50,80,512,640,2,0.3)
+        pdf.add_centered_text(420,f"[FULL-PAGE ILLUSTRATION: Day {day['day']}",'F3',11,0.4)
+        pdf.add_centered_text(400,f"God creates {day['title'].lower().replace('!','')}",'F3',11,0.4)
+        pdf.add_centered_text(380,"in magnificent, colorful detail]",'F3',11,0.4)
+        # P4: Science connection
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"SCIENCE CONNECTION - Day {day['day']}",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        pdf.add_text(72,710,"Did you know? God's creation is even MORE amazing",'F4',11,0.1)
+        pdf.add_text(72,690,"when we learn the science behind it!",'F4',11,0.1)
+        y=650
+        pdf.add_filled_rect(72,y-80,468,90,0.92)
+        pdf.add_text(80,y-10,"AMAZING SCIENCE FACTS:",'F2',12,0.1)
+        for i,line in enumerate(wrap_text(day['science'],70)):
+            pdf.add_text(80,y-30-i*16,line,'F4',10,0.2)
+        y-=120
+        pdf.add_text(72,y,"Questions to think about:",'F2',12,0.1); y-=25
+        pdf.add_text(72,y,"1. How does this science fact make you appreciate God more?",'F4',10,0.2); y-=20
+        pdf.add_line(90,y,540,y,0.5,0.6); y-=20; pdf.add_line(90,y,540,y,0.5,0.6); y-=30
+        pdf.add_text(72,y,"2. What other science facts do you know about Day "+str(day['day'])+"?",'F4',10,0.2); y-=20
+        pdf.add_line(90,y,540,y,0.5,0.6); y-=20; pdf.add_line(90,y,540,y,0.5,0.6)
+        # P5: Activity page
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"ACTIVITY PAGE - Day {day['day']}",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        pdf.add_text(72,710,"WORD SEARCH - Find words about what God created on this day:",'F4',11,0.2)
+        grid=generate_word_search(day['words']); y=680
+        for row in grid: pdf.add_centered_text(y,"   ".join(row),'F3',13,0.1); y-=22
+        y-=15; pdf.add_text(72,y,"Words: "+"  ".join(day['words']),'F3',9,0.2)
+        y-=30; pdf.add_text(72,y,"UNSCRAMBLE: Rearrange these letters:",'F2',10,0.1)
+        scrambled = day['words'][:4]
+        y-=20
+        for w in scrambled:
+            letters = list(w); random.shuffle(letters)
+            pdf.add_text(100,y,"".join(letters)+" = ________",'F3',11,0.2); y-=22
+        # P6: Coloring/Drawing
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"DRAW DAY {day['day']}!",'F2',16,0)
+        pdf.add_text(72,720,f"Draw what God created on Day {day['day']}: {day['title']}",'F4',11,0.2)
+        pdf.add_rect(72,250,468,450,1.5,0.3)
+        pdf.add_centered_text(230,"Color this page with your favorite colors!",'F4',10,0.3)
+        pdf.add_text(72,200,"My favorite thing God created on this day:",'F2',10,0.1)
+        pdf.add_line(72,180,540,180,0.5,0.6)
+        # P7: Gratitude list
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"GRATITUDE LIST - Day {day['day']}",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        pdf.add_text(72,710,f"Things from Day {day['day']} I am thankful for:",'F4',11,0.2)
+        y=680
+        pdf.add_filled_rect(72,y-60,468,65,0.93)
+        pdf.add_text(80,y-15,day['gratitude'],'F4',11,0.2)
+        y-=90
+        pdf.add_text(72,y,"Add your own! What else are you thankful for from Day "+str(day['day'])+"?",'F2',10,0.1)
+        y-=25
+        for i in range(8):
+            pdf.add_text(72,y,f"{i+1}.",'F2',11,0.1); pdf.add_line(100,y-2,540,y-2,0.5,0.6); y-=28
+        # P8: Memory verse
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"MEMORY VERSE - Day {day['day']}",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        pdf.add_filled_rect(72,620,468,80,0.88)
+        pdf.add_centered_text(670,"Today's Verse:",'F2',12,0.1)
+        pdf.add_centered_text(645,day['verse'],'F5',11,0)
+        pdf.add_text(72,580,"Write the verse 3 times to help memorize it:",'F4',11,0.2)
+        y=550
+        for i in range(3):
+            pdf.add_text(72,y,f"#{i+1}:",'F2',10,0.1)
+            for j in range(2): pdf.add_line(100,y-j*20,540,y-j*20,0.5,0.6)
+            y-=55
+        pdf.add_text(72,y,"Now try writing it from MEMORY:",'F2',10,0.1); y-=20
+        for _ in range(2): pdf.add_line(72,y,540,y,0.5,0.6); y-=20
+        # P9: Discussion
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"DISCUSSION - Day {day['day']}",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        pdf.add_text(72,710,"Talk about these questions with your family:",'F4',11,0.2)
+        disc_qs=[f"1. Why do you think God created {day['title'].lower().replace('!','')} on Day {day['day']}?",
+                 "2. What is the most amazing thing about what God made this day?",
+                 "3. How does this part of creation help us in our daily lives?",
+                 "4. What would the world be like without what God made on this day?"]
+        y=670
+        for q in disc_qs:
+            pdf.add_text(72,y,q,'F2',10,0.1); y-=20
+            for _ in range(3): pdf.add_line(90,y,530,y,0.5,0.6); y-=18
+            y-=15
 
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Book283_Creation_Story_Detailed.pdf")
-    pdf.save(output_path)
-    print(f"Created: {output_path}")
 
-if __name__ == "__main__":
-    create_book()
+    # Quiz (2 pages)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"CREATION QUIZ - Part 1",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    qs=[("1. What did God create on Day 1?","a) Sun  b) Light  c) Animals"),
+        ("2. What separates waters above from below?","a) Mountains  b) Sky/expanse  c) Trees"),
+        ("3. What appeared when waters gathered?","a) Islands  b) Dry land  c) Fish"),
+        ("4. What rules the night sky?","a) Stars  b) Moon  c) Clouds"),
+        ("5. What creatures were made on Day 5?","a) Dogs  b) Fish and birds  c) Insects")]
+    y=700
+    for q,o in qs: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"CREATION QUIZ - Part 2",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    qs2=[("6. Humans were made in God's ___","a) Likeness  b) Image  c) Both"),
+         ("7. What did God do on Day 7?","a) Created angels  b) Rested  c) Made more animals"),
+         ("8. God called His creation ___","a) Okay  b) Good  c) Very good"),
+         ("9. Where did God place the first humans?","a) Mountain  b) Garden of Eden  c) City"),
+         ("10. How many days did creation take?","a) 5  b) 6  c) 7 (including rest)")]
+    y=700
+    for q,o in qs2: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.add_text(72,y-20,"Answers: 1b, 2b, 3b, 4b, 5b, 6c, 7b, 8c, 9b, 10c",'F3',9,0.4)
+
+    # Vocabulary
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"VOCABULARY & WORD LIST",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    vocab=[("Creation","The act of bringing everything into existence"),("Expanse","The great stretch of sky above us"),
+           ("Vegetation","All plant life - trees, grass, flowers"),("Luminaries","Lights in the sky - sun, moon, stars"),
+           ("Abundance","Having much more than enough"),("Dominion","Authority and rule over something"),
+           ("Sabbath","The day of rest God made holy"),("Image","A likeness or representation"),
+           ("Formless","Without shape or structure"),("Sovereign","Having complete power and authority")]
+    y=710
+    for w,d in vocab: pdf.add_text(72,y,f"{w}:",'F2',11,0.1); pdf.add_text(200,y,d,'F4',10,0.2); y-=28
+
+    # Journal (4 pages)
+    prompts=["The part of creation that amazes me most...","What I want to ask God about creation...",
+             "How I can take care of God's creation...","My creation praise poem to God..."]
+    for j in range(4):
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"MY CREATION JOURNAL - Page {j+1}",'F2',16,0)
+        pdf.add_text(72,710,prompts[j],'F5',12,0.2); y=680
+        for _ in range(24): pdf.add_line(72,y,540,y,0.5,0.7); y-=25
+
+    # Certificate
+    pdf.new_page(); pc+=1
+    pdf.add_rect(50,50,512,692,3,0.2); pdf.add_rect(60,60,492,672,1.5,0.4)
+    pdf.add_centered_text(680,"CERTIFICATE OF COMPLETION",'F2',22,0)
+    pdf.add_centered_text(640,"This certifies that",'F4',14,0.2)
+    pdf.add_line(180,600,432,600,1,0.3)
+    pdf.add_centered_text(540,"has explored all 7 days of creation in",'F4',12,0.2)
+    pdf.add_centered_text(510,TITLE,'F2',14,0)
+    pdf.add_centered_text(400,"Date: _______________",'F4',12,0.3)
+    pdf.add_centered_text(280,"\"The heavens declare the glory of God\" - Psalm 19:1",'F5',13,0.1)
+
+    # Bonus: Creation Week Chart
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MY CREATION WEEK CHART",'F2',18,0)
+    pdf.add_text(72,720,"Fill in what God created each day from memory:",'F4',11,0.2); y=680
+    for i in range(7):
+        pdf.add_filled_rect(72,y-40,468,42,0.95 if i%2==0 else 1.0)
+        pdf.add_text(80,y-12,f"Day {i+1}: ",'F2',12,0.1)
+        pdf.add_line(150,y-15,520,y-15,0.5,0.6)
+        pdf.add_text(80,y-32,"Draw a small picture:",'F4',8,0.4)
+        pdf.add_rect(350,y-38,170,36,0.5,0.5); y-=50
+
+    out=os.path.join(os.path.dirname(os.path.abspath(__file__)),FILENAME)
+    pdf.save(out); print(f"Generated {FILENAME} with {pc} pages"); return pc
+if __name__=="__main__": build_pdf()

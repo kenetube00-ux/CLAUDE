@@ -1,245 +1,344 @@
 #!/usr/bin/env python3
 """Book 278 - Stories Jesus Told: 10 Parables Every Kid Should Know"""
-import os, sys
+import random, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pdf_utils import PDFDoc
+random.seed(278)
+TITLE = "STORIES JESUS TOLD"
+SUBTITLE = "10 Parables Every Kid Should Know"
+AUTHOR = "Daniel Tesfamariam"
+FILENAME = "Book278_Jesus_Parables_Kids.pdf"
+stories = [
+    {"title": "The Good Samaritan", "character": "the Samaritan",
+     "verse": "Love your neighbor as yourself. - Luke 10:27 (WEB)",
+     "moral": "A true neighbor helps anyone in need, regardless of differences!",
+     "modern": "Helping a new kid at school who looks different from you or has no friends.",
+     "p1": "One day a man asked Jesus, 'Who is my neighbor?' Jesus answered with a story. A man was traveling from Jerusalem to Jericho along a dangerous, winding road through rocky hills. Suddenly, robbers jumped out and attacked him! They took everything he had, beat him badly, and left him lying half-dead on the dusty road.",
+     "p2": "A priest came walking down the same road and saw the injured man bleeding on the ground. Instead of helping, he crossed to the other side and hurried past. Then a Levite, a religious teacher, came along. He also looked at the hurt man, but walked away without helping. Both of these men were supposed to be holy and good, yet they ignored someone who desperately needed their compassion and care.",
+     "p3": "Then a Samaritan man came along - someone from a group that was hated and despised by the injured man's people. But the Samaritan felt deep compassion. He bandaged the man's wounds, put him on his own donkey, and took him to an inn. He paid for the man's care and promised to cover any extra costs. Jesus asked, 'Which one was the true neighbor?' The answer was clear - the one who showed mercy. Jesus said, 'Go and do the same.'",
+     "words": ["NEIGHBOR", "HELP", "MERCY", "KINDNESS", "LOVE", "ROAD", "CARE", "GOOD"]},
+    {"title": "The Prodigal Son", "character": "the father",
+     "verse": "This my son was dead and is alive again; was lost and is found. - Luke 15:24 (WEB)",
+     "moral": "God welcomes us back with open arms when we return to Him!",
+     "modern": "When you mess up badly and your parents still love you and forgive you.",
+     "p1": "Jesus told of a man with two sons. The younger son demanded his share of the family's money right away - which was terribly disrespectful. The heartbroken father gave him what he asked for. The young man packed everything and traveled to a far country where no one knew him. He wasted all his money on foolish living and wild parties.",
+     "p2": "Soon his money was completely gone. Then a terrible famine struck the land and he had nothing to eat. He was so desperate he took a job feeding pigs - the lowest, most shameful work for a Jewish person. He was so hungry he wanted to eat the pig food, but no one gave him anything. Sitting in the mud surrounded by pigs, he finally came to his senses and remembered his father's kindness.",
+     "p3": "The young man decided to go home and beg his father to hire him as a servant. But while he was still far away, his father saw him and ran toward him with arms wide open! The father hugged him, kissed him, and threw a huge celebration party. He put the finest robe on him, a ring on his finger, and sandals on his feet. His father said, 'My son was lost and now is found!' God celebrates the same way when anyone returns to Him.",
+     "words": ["FATHER", "SON", "LOST", "FOUND", "FORGIVE", "HOME", "LOVE", "RETURN"]},
 
-def create_book():
-    pdf = PDFDoc(612, 792)
-    author = "Daniel Tesfamariam"
-    
-    def draw_border(pdf, x, y, w, h, gray=0.3):
-        pdf.add_rect(x, y, w, h, line_width=2, gray=gray)
-        pdf.add_rect(x+3, y+3, w-6, h-6, line_width=0.5, gray=gray)
+    {"title": "The Lost Sheep", "character": "the shepherd",
+     "verse": "There will be more joy in heaven over one sinner who repents. - Luke 15:7 (WEB)",
+     "moral": "Every single person matters so much to God that He will search until He finds them!",
+     "modern": "A teacher who notices when one student is missing or sad and goes to check on them.",
+     "p1": "Jesus asked the crowd a simple question: If a shepherd has one hundred sheep and loses just one, what does he do? Does he say, 'Oh well, I still have ninety-nine'? No! A good shepherd notices that one sheep is missing. He knows each one by name. His heart breaks when even one is lost and alone in the dangerous wilderness.",
+     "p2": "The shepherd leaves the ninety-nine sheep in a safe place and goes searching for the one lost sheep. He climbs over rocky hills, pushes through thorny bushes, and calls out through dark valleys. The search might take hours. He does not give up, even when his feet hurt and his clothes are torn. He keeps calling, keeps looking, keeps searching because that one sheep matters to him deeply.",
+     "p3": "Finally, the shepherd hears a faint bleating cry! He finds the frightened sheep caught in thorns, cold and scared. With great joy, he gently lifts it onto his shoulders and carries it all the way home. Then he calls all his friends and neighbors saying, 'Celebrate with me! I found my lost sheep!' Jesus said that heaven celebrates even MORE when one lost person returns to God. YOU are that precious to Him.",
+     "words": ["SHEEP", "LOST", "FOUND", "SEARCH", "SHEPHERD", "JOY", "CARRY", "LOVE"]},
+    {"title": "The Sower and the Seeds", "character": "the farmer",
+     "verse": "The seed is the word of God. - Luke 8:11 (WEB)",
+     "moral": "Prepare your heart to receive God's word like good, rich soil!",
+     "modern": "Paying attention in class vs. daydreaming - only attentive hearts grow wisdom.",
+     "p1": "Jesus told about a farmer who went out to scatter seeds across his land. As he walked along, throwing handfuls of seeds, they landed on four different types of ground. Some seeds fell on the hard path where people walked. Birds swooped down immediately and gobbled them up before they could even begin to grow. Those seeds never had a chance.",
+     "p2": "Some seeds fell on rocky ground with only a thin layer of soil. They sprouted quickly but had no deep roots. When the hot sun blazed down, the little plants withered and died. Other seeds fell among thorny weeds. They started growing but the thorns grew faster, choking the good plants until they produced nothing. Three types of ground - three types of failure.",
+     "p3": "But some seeds fell on good, rich, deep soil. These seeds put down strong roots, grew tall and healthy, and produced an amazing harvest - thirty, sixty, even a hundred times what was planted! Jesus explained that the seed is God's Word and the soil represents our hearts. Some people ignore God's message, some believe briefly but quit when life gets hard. But those with good hearts who really listen and obey will produce incredible fruit in their lives!",
+     "words": ["SEED", "SOIL", "GROW", "HEART", "WORD", "FRUIT", "ROOTS", "HARVEST"]},
+    {"title": "The Wise and Foolish Builders", "character": "the wise builder",
+     "verse": "Everyone who hears these words and does them is like a wise man. - Matthew 7:24 (WEB)",
+     "moral": "Build your life on God's truth and nothing can knock you down!",
+     "modern": "Studying hard and building good habits vs. taking shortcuts that fall apart under pressure.",
+     "p1": "Jesus finished a long sermon and told one final story everyone would remember. Two men each decided to build a house. The first man was wise - he searched carefully for the perfect spot and found solid rock to build upon. It took longer to dig down to the rock foundation. It was harder work. But the wise man knew a strong foundation was worth the extra effort.",
+     "p2": "The second man was foolish and impatient. He wanted his house built quickly with no hard work. He found a nice flat stretch of sand and started building right away. His house went up fast! It looked great on the outside. The foolish man probably laughed at the wise man still working on his foundation. For a while, both houses looked equally fine standing side by side under clear blue skies.",
+     "p3": "Then the storms came. Rain pounded down, floods rose up, and fierce winds howled against both houses. The house built on sand shifted, cracked, and CRASHED down into a pile of rubble! Nothing was left. But the house on the rock stood firm - not a single crack! Jesus said anyone who hears His words AND obeys them is like the wise builder. Build your life on God's truth and no storm in life can ever destroy you.",
+     "words": ["ROCK", "SAND", "BUILD", "STORM", "WISE", "STRONG", "OBEY", "STAND"]},
 
-    def illus_box(pdf, y, desc, height=100):
-        pdf.add_filled_rect(60, y, 492, height, gray=0.95)
-        pdf.add_rect(60, y, 492, height, line_width=1.5, gray=0.4)
-        pdf.add_text(70, y+height-18, "[COLORFUL ILLUSTRATION:", font='F2', size=10, gray=0.3)
-        words = desc.split()
-        line, line_y = "", y+height-33
-        for word in words:
-            if len(line+" "+word)>75:
-                pdf.add_text(70, line_y, line.strip(), font='F3', size=9, gray=0.4)
-                line_y -= 13; line = word
-            else: line = line+" "+word if line else word
-        if line: pdf.add_text(70, line_y, line.strip(), font='F3', size=9, gray=0.4)
-        pdf.add_text(70, line_y-13, "]", font='F2', size=10, gray=0.3)
+    {"title": "The Mustard Seed", "character": "the gardener",
+     "verse": "The kingdom of heaven is like a grain of mustard seed. - Matthew 13:31 (WEB)",
+     "moral": "Small beginnings can lead to enormous, world-changing results!",
+     "modern": "Being kind to one person can start a chain reaction that changes an entire school.",
+     "p1": "Jesus held up something incredibly tiny between His fingers - a mustard seed! It was one of the smallest seeds in all the land, barely visible to the eye. The crowd leaned in close trying to see it. Jesus said the kingdom of heaven is like this tiny, insignificant-looking seed. Everyone must have wondered how something so small could represent anything important at all.",
+     "p2": "But when that tiny seed is planted in good soil and given water and sunlight, something amazing happens. Day by day it grows bigger and bigger. It pushes through the dirt, reaches toward the sky, and keeps growing. Other seeds around it might be bigger at first, but the mustard plant outgrows them all. It spreads its branches wider and wider, stretching taller and taller until it becomes one of the largest plants in the garden.",
+     "p3": "Eventually, the full-grown mustard plant becomes so large that birds come and build their nests in its branches! From the tiniest seed comes one of the biggest plants - a home and shelter for many. Jesus was teaching that faith starts small but grows incredibly powerful. Even faith as small as a mustard seed can move mountains! Never despise small beginnings - God can take your small act of faith and grow it into something that blesses the whole world.",
+     "words": ["MUSTARD", "SEED", "SMALL", "GROW", "TREE", "FAITH", "BIRDS", "BIG"]},
+    {"title": "The Hidden Treasure", "character": "the finder",
+     "verse": "The kingdom of heaven is like treasure hidden in a field. - Matthew 13:44 (WEB)",
+     "moral": "God's kingdom is worth giving up everything to have!",
+     "modern": "Choosing to do the right thing even when it costs you popularity or convenience.",
+     "p1": "Jesus told a short but powerful story. A man was working in a field one day - perhaps digging or plowing - when suddenly his tool struck something hard. He brushed away the dirt and discovered a chest full of the most magnificent treasure he had ever seen! Gold coins, precious jewels, and priceless objects gleamed in the sunlight. His heart raced with excitement.",
+     "p2": "The man quickly covered the treasure back up and stood there thinking. This treasure was worth more than everything he owned combined. It was worth more than his house, his animals, his savings - everything! He knew he had to buy this field to own the treasure legally. But how? He had to sell everything he owned to afford the field. That would mean giving up his comfortable life completely.",
+     "p3": "But the man was SO overjoyed at finding this treasure that he GLADLY sold everything he had without a moment of sadness! He ran to buy the field with a huge smile on his face. He was not sad about what he gave up because what he gained was infinitely more valuable. Jesus was saying that knowing God and being part of His kingdom is the greatest treasure in the universe - worth any sacrifice, worth giving up everything to have!",
+     "words": ["TREASURE", "FIELD", "HIDDEN", "JOY", "VALUE", "FIND", "GOLD", "WORTH"]},
+    {"title": "The Talents", "character": "the faithful servants",
+     "verse": "Well done, good and faithful servant! - Matthew 25:21 (WEB)",
+     "moral": "Use the gifts God gives you wisely - He trusts you with great responsibility!",
+     "modern": "Using your skills and talents to help others instead of being lazy or hiding them.",
+     "p1": "A wealthy master was going on a long journey and entrusted his fortune to three servants. To the first servant, he gave five talents of gold (an enormous amount of money). To the second, he gave two talents. To the third, he gave one talent. Each received according to their ability. Then the master departed on his trip, trusting them to be wise stewards.",
+     "p2": "The servant with five talents immediately went to work - trading, investing, and building until he doubled his money to ten talents! The servant with two talents worked just as hard and also doubled his to four. But the third servant was afraid of failing. Instead of trying anything, he dug a hole in the ground and buried his one talent where it was safe but completely useless.",
+     "p3": "When the master returned, he was thrilled with the first two servants. 'Well done, good and faithful servant!' he said to each, giving them even greater responsibilities. But to the servant who buried his talent, the master was deeply disappointed. 'You lazy servant! You could have at least put the money in the bank to earn interest!' He took the talent away and gave it to the one with ten. God gives us all different gifts and talents - He wants us to USE them boldly, not hide them in fear!",
+     "words": ["TALENT", "INVEST", "DOUBLE", "FAITHFUL", "BOLD", "WORK", "GIFT", "USE"]},
 
-    def wrap(pdf, x, y, text, font='F4', size=11, mw=70, gray=0):
-        words = text.split()
-        line, cy = "", y
-        for word in words:
-            if len(line+" "+word)>mw:
-                pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray)
-                cy -= 15; line = word
-            else: line = line+" "+word if line else word
-        if line: pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray); cy -= 15
-        return cy
-
-
-    # TITLE PAGE
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    draw_border(pdf, 30, 30, 552, 732, gray=0.2)
-    pdf.add_filled_rect(50, 600, 512, 130, gray=0.88)
-    pdf.add_centered_text(700, "STORIES JESUS TOLD", font='F2', size=26, gray=0.1)
-    pdf.add_centered_text(668, "10 Parables Every Kid Should Know", font='F5', size=16, gray=0.2)
-    illus_box(pdf, 380, "Jesus sitting under a large olive tree on a green hillside, surrounded by children and adults listening intently. He gestures with his hands as He teaches. Sheep graze nearby. A sower scatters seeds in a field in the background. Warm golden sunlight bathes the scene.", 160)
-    pdf.add_centered_text(340, "For Kids Ages 5-15", font='F2', size=14, gray=0.3)
-    pdf.add_centered_text(100, f"Written by {author}", font='F5', size=14, gray=0.2)
-
-    # COPYRIGHT
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    pdf.add_text(72, 700, "STORIES JESUS TOLD", font='F2', size=16, gray=0.1)
-    pdf.add_text(72, 675, "10 Parables Every Kid Should Know", font='F4', size=12, gray=0.3)
-    pdf.add_line(72, 665, 400, 665, width=0.5, gray=0.5)
-    pdf.add_text(72, 640, f"Copyright 2025 {author}. All rights reserved.", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 620, "Scripture from World English Bible (WEB) - Public Domain", font='F4', size=10, gray=0.3)
-    pdf.add_filled_rect(60, 100, 492, 50, gray=0.92)
-    pdf.add_text(72, 130, "Dedicated to kids who love stories - Jesus was the greatest storyteller!", font='F5', size=11, gray=0.2)
-
-    parables = [
-        {
-            "title": "THE GOOD SAMARITAN",
-            "theme": "Helping Everyone - Even Strangers",
-            "illustration": "A kind Samaritan man in colorful robes kneeling beside an injured traveler on a rocky road. He pours oil on wounds and wraps bandages. His donkey waits patiently. In the distance, a priest and Levite walk away looking the other way. Desert road between Jerusalem and Jericho with rocky hills.",
-            "modern": "Imagine a kid at school trips and spills everything from their backpack. Two popular kids walk right past. Then the new kid nobody talks to stops, kneels down, and helps pick up every single pencil, book, and paper. That's what the Good Samaritan did - he helped when nobody else would!",
-            "bible_version": "A man was robbed and beaten on the road to Jericho. A priest saw him and crossed to the other side. A Levite did the same. But a Samaritan - someone the Jews didn't like - stopped, bandaged his wounds, put him on his donkey, and paid for his care at an inn.",
-            "meaning": "Your neighbor isn't just the person next door - it's ANYONE who needs help. Jesus wants us to help everyone, even people who are different from us.",
-            "application": "This week, look for someone who needs help - especially someone you wouldn't normally talk to. Be their Good Samaritan!",
-            "question": "Who in your life might need a Good Samaritan right now? What can you do for them?"
-        },
-        {
-            "title": "THE PRODIGAL SON",
-            "theme": "Forgiveness & Coming Home",
-            "illustration": "A joyful father running with open arms toward his ragged, dirty son on a country road. The son is thin and wearing torn clothes. The father's face beams with love and tears. A grand house with warm light glows in the background. Green hills and a sunset sky in orange and purple.",
-            "modern": "Imagine telling your parents 'I wish you weren't my family!' then taking your birthday money and running away. You spend everything on junk food and video games until you're broke and sleeping in the park. Finally you go home, expecting anger - but your parents RUN to hug you and throw a party!",
-            "bible_version": "A young son demanded his inheritance early and left home. He wasted everything on wild living. When a famine hit, he ended up feeding pigs and was so hungry he wanted to eat their food. He went home planning to be a servant. But his father saw him from far away, ran to him, hugged him, and threw a feast!",
-            "meaning": "No matter how far you wander from God, He's always watching for you, ready to welcome you home with a party! God never stops loving you.",
-            "application": "If you've been ignoring God or doing wrong things, come back! He's not angry - He's waiting with arms wide open!",
-            "question": "Have you ever done something wrong and been afraid to say sorry? What happened when you finally did?"
-        },
-        {
-            "title": "THE LOST SHEEP",
-            "theme": "You Are Valuable to God",
-            "illustration": "A shepherd carrying a small white fluffy lamb on his shoulders, walking through rocky wilderness at sunset. His face shows relief and joy. Behind him, 99 sheep graze safely in a green meadow. Stars begin to appear in a twilight purple sky. The shepherd's crook hangs at his side.",
-            "modern": "Imagine having 100 stuffed animals but your absolute FAVORITE one goes missing. Would you say 'Oh well, I still have 99'? NO! You'd tear your room apart looking for it! That's how God feels about YOU - you're His favorite!",
-            "bible_version": "A shepherd had 100 sheep. One wandered away. He left the 99 safe sheep and searched through dangerous hills and valleys until he found the lost one. He carried it home on his shoulders, rejoicing. He called his friends to celebrate: 'I found my lost sheep!'",
-            "meaning": "YOU are that sheep to God! He doesn't say 'I have billions of people, one doesn't matter.' Every single person matters to Him! He will search for you!",
-            "application": "Remember that you are NEVER too lost for God to find. And help others know they matter to God too!",
-            "question": "Have you ever felt lost or alone? How does it feel to know God is actively searching for you?"
-        },
-
-        {
-            "title": "THE SOWER & SEEDS",
-            "theme": "How We Receive God's Word",
-            "illustration": "A farmer in brown tunic scattering golden seeds from a bag across four types of ground: a hard rocky path with birds eating seeds, shallow rocky soil with tiny sprouts wilting, thorny ground with weeds choking plants, and rich dark soil with tall golden wheat growing abundantly. Bright blue sky.",
-            "modern": "Imagine your teacher gives the whole class the same amazing book. One kid never opens it. Another reads a page then forgets. A third starts reading but gets distracted by their phone. But the fourth kid reads it, loves it, and shares it with everyone! Same book - different responses!",
-            "bible_version": "A farmer scattered seeds. Some fell on the path - birds ate them. Some fell on rocks - they grew quickly but died in the sun. Some fell among thorns - they were choked. But seeds on good soil grew 30, 60, even 100 times what was planted!",
-            "meaning": "The seed is God's word. The soils are our hearts. Some people ignore it, some accept it briefly, some let worries choke it out. But those who truly receive it and live it produce amazing fruit!",
-            "application": "Be good soil! When you hear God's word, don't just say 'cool' - let it grow deep roots in your life!",
-            "question": "Which soil are you right now? What can you do to be 'good soil' for God's word?"
-        },
-        {
-            "title": "THE WISE & FOOLISH BUILDERS",
-            "theme": "Build on Solid Ground",
-            "illustration": "Split scene: Left side shows a beautiful stone house on solid rock standing firm in a terrible storm with rain and floods. Right side shows a fancy house on sand collapsing as floods wash the sand away. Lightning flashes. Waves crash. One house stands strong, the other crumbles dramatically.",
-            "modern": "Imagine two kids building sandcastles. One builds on wet sand near the water - it looks amazing but one wave destroys it! The other builds higher up on solid ground - it's not as flashy but it LASTS! Building your life on Jesus is like building on solid rock.",
-            "bible_version": "Two men built houses. The wise man dug deep and built on rock. When storms came with rain, floods, and wind, his house stood firm. The foolish man built quickly on sand. The same storm came and his house collapsed completely - what a crash!",
-            "meaning": "If you build your life on Jesus' teachings, nothing can knock you down! But if you build on popularity, money, or anything else, eventually storms will reveal the weak foundation.",
-            "application": "What's your life built on? Make sure you're building on rock by reading God's word and obeying it daily!",
-            "question": "What 'storms' have tested your foundation? What helps you stand strong?"
-        },
-        {
-            "title": "THE MUSTARD SEED",
-            "theme": "Small Faith Grows Big",
-            "illustration": "A progression scene: tiny black mustard seed in a child's palm on the left, growing progressively larger through stages, until it becomes a massive tree with birds nesting in its spreading branches on the right. The tree is full and green with colorful birds. Child looks up in amazement.",
-            "modern": "You plant a tiny apple seed - so small you could lose it! But years later it's a huge tree giving apples to the whole neighborhood. That's what faith is like! Your small trust in God can grow into something that helps thousands!",
-            "bible_version": "Jesus said the kingdom of heaven is like a mustard seed - the smallest of all seeds. But when it grows, it becomes the largest garden plant, like a tree! Birds come and nest in its branches.",
-            "meaning": "Don't despise small beginnings! Even tiny faith in a big God can grow into something that provides shelter and blessing to many people around you.",
-            "application": "Start small! Pray one prayer. Help one person. Share one kind word. Watch God grow it into something amazing!",
-            "question": "What small step of faith can you take today that God might grow into something huge?"
-        },
-        {
-            "title": "THE HIDDEN TREASURE",
-            "theme": "The Kingdom Is Worth Everything",
-            "illustration": "A man in a wheat field discovering a wooden chest overflowing with gold coins, jewels, and precious gems. His face shows absolute shock and joy. Wheat stalks surround him. Sunlight glints off the treasure. He clutches his heart in disbelief. The field stretches to green hills beyond.",
-            "modern": "Imagine finding out that the vacant lot on your street has a million dollars buried in it. Would you sell your bike, your games, everything you own to buy that lot? OF COURSE! Because what you'd get is worth way more than what you'd give up!",
-            "bible_version": "The kingdom of heaven is like treasure hidden in a field. A man found it, hid it again, and in his JOY went and sold everything he had to buy that field!",
-            "meaning": "Knowing God is like finding the greatest treasure ever! It's worth giving up anything and everything because what you get - eternal life with God - is infinitely more valuable!",
-            "application": "What would you give up for God? Is there anything you value more than Him? Put Him first!",
-            "question": "If following Jesus cost you something (popularity, time, comfort), would it be worth it? Why?"
-        },
-
-        {
-            "title": "THE TALENTS",
-            "theme": "Use What God Gave You",
-            "illustration": "Three servants standing before a wealthy master at his estate. The first proudly shows doubled gold bags (10 total). The second shows doubled silver (4 total). The third nervously holds a dirty cloth with one buried coin. Master smiles at first two, looks disappointed at third. Rich estate with columns behind.",
-            "modern": "Your teacher gives three students a project. One works super hard and makes something amazing. Another does a great job too. The third is so scared of failing that they don't even TRY! Who do you think the teacher is proud of? The ones who USED what they were given!",
-            "bible_version": "A master gave three servants talents (money). One got 5 and earned 5 more. One got 2 and earned 2 more. The last got 1 and buried it in fear. The master praised the first two: 'Well done, good and faithful servant!' But the fearful one was rebuked for wasting his opportunity.",
-            "meaning": "God gives everyone different gifts and abilities. He doesn't expect the same from everyone - just that you USE what He gave you! Don't bury your talent in fear!",
-            "application": "What gifts has God given you? Singing? Drawing? Kindness? Math? Sports? USE them for Him! Don't hide them!",
-            "question": "What talent or gift has God given you? How can you use it to serve others this week?"
-        },
-        {
-            "title": "THE WEDDING FEAST",
-            "theme": "God Invites Everyone",
-            "illustration": "A magnificent banquet hall with a long table covered in delicious food - roasted meats, fruits, bread, desserts. Golden chandeliers hang above. Well-dressed guests mingle. But also at the table are surprised poor people, homeless people, children - everyone welcomed in! A king gestures 'come in!' at the door.",
-            "modern": "Imagine throwing the biggest, most amazing birthday party ever - but all your 'cool' friends say they're too busy. So you go to the park and invite EVERYONE - the kid sitting alone, the elderly neighbor, people nobody usually notices. And THEY come and have the best time!",
-            "bible_version": "A king prepared a wedding feast. He invited important guests, but they all made excuses - too busy with land, oxen, or new marriages. The angry king sent servants to invite EVERYONE from the streets - poor, disabled, strangers. The hall was filled with thankful guests!",
-            "meaning": "God invites everyone into His kingdom! Some 'religious' people reject Him while unexpected people accept! Don't make excuses when God invites you - His feast is the best thing ever!",
-            "application": "Don't be too busy for God! Accept His invitation. And invite others who might think they're not welcome - God wants EVERYONE!",
-            "question": "Do you know someone who thinks they're not good enough for God? How can you invite them to know His love?"
-        },
-        {
-            "title": "THE UNFORGIVING SERVANT",
-            "theme": "Forgive As God Forgives",
-            "illustration": "Two contrasting scenes: Top - a king forgiving a servant who owes millions, tearing up a huge scroll of debt, servant weeping gratefully. Bottom - that same servant angrily grabbing a poor man by the collar who owes him just pennies, refusing mercy. Other servants watch in shock and disgust.",
-            "modern": "Imagine your friend accidentally breaks your $500 phone and you forgive them completely. Then you see your little brother borrow your $1 pencil without asking and you EXPLODE at him! That's how crazy it is to receive God's forgiveness but refuse to forgive others!",
-            "bible_version": "A servant owed the king millions - an impossible debt! The king forgave it ALL! But that same servant found a man who owed him just a few dollars and threw him in prison. When the king heard, he was furious: 'I forgave YOUR huge debt! Shouldn't you forgive a small one?'",
-            "meaning": "God has forgiven us an ENORMOUS debt of sin. How can we refuse to forgive others their small offenses against us? Forgive others because God forgave you!",
-            "application": "Is there someone you need to forgive? Remember how much God has forgiven you, and let it go!",
-            "question": "Who do you need to forgive? Write their name and pray for the strength to let go of anger."
-        }
-    ]
+    {"title": "The Wedding Feast", "character": "the king",
+     "verse": "Many are called, but few are chosen. - Matthew 22:14 (WEB)",
+     "moral": "God invites everyone to His celebration - don't miss out by making excuses!",
+     "modern": "Being invited to an amazing party but saying no because you want to watch TV instead.",
+     "p1": "A king prepared a magnificent wedding feast for his son - the most incredible celebration anyone could imagine! The finest food, beautiful decorations, and wonderful music were all prepared. He sent servants to invite the guests who had been chosen to attend. Everything was ready for the most joyous day of the kingdom.",
+     "p2": "But the invited guests began making excuses! One said he had to check on his new field. Another had to test his new oxen. Another had just gotten married and was too busy. They all refused to come, treating the king's generous invitation as worthless. Some even mistreated the servants who brought the invitations! The king was furious and deeply hurt that his incredible celebration was being rejected.",
+     "p3": "The king told his servants to go out into the streets, the highways, and the back alleys. They were to invite EVERYONE they found - poor and rich, good and bad, anyone who would come! The wedding hall was filled with grateful guests who could hardly believe they were invited to such a wonderful feast. Jesus was teaching that God invites everyone to His kingdom celebration. The question is not whether you are invited - it is whether you will accept the invitation or make excuses.",
+     "words": ["FEAST", "INVITE", "PARTY", "KING", "COME", "JOY", "WELCOME", "READY"]},
+    {"title": "The Unforgiving Servant", "character": "the king",
+     "verse": "Forgive, and you will be forgiven. - Luke 6:37 (WEB)",
+     "moral": "Since God forgives us so much, we must forgive others too!",
+     "modern": "Being forgiven by your parents for something big, then refusing to forgive your friend for something tiny.",
+     "p1": "A servant owed his king an enormous debt - ten thousand talents! That is MILLIONS of dollars in today's money - an amount he could never possibly repay in a hundred lifetimes. The king summoned him and ordered that he, his wife, and children be sold to pay the debt. The terrified servant fell on his knees and begged for patience, promising to repay everything.",
+     "p2": "The king felt deep compassion for the servant and did something incredible - he completely forgave the ENTIRE enormous debt! Just like that, millions were wiped clean. The servant was free! He walked out of the palace a new man. But then he met a fellow servant who owed him a tiny amount - just a few dollars. The forgiven servant grabbed him by the throat and demanded immediate payment.",
+     "p3": "The fellow servant begged for patience using almost the same words! But the first servant refused to show any mercy. He had the poor man thrown into prison over a tiny debt. When the king heard about this, he was furious. 'I forgave you millions and you cannot forgive a few dollars?' He called the wicked servant back and reversed his forgiveness. Jesus taught that God has forgiven us an enormous debt of sin - so we must freely forgive others their small offenses against us.",
+     "words": ["FORGIVE", "MERCY", "DEBT", "FREE", "KING", "GRACE", "PARDON", "LOVE"]}
+]
 
 
-    # RENDER PARABLES
-    gray_vals = [0.88, 0.92, 0.95, 0.90, 0.93, 0.88, 0.97, 0.91, 0.94, 0.89]
-    
-    for idx, p in enumerate(parables):
-        bg = gray_vals[idx % len(gray_vals)]
-        
-        # Page 1: Title + Illustration + Modern retelling
-        pdf.new_page()
-        pdf.add_filled_rect(0, 720, 612, 72, gray=bg)
-        pdf.add_filled_rect(45, 725, 522, 60, gray=0.97)
-        draw_border(pdf, 45, 725, 522, 60, gray=0.3)
-        pdf.add_centered_text(762, f"Parable {idx+1}", font='F4', size=10, gray=0.5)
-        pdf.add_centered_text(742, p["title"], font='F2', size=18, gray=0.1)
-        pdf.add_centered_text(727, p["theme"], font='F5', size=11, gray=0.3)
-        
-        illus_box(pdf, 560, p["illustration"], 130)
-        
-        pdf.add_filled_rect(50, 380, 512, 160, gray=0.97)
-        pdf.add_rect(50, 380, 512, 160, line_width=0.5, gray=0.5)
-        pdf.add_text(60, 525, "TODAY'S VERSION:", font='F2', size=11, gray=0.2)
-        wrap(pdf, 60, 505, p["modern"], font='F4', size=11, mw=72)
-        
-        # Page 2: Bible version + Meaning + Application + Discussion
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-        pdf.add_text(60, 760, p["title"] + " - What Jesus Actually Said", font='F2', size=13, gray=0.2)
-        pdf.add_line(60, 752, 450, 752, width=0.5, gray=0.4)
-        
-        # Bible version
-        pdf.add_filled_rect(50, 620, 512, 120, gray=0.92)
-        pdf.add_rect(50, 620, 512, 120, line_width=1, gray=0.4)
-        pdf.add_text(65, 725, "THE BIBLE STORY:", font='F2', size=11, gray=0.1)
-        wrap(pdf, 65, 705, p["bible_version"], font='F5', size=11, mw=70)
-        
-        # What Jesus Meant
-        pdf.add_filled_rect(50, 500, 512, 100, gray=bg)
-        draw_border(pdf, 50, 500, 512, 100, gray=0.4)
-        pdf.add_text(65, 585, "WHAT JESUS MEANT:", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, 565, p["meaning"], font='F4', size=11, mw=70)
-        
-        # Life Application
-        pdf.add_filled_rect(50, 390, 512, 90, gray=0.95)
-        pdf.add_text(65, 465, "LIFE APPLICATION:", font='F2', size=11, gray=0.1)
-        wrap(pdf, 65, 445, p["application"], font='F4', size=11, mw=70)
-        
-        # Discussion Question
-        pdf.add_filled_rect(50, 280, 512, 90, gray=0.88)
-        pdf.add_rect(50, 280, 512, 90, line_width=1, gray=0.3)
-        pdf.add_text(65, 355, "DISCUSSION QUESTION:", font='F2', size=11, gray=0.1)
-        wrap(pdf, 65, 335, p["question"], font='F5', size=11, mw=70)
-        
-        # Writing lines
-        for i in range(4):
-            pdf.add_line(60, 240-(i*25), 550, 240-(i*25), width=0.5, gray=0.6)
+def generate_word_search(words):
+    grid = [[random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(10)] for _ in range(10)]
+    for word in words[:8]:
+        word = word.upper()
+        for attempt in range(50):
+            d = random.choice([(0,1),(1,0),(1,1)])
+            r = random.randint(0, max(0, 9-len(word)*d[0]))
+            c = random.randint(0, max(0, 9-len(word)*d[1]))
+            if r+len(word)*d[0]>10 or c+len(word)*d[1]>10: continue
+            for i,ch in enumerate(word): grid[r+i*d[0]][c+i*d[1]]=ch
+            break
+    return grid
 
-    # FINAL REFLECTION PAGE
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.95)
-    pdf.add_filled_rect(40, 700, 532, 60, gray=0.88)
-    draw_border(pdf, 40, 700, 532, 60, gray=0.3)
-    pdf.add_centered_text(735, "MY FAVORITE PARABLES", font='F2', size=18, gray=0.1)
-    pdf.add_centered_text(710, "Which stories spoke to your heart?", font='F4', size=12, gray=0.3)
-    pdf.add_text(60, 670, "My #1 favorite parable is:", font='F5', size=12, gray=0.2)
-    pdf.add_line(60, 650, 550, 650, width=0.5, gray=0.6)
-    pdf.add_text(60, 620, "Because:", font='F5', size=12, gray=0.2)
+def wrap_text(text, mx=75):
+    wds=text.split(); lines=[]; cur=""
+    for w in wds:
+        if len(cur)+len(w)+1<=mx: cur+=(" " if cur else "")+w
+        else:
+            if cur: lines.append(cur)
+            cur=w
+    if cur: lines.append(cur)
+    return lines
+
+def build_pdf():
+    pdf=PDFDoc(); pc=0
+    # Title
+    pdf.new_page(); pc+=1
+    pdf.add_filled_rect(50,650,512,100,0.85)
+    pdf.add_centered_text(720, TITLE, 'F2', 28, 0)
+    pdf.add_centered_text(690, SUBTITLE, 'F4', 14, 0.2)
+    pdf.add_centered_text(660, "Written and Illustrated by", 'F4', 12, 0.3)
+    pdf.add_centered_text(640, AUTHOR, 'F2', 16, 0)
+    pdf.add_rect(100,200,412,380,2,0.3)
+    pdf.add_centered_text(420,"[ILLUSTRATION: Jesus sitting with children, telling stories", 'F3',10,0.4)
+    pdf.add_centered_text(405,"while they listen with wonder and excitement]", 'F3',10,0.4)
+    pdf.add_centered_text(100,"Discover the amazing stories Jesus told!", 'F4',12,0.3)
+    # Copyright
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(700,TITLE,'F2',16,0)
+    pdf.add_centered_text(670,SUBTITLE,'F4',11,0.2)
+    pdf.add_text(72,600,f"Written by {AUTHOR}",'F4',11,0.2)
+    pdf.add_text(72,580,"Copyright 2025. All Rights Reserved.",'F4',10,0.3)
+    pdf.add_text(72,550,"Scripture quotations from the World English Bible (WEB) - Public Domain.",'F4',10,0.3)
+    pdf.add_text(72,520,"Designed for children ages 6-12.",'F4',10,0.3)
+    pdf.add_text(72,490,"Published by Kingdom Kids Publishing",'F4',10,0.3)
+    pdf.add_text(72,460,"First Edition - 2025",'F4',10,0.3)
+    pdf.add_text(72,410,"Dedication: To every child learning to listen to Jesus' stories.",'F4',11,0.2)
+    # TOC
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"TABLE OF CONTENTS",'F2',18,0)
+    pdf.add_line(150,720,462,720,1,0.3)
+    y=680
+    for i,s in enumerate(stories):
+        pdf.add_text(72,y,f"Parable {i+1}: {s['title']}",'F4',12,0.1); y-=28
+    pdf.add_text(72,y-10,"Quiz / Vocabulary / Faith Journal / Certificate / Bonus",'F4',10,0.3)
+    # How to Use
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"HOW TO USE THIS BOOK",'F2',18,0)
+    pdf.add_line(150,720,462,720,1,0.3)
+    intro=["Welcome! Jesus was the greatest storyteller who ever lived!","",
+        "He used simple stories called PARABLES to teach deep truths.","Each parable has a hidden meaning for your life today!","",
+        "Each parable has SIX pages:","  1. The story begins (with illustration)",
+        "  2. The story continues (with scene)","  3. The ending + verse + moral + modern example",
+        "  4. Reflection questions + prayer","  5. Word search puzzle","  6. Draw the parable!","",
+        "After all 10 parables you will find quizzes, vocabulary,","journal pages, and bonus activities!","",
+        "Ready to hear what Jesus has to teach you? Let's go!"]
+    y=680
+    for l in intro: pdf.add_text(72,y,l,'F4',11,0.15); y-=22
+
+
+    # Stories: 10 x 6 pages = 60
+    for idx, story in enumerate(stories):
+        # P1
+        pdf.new_page(); pc+=1
+        pdf.add_filled_rect(50,700,512,60,0.88)
+        pdf.add_centered_text(735,f"Parable {idx+1}",'F1',10,0.4)
+        pdf.add_centered_text(715,story['title'].upper(),'F2',18,0)
+        pdf.add_rect(100,400,412,270,1.5,0.3)
+        pdf.add_centered_text(560,f"[ILLUSTRATION: Scene from {story['title']}",'F3',9,0.4)
+        pdf.add_centered_text(545,"with Jesus teaching the crowd]",'F3',9,0.4)
+        for i,line in enumerate(wrap_text(story['p1'],80)):
+            pdf.add_text(72,370-i*18,line,'F4',11,0.1)
+        # P2
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (continued)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4)
+        y=710
+        for line in wrap_text(story['p2'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        pdf.add_rect(100,y-260,412,240,1.5,0.3)
+        pdf.add_centered_text(y-120,"[ILLUSTRATION: The parable scene unfolding",'F3',9,0.4)
+        pdf.add_centered_text(y-135,"with vivid colors and emotion]",'F3',9,0.4)
+        # P3
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (the lesson!)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4)
+        y=710
+        for line in wrap_text(story['p3'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        y-=15
+        pdf.add_filled_rect(72,y-30,468,40,0.9)
+        pdf.add_centered_text(y-5,"KEY BIBLE VERSE:",'F2',10,0.2)
+        pdf.add_centered_text(y-22,story['verse'],'F4',11,0)
+        y-=60
+        pdf.add_rect(72,y-40,468,50,2,0.2)
+        pdf.add_centered_text(y-5,"MORAL:",'F2',11,0.1)
+        pdf.add_centered_text(y-25,story['moral'],'F5',11,0)
+        y-=60
+        pdf.add_filled_rect(72,y-35,468,40,0.93)
+        pdf.add_text(80,y-10,"MODERN DAY EXAMPLE:",'F2',10,0.1)
+        pdf.add_text(80,y-28,story['modern'],'F4',10,0.2)
+        # P4
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"WHAT I LEARNED",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        pdf.add_text(72,710,f"Reflecting on: {story['title']}",'F4',11,0.2)
+        qs=["1. What is the main lesson Jesus is teaching in this parable?",
+            "2. Who do you relate to most in this story and why?",
+            "3. How can you apply this parable to your life this week?"]
+        y=670
+        for q in qs:
+            pdf.add_text(72,y,q,'F2',11,0.1); y-=20
+            for _ in range(3): pdf.add_line(90,y,530,y,0.5,0.6); y-=20
+            y-=10
+        pdf.add_filled_rect(72,y-120,468,130,0.92)
+        pdf.add_centered_text(y-5,"MY PRAYER",'F2',14,0.1)
+        pdf.add_text(80,y-25,"Jesus, help me to understand this parable and...",'F4',10,0.2)
+        for i in range(5): pdf.add_line(80,y-50-i*20,520,y-50-i*20,0.5,0.6)
+        # P5
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"WORD SEARCH PUZZLE",'F2',16,0)
+        pdf.add_text(72,720,f"Find words from: {story['title']}",'F4',11,0.2)
+        grid=generate_word_search(story['words'])
+        y=680
+        for row in grid: pdf.add_centered_text(y,"   ".join(row),'F3',14,0.1); y-=24
+        y-=20
+        pdf.add_text(72,y,"Words to find:",'F2',11,0.1); y-=20
+        pdf.add_text(72,y,"  ".join(story['words']),'F3',10,0.2)
+        y-=40
+        pdf.add_text(72,y,"CHALLENGE: Retell this parable in your own words below:",'F4',10,0.3)
+        for _ in range(3): y-=22; pdf.add_line(72,y,540,y,0.5,0.6)
+        # P6
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"DRAW THIS PARABLE!",'F2',16,0)
+        pdf.add_text(72,720,f"Illustrate: {story['title']}",'F4',11,0.2)
+        pdf.add_rect(72,280,468,420,1.5,0.3)
+        pdf.add_centered_text(260,"What would YOU do differently in this story?",'F2',11,0.1)
+        y=230
+        for _ in range(4): pdf.add_line(72,y,540,y,0.5,0.6); y-=22
+
+
+    # Quiz (2 pages)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 1",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    qs=[("1. Who helped the injured man in the Good Samaritan?","a) Priest  b) Levite  c) Samaritan"),
+        ("2. What did the Prodigal Son do with his money?","a) Saved it  b) Wasted it  c) Gave it away"),
+        ("3. How many sheep were lost in Jesus' parable?","a) 10  b) 5  c) 1"),
+        ("4. What type of ground produces good fruit?","a) Rocky  b) Thorny  c) Good soil"),
+        ("5. What did the wise man build his house on?","a) Sand  b) Rock  c) Wood")]
+    y=700
+    for q,o in qs: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 2",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    qs2=[("6. What grows from a mustard seed?","a) Small bush  b) Large tree  c) Flower"),
+         ("7. The hidden treasure was found in a...","a) Cave  b) House  c) Field"),
+         ("8. How many servants received talents?","a) 2  b) 3  c) 5"),
+         ("9. Who refused to come to the wedding feast?","a) The poor  b) The invited guests  c) Children"),
+         ("10. The unforgiving servant owed how much?","a) A little  b) Millions  c) Nothing")]
+    y=700
+    for q,o in qs2: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.add_text(72,y-20,"Answers: 1c, 2b, 3c, 4c, 5b, 6b, 7c, 8b, 9b, 10b",'F3',9,0.4)
+
+    # Vocabulary
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"VOCABULARY & WORD LIST",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    vocab=[("Parable","A simple story with a deeper spiritual meaning"),
+           ("Compassion","Deep caring for someone who is suffering"),
+           ("Repentance","Turning away from wrong and back to God"),
+           ("Stewardship","Taking good care of what God gives you"),
+           ("Forgiveness","Choosing not to hold wrong against someone"),
+           ("Grace","Receiving good things you do not deserve"),
+           ("Obedience","Doing what God asks willingly and joyfully"),
+           ("Kingdom","God's rule and reign in people's hearts"),
+           ("Harvest","The good results of faithful living"),
+           ("Mercy","Not giving punishment that is deserved")]
+    y=710
+    for w,d in vocab: pdf.add_text(72,y,f"{w}:",'F2',11,0.1); pdf.add_text(200,y,d,'F4',10,0.2); y-=28
+
+    # Journal (4 pages)
+    prompts=["A parable that changed how I think about...","How I can be a better neighbor this week...",
+             "Something I need to forgive someone for...","How I will use my talents for God..."]
+    for j in range(4):
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"MY FAITH JOURNAL - Page {j+1}",'F2',16,0)
+        pdf.add_text(72,710,prompts[j],'F5',12,0.2)
+        y=680
+        for _ in range(24): pdf.add_line(72,y,540,y,0.5,0.7); y-=25
+
+    # Certificate
+    pdf.new_page(); pc+=1
+    pdf.add_rect(50,50,512,692,3,0.2); pdf.add_rect(60,60,492,672,1.5,0.4)
+    pdf.add_centered_text(680,"CERTIFICATE OF COMPLETION",'F2',22,0)
+    pdf.add_centered_text(640,"This certifies that",'F4',14,0.2)
+    pdf.add_line(180,600,432,600,1,0.3)
+    pdf.add_centered_text(580,"(write your name)",'F4',9,0.4)
+    pdf.add_centered_text(540,"has studied all 10 parables in",'F4',12,0.2)
+    pdf.add_centered_text(510,TITLE,'F2',16,0)
+    pdf.add_centered_text(400,"Date: _______________",'F4',12,0.3)
+    pdf.add_centered_text(280,"\"He who has ears to hear, let him hear!\" - Mark 4:9",'F5',14,0.1)
+
+    # Memory Verse Cards (2 pages)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS",'F2',18,0)
+    y=690
+    for i,s in enumerate(stories[:5]):
+        pdf.add_rect(72,y-55,468,55,1,0.3)
+        pdf.add_text(80,y-15,f"Card {i+1}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS (continued)",'F2',18,0)
+    y=700
+    for i,s in enumerate(stories[5:]):
+        pdf.add_rect(72,y-55,468,55,1,0.3)
+        pdf.add_text(80,y-15,f"Card {i+6}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+
+    # Bonus
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MY PARABLE APPLICATION PLAN",'F2',18,0)
+    pdf.add_line(150,740,462,740,1,0.3)
+    pdf.add_text(72,710,"Choose 3 parables and write how you will live them out this month:",'F4',11,0.2)
+    y=680
     for i in range(3):
-        pdf.add_line(60, 595-(i*25), 550, 595-(i*25), width=0.5, gray=0.6)
-    pdf.add_text(60, 500, "One thing I will DO differently because of these stories:", font='F5', size=12, gray=0.2)
-    for i in range(4):
-        pdf.add_line(60, 475-(i*25), 550, 475-(i*25), width=0.5, gray=0.6)
+        pdf.add_text(72,y,f"Parable #{i+1}: ",'F2',11,0.1); pdf.add_line(180,y-2,540,y-2,0.5,0.6); y-=30
+        pdf.add_text(72,y,"My action plan: ",'F4',10,0.2); pdf.add_line(180,y-2,540,y-2,0.5,0.6); y-=25
+        pdf.add_line(72,y,540,y,0.5,0.6); y-=25
+        pdf.add_text(72,y,"Result: ",'F4',10,0.2); pdf.add_line(130,y-2,540,y-2,0.5,0.6); y-=35
 
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Book278_Jesus_Parables_Kids.pdf")
+    output_path=os.path.join(os.path.dirname(os.path.abspath(__file__)),FILENAME)
     pdf.save(output_path)
-    print(f"Created: {output_path}")
+    print(f"Generated {FILENAME} with {pc} pages")
+    return pc
 
-if __name__ == "__main__":
-    create_book()
+if __name__=="__main__":
+    build_pdf()

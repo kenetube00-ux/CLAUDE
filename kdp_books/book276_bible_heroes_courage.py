@@ -1,416 +1,498 @@
 #!/usr/bin/env python3
 """Book 276 - Heroes of Courage: 10 Amazing Bible Stories About Brave Kids & Adults"""
+import random
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pdf_utils import PDFDoc
 
-def create_book():
-    pdf = PDFDoc(612, 792)
-    author = "Daniel Tesfamariam"
-    
-    # Helper functions
-    def draw_decorative_border(pdf, x, y, w, h, gray=0.3):
-        pdf.add_rect(x, y, w, h, line_width=2, gray=gray)
-        pdf.add_rect(x+3, y+3, w-6, h-6, line_width=0.5, gray=gray)
+random.seed(276)
 
-    def draw_section_header(pdf, y, title, gray_bg=0.92):
-        pdf.add_filled_rect(50, y-5, 512, 30, gray=gray_bg)
-        pdf.add_text(60, y+5, title, font='F2', size=14, gray=0.1)
-        pdf.add_line(50, y-5, 562, y-5, width=1.5, gray=0.3)
+TITLE = "HEROES OF COURAGE"
+SUBTITLE = "10 Amazing Bible Stories About Brave Kids & Adults"
+AUTHOR = "Daniel Tesfamariam"
+FILENAME = "Book276_Bible_Heroes_Courage.pdf"
 
-    def draw_illustration_box(pdf, y, description, height=100):
-        pdf.add_filled_rect(60, y, 492, height, gray=0.95)
-        pdf.add_rect(60, y, 492, height, line_width=1.5, gray=0.4)
-        pdf.add_text(70, y+height-20, "[ILLUSTRATION:", font='F2', size=10, gray=0.3)
-        words = description.split()
-        line = ""
-        line_y = y + height - 35
-        for word in words:
-            if len(line + " " + word) > 75:
-                pdf.add_text(70, line_y, line.strip(), font='F3', size=9, gray=0.4)
-                line_y -= 13
-                line = word
-            else:
-                line = line + " " + word if line else word
-        if line:
-            pdf.add_text(70, line_y, line.strip(), font='F3', size=9, gray=0.4)
-        pdf.add_text(70, line_y-15, "]", font='F2', size=10, gray=0.3)
+stories = [
+    {"title": "David vs Goliath", "character": "David",
+     "verse": "The LORD is my strength and my shield. - Psalm 28:7 (WEB)",
+     "moral": "With God on your side, no challenge is too big!",
+     "p1": "Young David was just a shepherd boy who loved to sing songs to God while watching his sheep. One day, his father sent him to bring food to his brothers who were soldiers in King Saul's army. When David arrived at the battlefield, he heard a terrifying voice booming across the valley. A giant named Goliath, over nine feet tall, was challenging anyone to fight him.",
+     "p2": "All the soldiers were trembling with fear, but David felt something different in his heart. He remembered how God had helped him fight off lions and bears to protect his sheep. David told King Saul he would fight the giant. Everyone laughed at the small boy, but David knew God was with him. He picked up five smooth stones from a nearby stream and put them in his shepherd's bag. With his simple sling in hand, David walked bravely toward the massive warrior.",
+     "p3": "Goliath laughed when he saw the young boy approaching without armor or sword. But David shouted with confidence that he came in the name of the Lord! He placed a stone in his sling, whirled it around, and released it with perfect aim. The stone struck Goliath right in the forehead, and the mighty giant fell to the ground with a thunderous crash. The entire army cheered as young David proved that faith in God is more powerful than any weapon or giant.",
+     "words": ["DAVID", "GOLIATH", "STONE", "SLING", "BRAVE", "FAITH", "GIANT", "SHIELD"]},
 
-    def wrap_text(pdf, x, y, text, font='F4', size=11, max_width=70, gray=0):
-        words = text.split()
-        line = ""
-        curr_y = y
-        for word in words:
-            if len(line + " " + word) > max_width:
-                pdf.add_text(x, curr_y, line.strip(), font=font, size=size, gray=gray)
-                curr_y -= 15
-                line = word
-            else:
-                line = line + " " + word if line else word
-        if line:
-            pdf.add_text(x, curr_y, line.strip(), font=font, size=size, gray=gray)
-            curr_y -= 15
-        return curr_y
+    {"title": "Esther the Brave Queen", "character": "Esther",
+     "verse": "Be strong and courageous. Do not be afraid. - Joshua 1:9 (WEB)",
+     "moral": "God places you where you are for a reason - be brave!",
+     "p1": "Esther was a beautiful young Jewish woman living in the great kingdom of Persia. The king chose her to be his queen, but no one in the palace knew she was Jewish. Esther's wise cousin Mordecai had raised her and always gave her good advice. Life in the palace seemed wonderful, but danger was lurking in the shadows.",
+     "p2": "An evil man named Haman convinced the king to make a terrible law that would hurt all the Jewish people. Mordecai sent an urgent message to Esther asking her to speak to the king. But there was a huge problem - anyone who went to the king without being invited could be put to death! Esther was terrified, but Mordecai reminded her that perhaps God had made her queen for this very moment. She asked all her people to pray and fast for three days. Then she put on her royal robes and made her brave decision.",
+     "p3": "With her heart pounding, Queen Esther walked into the king's throne room uninvited. The king looked up and smiled, holding out his golden scepter to welcome her. Esther invited the king to a special dinner where she revealed Haman's evil plan and her own Jewish identity. The king was furious at Haman and saved all the Jewish people. Esther's courage saved an entire nation because she trusted God and spoke up when it mattered most.",
+     "words": ["ESTHER", "QUEEN", "BRAVE", "PALACE", "CROWN", "FAITH", "PERSIA", "COURAGE"]},
+
+    {"title": "Daniel in the Lions' Den", "character": "Daniel",
+     "verse": "My God sent his angel and shut the lions' mouths. - Daniel 6:22 (WEB)",
+     "moral": "Keep praying and trusting God no matter what others say!",
+     "p1": "Daniel was one of the wisest and most faithful men in all of Babylon. He prayed to God three times every single day, kneeling by his window that faced toward Jerusalem. Some jealous men in the kingdom noticed Daniel's prayer habit and came up with a wicked plan. They convinced King Darius to sign a law saying that no one could pray to anyone except the king for thirty days.",
+     "p2": "Daniel heard about the new law but he refused to stop praying to his God. He went to his window just as he always did and knelt down to pray openly. The jealous men watched and immediately ran to tell King Darius. The king was heartbroken because he loved Daniel, but the law could not be changed. Soldiers came to arrest Daniel and brought him to the pit full of hungry, roaring lions. The king told Daniel he hoped his God would rescue him.",
+     "p3": "Daniel was thrown into the den of lions and a heavy stone sealed the entrance. King Darius could not sleep all night, worrying about his friend. At the first light of dawn, the king rushed to the den and called out to Daniel. To his great joy, Daniel answered that God had sent an angel to shut the lions' mouths! Daniel was lifted out without a single scratch. The king declared that everyone must respect Daniel's God who saves those who trust in Him.",
+     "words": ["DANIEL", "LIONS", "PRAYER", "ANGEL", "FAITH", "DARIUS", "BRAVE", "TRUST"]},
+    {"title": "Shadrach, Meshach & Abednego", "character": "the three friends",
+     "verse": "When you walk through the fire, you will not be burned. - Isaiah 43:2 (WEB)",
+     "moral": "Stand firm in your faith even when everyone else gives in!",
+     "p1": "In the great city of Babylon, three young Jewish friends named Shadrach, Meshach, and Abednego served faithfully in King Nebuchadnezzar's court. One day the king built an enormous golden statue that was ninety feet tall and commanded everyone to bow down and worship it. Music would play and at that signal, every person had to fall on their faces before the statue. But the three friends knew they could only worship the one true God.",
+     "p2": "When the music played, thousands of people fell to the ground to worship the golden statue. But three figures remained standing tall - Shadrach, Meshach, and Abednego. Furious guards dragged them before the angry king. Nebuchadnezzar gave them one more chance to bow down or be thrown into a blazing furnace. The three friends calmly replied that their God could save them, but even if He chose not to, they would never bow to a false idol. The king ordered the furnace heated seven times hotter than normal.",
+     "p3": "Soldiers threw the three friends into the roaring flames. But then the king jumped up in amazement - he saw FOUR people walking in the fire, unhurt! The fourth looked like an angel of God. Nebuchadnezzar called them out and everyone saw that not a single hair was burned. They did not even smell like smoke! The king praised their God and made a new law protecting those who worshiped the Lord. Their faith had turned a death sentence into an incredible miracle.",
+     "words": ["FURNACE", "FIRE", "THREE", "FRIENDS", "ANGEL", "FAITH", "STAND", "BRAVE"]},
+
+    {"title": "Joshua at Jericho", "character": "Joshua",
+     "verse": "By faith the walls of Jericho fell down. - Hebrews 11:30 (WEB)",
+     "moral": "Follow God's instructions even when they seem strange!",
+     "p1": "After Moses died, God chose Joshua to lead the Israelites into the Promised Land. But there was a huge problem - the city of Jericho stood in their path with massive walls so thick that houses were built on top of them. The gates were locked tight and no one could get in or out. Joshua looked at those towering walls and wondered how they could ever conquer such a mighty fortress.",
+     "p2": "Then God gave Joshua the most unusual battle plan ever. Instead of battering rams or ladders, God told them to march silently around the city once a day for six days. On the seventh day, they would march around seven times and then blow their trumpets and shout. Joshua trusted God completely and told his people the plan. For six days, the Israelites marched in silence while the people of Jericho watched from the walls in confusion. The soldiers carried the Ark of the Covenant as priests blew ram's horn trumpets.",
+     "p3": "On the seventh day, the Israelites rose at dawn and marched around Jericho seven times. After the seventh lap, Joshua commanded the people to shout with all their might. The trumpets blasted, the people roared, and then something incredible happened - the massive walls of Jericho came crashing down flat! Every section crumbled to dust. The Israelites charged in and won the victory God had promised. Joshua learned that obedience to God brings victories no army could win alone.",
+     "words": ["JOSHUA", "WALLS", "MARCH", "SHOUT", "TRUMPET", "FAITH", "JERICHO", "OBEY"]},
+    {"title": "Gideon's 300 Warriors", "character": "Gideon",
+     "verse": "The LORD said, By the 300 I will save you. - Judges 7:7 (WEB)",
+     "moral": "God can do amazing things with just a few faithful people!",
+     "p1": "The Midianites were terrorizing Israel, destroying their crops and stealing everything. An angel appeared to a young man named Gideon who was secretly threshing wheat in a winepress to hide from the enemy. The angel called him a mighty warrior, but Gideon felt like the weakest person in the smallest tribe. God promised to be with him and use him to save Israel from their enemies.",
+     "p2": "Gideon gathered an army of 32,000 men to fight the massive Midianite army. But God said there were too many soldiers - the people would think THEY won the battle instead of giving God the glory. First God sent home everyone who was afraid - 22,000 left! Then God tested the remaining men by how they drank water at a stream. Only 300 men lapped water from their hands while staying alert. God said these 300 were enough. Gideon was stunned but he trusted God's plan completely.",
+     "p3": "In the dark of night, Gideon gave each of his 300 men a trumpet, an empty clay jar, and a torch hidden inside. They surrounded the enormous enemy camp. At Gideon's signal, they smashed their jars, held up their blazing torches, and blew their trumpets shouting 'A sword for the Lord and for Gideon!' The confused Midianites panicked in the sudden light and noise, fighting each other in chaos before fleeing. God won an impossible victory with just 300 faithful warriors.",
+     "words": ["GIDEON", "THREE", "HUNDRED", "TORCH", "TRUMPET", "FAITH", "NIGHT", "BRAVE"]},
+
+    {"title": "Ruth the Loyal", "character": "Ruth",
+     "verse": "Where you go, I will go. Your God will be my God. - Ruth 1:16 (WEB)",
+     "moral": "Loyalty and kindness are rewarded by God!",
+     "p1": "Ruth was a young woman from the land of Moab who married into an Israelite family. Tragically, her husband died, leaving her mother-in-law Naomi heartbroken and alone. Naomi decided to return to her homeland of Bethlehem and told Ruth to go back to her own family where life would be easier. But Ruth loved Naomi too much to leave her alone.",
+     "p2": "With beautiful words of devotion, Ruth declared she would never leave Naomi's side. They traveled together to Bethlehem with nothing but the clothes on their backs. Ruth immediately went to work gathering leftover grain in the fields to feed them both. She worked from early morning until late evening without complaining. The owner of the field, a kind man named Boaz, noticed Ruth's hard work and her loyalty to Naomi. He ordered his workers to leave extra grain for her to find.",
+     "p3": "Boaz was amazed by Ruth's courage in leaving everything familiar to care for her mother-in-law. He admired her faith in choosing to follow the God of Israel. As time passed, Boaz and Ruth fell in love and married. Ruth became the great-grandmother of King David and an ancestor of Jesus Himself. Her story shows that loyalty, hard work, and kindness are never wasted - God sees every sacrifice and rewards faithful hearts in ways we never imagine.",
+     "words": ["RUTH", "LOYAL", "NAOMI", "GRAIN", "BOAZ", "FAITH", "LOVE", "KIND"]},
+    {"title": "Joseph the Dreamer", "character": "Joseph",
+     "verse": "You meant evil against me, but God meant it for good. - Genesis 50:20 (WEB)",
+     "moral": "God can turn your worst days into your greatest purpose!",
+     "p1": "Joseph was the favorite son of his father Jacob, who gave him a beautiful coat of many colors. God gave Joseph special dreams showing that one day his family would bow before him. When Joseph told his brothers about the dreams, they became incredibly jealous. One terrible day, they threw Joseph into a deep pit and then sold him as a slave to traders heading to Egypt.",
+     "p2": "In Egypt, Joseph worked faithfully as a servant even though his heart ached for home. He was falsely accused and thrown into prison for years. But even in that dark dungeon, Joseph kept trusting God and using his gift to interpret dreams. One day, the powerful Pharaoh of Egypt had a mysterious dream that no one could explain. Someone remembered Joseph's gift, and he was brought from prison to stand before the most powerful ruler in the world.",
+     "p3": "God showed Joseph that Pharaoh's dream meant seven years of plenty followed by seven years of famine. Pharaoh was so impressed that he made Joseph the second most powerful person in all of Egypt! When the famine came, Joseph's brothers traveled to Egypt begging for food - and they bowed before Joseph just as the dream had shown. Instead of revenge, Joseph forgave them with tears of joy. What his brothers meant for evil, God had transformed into the salvation of an entire nation.",
+     "words": ["JOSEPH", "DREAM", "COAT", "COLORS", "EGYPT", "FAITH", "FORGIVE", "HOPE"]},
+
+    {"title": "Moses Parts the Sea", "character": "Moses",
+     "verse": "Do not be afraid. Stand firm. See the salvation of the LORD. - Exodus 14:13 (WEB)",
+     "moral": "When you feel trapped, trust that God will make a way!",
+     "p1": "Moses had led the Israelites out of slavery in Egypt after God sent ten mighty plagues. They were finally free! But as they journeyed through the wilderness, they came to the edge of the Red Sea with no boats and no bridge. Then they heard the terrifying sound of thundering hooves - Pharaoh had changed his mind and sent his entire army of chariots to capture them.",
+     "p2": "The people were trapped - the sea ahead, mountains on either side, and hundreds of enemy chariots racing toward them from behind. The Israelites cried out in fear, some even wishing they had stayed as slaves. But Moses stood tall and raised his staff toward the heavens. He shouted to the people not to be afraid because God Himself would fight for them today. A towering pillar of cloud moved between them and the Egyptian army, blocking the enemy's advance through the entire night.",
+     "p3": "Moses stretched out his hand over the sea, and God sent a powerful east wind that blew all night long. The waters split apart, rising up like walls on the left and right, with dry ground appearing in between! The Israelites walked through on dry land with walls of water towering on both sides. When the Egyptians tried to follow, Moses stretched out his hand again and the waters crashed back together. God had saved His people with the most spectacular miracle they had ever seen.",
+     "words": ["MOSES", "WATER", "STAFF", "PARTED", "EGYPT", "FAITH", "FREE", "TRUST"]},
+    {"title": "Peter Walks on Water", "character": "Peter",
+     "verse": "Lord, if it is you, command me to come to you on the water. - Matthew 14:28 (WEB)",
+     "moral": "Keep your eyes on Jesus and you can do impossible things!",
+     "p1": "Jesus had just fed five thousand people with only five loaves and two fish. Afterward, he sent his disciples ahead in a boat while he went up a mountain alone to pray. Late that night, the disciples were far from shore and their boat was being tossed by strong winds and crashing waves. They were exhausted and frightened as the storm grew worse around them in the darkness.",
+     "p2": "In the darkest hour before dawn, the disciples saw a figure walking toward them ON TOP of the churning waves. They screamed in terror, thinking it was a ghost! But Jesus called out through the wind telling them not to be afraid. Bold Peter shouted back asking if it was really Jesus, then dared to ask if he could walk on the water too. Jesus simply said one word - 'Come!' Peter swung his legs over the side of the rocking boat and stepped onto the stormy sea.",
+     "p3": "Amazingly, Peter's feet found solid footing on the surface of the water! He was actually walking on the waves toward Jesus! But then Peter noticed the howling wind and massive waves around him. Fear flooded his heart and he immediately began to sink into the cold dark water. He cried out for Jesus to save him. Instantly, Jesus reached out his hand and caught him. Back in the boat, the storm calmed completely. Peter learned that faith means keeping your eyes fixed on Jesus, not on the storms around you.",
+     "words": ["PETER", "WATER", "WAVES", "WALK", "STORM", "FAITH", "JESUS", "TRUST"]}
+]
 
 
-    # ============ TITLE PAGE ============
+def generate_word_search(words):
+    """Generate a 10x10 word search grid with hidden words."""
+    grid = [[random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(10)] for _ in range(10)]
+    for word in words[:8]:
+        word = word.upper()
+        placed = False
+        for attempt in range(50):
+            direction = random.choice([(0,1),(1,0),(1,1)])
+            r = random.randint(0, 9 - len(word)*direction[0]) if direction[0] else random.randint(0,9)
+            c = random.randint(0, 9 - len(word)*direction[1]) if direction[1] else random.randint(0,9)
+            if r + len(word)*direction[0] > 10 or c + len(word)*direction[1] > 10:
+                continue
+            can_place = True
+            for i, ch in enumerate(word):
+                nr, nc = r+i*direction[0], c+i*direction[1]
+                if nr >= 10 or nc >= 10:
+                    can_place = False
+                    break
+                if grid[nr][nc] != ch and grid[nr][nc].isupper():
+                    pass  # overwrite random letters
+            if can_place:
+                for i, ch in enumerate(word):
+                    grid[r+i*direction[0]][c+i*direction[1]] = ch
+                placed = True
+                break
+    return grid
+
+def wrap_text(text, max_chars=75):
+    """Wrap text into lines of max_chars width."""
+    words = text.split()
+    lines = []
+    current = ""
+    for w in words:
+        if len(current) + len(w) + 1 <= max_chars:
+            current += (" " if current else "") + w
+        else:
+            if current:
+                lines.append(current)
+            current = w
+    if current:
+        lines.append(current)
+    return lines
+
+def build_pdf():
+    pdf = PDFDoc()
+    page_count = 0
+
+    # --- PAGE 1: Title Page ---
     pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    draw_decorative_border(pdf, 30, 30, 552, 732, gray=0.2)
-    pdf.add_filled_rect(50, 600, 512, 120, gray=0.88)
-    pdf.add_centered_text(690, "HEROES OF COURAGE", font='F2', size=28, gray=0.1)
-    pdf.add_centered_text(655, "10 Amazing Bible Stories About", font='F5', size=18, gray=0.2)
-    pdf.add_centered_text(630, "Brave Kids & Adults", font='F5', size=18, gray=0.2)
-    pdf.add_centered_text(560, "Stories of Faith, Bravery & Standing Strong", font='F4', size=14, gray=0.3)
-    draw_illustration_box(pdf, 350, "A montage of Bible heroes: young David with sling, Queen Esther in royal robes, Daniel praying calmly surrounded by lions, all against a golden sunrise background with dramatic clouds", 150)
-    pdf.add_centered_text(300, "For Kids Ages 5-15", font='F2', size=14, gray=0.3)
-    pdf.add_centered_text(270, "With Vivid Illustrations, Moral Lessons & Activities", font='F4', size=12, gray=0.4)
-    pdf.add_centered_text(100, f"Written by {author}", font='F5', size=14, gray=0.2)
-    pdf.add_line(200, 90, 412, 90, width=1, gray=0.5)
+    page_count += 1
+    pdf.add_filled_rect(50, 650, 512, 100, 0.85)
+    pdf.add_centered_text(720, TITLE, 'F2', 28, 0)
+    pdf.add_centered_text(690, SUBTITLE, 'F4', 14, 0.2)
+    pdf.add_centered_text(650, "Written and Illustrated by", 'F4', 12, 0.3)
+    pdf.add_centered_text(630, AUTHOR, 'F2', 16, 0)
+    pdf.add_rect(100, 200, 412, 380, 2, 0.3)
+    pdf.add_centered_text(420, "[ILLUSTRATION: A collage of brave Bible heroes", 'F3', 10, 0.4)
+    pdf.add_centered_text(405, "standing together with shields and swords of faith]", 'F3', 10, 0.4)
+    pdf.add_centered_text(100, "For brave kids who want to learn about God's heroes!", 'F4', 12, 0.3)
 
-    # ============ COPYRIGHT PAGE ============
+    # --- PAGE 2: Copyright Page ---
     pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    pdf.add_text(72, 700, "HEROES OF COURAGE", font='F2', size=16, gray=0.1)
-    pdf.add_text(72, 675, "10 Amazing Bible Stories About Brave Kids & Adults", font='F4', size=12, gray=0.3)
-    pdf.add_line(72, 665, 400, 665, width=0.5, gray=0.5)
-    pdf.add_text(72, 640, f"Copyright 2025 {author}. All rights reserved.", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 620, "No part of this book may be reproduced without permission.", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 590, "Scripture quotations from the World English Bible (WEB) - Public Domain", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 560, "Written and designed for children ages 5-15", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 530, "Illustrations described for future artist collaboration", font='F4', size=10, gray=0.3)
-    pdf.add_filled_rect(60, 100, 492, 60, gray=0.92)
-    pdf.add_text(72, 135, "Dedicated to every child who needs courage today -", font='F5', size=11, gray=0.2)
-    pdf.add_text(72, 115, "God is always with you!", font='F5', size=11, gray=0.2)
+    page_count += 1
+    pdf.add_centered_text(700, "HEROES OF COURAGE", 'F2', 16, 0)
+    pdf.add_centered_text(670, "10 Amazing Bible Stories About Brave Kids & Adults", 'F4', 11, 0.2)
+    pdf.add_text(72, 600, f"Written by {AUTHOR}", 'F4', 11, 0.2)
+    pdf.add_text(72, 580, "Copyright 2025. All Rights Reserved.", 'F4', 10, 0.3)
+    pdf.add_text(72, 550, "No part of this publication may be reproduced without permission.", 'F4', 10, 0.3)
+    pdf.add_text(72, 520, "Scripture quotations from the World English Bible (WEB) - Public Domain.", 'F4', 10, 0.3)
+    pdf.add_text(72, 490, "This book is designed for children ages 6-12.", 'F4', 10, 0.3)
+    pdf.add_text(72, 460, "Published by Kingdom Kids Publishing", 'F4', 10, 0.3)
+    pdf.add_text(72, 430, "First Edition - 2025", 'F4', 10, 0.3)
+    pdf.add_text(72, 380, "Dedication:", 'F2', 12, 0.1)
+    pdf.add_text(72, 360, "For every child who needs courage - God is always with you!", 'F4', 11, 0.2)
 
-
-    # ============ STORY DATA ============
-    stories = [
-        {
-            "title": "DAVID vs GOLIATH",
-            "subtitle": "A Boy Defeats a Giant with Faith",
-            "illustration_a": "Young David, about 12 years old with curly brown hair, standing confidently in a green valley. He wears a simple shepherd's tunic and holds a leather sling. Before him towers Goliath, a 9-foot warrior in bronze armor. The Israelite army watches from hills behind David. Blue sky with dramatic clouds.",
-            "opening": "Everyone was afraid of the giant. For forty days, Goliath had shouted terrible challenges at Israel's army. But one young shepherd boy named David heard those words and felt something burn in his heart - not fear, but faith.",
-            "illustration_b": "David in mid-swing, his sling whirling above his head in a circular motion. His eyes are focused and determined. The smooth stone is about to fly. Goliath's massive shield and spear are visible. Dust rises from the valley floor. Other soldiers watch in amazement from both hillsides.",
-            "middle": "David refused the king's heavy armor. Instead, he picked five smooth stones from the brook. The army gasped - was this boy crazy? Goliath laughed and mocked him. But David shouted back with boldness that shook the valley.",
-            "brave_moment": "David swung his sling with all his might. The stone flew straight and true, striking the giant's forehead. Goliath crashed to the ground like a falling tower!",
-            "resolution": "The Philistine army fled in terror. Israel celebrated their impossible victory. David proved that with God's help, even the smallest person can overcome the biggest problem.",
-            "moral": "Size doesn't matter to God. When you face 'giants' in life - big problems, scary situations, bullies - remember that God is bigger than any giant!",
-            "verse": "The LORD who delivered me out of the paw of the lion and the bear will deliver me out of the hand of this Philistine. - 1 Samuel 17:37 (WEB)",
-            "prayer": "Dear God, help me be brave like David when I face my own giants. Remind me that You are always bigger than my problems. Amen.",
-            "activity": "Draw YOUR giant - what is something big and scary you need to face? Now draw yourself standing brave with God beside you!"
-        },
-        {
-            "title": "ESTHER THE BRAVE QUEEN",
-            "subtitle": "A Girl Saves Her People",
-            "illustration_a": "Beautiful young Queen Esther in a deep purple royal gown with golden crown, standing at the entrance to the king's throne room. Her face shows determination mixed with nervousness. Golden pillars line the hall. Persian tapestries hang on walls. Light streams through arched windows.",
-            "opening": "Esther had a secret - she was Jewish. The wicked Haman had tricked the king into signing a terrible law. Now all her people would be destroyed unless someone was brave enough to speak up.",
-            "illustration_b": "Esther kneeling before King Xerxes on his golden throne, her arms outstretched in pleading. The king extends his golden scepter toward her, showing mercy. Haman lurks in the shadows looking guilty. Rich Persian decorations fill the palace room with deep reds and golds.",
-            "middle": "Going to the king without being called meant death. Esther fasted for three days, asking all her people to pray. Her cousin Mordecai reminded her: maybe she became queen for this very moment! Esther took a deep breath and made her choice. She said the famous words: 'If I perish, I perish.'",
-            "brave_moment": "Esther walked into the throne room uninvited. The king could have ordered her death. But when he saw her, he extended his golden scepter - she would live! And she would save her people!",
-            "resolution": "Esther exposed Haman's evil plot at a banquet. The king reversed the terrible law. The Jewish people were saved because one young woman chose courage over comfort.",
-            "moral": "Sometimes God puts you in a special position for a reason. Don't be afraid to speak up for what's right, even when it's scary!",
-            "verse": "Who knows if you haven't come to the kingdom for such a time as this? - Esther 4:14 (WEB)",
-            "prayer": "Dear God, give me Esther's courage to speak up for others who need help, even when it feels risky. Use me where You've placed me. Amen.",
-            "activity": "Think of someone who needs you to speak up for them. Write down one brave thing you can do this week to help them."
-        },
-
-        {
-            "title": "DANIEL IN THE LIONS' DEN",
-            "subtitle": "A Man Who Wouldn't Stop Praying",
-            "illustration_a": "Daniel, a dignified man with gray-streaked beard wearing a blue and white robe, kneeling at his open window in prayer. The city of Babylon is visible through the window with its hanging gardens and ziggurats. Golden sunset light bathes the scene. His face is peaceful and trusting.",
-            "opening": "Daniel prayed three times every day, no matter what. When jealous officials convinced the king to make prayer illegal, Daniel had a choice: hide his faith or keep praying openly.",
-            "illustration_b": "Daniel standing calmly in a dark stone pit, surrounded by seven massive golden-maned lions. An angel in brilliant white stands behind Daniel with outstretched wings. The lions are lying down peacefully like kittens. Moonlight streams in from above through the pit opening.",
-            "middle": "Daniel didn't even hesitate. He went home, opened his window toward Jerusalem, and prayed just as he always did. His enemies watched and reported him immediately. The king was heartbroken but couldn't break his own law. Daniel was thrown into the lion's den that very night.",
-            "brave_moment": "The lions surrounded Daniel in the darkness. But instead of attacking, they lay down at his feet like gentle lambs. God had sent an angel to shut their mouths! Daniel slept peacefully among the beasts.",
-            "resolution": "At dawn, the king rushed to the den and found Daniel alive and unharmed. The king declared that Daniel's God was the living God. Daniel's faithfulness in prayer saved his life and glorified God before the whole kingdom.",
-            "moral": "Never stop talking to God, no matter what others say or do. Prayer is your most powerful weapon, and God always hears you!",
-            "verse": "My God sent his angel and shut the lions' mouths. - Daniel 6:22 (WEB)",
-            "prayer": "Dear God, help me pray every day no matter what. Thank You for protecting me like You protected Daniel. Amen.",
-            "activity": "Set a prayer time today! Pick 3 times you'll talk to God - morning, lunch, and bedtime. Write them here and keep the habit!"
-        },
-        {
-            "title": "SHADRACH, MESHACH & ABEDNEGO",
-            "subtitle": "Three Friends in the Fire",
-            "illustration_a": "Three young men in colorful Babylonian robes (red, blue, green) standing together with arms crossed, looking defiantly at a massive golden statue towering 90 feet high. Everyone else is bowing down around them. King Nebuchadnezzar points angrily from his throne. Desert sun blazes overhead.",
-            "opening": "The king built a giant golden statue and commanded everyone to bow down to it. Music would play, and everyone must worship. But three young friends made a pact: they would bow to no one but God.",
-            "illustration_b": "The three friends walking calmly inside a roaring furnace with orange and yellow flames all around them. Their robes are untouched by fire. A mysterious fourth figure glows brilliant white beside them - like a divine being. Guards at the furnace door shield their faces from the heat.",
-            "middle": "When the music played, everyone fell to their knees - except three brave friends standing tall. The king was furious! He ordered the furnace heated seven times hotter. Soldiers tied them up and threw them in. The heat was so intense it killed the soldiers who threw them!",
-            "brave_moment": "The king leaped to his feet in shock. 'Didn't we throw three men in?' he cried. 'I see FOUR men walking in the fire - and the fourth looks like a son of the gods!' The fire couldn't touch them!",
-            "resolution": "When they walked out, not a single hair was singed. Their clothes didn't even smell like smoke! The king promoted them and declared their God the most powerful of all.",
-            "moral": "When friends stand together for what's right, God stands with them. You're never alone when you choose to do the right thing!",
-            "verse": "Our God whom we serve is able to deliver us from the burning fiery furnace. - Daniel 3:17 (WEB)",
-            "prayer": "Dear God, thank You for friends who stand with me. Help me be a faithful friend who never gives up doing right. Amen.",
-            "activity": "Write the names of 3 friends you can count on to do the right thing with you. Plan to encourage them this week!"
-        },
-
-        {
-            "title": "JOSHUA AT JERICHO",
-            "subtitle": "Walls Come Tumbling Down",
-            "illustration_a": "Joshua, a strong warrior with a red cloak and sword at his side, looking up at the massive stone walls of Jericho. The walls are 25 feet thick and tower high. Behind Joshua, the Israelite army stretches across the desert plains. Seven priests hold golden rams' horn trumpets. Morning light glints off the walls.",
-            "opening": "Jericho's walls were the strongest in the land - thick enough to drive chariots on top! No army could break through. But God gave Joshua the strangest battle plan anyone had ever heard.",
-            "illustration_b": "The Israelite army marching in a perfect circle around Jericho's walls. Priests in white carry the golden Ark of the Covenant. Seven priests blow rams' horn trumpets. People on Jericho's walls look down in confusion. Dust rises from thousands of marching feet. The sky is deep blue.",
-            "middle": "God's plan: March around the city once a day for six days. Don't talk. Don't shout. Just march in silence. On the seventh day, march seven times. Then blow trumpets and SHOUT! The people obeyed even though it seemed crazy. The people of Jericho watched in confusion from their walls.",
-            "brave_moment": "On the seventh day, after the seventh lap, Joshua raised his hand. Trumpets blasted! The people gave a mighty SHOUT! And the impossible happened - those massive walls crumbled and crashed to the ground like sand castles!",
-            "resolution": "Israel walked straight into the city over the rubble. God had fought the battle for them! They learned that obedience to God's unusual plans brings incredible victories.",
-            "moral": "God's plans might seem strange to us, but they always work! Trust Him even when His instructions don't make sense to you.",
-            "verse": "By faith the walls of Jericho fell down after they had been marched around for seven days. - Hebrews 11:30 (WEB)",
-            "prayer": "Dear God, help me trust Your plans even when they seem unusual. I know You see what I cannot see. Amen.",
-            "activity": "Think of something God might be asking you to do that seems strange or hard. Write it down and commit to trusting Him with it!"
-        },
-        {
-            "title": "GIDEON'S 300",
-            "subtitle": "God Uses the Few to Defeat the Many",
-            "illustration_a": "Gideon, a young farmer with uncertain eyes but growing confidence, standing by a spring where soldiers drink water. Some lap water from their hands (alert and watchful) while others kneel face-down to drink. A massive Midianite army camp fills the valley below with countless tents like locusts. Torches and clay jars sit nearby.",
-            "opening": "The Midianite army was huge - 135,000 warriors! Gideon gathered 32,000 Israelites, but God said: 'Too many. I want Israel to know I won the victory.' God kept reducing the army until only 300 remained.",
-            "illustration_b": "300 warriors on a dark hillside, each holding a blazing torch inside a clay jar in one hand and a trumpet in the other. Below them, the massive Midianite camp sleeps. Stars fill the night sky. Gideon leads at the front, raising his torch. The scene is dramatic with orange torch light against deep blue darkness.",
-            "middle": "Only 300 men against 135,000! God's plan was wild: no swords, just torches hidden in clay jars and trumpets. At midnight, they surrounded the enemy camp. Gideon gave the signal. Every man smashed his jar, held up his blazing torch, blew his trumpet, and shouted: 'A sword for the LORD and for Gideon!'",
-            "brave_moment": "The sleeping Midianites woke to blazing lights and trumpet blasts from every direction! In their panic, they turned on each other with their swords and fled in total chaos! God won the battle with just 300 obedient warriors!",
-            "resolution": "The massive army was completely routed by 300 men with torches and trumpets. God proved that His power doesn't depend on numbers. He can do amazing things with anyone willing to obey.",
-            "moral": "God doesn't need big numbers or strong armies. He can use YOU - just one person willing to be brave and obey!",
-            "verse": "Not by might, nor by power, but by my Spirit, says the LORD. - Zechariah 4:6 (WEB)",
-            "prayer": "Dear God, even when I feel small or outnumbered, remind me that Your power is more than enough. Use me! Amen.",
-            "activity": "Write about a time you felt outnumbered or outmatched. How might God want to use that situation for His glory?"
-        },
-
-        {
-            "title": "RUTH THE LOYAL",
-            "subtitle": "Following God to a New Land",
-            "illustration_a": "Ruth, a beautiful young Moabite woman with olive skin and dark braided hair, walking alongside her elderly mother-in-law Naomi on a dusty road. Ruth wears a simple brown traveling dress and carries a small bundle. Behind them, the land of Moab fades into distance. Ahead, green hills of Bethlehem appear. Golden wheat fields shimmer in sunlight.",
-            "opening": "Ruth had every reason to stay home in Moab. Her husband had died. She could go back to her family, find a new husband, live comfortably. But she looked at her heartbroken mother-in-law Naomi and made the bravest choice of all: loyalty.",
-            "illustration_b": "Ruth bent over in a golden wheat field at sunrise, carefully gathering leftover grain stalks. Her face shows determination despite tiredness. In the background, the wealthy landowner Boaz watches her with admiration from the edge of the field. Other workers harvest nearby. Rolling hills of Bethlehem surround the scene.",
-            "middle": "Ruth spoke words so beautiful they're still quoted today: 'Where you go, I will go. Your people will be my people. Your God will be my God.' She left everything familiar. In Bethlehem, she worked in the fields picking up leftover grain just to feed herself and Naomi. She never complained.",
-            "brave_moment": "Ruth's loyal love caught the attention of Boaz, a kind and wealthy relative. Her faithfulness was rewarded! But even greater - Ruth became the great-grandmother of King David and an ancestor of Jesus himself!",
-            "resolution": "From a poor foreign widow to a woman in Jesus' family line! God honored Ruth's loyalty beyond anything she could imagine. Her story proves that faithful love is the bravest choice of all.",
-            "moral": "Loyalty and kindness are their own kind of courage. When you stick by people who need you, God sees and rewards your faithfulness!",
-            "verse": "Where you go, I will go; and where you stay, I will stay. Your people will be my people, and your God my God. - Ruth 1:16 (WEB)",
-            "prayer": "Dear God, help me be loyal like Ruth. Give me courage to stick with people who need me, even when it's hard. Amen.",
-            "activity": "Write a loyalty pledge to someone important in your life. What can you promise to do for them no matter what?"
-        },
-        {
-            "title": "JOSEPH THE DREAMER",
-            "subtitle": "From Prison to Palace",
-            "illustration_a": "Young Joseph, about 17, wearing a magnificent coat of many colors (red, blue, purple, gold, green stripes) standing in a field. His eleven brothers glare at him with jealousy from behind. Sheaves of wheat bow toward his sheaf in the background, representing his dream. Bright sunlight and blue sky above.",
-            "opening": "Joseph had dreams that made his brothers furious - dreams of them bowing down to him! Their jealousy grew so terrible that they threw him into a pit and sold him as a slave. At just seventeen, Joseph lost everything.",
-            "illustration_b": "Joseph standing before Pharaoh in an Egyptian palace with golden pillars and hieroglyphics on walls. Joseph wears fine white linen robes and a gold chain. Pharaoh sits on an elaborate throne looking amazed. Joseph gestures as he interprets a dream - seven fat cows and seven thin cows visible in a thought bubble above.",
-            "middle": "Slavery. False accusations. Prison. Years of waiting in the dark. Joseph could have been bitter and angry. Instead, he kept trusting God, using his gift of interpreting dreams to help others. In prison, he interpreted dreams for Pharaoh's servants. Then one day, Pharaoh himself had a dream no one could explain.",
-            "brave_moment": "Joseph stood before the most powerful man on earth and boldly said: 'It is not in me; God will give Pharaoh an answer.' He interpreted the dream - seven years of plenty followed by seven years of famine - and Pharaoh made him second-in-command of all Egypt!",
-            "resolution": "Years later, Joseph's brothers came begging for food - and bowed before him, just as the dreams foretold! Joseph forgave them with tears of joy, saying: 'You meant it for evil, but God meant it for good!'",
-            "moral": "Hard times are not the end of your story! God can use every difficulty to prepare you for something greater. Keep trusting through the waiting!",
-            "verse": "You meant evil against me, but God meant it for good. - Genesis 50:20 (WEB)",
-            "prayer": "Dear God, when life feels unfair, help me trust like Joseph that You're preparing something good. Help me forgive those who hurt me. Amen.",
-            "activity": "Write about a hard time in your life. Now write how God might use that experience to help others someday."
-        },
-
-        {
-            "title": "MOSES PARTS THE SEA",
-            "subtitle": "Freedom from Slavery",
-            "illustration_a": "Moses, an 80-year-old man with long white beard and flowing brown robes, standing on the shore of the Red Sea with his staff raised high. Behind him, two million Israelite men, women, and children look terrified. In the far distance behind them, dust clouds rise from Pharaoh's approaching army with golden chariots. The sea before them is deep blue and impassable.",
-            "opening": "Trapped! The Red Sea ahead, Pharaoh's army behind. Two million people with nowhere to run. Children cried, parents panicked. It seemed like the end. But Moses raised his staff and said the words that changed everything: 'Stand still and see the salvation of the LORD!'",
-            "illustration_b": "The Red Sea split in two with massive walls of blue-green water towering on both sides like glass cliffs. Fish and sea creatures visible in the transparent walls. A wide dry path stretches between the water walls. Millions of Israelites walk through with amazed faces, carrying children and belongings. Pillar of fire glows behind them blocking Egypt's army.",
-            "middle": "Moses stretched his staff over the sea. A mighty east wind blew all night long. Slowly, incredibly, the waters pulled apart! Two enormous walls of water stood up on each side with dry ground between them. The people walked through on dry land with fish swimming in the walls of water beside them!",
-            "brave_moment": "As Pharaoh's army charged between the water walls, God told Moses to stretch out his staff again. The walls of water crashed together! The entire Egyptian army was swept away. Israel was finally, completely FREE!",
-            "resolution": "On the other shore, Moses and all Israel sang a song of praise. Miriam danced with a tambourine. They had witnessed the greatest rescue in history. God had set His people free!",
-            "moral": "When you feel trapped with no way out, God can make a way where there seems to be no way! Trust Him to open doors you can't even see yet.",
-            "verse": "The LORD will fight for you, and you shall be still. - Exodus 14:14 (WEB)",
-            "prayer": "Dear God, when I feel trapped or stuck, remind me that You can split seas for me. Help me trust and be still while You work. Amen.",
-            "activity": "Draw your own 'Red Sea moment' - a situation where you need God to make a way. Write a prayer asking Him to part the waters for you!"
-        },
-        {
-            "title": "PETER WALKS ON WATER",
-            "subtitle": "Keeping Eyes on Jesus",
-            "illustration_a": "A small wooden fishing boat tossed on dark, stormy waves at night. Twelve terrified disciples grip the sides. Lightning flashes in the sky. Rain pours down. In the distance, a glowing figure walks calmly on top of the churning waves - Jesus in white robes, his feet resting gently on the water surface. Moonlight breaks through clouds around Him.",
-            "opening": "The storm was terrifying. Waves crashed over the boat. The disciples rowed desperately through the night. Then they saw something that made them scream - a figure walking toward them ON the water! 'It's a ghost!' they cried. But Jesus called out: 'Don't be afraid. It is I!'",
-            "illustration_b": "Peter stepping out of the rocking boat onto dark turbulent water, one foot on the boat's edge, one foot on the wave's surface. His face shows a mix of excitement and fear. Jesus stands a few yards away on the water, hand extended toward Peter, smiling encouragingly. Waves splash around them. Other disciples watch in disbelief from the boat.",
-            "middle": "Peter, always the boldest, shouted: 'Lord, if it's really You, tell me to come to You on the water!' Jesus said one word: 'Come.' Peter swung his leg over the side of the boat and stepped onto the waves. He was WALKING ON WATER! Step after impossible step!",
-            "brave_moment": "For several glorious seconds, Peter defied every law of nature - walking on water toward Jesus! But then he noticed the wind and waves. Fear gripped him and he began to sink. 'Lord, save me!' he cried. Instantly, Jesus grabbed his hand and pulled him up.",
-            "resolution": "Jesus gently asked: 'Why did you doubt?' Back in the boat, the storm immediately stopped. Every disciple fell to their knees and worshiped. Peter learned the greatest lesson: keep your eyes on Jesus, not the storm!",
-            "moral": "You can do impossible things when you keep your eyes on Jesus! Don't look at the storms around you - look at the One who controls the storms!",
-            "verse": "He said, 'Come!' Peter stepped down from the boat and walked on the waters to come to Jesus. - Matthew 14:29 (WEB)",
-            "prayer": "Dear Jesus, help me step out in faith even when things are scary. When I start to sink, grab my hand and pull me up. Amen.",
-            "activity": "What 'impossible' thing is Jesus asking you to step out and try? Write it down and take one brave step toward it this week!"
-        }
-    ]
-
-
-    # ============ RENDER STORIES ============
-    gray_values = [0.88, 0.92, 0.95, 0.97, 0.90, 0.93, 0.88, 0.95, 0.92, 0.97]
-    
-    for idx, story in enumerate(stories):
-        bg_gray = gray_values[idx % len(gray_values)]
-        
-        # PAGE A: Title + Illustration + Opening
-        pdf.new_page()
-        pdf.add_filled_rect(0, 700, 612, 92, gray=bg_gray)
-        pdf.add_filled_rect(40, 705, 532, 75, gray=0.97)
-        draw_decorative_border(pdf, 40, 705, 532, 75, gray=0.3)
-        pdf.add_centered_text(755, f"Story {idx+1}", font='F4', size=10, gray=0.5)
-        pdf.add_centered_text(735, story["title"], font='F2', size=20, gray=0.1)
-        pdf.add_centered_text(712, story["subtitle"], font='F5', size=13, gray=0.3)
-        
-        draw_illustration_box(pdf, 500, story["illustration_a"], 170)
-        
-        pdf.add_filled_rect(50, 380, 512, 100, gray=0.95)
-        pdf.add_rect(50, 380, 512, 100, line_width=0.5, gray=0.6)
-        wrap_text(pdf, 65, 465, story["opening"], font='F4', size=12, max_width=68)
-        
-        # Decorative accent bar
-        pdf.add_filled_rect(50, 360, 512, 8, gray=0.4)
-        
-        # PAGE B: Middle + Illustration + Brave Moment
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.98)
-        pdf.add_filled_rect(40, 650, 532, 5, gray=bg_gray)
-        
-        pdf.add_text(60, 750, story["title"], font='F2', size=14, gray=0.2)
-        pdf.add_line(60, 742, 300, 742, width=1, gray=0.4)
-        
-        y = wrap_text(pdf, 60, 720, story["middle"], font='F4', size=11, max_width=72)
-        
-        draw_illustration_box(pdf, y - 170, story["illustration_b"], 150)
-        
-        # The Brave Moment box
-        brave_y = y - 200
-        pdf.add_filled_rect(50, brave_y, 512, 55, gray=0.88)
-        pdf.add_rect(50, brave_y, 512, 55, line_width=1.5, gray=0.3)
-        pdf.add_text(60, brave_y+38, "THE BRAVE MOMENT:", font='F2', size=11, gray=0.1)
-        wrap_text(pdf, 60, brave_y+22, story["brave_moment"], font='F5', size=10, max_width=72)
-        
-        # PAGE C: Resolution + Moral + Verse + Writing lines
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-        
-        pdf.add_text(60, 750, story["title"] + " (continued)", font='F2', size=12, gray=0.2)
-        pdf.add_line(60, 742, 350, 742, width=0.5, gray=0.4)
-        
-        y = wrap_text(pdf, 60, 720, story["resolution"], font='F4', size=11, max_width=72)
-        
-        # Moral box
-        y -= 20
-        pdf.add_filled_rect(50, y-60, 512, 75, gray=bg_gray)
-        draw_decorative_border(pdf, 50, y-60, 512, 75, gray=0.3)
-        pdf.add_text(65, y, "LIFE LESSON:", font='F2', size=12, gray=0.1)
-        wrap_text(pdf, 65, y-18, story["moral"], font='F5', size=11, max_width=68)
-        
-        # Verse box
-        y -= 100
-        pdf.add_filled_rect(50, y-45, 512, 55, gray=0.92)
-        pdf.add_text(65, y, "KEY VERSE:", font='F2', size=10, gray=0.2)
-        wrap_text(pdf, 65, y-15, story["verse"], font='F3', size=9, max_width=75)
-        
-        # What I Learned section
-        y -= 80
-        pdf.add_text(60, y, "WHAT I LEARNED:", font='F2', size=12, gray=0.1)
-        for i in range(4):
-            line_y = y - 25 - (i * 25)
-            pdf.add_line(60, line_y, 550, line_y, width=0.5, gray=0.6)
-
-
-        # HALF PAGE D: Prayer + Activity + Draw prompt
-        pdf.new_page()
-        pdf.add_filled_rect(0, 400, 612, 392, gray=0.95)
-        
-        # Prayer section
-        pdf.add_filled_rect(50, 680, 512, 30, gray=0.88)
-        pdf.add_text(60, 688, "MY PRAYER:", font='F2', size=13, gray=0.1)
-        wrap_text(pdf, 60, 660, story["prayer"], font='F5', size=11, max_width=70)
-        
-        # Activity section
-        pdf.add_line(50, 600, 562, 600, width=1, gray=0.4)
-        pdf.add_filled_rect(50, 540, 512, 50, gray=0.92)
-        pdf.add_text(60, 575, "HOW CAN I BE BRAVE TODAY?", font='F2', size=12, gray=0.1)
-        wrap_text(pdf, 60, 555, story["activity"], font='F4', size=11, max_width=70)
-        
-        # Writing lines for activity response
-        for i in range(3):
-            line_y = 500 - (i * 25)
-            pdf.add_line(60, line_y, 550, line_y, width=0.5, gray=0.6)
-        
-        # Color/Draw prompt in bottom half
-        pdf.add_filled_rect(50, 200, 512, 180, gray=0.97)
-        pdf.add_rect(50, 200, 512, 180, line_width=1.5, gray=0.4)
-        pdf.add_text(60, 365, "DRAW OR COLOR:", font='F2', size=12, gray=0.2)
-        pdf.add_text(60, 345, f"Draw your favorite scene from the story of {story['title']}!", font='F4', size=11, gray=0.3)
-        pdf.add_text(250, 220, "[Your artwork here]", font='F3', size=10, gray=0.5)
-
-    # ============ MY COURAGE JOURNAL (5 pages) ============
-    journal_prompts = [
-        "Write about a time you were brave. What happened? How did you feel?",
-        "Who is someone brave you admire? What makes them courageous?",
-        "What is something that scares you? How can God help you face it?",
-        "Describe a time you stood up for someone else. What gave you strength?",
-        "What brave thing do you want to do this year? What's your first step?"
-    ]
-    
-    for i, prompt in enumerate(journal_prompts):
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-        pdf.add_filled_rect(40, 720, 532, 50, gray=0.88)
-        draw_decorative_border(pdf, 40, 720, 532, 50, gray=0.3)
-        pdf.add_centered_text(748, "MY COURAGE JOURNAL", font='F2', size=16, gray=0.1)
-        pdf.add_centered_text(728, f"Entry {i+1}", font='F4', size=11, gray=0.4)
-        
-        pdf.add_filled_rect(50, 665, 512, 40, gray=0.92)
-        wrap_text(pdf, 60, 692, prompt, font='F5', size=12, max_width=70)
-        
-        # Writing lines
-        for j in range(18):
-            line_y = 640 - (j * 30)
-            pdf.add_line(60, line_y, 550, line_y, width=0.5, gray=0.7)
-
-    # ============ HEROES QUIZ ============
+    # --- PAGE 3: Table of Contents ---
     pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.95)
-    pdf.add_filled_rect(40, 710, 532, 60, gray=0.88)
-    draw_decorative_border(pdf, 40, 710, 532, 60, gray=0.3)
-    pdf.add_centered_text(745, "HEROES OF COURAGE QUIZ!", font='F2', size=18, gray=0.1)
-    pdf.add_centered_text(720, "Test Your Knowledge - 10 Questions", font='F4', size=12, gray=0.3)
-    
-    questions = [
-        "1. What weapon did David use against Goliath?",
-        "2. What did Esther risk by going to the king?",
-        "3. How many times a day did Daniel pray?",
-        "4. How many friends were thrown in the furnace?",
-        "5. How many days did Israel march around Jericho?",
-        "6. How many soldiers did Gideon have?",
-        "7. Where did Ruth follow Naomi to?",
-        "8. Where was Joseph before becoming ruler?",
-        "9. What did Moses part with his staff?",
-        "10. What happened when Peter looked at the waves?"
+    page_count += 1
+    pdf.add_centered_text(730, "TABLE OF CONTENTS", 'F2', 18, 0)
+    pdf.add_line(150, 720, 462, 720, 1, 0.3)
+    y = 680
+    for i, story in enumerate(stories):
+        pdf.add_text(72, y, f"Story {i+1}: {story['title']}", 'F4', 12, 0.1)
+        pdf.add_text(450, y, f"Page {5 + i*6}", 'F1', 10, 0.3)
+        y -= 30
+    pdf.add_text(72, y-20, "Quiz Section", 'F2', 12, 0.1)
+    pdf.add_text(72, y-45, "Vocabulary & Word List", 'F2', 12, 0.1)
+    pdf.add_text(72, y-70, "My Faith Journal", 'F2', 12, 0.1)
+    pdf.add_text(72, y-95, "Certificate of Completion", 'F2', 12, 0.1)
+    pdf.add_text(72, y-120, "Bonus: Memory Verse Cards", 'F2', 12, 0.1)
+
+    # --- PAGE 4: How to Use This Book ---
+    pdf.new_page()
+    page_count += 1
+    pdf.add_centered_text(730, "HOW TO USE THIS BOOK", 'F2', 18, 0)
+    pdf.add_line(150, 720, 462, 720, 1, 0.3)
+    intro_lines = [
+        "Welcome, brave reader! This book contains 10 amazing stories about",
+        "real heroes from the Bible who showed incredible courage.",
+        "",
+        "Each story has SIX exciting pages:",
+        "  1. The story beginning with a colorful illustration",
+        "  2. The middle of the story with an action scene",
+        "  3. The exciting ending with a Bible verse and moral",
+        "  4. A reflection page with questions and prayer space",
+        "  5. A fun word search puzzle with words from the story",
+        "  6. A drawing page where YOU become the artist!",
+        "",
+        "Tips for Parents and Teachers:",
+        "  - Read one story per day or week for best results",
+        "  - Discuss the questions together as a family",
+        "  - Encourage children to write their own prayers",
+        "  - Use the word searches as vocabulary builders",
+        "  - Let children color and draw freely on activity pages",
+        "",
+        "Are you ready to meet some incredible heroes?",
+        "Turn the page and let the adventure begin!"
     ]
     y = 680
-    for q in questions:
-        pdf.add_text(60, y, q, font='F4', size=11, gray=0.2)
-        pdf.add_line(60, y-15, 400, y-15, width=0.5, gray=0.6)
-        y -= 45
+    for line in intro_lines:
+        pdf.add_text(72, y, line, 'F4', 11, 0.15)
+        y -= 22
 
 
-    # ============ CERTIFICATE OF COURAGE ============
+    # --- STORIES (10 stories x 6 pages = 60 pages) ---
+    for idx, story in enumerate(stories):
+        # PAGE 1: Story Title + Opening
+        pdf.new_page()
+        page_count += 1
+        pdf.add_filled_rect(50, 700, 512, 60, 0.88)
+        pdf.add_centered_text(735, f"Story {idx+1}", 'F1', 10, 0.4)
+        pdf.add_centered_text(715, story['title'].upper(), 'F2', 20, 0)
+        pdf.add_rect(100, 400, 412, 270, 1.5, 0.3)
+        pdf.add_centered_text(560, f"[ILLUSTRATION: {story['character']} in a dramatic scene", 'F3', 9, 0.4)
+        pdf.add_centered_text(545, "showing courage and faith in God]", 'F3', 9, 0.4)
+        lines = wrap_text(story['p1'], 80)
+        y = 370
+        for line in lines:
+            pdf.add_text(72, y, line, 'F4', 11, 0.1)
+            y -= 18
+
+        # PAGE 2: Story Middle
+        pdf.new_page()
+        page_count += 1
+        pdf.add_centered_text(750, f"{story['title']} (continued)", 'F2', 14, 0.1)
+        pdf.add_line(72, 740, 540, 740, 0.5, 0.4)
+        lines = wrap_text(story['p2'], 80)
+        y = 710
+        for line in lines:
+            pdf.add_text(72, y, line, 'F4', 11, 0.1)
+            y -= 20
+        pdf.add_rect(100, y-280, 412, 250, 1.5, 0.3)
+        pdf.add_centered_text(y-130, f"[ILLUSTRATION: Action scene - {story['character']}", 'F3', 9, 0.4)
+        pdf.add_centered_text(y-145, "facing the challenge with determination]", 'F3', 9, 0.4)
+
+        # PAGE 3: Climax + Verse + Moral
+        pdf.new_page()
+        page_count += 1
+        pdf.add_centered_text(750, f"{story['title']} (conclusion)", 'F2', 14, 0.1)
+        pdf.add_line(72, 740, 540, 740, 0.5, 0.4)
+        lines = wrap_text(story['p3'], 80)
+        y = 710
+        for line in lines:
+            pdf.add_text(72, y, line, 'F4', 11, 0.1)
+            y -= 20
+        # Bible Verse
+        y -= 20
+        pdf.add_filled_rect(72, y-30, 468, 40, 0.9)
+        pdf.add_centered_text(y-5, "KEY BIBLE VERSE:", 'F2', 10, 0.2)
+        pdf.add_centered_text(y-22, story['verse'], 'F4', 11, 0)
+        # Moral Box
+        y -= 70
+        pdf.add_rect(72, y-40, 468, 50, 2, 0.2)
+        pdf.add_centered_text(y-5, "MORAL OF THE STORY:", 'F2', 11, 0.1)
+        pdf.add_centered_text(y-25, story['moral'], 'F5', 12, 0)
+
+        # PAGE 4: Reflection + Prayer
+        pdf.new_page()
+        page_count += 1
+        pdf.add_centered_text(750, "WHAT I LEARNED", 'F2', 16, 0)
+        pdf.add_line(150, 740, 462, 740, 1, 0.3)
+        pdf.add_text(72, 710, f"Reflecting on: {story['title']}", 'F4', 11, 0.2)
+        questions = [
+            f"1. What made {story['character']} brave in this story?",
+            "2. How did God help in this situation?",
+            "3. How can you show the same kind of courage in your life?"
+        ]
+        y = 670
+        for q in questions:
+            pdf.add_text(72, y, q, 'F2', 11, 0.1)
+            y -= 20
+            for _ in range(3):
+                pdf.add_line(90, y, 530, y, 0.5, 0.6)
+                y -= 20
+            y -= 10
+        # Prayer section
+        y -= 10
+        pdf.add_filled_rect(72, y-120, 468, 130, 0.92)
+        pdf.add_centered_text(y-5, "MY PRAYER", 'F2', 14, 0.1)
+        pdf.add_text(80, y-25, "Dear God, after reading this story I want to tell you...", 'F4', 10, 0.2)
+        for i in range(5):
+            pdf.add_line(80, y-50-i*20, 520, y-50-i*20, 0.5, 0.6)
+        pdf.add_text(400, y-155, "Amen.", 'F5', 12, 0.1)
+
+
+        # PAGE 5: Word Search
+        pdf.new_page()
+        page_count += 1
+        pdf.add_centered_text(750, "WORD SEARCH PUZZLE", 'F2', 16, 0)
+        pdf.add_text(72, 720, f"Find these words from the story of {story['title']}:", 'F4', 11, 0.2)
+        grid = generate_word_search(story['words'])
+        y = 680
+        for row in grid:
+            row_text = "   ".join(row)
+            pdf.add_centered_text(y, row_text, 'F3', 14, 0.1)
+            y -= 24
+        y -= 20
+        pdf.add_text(72, y, "Words to find:", 'F2', 11, 0.1)
+        y -= 20
+        word_line = "  ".join(story['words'])
+        pdf.add_text(72, y, word_line, 'F3', 10, 0.2)
+        y -= 40
+        pdf.add_text(72, y, "BONUS CHALLENGE: Can you use three of these words in a sentence?", 'F4', 10, 0.3)
+        y -= 20
+        for _ in range(3):
+            pdf.add_line(72, y, 540, y, 0.5, 0.6)
+            y -= 22
+
+        # PAGE 6: Drawing Page
+        pdf.new_page()
+        page_count += 1
+        pdf.add_centered_text(750, "DRAW YOUR FAVORITE PART!", 'F2', 16, 0)
+        pdf.add_text(72, 720, f"Draw your favorite scene from the story of {story['title']}:", 'F4', 11, 0.2)
+        pdf.add_rect(72, 280, 468, 420, 1.5, 0.3)
+        pdf.add_centered_text(260, f"How can I be brave like {story['character']}?", 'F2', 12, 0.1)
+        y = 230
+        for _ in range(4):
+            pdf.add_line(72, y, 540, y, 0.5, 0.6)
+            y -= 22
+        pdf.add_text(72, y-10, "My courage goal this week:", 'F2', 10, 0.2)
+        pdf.add_line(72, y-30, 540, y-30, 0.5, 0.6)
+
+    # --- QUIZ SECTION (2 pages) ---
     pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.95)
-    draw_decorative_border(pdf, 40, 40, 532, 712, gray=0.2)
-    draw_decorative_border(pdf, 50, 50, 512, 692, gray=0.4)
-    pdf.add_filled_rect(80, 600, 452, 100, gray=0.88)
-    pdf.add_centered_text(680, "CERTIFICATE OF COURAGE", font='F2', size=24, gray=0.1)
-    pdf.add_centered_text(640, "This certifies that", font='F4', size=14, gray=0.3)
-    pdf.add_line(180, 600, 432, 600, width=1, gray=0.3)
-    pdf.add_centered_text(580, "(write your name)", font='F4', size=10, gray=0.5)
-    pdf.add_centered_text(540, "has completed all 10 stories in", font='F4', size=13, gray=0.3)
-    pdf.add_centered_text(510, "HEROES OF COURAGE", font='F2', size=18, gray=0.1)
-    pdf.add_centered_text(470, "and is now equipped with the knowledge that", font='F4', size=12, gray=0.3)
-    pdf.add_centered_text(440, "GOD GIVES COURAGE TO THOSE WHO TRUST HIM!", font='F2', size=13, gray=0.2)
-    pdf.add_centered_text(380, "Be strong and courageous! Do not be afraid or", font='F5', size=12, gray=0.3)
-    pdf.add_centered_text(360, "discouraged, for the LORD your God is with you", font='F5', size=12, gray=0.3)
-    pdf.add_centered_text(340, "wherever you go. - Joshua 1:9", font='F5', size=12, gray=0.3)
-    pdf.add_line(150, 250, 300, 250, width=0.5, gray=0.4)
-    pdf.add_text(180, 235, "Date", font='F4', size=10, gray=0.5)
-    pdf.add_line(350, 250, 500, 250, width=0.5, gray=0.4)
-    pdf.add_text(380, 235, "Signature", font='F4', size=10, gray=0.5)
+    page_count += 1
+    pdf.add_centered_text(750, "QUIZ TIME! - Part 1", 'F2', 18, 0)
+    pdf.add_line(150, 740, 462, 740, 1, 0.3)
+    quiz_questions = [
+        ("1. What did David use to defeat Goliath?", "a) Sword  b) Sling & stone  c) Spear"),
+        ("2. Who said 'Where you go, I will go'?", "a) Esther  b) Ruth  c) Mary"),
+        ("3. How many times did Israel march around Jericho on day 7?", "a) 3 times  b) 7 times  c) 12 times"),
+        ("4. How many warriors did God choose for Gideon?", "a) 32,000  b) 3,000  c) 300"),
+        ("5. What shut the lions' mouths in Daniel's story?", "a) A rock  b) God's angel  c) Daniel's prayer"),
+    ]
+    y = 700
+    for q, opts in quiz_questions:
+        pdf.add_text(72, y, q, 'F2', 11, 0.1)
+        y -= 22
+        pdf.add_text(100, y, opts, 'F4', 10, 0.2)
+        y -= 35
 
-    # Save
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Book276_Bible_Heroes_Courage.pdf")
+    pdf.new_page()
+    page_count += 1
+    pdf.add_centered_text(750, "QUIZ TIME! - Part 2", 'F2', 18, 0)
+    pdf.add_line(150, 740, 462, 740, 1, 0.3)
+    quiz_questions2 = [
+        ("6. What did Esther risk by visiting the king?", "a) Her crown  b) Her life  c) Her money"),
+        ("7. How many men were in the fiery furnace?", "a) 2  b) 3  c) 4 (including the angel)"),
+        ("8. What happened when Peter took his eyes off Jesus?", "a) He flew  b) He sank  c) He swam"),
+        ("9. Joseph was sold as a slave by his...", "a) Friends  b) Brothers  c) Enemies"),
+        ("10. What did Moses hold when parting the Red Sea?", "a) His staff  b) A sword  c) A shield"),
+    ]
+    y = 700
+    for q, opts in quiz_questions2:
+        pdf.add_text(72, y, q, 'F2', 11, 0.1)
+        y -= 22
+        pdf.add_text(100, y, opts, 'F4', 10, 0.2)
+        y -= 35
+    pdf.add_text(72, y-20, "Answers: 1b, 2b, 3b, 4c, 5b, 6b, 7c, 8b, 9b, 10a", 'F3', 9, 0.4)
+
+
+    # --- VOCABULARY PAGE ---
+    pdf.new_page()
+    page_count += 1
+    pdf.add_centered_text(750, "VOCABULARY & WORD LIST", 'F2', 18, 0)
+    pdf.add_line(150, 740, 462, 740, 1, 0.3)
+    vocab = [
+        ("Courage", "Being brave even when you feel scared"),
+        ("Faith", "Trusting God even when you cannot see the answer"),
+        ("Miracle", "Something amazing that only God can do"),
+        ("Obedience", "Following God's instructions willingly"),
+        ("Devotion", "Loving someone with all your heart"),
+        ("Sacrifice", "Giving up something for someone else"),
+        ("Victory", "Winning a battle or challenge"),
+        ("Salvation", "Being saved or rescued by God"),
+        ("Prophet", "Someone who speaks God's messages"),
+        ("Worship", "Showing love and respect to God"),
+        ("Perseverance", "Never giving up no matter how hard it gets"),
+        ("Redemption", "Being bought back or set free from trouble"),
+    ]
+    y = 710
+    for word, defn in vocab:
+        pdf.add_text(72, y, f"{word}:", 'F2', 11, 0.1)
+        pdf.add_text(200, y, defn, 'F4', 10, 0.2)
+        y -= 25
+
+    # --- FAITH JOURNAL (4 pages) ---
+    for j in range(4):
+        pdf.new_page()
+        page_count += 1
+        pdf.add_centered_text(750, f"MY FAITH JOURNAL - Page {j+1}", 'F2', 16, 0)
+        pdf.add_line(150, 740, 462, 740, 1, 0.3)
+        prompts = [
+            "Today I saw God's courage in...",
+            "A time I was brave like a Bible hero...",
+            "What I want to tell God today...",
+            "My favorite Bible hero and why..."
+        ]
+        pdf.add_text(72, 710, prompts[j], 'F5', 12, 0.2)
+        y = 680
+        for _ in range(24):
+            pdf.add_line(72, y, 540, y, 0.5, 0.7)
+            y -= 25
+
+    # --- CERTIFICATE OF COMPLETION ---
+    pdf.new_page()
+    page_count += 1
+    pdf.add_rect(50, 50, 512, 692, 3, 0.2)
+    pdf.add_rect(60, 60, 492, 672, 1.5, 0.4)
+    pdf.add_centered_text(680, "CERTIFICATE OF COMPLETION", 'F2', 22, 0)
+    pdf.add_centered_text(640, "This certifies that", 'F4', 14, 0.2)
+    pdf.add_line(180, 600, 432, 600, 1, 0.3)
+    pdf.add_centered_text(580, "(write your name)", 'F4', 9, 0.4)
+    pdf.add_centered_text(540, "has successfully read all 10 stories in", 'F4', 12, 0.2)
+    pdf.add_centered_text(510, "HEROES OF COURAGE", 'F2', 16, 0)
+    pdf.add_centered_text(470, "and has shown the bravery of a true Bible hero!", 'F4', 12, 0.2)
+    pdf.add_centered_text(400, "Date: _______________", 'F4', 12, 0.3)
+    pdf.add_centered_text(350, "Signed: _______________", 'F4', 12, 0.3)
+    pdf.add_centered_text(280, "\"Be strong and courageous!\" - Joshua 1:9", 'F5', 14, 0.1)
+
+    # --- MEMORY VERSE CARDS ---
+    pdf.new_page()
+    page_count += 1
+    pdf.add_centered_text(750, "MEMORY VERSE CARDS", 'F2', 18, 0)
+    pdf.add_text(72, 725, "Cut out these cards and memorize one verse each week!", 'F4', 10, 0.3)
+    y = 690
+    for i, story in enumerate(stories[:5]):
+        pdf.add_rect(72, y-55, 468, 55, 1, 0.3)
+        pdf.add_text(80, y-15, f"Card {i+1}: {story['title']}", 'F2', 9, 0.1)
+        pdf.add_text(80, y-35, story['verse'], 'F4', 9, 0.2)
+        y -= 65
+
+    # --- BONUS ACTIVITY PAGES ---
+    pdf.new_page()
+    page_count += 1
+    pdf.add_centered_text(750, "MEMORY VERSE CARDS (continued)", 'F2', 18, 0)
+    y = 700
+    for i, story in enumerate(stories[5:]):
+        pdf.add_rect(72, y-55, 468, 55, 1, 0.3)
+        pdf.add_text(80, y-15, f"Card {i+6}: {story['title']}", 'F2', 9, 0.1)
+        pdf.add_text(80, y-35, story['verse'], 'F4', 9, 0.2)
+        y -= 65
+
+    # Bonus: Courage Pledge page
+    pdf.new_page()
+    page_count += 1
+    pdf.add_centered_text(750, "MY COURAGE PLEDGE", 'F2', 18, 0)
+    pdf.add_line(150, 740, 462, 740, 1, 0.3)
+    pledge_lines = [
+        "I pledge to be brave like the heroes in this book!",
+        "",
+        "With God's help, I promise to:",
+        "  - Stand up for what is right",
+        "  - Trust God when things are scary",
+        "  - Be kind and loyal to others",
+        "  - Pray every day for courage",
+        "  - Help others who are afraid",
+        "",
+        "My name: _________________________________",
+        "",
+        "Date: ____________________________________",
+        "",
+        "My favorite hero from this book: __________",
+        "",
+        "The bravest thing I want to do: ___________",
+        "________________________________________",
+        "",
+        "My prayer for courage:"
+    ]
+    y = 710
+    for line in pledge_lines:
+        pdf.add_text(72, y, line, 'F4', 11, 0.15)
+        y -= 22
+    for _ in range(4):
+        pdf.add_line(72, y, 540, y, 0.5, 0.6)
+        y -= 22
+
+    # Save PDF
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), FILENAME)
     pdf.save(output_path)
-    print(f"Created: {output_path}")
+    print(f"Generated {FILENAME} with {page_count} pages")
+    return page_count
 
 if __name__ == "__main__":
-    create_book()
+    build_pdf()

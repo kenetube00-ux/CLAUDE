@@ -1,236 +1,253 @@
 #!/usr/bin/env python3
 """Book 285 - The Easter Story: How Jesus' Love Saved the World"""
-import os, sys
+import random, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pdf_utils import PDFDoc
+random.seed(285)
+TITLE = "THE EASTER STORY"
+SUBTITLE = "How Jesus' Love Saved the World"
+AUTHOR = "Daniel Tesfamariam"
+FILENAME = "Book285_Easter_Story_Kids.pdf"
+chapters = [
+    {"title": "Palm Sunday - The King Arrives", "verse": "Hosanna! Blessed is he who comes in the name of the Lord! - Mark 11:9 (WEB)",
+     "p1": "It was a beautiful Sunday morning in spring. Jesus and His disciples were approaching Jerusalem for the Passover festival. Huge crowds were gathering because everyone had heard about Jesus' miracles. Jesus sent two disciples ahead to bring a young donkey that had never been ridden. He climbed on and began riding toward the great city as thousands cheered along the road.",
+     "p2": "The crowd went wild with joy! People spread their cloaks on the road like a carpet for royalty. Others cut palm branches from trees and waved them high, shouting 'HOSANNA! Blessed is He who comes in the name of the Lord!' Children sang. Adults wept with joy. The entire city buzzed with excitement. Could this be the promised King who would save Israel? The noise of celebration echoed off the ancient walls of Jerusalem.",
+     "words": ["PALM", "HOSANNA", "DONKEY", "KING", "CROWD", "SUNDAY", "PRAISE", "BRANCHES"]},
+    {"title": "The Last Supper", "verse": "This is my body which is given for you. Do this in memory of me. - Luke 22:19 (WEB)",
+     "p1": "On Thursday evening, Jesus gathered His twelve closest friends for a special Passover meal in an upper room. He knew this would be their last meal together before the cross. With tender love, Jesus washed each disciple's dirty feet - the job of the lowest servant! He was showing them that true greatness means serving others, even in the humblest ways.",
+     "p2": "During the meal, Jesus took bread, gave thanks, broke it, and said, 'This is my body, given for you.' Then He took a cup of wine saying, 'This cup is the new covenant in my blood, poured out for the forgiveness of sins.' He was telling them that He would give His own life to save the world. Jesus also revealed that one of the twelve would betray Him. The disciples were shocked and heartbroken.",
+     "words": ["SUPPER", "BREAD", "WINE", "SERVE", "WASH", "FEET", "REMEMBER", "LOVE"]},
+    {"title": "The Garden of Gethsemane", "verse": "Not my will, but yours, be done. - Luke 22:42 (WEB)",
+     "p1": "After supper, Jesus went to a garden called Gethsemane to pray. He was deeply troubled, knowing the terrible suffering ahead. He asked Peter, James, and John to stay awake and pray with Him. Then He went a little further, fell face-down on the ground, and prayed with such intensity that His sweat became like drops of blood falling to the ground.",
+     "p2": "Three times Jesus cried out, 'Father, if it is possible, take this cup of suffering from me!' He was not afraid to be honest with God about His pain. But each time He added the most powerful words ever prayed: 'Nevertheless, not MY will, but YOUR will be done.' He chose obedience over comfort. An angel came from heaven to strengthen Him. His friends fell asleep, unable to stay awake during His darkest hour.",
+     "words": ["GARDEN", "PRAYER", "NIGHT", "SWEAT", "KNEEL", "FATHER", "WILL", "TRUST"]},
+    {"title": "The Trial", "verse": "He was despised and rejected by men. - Isaiah 53:3 (WEB)",
+     "p1": "Judas arrived in the garden with soldiers and betrayed Jesus with a kiss. Jesus was arrested and dragged before the religious leaders for an illegal nighttime trial. Witnesses told lies about Him. They spit in His face and hit Him with their fists. Peter, watching from a distance, denied knowing Jesus three times before the rooster crowed, just as Jesus had predicted.",
+     "p2": "In the morning, Jesus was brought before the Roman governor Pilate. Pilate found no crime worthy of death but the crowd demanded crucifixion. He offered to release one prisoner - the crowd chose a criminal named Barabbas instead of Jesus! Pilate washed his hands and handed Jesus over to be beaten. Roman soldiers whipped His back, jammed a crown of thorns onto His head, and mocked Him as a fake king. Yet Jesus endured it all silently, like a lamb led to slaughter.",
+     "words": ["TRIAL", "JUDAS", "PETER", "PILATE", "CROWN", "THORNS", "SILENT", "LAMB"]},
 
-def create_book():
-    pdf = PDFDoc(612, 792)
-    author = "Daniel Tesfamariam"
-    
-    def draw_border(pdf, x, y, w, h, gray=0.3):
-        pdf.add_rect(x, y, w, h, line_width=2, gray=gray)
-        pdf.add_rect(x+3, y+3, w-6, h-6, line_width=0.5, gray=gray)
-
-    def illus_box(pdf, y, desc, height=140):
-        pdf.add_filled_rect(60, y, 492, height, gray=0.95)
-        pdf.add_rect(60, y, 492, height, line_width=1.5, gray=0.4)
-        pdf.add_text(70, y+height-18, "[ILLUSTRATION:", font='F2', size=10, gray=0.3)
-        words = desc.split()
-        line, ly = "", y+height-33
-        for w in words:
-            if len(line+" "+w)>75:
-                pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-                ly -= 13; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-        pdf.add_text(70, ly-13, "]", font='F2', size=10, gray=0.3)
-
-    def wrap(pdf, x, y, text, font='F4', size=11, mw=70, gray=0):
-        words = text.split()
-        line, cy = "", y
-        for w in words:
-            if len(line+" "+w)>mw:
-                pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray)
-                cy -= 15; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray); cy -= 15
-        return cy
-
-
-    # TITLE PAGE
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    draw_border(pdf, 30, 30, 552, 732, gray=0.2)
-    pdf.add_filled_rect(50, 580, 512, 150, gray=0.88)
-    pdf.add_centered_text(700, "THE EASTER STORY", font='F2', size=28, gray=0.1)
-    pdf.add_centered_text(665, "How Jesus' Love", font='F5', size=18, gray=0.2)
-    pdf.add_centered_text(640, "Saved the World", font='F5', size=18, gray=0.2)
-    illus_box(pdf, 330, "An empty tomb with the stone rolled away, BRILLIANT golden-white resurrection light pouring from inside. A pathway of light leads from the dark tomb to a glorious sunrise. Lilies bloom around the tomb entrance. The cross stands empty on a distant hill. The atmosphere is one of absolute victory, hope, and joy. Easter morning in all its glory!", 190)
-    pdf.add_centered_text(290, "For Kids Ages 5-15", font='F2', size=14, gray=0.3)
-    pdf.add_centered_text(260, "The Complete Easter Narrative Told with Love", font='F4', size=12, gray=0.4)
-    pdf.add_centered_text(100, f"Written by {author}", font='F5', size=14, gray=0.2)
-
-    # COPYRIGHT
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    pdf.add_text(72, 700, "THE EASTER STORY", font='F2', size=16, gray=0.1)
-    pdf.add_line(72, 688, 300, 688, width=0.5, gray=0.5)
-    pdf.add_text(72, 665, f"Copyright 2025 {author}. All rights reserved.", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 645, "Scripture from World English Bible (WEB) - Public Domain", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 615, "Presented sensitively and age-appropriately for children.", font='F4', size=10, gray=0.3)
-    pdf.add_filled_rect(60, 100, 492, 50, gray=0.92)
-    pdf.add_text(72, 130, "For every child - THIS is the story that changes everything!", font='F5', size=11, gray=0.2)
-
-    chapters = [
-        {
-            "title": "PALM SUNDAY",
-            "chapter": "Chapter 1",
-            "illustration": "Jesus riding a young donkey through the streets of Jerusalem. Crowds of joyful people line both sides, waving green palm branches. Children throw their colorful cloaks on the road. People shout and smile. Some climb trees for a better view. The golden walls of Jerusalem gleam behind. The atmosphere is pure celebration and excitement - a parade for the King!",
-            "narrative": "The crowd went WILD! 'HOSANNA! Blessed is He who comes in the name of the Lord!' People ripped branches from palm trees and waved them like victory flags. Children threw their cloaks on the dusty road to make a royal carpet. Jesus rode into Jerusalem on a young donkey - humble even in triumph. The whole city buzzed: 'Who IS this?!' And the crowds shouted: 'This is Jesus, the prophet from Nazareth!' If only they knew - their shouting praise would turn to something else in just five days...",
-            "verse": "The multitudes who went before him and who followed kept shouting, 'Hosanna to the son of David!' - Matthew 21:9 (WEB)",
-            "reflection": "The same crowd that shouted 'Hosanna!' would soon shout 'Crucify!' Are you a fair-weather friend to Jesus, or do you follow Him always?"
-        },
-        {
-            "title": "THE LAST SUPPER",
-            "chapter": "Chapter 2",
-            "illustration": "Jesus sitting at a long table with His twelve disciples in a warm, candlelit upper room. He holds bread in his hands, breaking it. A cup of wine sits before Him. The disciples lean in, listening intently. Some look confused, some emotional. Judas lurks in shadow near the end. Multiple clay oil lamps provide warm golden glow. The moment is intimate and sacred.",
-            "narrative": "On Thursday evening, Jesus gathered His closest friends for one final meal together. He already knew what was coming. He knew Judas would betray Him. He knew Peter would deny Him. He knew they would ALL run away. Yet He loved them perfectly. He took bread, broke it, and said: 'This is My body, given for you.' He lifted the cup: 'This is My blood, poured out for many for the forgiveness of sins.' Then He did something that stunned them all - He knelt down and washed their dirty feet. The King of the Universe washing servant's feet. 'Love each other as I have loved you,' He said. 'No greater love exists than laying down your life for your friends.'",
-            "verse": "This is my body which is given for you. Do this in memory of me. - Luke 22:19 (WEB)",
-            "reflection": "Jesus served His friends even knowing they would fail Him. Can you love and serve people even when they let you down?"
-        },
-        {
-            "title": "GARDEN OF GETHSEMANE",
-            "chapter": "Chapter 3",
-            "illustration": "Jesus kneeling alone under ancient gnarled olive trees in a moonlit garden. His face shows deep anguish, sweat mingling with tears. His hands grip the ground in desperate prayer. In the background, three disciples sleep curled up among the tree roots. Moonlight creates silver patterns through the leaves. The atmosphere is heavy with sorrow and spiritual battle. Distant torches flicker approaching.",
-            "narrative": "After supper, Jesus led His disciples to a quiet garden on the Mount of Olives. 'Stay here and pray,' He asked. Then He walked deeper among the olive trees - alone. And there, in the darkness, Jesus faced the weight of the entire world's sin pressing down on Him. He was SO distressed that drops of blood mixed with His sweat! 'Father,' He cried, 'if there is ANY other way... take this cup from Me!' Three times He prayed this agonizing prayer. Three times He returned to find His friends sleeping. But each time He surrendered: 'Not MY will, but YOURS be done.' An angel appeared to strengthen Him. Then - torches in the distance. Judas was coming with soldiers...",
-            "verse": "Not my will, but yours, be done. - Luke 22:42 (WEB)",
-            "reflection": "Jesus was honest with God about His pain but still trusted God's plan. You can be honest with God about YOUR feelings too."
-        },
-
-        {
-            "title": "THE TRIAL",
-            "chapter": "Chapter 4",
-            "illustration": "Jesus standing calm and dignified before Pontius Pilate in a Roman courtyard. Pilate sits elevated on a judgment seat looking troubled and conflicted. An angry crowd fills the courtyard below, fists raised, mouths open shouting. Roman soldiers with spears stand guard. Jesus stands perfectly still and peaceful amid the chaos. Pilate holds a basin of water, about to wash his hands.",
-            "narrative": "The soldiers arrested Jesus in the garden. His friends ran away in fear. Peter followed at a distance - then denied even knowing Jesus three times before a rooster crowed! Jesus was dragged from trial to trial through the night. The Jewish leaders accused Him of blasphemy. They spit on Him. They slapped His face. At dawn, they brought Him to Pilate, the Roman governor. Pilate found no crime in Jesus! He tried to release Him. But the crowd screamed: 'CRUCIFY HIM! CRUCIFY HIM!' Pilate - a coward who feared the mob - washed his hands and handed Jesus over. An innocent man condemned by guilty people.",
-            "verse": "Pilate said to them, 'What then shall I do to Jesus, who is called Christ?' They all said to him, 'Let him be crucified!' - Matthew 27:22 (WEB)",
-            "reflection": "Do you follow the crowd or stand for what's right? Pilate knew Jesus was innocent but gave in to pressure. Choose courage!"
-        },
-        {
-            "title": "THE CROSS",
-            "chapter": "Chapter 5",
-            "illustration": "Three wooden crosses silhouetted on a hilltop called Golgotha against a dramatically darkened sky. The middle cross where Jesus hangs is slightly larger. Dark storm clouds swirl overhead despite it being midday. A few faithful followers (including Mary and John) stand at the base weeping. The scene is solemn and heavy, but light breaks through the clouds above the cross - hope in the darkness. Handled sensitively with focus on love rather than graphic details.",
-            "narrative": "This is the hardest part of the story - but also the most loving. Jesus carried His heavy cross up the hill called Golgotha. There, He was crucified between two criminals. The sky turned BLACK at noon - creation itself mourned! But even on the cross, Jesus' love shone through. He forgave His killers: 'Father, forgive them, they don't know what they're doing.' He saved the criminal beside Him: 'Today you'll be with Me in paradise.' He cared for His mother: 'John, take care of her.' Then Jesus cried: 'IT IS FINISHED!' and gave up His spirit. WHY? Because He LOVES YOU. He took the punishment for YOUR sins so you never have to. The curtain in the temple tore from top to bottom - the way to God was now OPEN!",
-            "verse": "For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life. - John 3:16 (WEB)",
-            "reflection": "Jesus chose the cross because He loves YOU. He could have called angels to save Him, but He chose YOU instead. How does that make you feel?"
-        },
-        {
-            "title": "THE DARK DAY",
-            "chapter": "Chapter 6",
-            "illustration": "The empty cross standing on the hill at sunset, with the stone tomb in the foreground. A large round stone seals the tomb entrance. Roman soldiers in full armor stand guard looking bored and nervous. The sunset casts long shadows. Everything feels heavy and still. A few flowers grow near the tomb. Saturday - the waiting day between death and resurrection.",
-            "narrative": "Saturday. The worst day in history. Jesus' broken body lay wrapped in burial cloths inside a cold stone tomb. A massive stone sealed the entrance. Roman soldiers guarded it. The disciples hid behind locked doors, sobbing and terrified. Everything they'd hoped for seemed dead. Three years of miracles, teaching, and friendship - apparently ended by a cross and a tomb. They had forgotten His promise: 'I will rise again on the third day.' In those dark hours, they couldn't see what was coming. But God was working in the silence. Sometimes the darkest moments are right before the most glorious sunrise...",
-            "verse": "Unless a grain of wheat falls into the earth and dies, it remains by itself alone. But if it dies, it bears much fruit. - John 12:24 (WEB)",
-            "reflection": "Sometimes life has 'Saturday' moments - when everything seems hopeless. But SUNDAY IS COMING! Trust God in the waiting."
-        },
-        {
-            "title": "THE RESURRECTION!",
-            "chapter": "Chapter 7",
-            "illustration": "THE MOMENT OF VICTORY: The stone tomb with the massive round stone ROLLED AWAY! BRILLIANT golden-white light EXPLODES from inside the empty tomb like a sunrise concentrated into one space! An angel in blazing white sits on the rolled stone, face shining like lightning. The grave cloths lie folded neatly inside. Women with spice jars arrive and DROP them in shock and growing JOY. Roman guards lie flat on the ground unconscious. The very first Easter sunrise paints the sky in glorious pinks, golds, and oranges!",
-            "narrative": "SUNDAY MORNING! Before dawn, the earth SHOOK! An angel descended like lightning and ROLLED that massive stone away like it was nothing! The Roman guards collapsed in terror! When the women arrived at sunrise, the angel was SITTING on the stone (what confidence!) and said: 'WHY do you look for the LIVING among the DEAD? He is NOT HERE! HE IS RISEN! Just as He said!' They ran inside - EMPTY! Just folded cloths where His body had been! He wasn't stolen - He was ALIVE! Death, the ultimate enemy, had been DESTROYED! The grave couldn't hold Him! Sin was conquered! The penalty was paid! LIFE WON! This changes EVERYTHING!",
-            "verse": "He is not here, for he has risen, just like he said. Come, see the place where the Lord was lying. - Matthew 28:6 (WEB)",
-            "reflection": "JESUS IS ALIVE! This isn't a fairy tale - it's history! Over 500 people saw Him alive. His resurrection proves EVERYTHING He said is true!"
-        },
-
-        {
-            "title": "HE IS ALIVE!",
-            "chapter": "Chapter 8",
-            "illustration": "The risen Jesus appearing to His disciples in a room. Thomas reaches out to touch Jesus' wounded hands, his face transforming from doubt to absolute faith and worship. Other disciples crowd around with tears of joy. Jesus smiles warmly with arms open. His hands show nail marks but His face radiates resurrection life and victory. The room fills with golden light from His presence.",
-            "narrative": "Over the next forty days, Jesus appeared to His friends MANY times - proving beyond any doubt that He was truly alive! He appeared to Mary in the garden. He walked with two disciples on the road to Emmaus. He ate fish with His friends on the beach. He cooked them breakfast! He showed them His hands and side. Thomas, who doubted, touched His wounds and fell to his knees: 'My Lord and my God!' Jesus appeared to over 500 people at once! He was really, truly, physically ALIVE! He ate with them, talked with them, taught them. This was no ghost, no hallucination, no wish - this was the RISEN JESUS in the flesh!",
-            "verse": "Thomas answered him, 'My Lord and my God!' Jesus said to him, 'Because you have seen me, you have believed. Blessed are those who have not seen and have believed.' - John 20:28-29 (WEB)",
-            "reflection": "Thomas needed to see to believe. Jesus says those who believe WITHOUT seeing are blessed. That's YOU! Do you believe?"
-        },
-        {
-            "title": "THE PROMISE",
-            "chapter": "Chapter 9",
-            "illustration": "Jesus ascending into heaven from the Mount of Olives. His feet lift off the ground as He rises toward brilliant white clouds above. His hands are outstretched in blessing over His disciples below, who look up with faces showing both awe and longing. Two angels in white stand among the disciples. The sky opens in layers of golden light. Jesus' robes billow as He ascends. It is majestic and hopeful.",
-            "narrative": "After forty amazing days with His risen Lord, the disciples gathered on the Mount of Olives. Jesus gave them their mission: 'Go into ALL the world and tell EVERYONE the good news! I will be with you ALWAYS, to the very end of the age.' Then, as they watched in amazement, Jesus began to rise! Up through the air, higher and higher, until a cloud received Him from their sight! Two angels appeared: 'Why do you stand looking at the sky? This same Jesus will come back in the same way you've seen Him go!' Jesus is alive in heaven right NOW, preparing a place for everyone who believes. And one day - one glorious day - He's coming BACK!",
-            "verse": "I am with you always, even to the end of the age. - Matthew 28:20 (WEB)",
-            "reflection": "Jesus promised to come BACK! He also promised to be with you NOW through His Spirit. You're never alone. He's coming again!"
-        },
-        {
-            "title": "WHAT EASTER MEANS FOR ME",
-            "chapter": "Chapter 10",
-            "illustration": "A diverse group of happy children from many backgrounds standing together outdoors on a bright Easter morning. Some hold Bibles, some have hands raised in praise, some hug each other. Behind them, an empty cross and empty tomb are visible on a green hill. A rainbow arches overhead. Flowers bloom everywhere. The children radiate joy, hope, and confidence. The future is bright!",
-            "narrative": "So what does Easter mean for YOU? It means your sins can be completely forgiven - past, present, and future! It means death is NOT the end - you will live forever with Jesus! It means you have a friend who will NEVER leave you! It means God's power is available to help you every single day! It means you have purpose - to share this amazing news with others! It means no matter how dark life gets, SUNDAY ALWAYS COMES! If you believe that Jesus is God's Son, that He died for your sins, and that God raised Him from the dead - you are SAVED! Your story joins the greatest story ever told. Welcome to the family of God!",
-            "verse": "If you will confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved. - Romans 10:9 (WEB)",
-            "reflection": "Have YOU accepted Jesus? If so, you have ETERNAL LIFE! If not, today can be YOUR resurrection day! Talk to God right now!"
-        }
-    ]
+    {"title": "The Cross - The Greatest Love", "verse": "Father, forgive them, for they don't know what they are doing. - Luke 23:34 (WEB)",
+     "p1": "Jesus carried His heavy wooden cross through the streets of Jerusalem while crowds watched. His body was weak from the beatings. A man named Simon was forced to help carry the cross. At a hill called Golgotha, they nailed Jesus to the cross. Even in His worst pain, Jesus' first words were of forgiveness: 'Father, forgive them, for they don't know what they are doing.'",
+     "p2": "For six hours Jesus hung on the cross. Darkness covered the land for three hours. Jesus spoke seven times from the cross - forgiving, comforting, and trusting His Father. He was not dying as a helpless victim - He was CHOOSING to give His life as payment for the sins of the whole world. Finally He cried, 'It is finished!' and breathed His last. The temple curtain tore in two. A Roman soldier whispered, 'Truly this was the Son of God.'",
+     "words": ["CROSS", "FORGIVE", "LOVE", "FINISH", "DARK", "CURTAIN", "SON", "SAVE"]},
+    {"title": "The Dark Day - Saturday", "verse": "Weeping may last for the night, but joy comes in the morning. - Psalm 30:5 (WEB)",
+     "p1": "Saturday was the darkest, saddest day the disciples had ever known. Their beloved teacher and friend was dead. Joseph of Arimathea had placed Jesus' body in a new tomb carved from rock and rolled a massive stone across the entrance. Roman soldiers stood guard. To the disciples, hiding behind locked doors in fear, all hope seemed lost forever. They wept and wondered if everything Jesus promised was gone.",
+     "p2": "But they did not know what was happening in the spiritual realm! The Bible tells us Jesus descended and proclaimed victory over death itself. The enemy thought he had won by killing Jesus - but it was actually GOD'S plan all along! What looked like the darkest defeat was actually setting up the greatest victory in cosmic history. Sometimes our darkest Saturdays are just the space between the cross and the resurrection.",
+     "words": ["TOMB", "STONE", "DARK", "TEARS", "WAIT", "HOPE", "GUARD", "SEALED"]},
+    {"title": "THE RESURRECTION - He is Alive!", "verse": "He is not here, for he has risen! - Matthew 28:6 (WEB)",
+     "p1": "Very early on Sunday morning, while it was still dark, women went to the tomb carrying burial spices. The ground SHOOK with a violent earthquake! An angel descended from heaven like lightning and rolled away the massive stone as easily as a pebble! The trained Roman soldiers fainted in terror. When the women arrived, they saw the stone was moved and the tomb was OPEN!",
+     "p2": "Heart pounding, they peered inside. The burial cloths were there, neatly folded - but Jesus' body was GONE! An angel in dazzling white spoke: 'Do not be afraid! You are looking for Jesus who was crucified. HE IS NOT HERE - HE IS RISEN, just as He said!' Then Jesus Himself appeared to Mary Magdalene! She grabbed His feet - He was REAL! Alive! Solid! The same Jesus, now gloriously resurrected! Death had been DEFEATED forever!",
+     "words": ["RISEN", "ALIVE", "EMPTY", "ANGEL", "SUNDAY", "STONE", "GLORY", "HOPE"]},
+    {"title": "He is Alive! - Appearances", "verse": "He showed himself alive by many proofs over forty days. - Acts 1:3 (WEB)",
+     "p1": "Over the next forty days, Jesus appeared to hundreds of people, proving He was truly alive! He appeared to the women at the tomb. He walked with two disciples on the road to Emmaus. He appeared in the locked upper room where the disciples hid - passing through solid walls! He cooked breakfast on the beach for Peter and the others. He let Thomas touch His nail-scarred hands to prove it was really Him.",
+     "p2": "Jesus was not a ghost - He ate food, talked, walked, and could be touched. But His body was transformed - He could appear and disappear, pass through walls, and would never die again. Over 500 people saw Him alive at one time! He taught His disciples for forty days about God's kingdom and gave them their mission: 'Go into all the world and tell everyone the good news!' Then He ascended to heaven in a cloud with a promise to return one day.",
+     "words": ["APPEAR", "PROOF", "TOUCH", "THOMAS", "REAL", "BODY", "FORTY", "MISSION"]},
+    {"title": "The Promise - What Easter Means", "verse": "Because I live, you will live also. - John 14:19 (WEB)",
+     "p1": "Easter is not just about what happened 2000 years ago - it is about what it means for YOU today! Because Jesus rose from the dead, He proved that death is not the end. He conquered the grave! And He promises that everyone who believes in Him will also be raised to eternal life. 'Because I live, you will live also!' This is the greatest promise ever made - and it is backed by an empty tomb!",
+     "p2": "Easter means that no matter what you face - fear, sadness, sickness, or loss - there is ALWAYS hope. If God can raise Jesus from the dead, He can bring dead things back to life in YOUR world too. Dead dreams, dead hope, broken relationships - God specializes in resurrection! Every Sunday Christians celebrate Easter because it is the foundation of everything we believe. Jesus is alive, and because He lives, we can face tomorrow without fear.",
+     "words": ["PROMISE", "ETERNAL", "LIFE", "BELIEVE", "HOPE", "VICTORY", "FUTURE", "ALIVE"]},
+    {"title": "What Easter Means For Me", "verse": "If you confess that Jesus is Lord and believe God raised him, you will be saved. - Romans 10:9 (WEB)",
+     "p1": "The Easter story is an invitation. Jesus did not just die and rise for people long ago - He did it for YOU, personally! He knows your name, your fears, your dreams. He invites you to believe that He is alive and to follow Him. It does not require being perfect or having all the answers. It just takes an honest heart that says, 'Jesus, I believe in you. Help me live for you.'",
+     "p2": "When you accept Jesus' gift of love, everything changes. Your sins are forgiven - completely! You become a child of God with eternal life. The same power that raised Jesus from the dead lives inside YOU! You have a purpose, a future, and a hope that nothing can destroy. THAT is what Easter means - not chocolate bunnies or painted eggs, but the incredible reality that LOVE conquered death, and that love is offered to every person on earth!",
+     "words": ["BELIEVE", "FOLLOW", "FORGIVE", "NEW", "HEART", "LOVE", "SAVED", "YOURS"]}
+]
 
 
-    # RENDER CHAPTERS
-    gray_vals = [0.88, 0.92, 0.95, 0.90, 0.93, 0.88, 0.97, 0.91, 0.94, 0.89]
-    
+def generate_word_search(words):
+    grid=[[random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(10)] for _ in range(10)]
+    for word in words[:8]:
+        word=word.upper()
+        for _ in range(50):
+            d=random.choice([(0,1),(1,0),(1,1)]); r=random.randint(0,max(0,9-len(word)*d[0])); c=random.randint(0,max(0,9-len(word)*d[1]))
+            if r+len(word)*d[0]>10 or c+len(word)*d[1]>10: continue
+            for i,ch in enumerate(word): grid[r+i*d[0]][c+i*d[1]]=ch
+            break
+    return grid
+def wrap_text(text,mx=75):
+    wds=text.split(); lines=[]; cur=""
+    for w in wds:
+        if len(cur)+len(w)+1<=mx: cur+=(" " if cur else "")+w
+        else:
+            if cur: lines.append(cur)
+            cur=w
+    if cur: lines.append(cur)
+    return lines
+def build_pdf():
+    pdf=PDFDoc(); pc=0
+    pdf.new_page(); pc+=1
+    pdf.add_filled_rect(50,650,512,100,0.85)
+    pdf.add_centered_text(720,TITLE,'F2',28,0); pdf.add_centered_text(690,SUBTITLE,'F4',14,0.2)
+    pdf.add_centered_text(660,"Written and Illustrated by",'F4',12,0.3); pdf.add_centered_text(640,AUTHOR,'F2',16,0)
+    pdf.add_rect(100,200,412,380,2,0.3)
+    pdf.add_centered_text(420,"[ILLUSTRATION: Empty tomb with sunrise,",'F3',10,0.4)
+    pdf.add_centered_text(405,"rolled stone, angel, and glowing light of hope]",'F3',10,0.4)
+    pdf.add_centered_text(100,"The greatest love story ever told!",'F4',12,0.3)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(700,TITLE,'F2',16,0)
+    pdf.add_text(72,600,f"Written by {AUTHOR}",'F4',11,0.2)
+    pdf.add_text(72,580,"Copyright 2025. All Rights Reserved.",'F4',10,0.3)
+    pdf.add_text(72,550,"Scripture: World English Bible (WEB) - Public Domain.",'F4',10,0.3)
+    pdf.add_text(72,520,"For children ages 6-12. Published by Kingdom Kids Publishing",'F4',10,0.3)
+    pdf.add_text(72,440,"Dedication: For every child who needs to know how much God loves them!",'F4',10,0.2)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"TABLE OF CONTENTS",'F2',18,0); pdf.add_line(150,720,462,720,1,0.3); y=680
+    for i,ch in enumerate(chapters): pdf.add_text(72,y,f"Chapter {i+1}: {ch['title']}",'F4',12,0.1); y-=28
+    pdf.add_text(72,y-10,"Quiz / Vocabulary / Journal / Certificate / Bonus",'F4',10,0.3)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"HOW TO USE THIS BOOK",'F2',18,0); pdf.add_line(150,720,462,720,1,0.3)
+    intro=["Welcome to the most IMPORTANT story in all of history!","This is the story of Easter - how Jesus' love saved the world.","",
+        "Each chapter has SIX pages:","  1-2. The story beautifully told",
+        "  3. Full-page illustration","  4. Bible verse + reflection + prayer",
+        "  5. Activity (word search)","  6. Drawing page","",
+        "This story has hard parts and glorious parts.","It is okay to feel sad during the cross chapters -",
+        "because the RESURRECTION is coming! Just keep reading!","",
+        "Easter is real. Jesus is alive. And He loves YOU!"]
+    y=680
+    for l in intro: pdf.add_text(72,y,l,'F4',11,0.15); y-=22
+
+
+    # 10 chapters x 6 pages = 60 pages
     for idx, ch in enumerate(chapters):
-        bg = gray_vals[idx % len(gray_vals)]
-        
-        # Page 1: Chapter title + Illustration + Narrative
-        pdf.new_page()
-        pdf.add_filled_rect(0, 700, 612, 92, gray=bg)
-        pdf.add_filled_rect(40, 705, 532, 80, gray=0.97)
-        draw_border(pdf, 40, 705, 532, 80, gray=0.3)
-        pdf.add_centered_text(762, ch["chapter"], font='F4', size=11, gray=0.5)
-        pdf.add_centered_text(738, ch["title"], font='F2', size=20, gray=0.1)
-        
-        illus_box(pdf, 470, ch["illustration"], 190)
-        
-        pdf.add_filled_rect(50, 450, 512, 8, gray=0.3)
-        
-        # Narrative
-        pdf.add_filled_rect(50, 180, 512, 260, gray=0.97)
-        pdf.add_rect(50, 180, 512, 260, line_width=0.5, gray=0.5)
-        wrap(pdf, 65, 425, ch["narrative"], font='F5', size=11, mw=70)
-        
-        # Page 2: Verse + Reflection
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-        pdf.add_text(60, 760, ch["title"] + " - Reflection", font='F2', size=14, gray=0.2)
-        pdf.add_line(60, 750, 350, 750, width=0.5, gray=0.4)
-        
-        # Verse box
-        pdf.add_filled_rect(50, 640, 512, 90, gray=0.92)
-        draw_border(pdf, 50, 640, 512, 90, gray=0.4)
-        pdf.add_text(65, 715, "KEY VERSE:", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, 693, ch["verse"], font='F3', size=10, mw=72)
-        
-        # Reflection
-        pdf.add_filled_rect(50, 490, 512, 130, gray=bg)
-        pdf.add_rect(50, 490, 512, 130, line_width=1, gray=0.3)
-        pdf.add_text(65, 605, "REFLECTION:", font='F2', size=12, gray=0.1)
-        wrap(pdf, 65, 585, ch["reflection"], font='F5', size=11, mw=70)
-        
-        # My Response
-        pdf.add_text(60, 460, "MY RESPONSE:", font='F2', size=12, gray=0.1)
-        pdf.add_text(60, 440, "What does this chapter mean to me personally?", font='F4', size=11, gray=0.3)
-        for i in range(6):
-            pdf.add_line(60, 410-(i*28), 550, 410-(i*28), width=0.5, gray=0.6)
+        # P1: Story part 1
+        pdf.new_page(); pc+=1
+        pdf.add_filled_rect(50,700,512,60,0.88)
+        pdf.add_centered_text(735,f"Chapter {idx+1}",'F1',10,0.4)
+        pdf.add_centered_text(715,ch['title'].upper(),'F2',16,0)
+        pdf.add_line(72,690,540,690,0.5,0.4); y=665
+        for line in wrap_text(ch['p1'],78): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        y-=20
+        pdf.add_rect(72,y-200,468,200,1.5,0.3)
+        pdf.add_centered_text(y-80,f"[ILLUSTRATION: {ch['title']}",'F3',10,0.4)
+        pdf.add_centered_text(y-100,"dramatic Easter scene with emotion and light]",'F3',10,0.4)
+        # P2: Story part 2
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{ch['title']} (continued)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(ch['p2'],78): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        y-=20
+        pdf.add_filled_rect(72,y-35,468,40,0.9)
+        pdf.add_centered_text(y-8,"KEY VERSE:",'F2',10,0.2)
+        pdf.add_centered_text(y-25,ch['verse'],'F5',10,0)
+        y-=60
+        pdf.add_rect(72,y-220,468,210,1.5,0.3)
+        pdf.add_centered_text(y-90,f"[ILLUSTRATION: {ch['title']} continued -",'F3',10,0.4)
+        pdf.add_centered_text(y-110,"powerful emotional scene]",'F3',10,0.4)
+        # P3: Full illustration
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,ch['title'].upper(),'F2',18,0)
+        pdf.add_rect(50,80,512,640,2,0.3)
+        pdf.add_centered_text(420,f"[FULL-PAGE ILLUSTRATION: {ch['title']}",'F3',11,0.4)
+        pdf.add_centered_text(400,"detailed, emotional Easter artwork]",'F3',11,0.4)
+        # P4: Reflection + Prayer
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"REFLECTION & PRAYER",'F2',16,0); pdf.add_line(150,740,462,740,1,0.3)
+        pdf.add_filled_rect(72,690,468,35,0.9)
+        pdf.add_centered_text(712,ch['verse'],'F5',10,0)
+        qs=["1. What happened in this chapter that stands out to you?",
+            "2. How does this chapter show Jesus' love?",
+            "3. What does this mean for your life today?"]
+        y=660
+        for q in qs:
+            pdf.add_text(72,y,q,'F2',10,0.1); y-=18
+            for _ in range(3): pdf.add_line(90,y,530,y,0.5,0.6); y-=18
+            y-=10
+        pdf.add_filled_rect(72,y-100,468,110,0.92)
+        pdf.add_centered_text(y-5,"MY PRAYER",'F2',12,0.1)
+        pdf.add_text(80,y-22,"Dear Jesus, after reading this chapter I want to say...",'F4',10,0.2)
+        for i in range(4): pdf.add_line(80,y-42-i*18,520,y-42-i*18,0.5,0.6)
+        # P5: Word search
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"EASTER ACTIVITY",'F2',16,0)
+        pdf.add_text(72,720,f"Word Search - {ch['title']}",'F4',11,0.2)
+        grid=generate_word_search(ch['words']); y=680
+        for row in grid: pdf.add_centered_text(y,"   ".join(row),'F3',14,0.1); y-=24
+        y-=15; pdf.add_text(72,y,"Words: "+"  ".join(ch['words']),'F3',9,0.2)
+        y-=35; pdf.add_text(72,y,"In your own words, summarize this chapter:",'F2',10,0.1)
+        for _ in range(4): y-=22; pdf.add_line(72,y,540,y,0.5,0.6)
+        # P6: Drawing
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"DRAW THIS CHAPTER",'F2',16,0)
+        pdf.add_text(72,720,f"Draw your picture of: {ch['title']}",'F4',11,0.2)
+        pdf.add_rect(72,300,468,400,1.5,0.3)
+        pdf.add_text(72,275,"What is the most important thing about this chapter?",'F2',10,0.1)
+        y=250
+        for _ in range(4): pdf.add_line(72,y,540,y,0.5,0.6); y-=20
 
-    # FINAL PAGES - The Gospel Summary + Decision
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.95)
-    draw_border(pdf, 40, 40, 532, 712, gray=0.2)
-    pdf.add_filled_rect(60, 650, 492, 80, gray=0.88)
-    pdf.add_centered_text(710, "THE GOOD NEWS IN 4 STEPS", font='F2', size=20, gray=0.1)
-    pdf.add_centered_text(680, "The Easter Story Summarized", font='F4', size=12, gray=0.3)
-    
-    steps = [
-        "1. GOD LOVES YOU! He created you and wants a relationship with you.",
-        "2. SIN SEPARATES US. We all mess up and fall short of God's perfection.",
-        "3. JESUS DIED FOR YOU! He took your punishment on the cross.",
-        "4. BELIEVE & RECEIVE! Trust in Jesus and receive eternal life!"
-    ]
-    y = 610
-    for i, step in enumerate(steps):
-        pdf.add_filled_rect(60, y-5, 492, 35, gray=0.92 if i%2==0 else 0.97)
-        pdf.add_text(75, y+8, step, font='F2', size=11, gray=0.1)
-        y -= 50
-    
-    pdf.add_filled_rect(60, 350, 492, 60, gray=0.88)
-    draw_border(pdf, 60, 350, 492, 60, gray=0.3)
-    pdf.add_centered_text(390, "HE IS RISEN! HE IS RISEN INDEED!", font='F2', size=16, gray=0.1)
-    pdf.add_centered_text(365, "Happy Easter - Today and Every Day!", font='F5', size=13, gray=0.3)
-    
-    pdf.add_centered_text(280, "If you prayed to receive Jesus today, tell someone!", font='F4', size=12, gray=0.3)
-    pdf.add_centered_text(250, "Welcome to God's family!", font='F2', size=14, gray=0.2)
-    
-    pdf.add_text(60, 180, "Date of my decision:", font='F4', size=11, gray=0.3)
-    pdf.add_line(220, 180, 400, 180, width=0.5, gray=0.5)
-    pdf.add_text(60, 150, "My name:", font='F4', size=11, gray=0.3)
-    pdf.add_line(150, 150, 400, 150, width=0.5, gray=0.5)
 
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Book285_Easter_Story_Kids.pdf")
-    pdf.save(output_path)
-    print(f"Created: {output_path}")
+    # Quiz (2 pages)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"EASTER QUIZ - Part 1",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    qs=[("1. What did people wave on Palm Sunday?","a) Flags  b) Palm branches  c) Flowers"),
+        ("2. What did Jesus wash at the Last Supper?","a) Dishes  b) Hands  c) Feet"),
+        ("3. Where did Jesus pray before His arrest?","a) Temple  b) Gethsemane  c) Mountain"),
+        ("4. Who betrayed Jesus with a kiss?","a) Peter  b) Judas  c) Thomas"),
+        ("5. What did Jesus say on the cross about His enemies?","a) Punish them  b) Forgive them  c) Forget them")]
+    y=700
+    for q,o in qs: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"EASTER QUIZ - Part 2",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    qs2=[("6. How long was the land dark during crucifixion?","a) 1 hour  b) 3 hours  c) 6 hours"),
+         ("7. Who found the empty tomb first?","a) Peter  b) The women  c) John"),
+         ("8. How many days did Jesus appear after resurrection?","a) 3  b) 7  c) 40"),
+         ("9. How many people saw Jesus alive at once?","a) 12  b) 100  c) Over 500"),
+         ("10. What does Easter prove about death?","a) It is final  b) It is conquered  c) It is scary")]
+    y=700
+    for q,o in qs2: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.add_text(72,y-20,"Answers: 1b, 2c, 3b, 4b, 5b, 6b, 7b, 8c, 9c, 10b",'F3',9,0.4)
 
-if __name__ == "__main__":
-    create_book()
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"VOCABULARY",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    vocab=[("Resurrection","Coming back to life after dying"),("Crucifixion","Being put to death on a cross"),
+           ("Salvation","Being saved from sin and death"),("Atonement","Payment for sin through sacrifice"),
+           ("Redemption","Being bought back from slavery to sin"),("Gospel","The good news about Jesus"),
+           ("Grace","God's undeserved love and forgiveness"),("Covenant","A sacred promise between God and people"),
+           ("Hosanna","Save us! - a cry of praise"),("Eternal","Lasting forever, without end")]
+    y=710
+    for w,d in vocab: pdf.add_text(72,y,f"{w}:",'F2',11,0.1); pdf.add_text(210,y,d,'F4',10,0.2); y-=28
+
+    prompts=["What the cross means to me personally...","How the resurrection gives me hope...",
+             "A letter to Jesus about Easter...","How I will share the Easter story with others..."]
+    for j in range(4):
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"MY EASTER JOURNAL - Page {j+1}",'F2',16,0)
+        pdf.add_text(72,710,prompts[j],'F5',12,0.2); y=680
+        for _ in range(24): pdf.add_line(72,y,540,y,0.5,0.7); y-=25
+
+    pdf.new_page(); pc+=1
+    pdf.add_rect(50,50,512,692,3,0.2); pdf.add_rect(60,60,492,672,1.5,0.4)
+    pdf.add_centered_text(680,"CERTIFICATE OF COMPLETION",'F2',22,0)
+    pdf.add_centered_text(640,"This certifies that",'F4',14,0.2)
+    pdf.add_line(180,600,432,600,1,0.3)
+    pdf.add_centered_text(540,"has read the complete Easter story in",'F4',12,0.2)
+    pdf.add_centered_text(510,TITLE,'F2',16,0)
+    pdf.add_centered_text(470,"and knows that Jesus is ALIVE!",'F4',12,0.2)
+    pdf.add_centered_text(400,"Date: _______________",'F4',12,0.3)
+    pdf.add_centered_text(280,"\"He is risen! He is risen indeed!\" - Luke 24:6",'F5',14,0.1)
+
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS",'F2',18,0); y=690
+    for i,ch in enumerate(chapters[:5]):
+        pdf.add_rect(72,y-55,468,55,1,0.3); pdf.add_text(80,y-15,f"Card {i+1}: {ch['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,ch['verse'],'F4',9,0.2); y-=65
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS (cont.)",'F2',18,0); y=700
+    for i,ch in enumerate(chapters[5:]):
+        pdf.add_rect(72,y-55,468,55,1,0.3); pdf.add_text(80,y-15,f"Card {i+6}: {ch['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,ch['verse'],'F4',9,0.2); y-=65
+
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MY EASTER COMMITMENT",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    pdf.add_text(72,710,"Because Jesus died and rose again for me, I choose to:",'F4',11,0.2); y=680
+    commitments=["Believe that Jesus is alive and loves me","Follow Jesus every day of my life",
+                 "Tell others about the Easter story","Forgive people who hurt me, like Jesus forgave",
+                 "Live with hope because death is defeated","Trust God even in my darkest days"]
+    for c in commitments:
+        pdf.add_rect(72,y-3,15,15,0.5,0.3); pdf.add_text(95,y,c,'F4',10,0.15); y-=28
+    y-=20; pdf.add_text(72,y,"Name: ",'F2',11,0.1); pdf.add_line(130,y-2,400,y-2,0.5,0.6)
+    y-=30; pdf.add_text(72,y,"Date: ",'F2',11,0.1); pdf.add_line(130,y-2,300,y-2,0.5,0.6)
+    y-=40; pdf.add_text(72,y,"My prayer:",'F2',11,0.1); y-=22
+    for _ in range(5): pdf.add_line(72,y,540,y,0.5,0.6); y-=20
+
+    out=os.path.join(os.path.dirname(os.path.abspath(__file__)),FILENAME)
+    pdf.save(out); print(f"Generated {FILENAME} with {pc} pages"); return pc
+if __name__=="__main__": build_pdf()

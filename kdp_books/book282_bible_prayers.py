@@ -1,261 +1,270 @@
 #!/usr/bin/env python3
 """Book 282 - When Kids Pray: 10 Bible Stories About the Power of Prayer"""
-import os, sys
+import random, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pdf_utils import PDFDoc
+random.seed(282)
+TITLE = "WHEN KIDS PRAY"
+SUBTITLE = "10 Bible Stories About the Power of Prayer"
+AUTHOR = "Daniel Tesfamariam"
+FILENAME = "Book282_Kids_Prayer_Stories.pdf"
+stories = [
+    {"title": "Hannah's Tearful Prayer", "character": "Hannah",
+     "verse": "I prayed for this child, and the LORD granted my petition. - 1 Samuel 1:27 (WEB)",
+     "moral": "Pray with all your heart - God hears every tear and every whisper!",
+     "prayer_type": "Prayer of Desperation - Pouring out your deepest needs to God",
+     "p1": "Year after year, Hannah went to the temple with a heavy heart. She longed for a baby more than anything in the world, but God had not given her one. Another woman constantly mocked her about it, making her feel worthless. Hannah was so heartbroken she could barely eat. Each year at the temple festival, while everyone else celebrated, Hannah sat weeping with an empty ache in her soul.",
+     "p2": "One year, Hannah could not contain her pain any longer. She fell to her knees in the temple and poured out her entire soul to God in the most intense, passionate prayer of her life. Tears streamed down her face. Her lips moved but no sound came out - she was praying from a place deeper than words. She made a bold promise: if God gave her a son, she would dedicate him to God's service for his entire life.",
+     "p3": "The priest Eli saw her and initially thought she was drunk, but Hannah explained she was pouring out her anguish to God. Eli blessed her and said, 'May God grant your request.' Peace flooded Hannah's heart for the first time in years. God remembered Hannah and gave her a son - Samuel - who became one of the greatest prophets in Israel's history! Hannah's desperate, tearful prayer moved the heart of God and changed a nation forever.",
+     "words": ["HANNAH", "PRAYER", "TEARS", "SAMUEL", "TEMPLE", "HEART", "ANSWER", "FAITH"]},
+    {"title": "Solomon Asks for Wisdom", "character": "Solomon",
+     "verse": "Give your servant an understanding heart to judge your people. - 1 Kings 3:9 (WEB)",
+     "moral": "Ask God for wisdom instead of stuff - it's the best gift ever!",
+     "prayer_type": "Prayer for Wisdom - Asking God for what you truly need, not just what you want",
+     "p1": "Young King Solomon had just become ruler of all Israel after his father David died. He was overwhelmed by the enormous responsibility. One night, God appeared to Solomon in a dream and made an incredible offer: 'Ask for whatever you want, and I will give it to you.' Imagine - ANYTHING in the universe! Solomon could have asked for riches, long life, victory over enemies, or ultimate power.",
+     "p2": "But Solomon did not ask for money, fame, or power. Instead, he humbly admitted that he felt like a small child who did not know how to lead such a great nation. He asked God for one thing: 'Give me an understanding heart to judge your people, that I may discern between good and evil.' He wanted WISDOM - the ability to make right decisions and lead justly. Of all the things in the universe, Solomon chose the one thing that would help everyone, not just himself.",
+     "p3": "God was so pleased with Solomon's unselfish request that He gave him not only incredible wisdom beyond any person who ever lived, but ALSO the riches and honor he did not ask for! Solomon became the wisest man in history - people traveled from distant lands just to hear him speak. God said, 'Because you asked for wisdom instead of selfish things, I will give you everything.' When we pray unselfishly for what truly matters, God often gives us far more than we asked for!",
+     "words": ["SOLOMON", "WISDOM", "DREAM", "KING", "HEART", "JUDGE", "ASK", "GIFT"]},
 
-def create_book():
-    pdf = PDFDoc(612, 792)
-    author = "Daniel Tesfamariam"
-    
-    def draw_border(pdf, x, y, w, h, gray=0.3):
-        pdf.add_rect(x, y, w, h, line_width=2, gray=gray)
-        pdf.add_rect(x+3, y+3, w-6, h-6, line_width=0.5, gray=gray)
+    {"title": "Elijah's Mountain Prayer", "character": "Elijah",
+     "verse": "The effective prayer of a righteous man has great power. - James 5:16 (WEB)",
+     "moral": "One sincere prayer is more powerful than hours of empty words!",
+     "prayer_type": "Prayer of Faith - Praying with bold confidence that God will act",
+     "p1": "After 450 prophets of Baal had exhausted themselves trying to call down fire, it was Elijah's turn. The entire nation watched from Mount Carmel. Elijah calmly rebuilt God's broken altar with twelve stones representing the twelve tribes of Israel. He arranged the wood and sacrifice carefully. Then he did something that made everyone gasp - he drenched everything with twelve huge jars of water!",
+     "p2": "Water ran down the altar, soaked the wood and sacrifice, and filled the trench around it completely. By human standards, there was ZERO chance of fire now. The 450 prophets had screamed and danced all day. But Elijah? He simply stepped forward, lifted his face to heaven, and prayed one short, simple prayer. No screaming. No dancing. No drama. Just faith-filled words from a righteous heart directly to the living God.",
+     "p3": "The moment Elijah said 'Amen,' fire EXPLODED from heaven! Not ordinary fire - supernatural flames that consumed the soaking wet sacrifice, the drenched wood, the stones of the altar, the dirt, and even evaporated every drop of water in the trench! The people fell on their faces crying 'The LORD is God!' One quiet prayer from one faithful man accomplished what 450 screamers could not. God does not measure prayers by volume or length, but by the faith behind them.",
+     "words": ["ELIJAH", "FIRE", "PRAYER", "ALTAR", "HEAVEN", "FAITH", "POWER", "SHORT"]},
+    {"title": "Hezekiah Prays for Healing", "character": "Hezekiah",
+     "verse": "I have heard your prayer. I have seen your tears. I will heal you. - 2 Kings 20:5 (WEB)",
+     "moral": "God sees your tears and hears your desperate prayers for help!",
+     "prayer_type": "Prayer for Healing - Bringing your pain and sickness to God",
+     "p1": "King Hezekiah was deathly ill. The prophet Isaiah delivered a devastating message from God: 'Set your affairs in order, because you are going to die. You will not recover from this illness.' Imagine hearing that! Hezekiah was a good king who loved God. He was heartbroken. He turned his face to the wall and wept bitterly, pouring out his heart to God in his darkest hour.",
+     "p2": "Lying in bed, too sick to even stand, Hezekiah prayed through his tears: 'Remember, LORD, how I have walked before you faithfully and with complete devotion. I have done what is good in your eyes.' His prayer was not demanding or entitled - it was the honest cry of a faithful servant who was not ready to leave the world yet. Tears soaked his pillow as he pleaded with God for more time.",
+     "p3": "God heard every word and saw every tear! Before Isaiah even left the palace courtyard, God told him to go back with an incredible new message: 'I have heard your prayer. I have SEEN your tears. I WILL heal you! I am adding fifteen years to your life!' Hezekiah's illness was completely reversed. God literally changed His stated plan because of one man's heartfelt prayer! Our tears are not wasted - God collects every one and responds to our desperate cries with compassion.",
+     "words": ["HEZEKIAH", "HEAL", "TEARS", "FIFTEEN", "PRAYER", "SICK", "HOPE", "LIVE"]},
+    {"title": "Daniel's Disciplined Prayer", "character": "Daniel",
+     "verse": "He knelt on his knees three times a day, and prayed. - Daniel 6:10 (WEB)",
+     "moral": "Make prayer a daily habit that NOTHING can stop!",
+     "prayer_type": "Prayer of Discipline - Making prayer a non-negotiable daily habit",
+     "p1": "Daniel had a prayer habit that never changed for decades. Three times every single day - morning, noon, and evening - he knelt before his open window facing Jerusalem and prayed. Rain or shine. Busy or free. Young or old. Whether he felt like it or not, Daniel kept his appointment with God. This discipline built such a deep relationship with God that Daniel received visions of the future itself.",
+     "p2": "When jealous officials convinced the king to ban all prayer for thirty days, Daniel faced a terrible choice: stop praying and stay safe, or keep praying and face the lions' den. For Daniel, there was no choice at all. He went to his window at the regular time and knelt down, just as he always did. He did not pray quietly in a closet or skip a day. He prayed openly because his relationship with God was worth more than his life.",
+     "p3": "Daniel was arrested and thrown to the lions, but God protected him all night. His faithful prayer habit did not just save him - it saved the nation! The king saw God's power and declared that everyone must respect Daniel's God. Daniel's disciplined prayer life produced: wisdom beyond compare, supernatural protection, divine revelations, influence over kings, and a legacy remembered forever. Daily prayer is not a burden - it is the source of supernatural power for your entire life!",
+     "words": ["DANIEL", "THREE", "DAILY", "KNEEL", "WINDOW", "HABIT", "LIONS", "POWER"]},
 
-    def illus_box(pdf, y, desc, height=100):
-        pdf.add_filled_rect(60, y, 492, height, gray=0.95)
-        pdf.add_rect(60, y, 492, height, line_width=1.5, gray=0.4)
-        pdf.add_text(70, y+height-18, "[ILLUSTRATION:", font='F2', size=10, gray=0.3)
-        words = desc.split()
-        line, ly = "", y+height-33
-        for w in words:
-            if len(line+" "+w)>75:
-                pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-                ly -= 13; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(70, ly, line.strip(), font='F3', size=9, gray=0.4)
-        pdf.add_text(70, ly-13, "]", font='F2', size=10, gray=0.3)
+    {"title": "Jonah's Underwater Prayer", "character": "Jonah",
+     "verse": "Out of the belly of Sheol I cried, and you heard my voice. - Jonah 2:2 (WEB)",
+     "moral": "It is never too late to pray - God hears you from ANY place!",
+     "prayer_type": "Prayer of Repentance - Saying sorry and turning back to God",
+     "p1": "Jonah had run from God, been thrown into the sea, and was now inside the belly of an enormous fish! Seaweed wrapped around his head. Darkness surrounded him completely. He was in the most impossible place any person had ever prayed from. The digestive sounds of the great fish echoed around him. He had hit absolute rock bottom - literally at the bottom of the ocean inside a fish.",
+     "p2": "In that dark, terrifying place, Jonah finally stopped running and started praying. His prayer from inside the fish is one of the most beautiful in the Bible. He admitted he had been running from God. He acknowledged that God had saved his life even when he didn't deserve it. He declared that he would keep his promises to God. From the depths of the sea, from inside a fish, Jonah's voice reached the throne of heaven.",
+     "p3": "God heard Jonah's prayer from that impossible place! He commanded the fish to swim toward shore and vomit Jonah out onto dry land. The man who had run from God was given a complete second chance. Jonah's story teaches us that no matter how far you have run from God, no matter how deep a mess you are in, it is NEVER too late to pray. There is no place so dark that your prayer cannot reach God's ears. He is always ready to hear a repentant heart.",
+     "words": ["JONAH", "FISH", "DEEP", "SORRY", "SECOND", "CHANCE", "HEAR", "PRAYER"]},
+    {"title": "Jesus in Gethsemane", "character": "Jesus",
+     "verse": "Not my will, but yours, be done. - Luke 22:42 (WEB)",
+     "moral": "The hardest but most powerful prayer is 'Your will be done, God'!",
+     "prayer_type": "Prayer of Surrender - Giving your will to God even when it's painful",
+     "p1": "The night before His crucifixion, Jesus went to a garden called Gethsemane to pray. He knew exactly what was coming - arrest, torture, and death on a cross. He brought His closest friends Peter, James, and John, asking them to pray with Him. Then Jesus walked a little further, fell to the ground, and began to pray with an intensity no human has ever matched.",
+     "p2": "Jesus' anguish was so great that His sweat fell like drops of blood. He cried out to His Father: 'If it is possible, let this cup pass from me!' He was asking if there was ANY other way to save the world without the cross. He prayed this three times, each time more intensely. His three friends kept falling asleep while Jesus wrestled in prayer alone. An angel from heaven came to strengthen Him.",
+     "p3": "Finally, Jesus prayed the most powerful words ever spoken: 'Nevertheless, not MY will, but YOUR will be done.' He surrendered completely to God's plan even though it meant suffering and death. This prayer of surrender is the model for all prayer - telling God what we want, but ultimately trusting His plan above our own wishes. Jesus' surrender in Gethsemane led to the salvation of the entire world. Sometimes saying 'Your will be done' takes more courage than any other prayer.",
+     "words": ["JESUS", "GARDEN", "NIGHT", "SWEAT", "WILL", "FATHER", "SURRENDER", "TRUST"]},
+    {"title": "Peter's Prison Prayer Chain", "character": "the church",
+     "verse": "Constant prayer was made by the church to God for him. - Acts 12:5 (WEB)",
+     "moral": "When we pray together, amazing things happen!",
+     "prayer_type": "Prayer of Unity - Praying together with others for a common need",
+     "p1": "Peter was locked in maximum security prison, chained between two soldiers with guards at every door. King Herod planned to execute him the next morning. The situation seemed completely hopeless - no human rescue was possible. But the church had a secret weapon more powerful than any army: PRAYER. Believers gathered in homes across the city and prayed non-stop through the night for Peter's life.",
+     "p2": "All night long, groups of Christians prayed together with desperate faith. Men, women, and children lifted their voices to God, crying out for Peter's deliverance. They did not know HOW God could save him from such an impossible situation, but they prayed anyway. The Bible says their prayer was 'constant' and 'earnest' - not casual or half-hearted. They meant every word and they prayed together as one body.",
+     "p3": "While they prayed, God answered in spectacular fashion! An angel appeared in Peter's cell, woke him up, broke his chains, and led him past every guard and through locked gates that opened by themselves! When Peter showed up at the prayer meeting, they were so shocked they could barely believe it. Sometimes our prayers are answered so powerfully that we can hardly believe it ourselves! United prayer moves the hand of God in ways that individual prayer cannot.",
+     "words": ["CHURCH", "TOGETHER", "PRAYER", "NIGHT", "UNITED", "ANGEL", "CHAINS", "FREE"]},
 
-    def wrap(pdf, x, y, text, font='F4', size=11, mw=70, gray=0):
-        words = text.split()
-        line, cy = "", y
-        for w in words:
-            if len(line+" "+w)>mw:
-                pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray)
-                cy -= 15; line = w
-            else: line = line+" "+w if line else w
-        if line: pdf.add_text(x, cy, line.strip(), font=font, size=size, gray=gray); cy -= 15
-        return cy
-
-
-    # TITLE PAGE
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    draw_border(pdf, 30, 30, 552, 732, gray=0.2)
-    pdf.add_filled_rect(50, 600, 512, 130, gray=0.88)
-    pdf.add_centered_text(700, "WHEN KIDS PRAY", font='F2', size=28, gray=0.1)
-    pdf.add_centered_text(665, "10 Bible Stories About", font='F5', size=16, gray=0.2)
-    pdf.add_centered_text(640, "the Power of Prayer", font='F5', size=16, gray=0.2)
-    illus_box(pdf, 380, "A child kneeling in prayer with eyes closed, hands folded, surrounded by a soft golden glow. Above the child, divine light rays spread outward. Around the scene, small vignettes show answered prayers: chains breaking, rain falling, a whale, a healed person, an angel. Warm, hopeful atmosphere.", 160)
-    pdf.add_centered_text(340, "For Kids Ages 5-15", font='F2', size=14, gray=0.3)
-    pdf.add_centered_text(310, "Learn to Pray Like Bible Heroes!", font='F4', size=12, gray=0.4)
-    pdf.add_centered_text(100, f"Written by {author}", font='F5', size=14, gray=0.2)
-
-    # COPYRIGHT
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-    pdf.add_text(72, 700, "WHEN KIDS PRAY", font='F2', size=16, gray=0.1)
-    pdf.add_line(72, 688, 300, 688, width=0.5, gray=0.5)
-    pdf.add_text(72, 665, f"Copyright 2025 {author}. All rights reserved.", font='F4', size=10, gray=0.3)
-    pdf.add_text(72, 645, "Scripture from World English Bible (WEB) - Public Domain", font='F4', size=10, gray=0.3)
-    pdf.add_filled_rect(60, 100, 492, 50, gray=0.92)
-    pdf.add_text(72, 130, "For every kid who wants to talk to God - He's always listening!", font='F5', size=11, gray=0.2)
-
-    prayers = [
-        {
-            "title": "HANNAH'S TEARS",
-            "result": "God Gave Her Samuel",
-            "type": "Persistent Prayer",
-            "illustration": "Hannah kneeling in the tabernacle with tears streaming down her face, hands raised toward heaven. Her lips move in silent, passionate prayer. Soft golden light from oil lamps illuminates her. The tabernacle curtains are deep blue and purple. Her expression shows deep anguish turning to hope. The priest Eli watches from his chair nearby.",
-            "story": "Year after year, Hannah prayed for a baby. Her rival Peninnah mocked her cruelly every single day. At the yearly feast, Hannah cried so hard she couldn't eat. She went to the tabernacle and poured her heart out to God so passionately that her lips moved but no sound came out. The priest Eli thought she was drunk! But Hannah was simply praying with everything in her soul. She promised God: 'If you give me a son, I'll dedicate him to You forever!'",
-            "how_prayed": "With tears, with all her heart, silently but passionately. She didn't give up after one try - she prayed for YEARS. She made a bold promise to God.",
-            "when_i_pray": "When I really, really want something and have to wait a long time. When others mock me for my faith. When I feel desperate.",
-            "verse": "For this child I prayed; and the LORD has given me my petition. - 1 Samuel 1:27 (WEB)",
-            "activity": "Write a prayer about something you've been waiting for. Don't give up! God hears persistent prayers!"
-        },
-        {
-            "title": "SOLOMON'S WISH",
-            "result": "Wisdom Instead of Riches",
-            "type": "Right Priorities",
-            "illustration": "Young King Solomon kneeling before a glowing altar at night in Gibeon. God's presence appears as brilliant golden light above. Solomon's face shows humility despite his royal robes and crown. Around the edges, faded images show what he could have asked for: gold coins, armies, a long life - but he chose wisdom, shown as an open book glowing with light.",
-            "story": "God appeared to young King Solomon in a dream and said something incredible: 'Ask for ANYTHING you want, and I'll give it to you!' Imagine that! Solomon could have asked for riches, power, revenge on his enemies, a long life. But instead he said: 'I'm just a young man who doesn't know how to lead. Give me a wise and understanding heart to judge Your people.' God was SO pleased that He gave Solomon wisdom AND all the things he didn't ask for - wealth, honor, and fame!",
-            "how_prayed": "Humbly! Solomon admitted he was young and needed help. He asked for what would help OTHERS (wisdom to lead) instead of what would benefit only himself.",
-            "when_i_pray": "When I need to make a decision. When I could be selfish but choose to ask for what helps others. When I need God's wisdom for a problem.",
-            "verse": "Give your servant an understanding heart to judge your people. - 1 Kings 3:9 (WEB)",
-            "activity": "If God said 'Ask for ANYTHING,' what would you ask? Write it down. Is it selfish or does it help others too?"
-        },
-
-        {
-            "title": "ELIJAH'S RAIN",
-            "result": "After 3 Years of Drought",
-            "type": "Faith Prayer",
-            "illustration": "Elijah crouched on top of Mount Carmel with his face between his knees in intense prayer. His servant stands nearby looking toward the sea for clouds. In the distance, a tiny cloud the size of a man's hand appears over the blue Mediterranean Sea. The land below is brown and dry. But dark rain clouds begin forming rapidly in the sky.",
-            "story": "For three and a half years, no rain fell on Israel. The land was cracked and dead. Animals died. People starved. It was God's judgment on their idol worship. After Elijah's victory over the prophets of Baal, he climbed Carmel and prayed for rain. He put his face between his knees and prayed intensely. He sent his servant to look at the sky. 'Nothing.' He prayed again. 'Nothing.' Seven times he prayed! The seventh time: 'A cloud! Small as a man's hand!' Minutes later, the sky turned black with storm clouds. RAIN POURED DOWN!",
-            "how_prayed": "Intensely and repeatedly! Elijah didn't stop after one try or even six tries. He prayed SEVEN times with full faith until the answer came.",
-            "when_i_pray": "When I need to keep praying and not give up. When the answer doesn't come immediately. When I need to pray until I see even a small sign of change.",
-            "verse": "Elijah prayed earnestly that it might not rain, and it didn't rain for three years and six months. - James 5:17 (WEB)",
-            "activity": "Choose one thing to pray about 7 times today (morning, lunch, after school, dinner, bedtime, etc.). Watch for God's 'small cloud'!"
-        },
-        {
-            "title": "HEZEKIAH'S HEALING",
-            "result": "15 More Years of Life",
-            "type": "Desperate Prayer",
-            "illustration": "King Hezekiah lying sick in bed, face turned toward the stone wall, tears streaming as he prays desperately. His room is dimly lit by a single oil lamp. Through the window, a sundial is visible with its shadow moving BACKWARD ten steps - a miracle sign. God's light begins to enter the room as healing comes. The scene transitions from despair to hope.",
-            "story": "King Hezekiah was deathly ill. The prophet Isaiah delivered terrible news: 'Set your house in order - you're going to die.' But Hezekiah turned his face to the wall and WEPT before God: 'Remember, LORD, how I've walked before You faithfully with my whole heart!' His tears soaked the pillow. Before Isaiah even left the courtyard, God spoke: 'I've heard your prayer. I've seen your tears. I will heal you and add FIFTEEN YEARS to your life!' God even made the sundial's shadow go backward as a sign!",
-            "how_prayed": "Desperately! With tears! Hezekiah reminded God of his faithfulness and poured out his heart honestly. He didn't accept the bad news as final.",
-            "when_i_pray": "When I or someone I love is very sick. When bad news comes. When things seem hopeless and I need God to change the situation.",
-            "verse": "I have heard your prayer. I have seen your tears. Behold, I will heal you. - 2 Kings 20:5 (WEB)",
-            "activity": "Is someone you know sick? Write their name and pray desperately for them. God sees your tears and hears your prayers!"
-        },
-        {
-            "title": "DANIEL'S WINDOWS",
-            "result": "Praying Despite the Law",
-            "type": "Courageous Prayer",
-            "illustration": "Daniel kneeling at his open window facing Jerusalem, hands clasped, eyes closed in peace despite knowing soldiers watch from below. Through the window, the setting sun casts golden light on his praying form. In the street below, jealous officials point up at him and whisper to guards. Daniel is completely focused on God, choosing prayer over safety.",
-            "story": "A new law said anyone who prayed to God (instead of the king) would be thrown to the lions. Daniel heard about the law. Did he close his windows? Did he pray in secret? Did he take a 30-day break from prayer? NO! Daniel went home, opened his windows wide, knelt down, and prayed to God three times that day - exactly like he always did! His enemies watched, grinning. They'd trapped him. But Daniel chose prayer over his own life!",
-            "how_prayed": "Openly, bravely, consistently! Daniel didn't let fear change his prayer habits. He prayed the same way he always did - faithfully, three times daily.",
-            "when_i_pray": "When it's hard or unpopular to pray. When people might laugh at me. When I'm tempted to hide my faith. When prayer feels risky.",
-            "verse": "He kneeled on his knees three times a day, and prayed and gave thanks before his God, as he did before. - Daniel 6:10 (WEB)",
-            "activity": "Pray openly today where someone can see you - at lunch, before a test, with a friend. Don't be ashamed of talking to God!"
-        },
-        {
-            "title": "JONAH'S WHALE PRAYER",
-            "result": "Praying from Inside a Fish!",
-            "type": "Praying Anywhere",
-            "illustration": "Jonah inside the whale's belly, kneeling in the dark curved space with seaweed wrapped around him. Despite the terrible surroundings, his face is turned upward in desperate prayer. A faint shaft of light filters in. The ribbed interior of the whale surrounds him. His hands reach toward heaven. The scene is dark but hopeful - God hears even here!",
-            "story": "Could there be a WORSE place to pray than inside a giant fish? Surrounded by seaweed, in complete darkness, with stomach acid all around? But Jonah proved that you can pray ANYWHERE! From the belly of the whale, Jonah cried out to God. He admitted he was wrong to run. He praised God even in that disgusting situation. And God heard him! God commanded the fish to vomit Jonah onto dry land. Prayer works everywhere - even inside a fish!",
-            "how_prayed": "From the worst place imaginable! Jonah prayed a prayer of repentance (admitting he was wrong) and praise (thanking God even before deliverance). He proved no place is too far from God!",
-            "when_i_pray": "When I'm in a terrible situation of my own making. When I need to admit I was wrong. When I feel like God couldn't possibly hear me where I am.",
-            "verse": "I called because of my affliction to the LORD. He answered me. Out of the belly of Sheol I cried. - Jonah 2:2 (WEB)",
-            "activity": "Pray in an unusual place today - in your closet, under a tree, in your car. Remember: God hears you EVERYWHERE!"
-        },
-
-        {
-            "title": "JESUS IN THE GARDEN",
-            "result": "Not My Will But Yours",
-            "type": "Surrender Prayer",
-            "illustration": "Jesus kneeling alone in the Garden of Gethsemane at night under ancient twisted olive trees. His face shows agony as He prays. Sweat drops fall like blood. Moonlight filters through the leaves creating dappled silver light. In the distant background, the disciples sleep. An angel appears faintly to strengthen Him. The weight of the world is on His shoulders.",
-            "story": "The night before the cross, Jesus faced the hardest prayer of His life. He KNEW what was coming - betrayal, torture, death. He was so distressed that He sweated drops of blood! Three times He prayed: 'Father, if it's possible, let this cup pass from Me.' He was honest about His pain! But each time He added the most powerful words in prayer history: 'Nevertheless, not My will, but YOURS be done.' Jesus showed us that the highest prayer isn't getting what WE want - it's wanting what GOD wants.",
-            "how_prayed": "Honestly (He told God His feelings), repeatedly (three times!), and with surrender (Thy will be done). Jesus prayed the hardest prayer - letting go of His own desires.",
-            "when_i_pray": "When I want something but I'm not sure it's God's will. When I need to let go of my plans and trust God's bigger plan. When prayer is hard and painful.",
-            "verse": "Not my will, but yours, be done. - Luke 22:42 (WEB)",
-            "activity": "Write a prayer surrendering something to God: 'God, I want _____ but more than that, I want YOUR will. Help me trust You.'"
-        },
-        {
-            "title": "PETER'S CHAINS",
-            "result": "Church Prays, Angel Appears",
-            "type": "Community Prayer",
-            "illustration": "Split scene: Top - Peter chained in a dark prison cell between sleeping guards, looking hopeless. Bottom - a room full of believers (men, women, children) on their knees praying fervently together by lamplight, faces earnest and unified. A golden prayer connection rises from the praying group toward Peter's cell. Supernatural energy connecting prayer to answer.",
-            "story": "Peter was locked in maximum-security prison, chained between soldiers, guarded by sixteen men. Execution was scheduled for morning. What could anyone do? The church did the ONLY thing that could help - they prayed ALL NIGHT LONG! Together, desperately, without stopping. And in the middle of the night, an angel broke into the prison, snapped Peter's chains, opened locked doors, and walked him right past every guard! Community prayer moved heaven!",
-            "how_prayed": "Together as a community! All night! Without stopping! Desperately! They combined their faith and stormed heaven as one united voice. And God answered BEYOND what they expected!",
-            "when_i_pray": "When a problem is too big for one person's prayer. When I need to join with others. When someone I know is in serious trouble and needs a prayer army!",
-            "verse": "Peter was kept in the prison, but the church prayed earnestly to God for him. - Acts 12:5 (WEB)",
-            "activity": "Gather 3+ friends or family members and pray TOGETHER for something specific. Community prayer is POWERFUL!"
-        },
-        {
-            "title": "PAUL & SILAS SINGING",
-            "result": "Earthquake in Prison",
-            "type": "Praise-Prayer",
-            "illustration": "Paul and Silas in stocks in a dark inner prison cell, feet locked in wooden blocks, backs bloody from beating - yet their mouths are OPEN IN SONG! Their faces show joy despite pain. Musical notes seem to float upward. Other prisoners lean toward them, listening in amazement. The stone walls begin to crack as the earthquake starts. Chains begin to loosen.",
-            "story": "Beaten, bleeding, and locked in stocks in the darkest inner cell - what would YOU do? Paul and Silas did something incredible: at MIDNIGHT, they started SINGING praise to God! Not quiet humming - LOUD praise so all the prisoners could hear! They turned their prison into a worship service! And God responded: EARTHQUAKE! The foundations shook! Every door flew open! Every chain fell off! But instead of escaping, they led the jailer to faith in Jesus!",
-            "how_prayed": "Through PRAISE! Through SINGING! Even in pain, even in chains, they praised God BEFORE the answer came. Their worship shook the foundations!",
-            "when_i_pray": "When things are terrible and I don't feel like praising. When I need to worship BEFORE I see the answer. When praise seems impossible but I do it anyway!",
-            "verse": "About midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them. - Acts 16:25 (WEB)",
-            "activity": "Next time you're sad or in a tough situation, SING a praise song to God! Write your own short praise song here."
-        },
-        {
-            "title": "THE LORD'S PRAYER",
-            "result": "Jesus Teaches How to Pray",
-            "type": "Prayer Model",
-            "illustration": "Jesus sitting on a hillside with His disciples gathered around Him attentively. He gestures as He teaches them to pray. Behind Him, the words of the Lord's Prayer float in elegant script against a golden sky. The disciples lean forward eagerly, some with eyes closed practicing. Green hillside, blue Sea of Galilee in the distance. Peaceful, instructional atmosphere.",
-            "story": "The disciples watched Jesus pray and saw RESULTS - healings, miracles, peace! They asked: 'Lord, TEACH US to pray!' So Jesus gave them the perfect prayer model. It starts with worship ('Our Father in heaven, hallowed be Your name'), then God's plans ('Your kingdom come, Your will be done'), then our needs ('Give us daily bread'), then relationships ('Forgive us as we forgive'), then protection ('Lead us not into temptation, deliver us from evil'). It's the perfect prayer blueprint!",
-            "how_prayed": "Jesus taught a PATTERN: Start with worship, then pray for God's will, then your needs, then forgiveness, then protection. It covers everything!",
-            "when_i_pray": "Every day! This is a model for ALL prayer. Use it as a guide when you don't know what to say. It covers every area of life!",
-            "verse": "Our Father who is in heaven, hallowed be your name. Your Kingdom come. Your will be done on earth as it is in heaven. - Matthew 6:9-10 (WEB)",
-            "activity": "Write your own prayer using the Lord's Prayer pattern: Worship + God's will + My needs + Forgiveness + Protection."
-        }
-    ]
+    {"title": "Paul and Silas Sing in Prison", "character": "Paul and Silas",
+     "verse": "About midnight Paul and Silas were praying and singing. - Acts 16:25 (WEB)",
+     "moral": "Praise God even in your darkest moments - miracles follow worship!",
+     "prayer_type": "Prayer of Praise - Worshiping God even when life is terrible",
+     "p1": "Paul and Silas had been arrested for preaching the gospel, stripped, severely beaten with rods, and thrown into the deepest, darkest inner cell of the prison. Their backs were bloody and raw. Their feet were locked in painful wooden stocks. It was midnight, pitch black, and they were in agony. By any human standard, this was the worst possible situation to worship.",
+     "p2": "But at midnight - the DARKEST hour - Paul and Silas did something shocking. Instead of crying, complaining, or giving up, they began PRAYING and SINGING hymns to God! Their praise echoed through the dark prison halls. Other prisoners stopped and listened in amazement. Who could possibly sing in such pain and darkness? Their worship was not because life was good - it was because GOD is good, regardless of circumstances.",
+     "p3": "Suddenly a massive earthquake shook the foundations of the prison! Every door flew open! Every chain fell off every prisoner! The jailer was about to kill himself in despair when Paul called out that everyone was still there. The amazed jailer asked, 'What must I do to be saved?' That night the jailer and his entire family believed in Jesus and were baptized! Paul and Silas' midnight worship in chains led to an earthquake of salvation. When you praise God in your darkest hour, the ground shakes!",
+     "words": ["SING", "PRISON", "MIDNIGHT", "PRAISE", "QUAKE", "CHAINS", "WORSHIP", "JOY"]},
+    {"title": "The Lord's Prayer - Jesus Teaches Us", "character": "Jesus",
+     "verse": "When you pray, say: Our Father, who is in heaven. - Luke 11:2 (WEB)",
+     "moral": "Jesus gave us the perfect pattern for how to pray every day!",
+     "prayer_type": "The Model Prayer - Jesus' template showing us how to pray about everything",
+     "p1": "One day Jesus' disciples watched Him pray and were amazed at His intimate connection with God. When He finished, they asked, 'Lord, teach US to pray!' Jesus did not give them a complicated formula or long ritual. Instead He taught them a simple, beautiful prayer that covers everything a person could ever need. It became the most famous prayer in all of history - The Lord's Prayer.",
+     "p2": "Jesus taught them to begin with 'Our Father in heaven, hallowed be Your name.' Start by recognizing WHO you are talking to - your loving Father whose name is holy. Then 'Your kingdom come, Your will be done on earth as it is in heaven' - put God's plans first! Then 'Give us today our daily bread' - ask for your needs. 'Forgive us as we forgive others' - keep relationships clean. 'Lead us not into temptation, deliver us from evil' - ask for protection.",
+     "p3": "This simple prayer contains EVERYTHING: worship (hallowed be Your name), submission (Your will be done), provision (daily bread), forgiveness (forgive us), and protection (deliver us from evil). Jesus showed that prayer does not need fancy words or long speeches. It needs a genuine heart talking to a loving Father. Whether you pray for five minutes or five hours, following Jesus' pattern ensures you cover every area of your spiritual life. This is how the Master Himself taught us to pray!",
+     "words": ["FATHER", "HEAVEN", "DAILY", "BREAD", "FORGIVE", "KINGDOM", "LORD", "TEACH"]}
+]
 
 
-    # RENDER PRAYER STORIES
-    gray_vals = [0.88, 0.92, 0.95, 0.90, 0.93, 0.88, 0.97, 0.91, 0.94, 0.89]
-    
-    for idx, p in enumerate(prayers):
-        bg = gray_vals[idx % len(gray_vals)]
-        
-        # Page 1: Title + Illustration + Story
-        pdf.new_page()
-        pdf.add_filled_rect(0, 720, 612, 72, gray=bg)
-        pdf.add_filled_rect(45, 725, 522, 60, gray=0.97)
-        draw_border(pdf, 45, 725, 522, 60, gray=0.3)
-        pdf.add_centered_text(762, f"Prayer Story {idx+1}: {p['type']}", font='F4', size=10, gray=0.5)
-        pdf.add_centered_text(742, p["title"], font='F2', size=18, gray=0.1)
-        pdf.add_centered_text(727, f"Result: {p['result']}", font='F5', size=10, gray=0.3)
-        
-        illus_box(pdf, 550, p["illustration"], 140)
-        
-        pdf.add_filled_rect(50, 350, 512, 180, gray=0.97)
-        pdf.add_rect(50, 350, 512, 180, line_width=0.5, gray=0.5)
-        pdf.add_text(60, 515, "THE STORY:", font='F2', size=11, gray=0.2)
-        wrap(pdf, 60, 495, p["story"], font='F4', size=11, mw=72)
-        
-        # Page 2: How they prayed + When I Can Pray + Verse + Activity + Write Your Prayer
-        pdf.new_page()
-        pdf.add_filled_rect(0, 0, 612, 792, gray=0.97)
-        pdf.add_text(60, 760, p["title"] + " - Learning to Pray", font='F2', size=13, gray=0.2)
-        pdf.add_line(60, 752, 400, 752, width=0.5, gray=0.4)
-        
-        # How They Prayed
-        pdf.add_filled_rect(50, 650, 512, 80, gray=bg)
-        draw_border(pdf, 50, 650, 512, 80, gray=0.4)
-        pdf.add_text(65, 715, "HOW THEY PRAYED:", font='F2', size=11, gray=0.1)
-        wrap(pdf, 65, 695, p["how_prayed"], font='F5', size=11, mw=70)
-        
-        # I Can Pray Like This When
-        pdf.add_filled_rect(50, 560, 512, 70, gray=0.92)
-        pdf.add_text(65, 615, "I CAN PRAY LIKE THIS WHEN...", font='F2', size=11, gray=0.1)
-        wrap(pdf, 65, 595, p["when_i_pray"], font='F4', size=10, mw=72)
-        
-        # Verse
-        pdf.add_filled_rect(50, 480, 512, 60, gray=0.95)
-        pdf.add_text(65, 525, "PRAYER VERSE:", font='F2', size=10, gray=0.2)
-        wrap(pdf, 65, 505, p["verse"], font='F3', size=9, mw=75)
-        
-        # Activity
-        pdf.add_filled_rect(50, 390, 512, 70, gray=0.88)
-        pdf.add_rect(50, 390, 512, 70, line_width=1, gray=0.4)
-        pdf.add_text(65, 445, "PRAYER ACTIVITY:", font='F2', size=11, gray=0.1)
-        wrap(pdf, 65, 425, p["activity"], font='F4', size=10, mw=70)
-        
-        # Write Your Own Prayer
-        pdf.add_text(60, 360, "WRITE YOUR OWN PRAYER:", font='F2', size=12, gray=0.1)
-        for i in range(5):
-            pdf.add_line(60, 335-(i*25), 550, 335-(i*25), width=0.5, gray=0.6)
+def generate_word_search(words):
+    grid=[[random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(10)] for _ in range(10)]
+    for word in words[:8]:
+        word=word.upper()
+        for _ in range(50):
+            d=random.choice([(0,1),(1,0),(1,1)]); r=random.randint(0,max(0,9-len(word)*d[0])); c=random.randint(0,max(0,9-len(word)*d[1]))
+            if r+len(word)*d[0]>10 or c+len(word)*d[1]>10: continue
+            for i,ch in enumerate(word): grid[r+i*d[0]][c+i*d[1]]=ch
+            break
+    return grid
+def wrap_text(text,mx=75):
+    wds=text.split(); lines=[]; cur=""
+    for w in wds:
+        if len(cur)+len(w)+1<=mx: cur+=(" " if cur else "")+w
+        else:
+            if cur: lines.append(cur)
+            cur=w
+    if cur: lines.append(cur)
+    return lines
+def build_pdf():
+    pdf=PDFDoc(); pc=0
+    pdf.new_page(); pc+=1
+    pdf.add_filled_rect(50,650,512,100,0.85)
+    pdf.add_centered_text(720,TITLE,'F2',28,0); pdf.add_centered_text(690,SUBTITLE,'F4',14,0.2)
+    pdf.add_centered_text(660,"Written and Illustrated by",'F4',12,0.3)
+    pdf.add_centered_text(640,AUTHOR,'F2',16,0)
+    pdf.add_rect(100,200,412,380,2,0.3)
+    pdf.add_centered_text(420,"[ILLUSTRATION: Children and Bible heroes praying",'F3',10,0.4)
+    pdf.add_centered_text(405,"with golden light representing answered prayers]",'F3',10,0.4)
+    pdf.add_centered_text(100,"Discover the incredible power of talking to God!",'F4',12,0.3)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(700,TITLE,'F2',16,0)
+    pdf.add_text(72,600,f"Written by {AUTHOR}",'F4',11,0.2)
+    pdf.add_text(72,580,"Copyright 2025. All Rights Reserved.",'F4',10,0.3)
+    pdf.add_text(72,550,"Scripture: World English Bible (WEB) - Public Domain.",'F4',10,0.3)
+    pdf.add_text(72,520,"For children ages 6-12. Published by Kingdom Kids Publishing",'F4',10,0.3)
+    pdf.add_text(72,440,"Dedication: For every child learning to talk to God - He ALWAYS listens!",'F4',10,0.2)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"TABLE OF CONTENTS",'F2',18,0); pdf.add_line(150,720,462,720,1,0.3); y=680
+    for i,s in enumerate(stories): pdf.add_text(72,y,f"Prayer {i+1}: {s['title']}",'F4',12,0.1); y-=28
+    pdf.add_text(72,y-10,"Quiz / Vocabulary / Prayer Journal / Certificate / Bonus",'F4',10,0.3)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(730,"HOW TO USE THIS BOOK",'F2',18,0); pdf.add_line(150,720,462,720,1,0.3)
+    intro=["Welcome, prayer warrior! Did you know that prayer is","the most POWERFUL thing a person can do?","",
+        "Each story teaches a DIFFERENT TYPE of prayer:","Desperate prayer, Wisdom prayer, Faith prayer,",
+        "Healing prayer, Disciplined prayer, Repentance prayer,","Surrender prayer, United prayer, Praise prayer, and Model prayer!","",
+        "Each story has SIX pages including:","  - The story + Write Your Own Prayer section","  - Word search + Drawing page","",
+        "By the end you will know 10 different ways to pray!","",
+        "Ready to become a prayer warrior? Let's begin!"]
+    y=680
+    for l in intro: pdf.add_text(72,y,l,'F4',11,0.15); y-=22
+    for idx, story in enumerate(stories):
+        pdf.new_page(); pc+=1
+        pdf.add_filled_rect(50,700,512,60,0.88)
+        pdf.add_centered_text(735,f"Prayer Story {idx+1}",'F1',10,0.4)
+        pdf.add_centered_text(715,story['title'].upper(),'F2',18,0)
+        pdf.add_rect(100,400,412,270,1.5,0.3)
+        pdf.add_centered_text(560,f"[ILLUSTRATION: {story['character']} praying",'F3',9,0.4)
+        pdf.add_centered_text(545,"with divine light surrounding them]",'F3',9,0.4)
+        for i,line in enumerate(wrap_text(story['p1'],80)): pdf.add_text(72,370-i*18,line,'F4',11,0.1)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (continued)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(story['p2'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        pdf.add_rect(100,y-260,412,240,1.5,0.3)
+        pdf.add_centered_text(y-120,f"[ILLUSTRATION: {story['character']} deep in prayer]",'F3',9,0.4)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"{story['title']} (God answers!)",'F2',14,0.1)
+        pdf.add_line(72,740,540,740,0.5,0.4); y=710
+        for line in wrap_text(story['p3'],80): pdf.add_text(72,y,line,'F4',11,0.1); y-=20
+        y-=12
+        pdf.add_filled_rect(72,y-30,468,40,0.9)
+        pdf.add_centered_text(y-5,"KEY BIBLE VERSE:",'F2',10,0.2)
+        pdf.add_centered_text(y-22,story['verse'],'F4',10,0)
+        y-=50
+        pdf.add_rect(72,y-45,468,50,2,0.2)
+        pdf.add_text(80,y-10,"PRAYER TYPE:",'F2',10,0.1)
+        pdf.add_text(80,y-30,story['prayer_type'],'F4',10,0.2)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"REFLECTION & MY PRAYER",'F2',16,0)
+        pdf.add_line(150,740,462,740,1,0.3)
+        qs=["1. What did this person pray for?","2. How did God answer their prayer?",
+            "3. What do I want to pray for today?"]
+        y=700
+        for q in qs:
+            pdf.add_text(72,y,q,'F2',11,0.1); y-=20
+            for _ in range(3): pdf.add_line(90,y,530,y,0.5,0.6); y-=20
+            y-=8
+        pdf.add_filled_rect(72,y-130,468,140,0.92)
+        pdf.add_centered_text(y-5,"WRITE YOUR OWN PRAYER",'F2',14,0.1)
+        pdf.add_text(80,y-22,f"Using the style of {story['prayer_type'].split(' - ')[0]}:",'F4',10,0.2)
+        for i in range(6): pdf.add_line(80,y-45-i*18,520,y-45-i*18,0.5,0.6)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"WORD SEARCH PUZZLE",'F2',16,0)
+        pdf.add_text(72,720,f"Find words from: {story['title']}",'F4',11,0.2)
+        grid=generate_word_search(story['words']); y=680
+        for row in grid: pdf.add_centered_text(y,"   ".join(row),'F3',14,0.1); y-=24
+        y-=20; pdf.add_text(72,y,"Words:",'F2',11,0.1); y-=20
+        pdf.add_text(72,y,"  ".join(story['words']),'F3',10,0.2)
+        y-=40; pdf.add_text(72,y,"Write a one-sentence prayer using these words:",'F4',10,0.3)
+        for _ in range(2): y-=22; pdf.add_line(72,y,540,y,0.5,0.6)
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,"DRAW & PRAY",'F2',16,0)
+        pdf.add_text(72,720,f"Draw {story['character']} praying:",'F4',11,0.2)
+        pdf.add_rect(72,300,468,400,1.5,0.3)
+        pdf.add_centered_text(280,"Something I want to pray about today:",'F2',11,0.1)
+        y=250
+        for _ in range(4): pdf.add_line(72,y,540,y,0.5,0.6); y-=22
 
-    # FINAL PAGE - My Prayer Journal
-    pdf.new_page()
-    pdf.add_filled_rect(0, 0, 612, 792, gray=0.95)
-    pdf.add_filled_rect(40, 710, 532, 60, gray=0.88)
-    draw_border(pdf, 40, 710, 532, 60, gray=0.3)
-    pdf.add_centered_text(745, "MY PRAYER COMMITMENT", font='F2', size=18, gray=0.1)
-    pdf.add_centered_text(718, "I commit to talking to God every day!", font='F4', size=12, gray=0.3)
-    
-    pdf.add_text(60, 680, "My daily prayer time will be:", font='F5', size=12, gray=0.2)
-    pdf.add_line(60, 660, 300, 660, width=0.5, gray=0.6)
-    pdf.add_text(60, 640, "My prayer place will be:", font='F5', size=12, gray=0.2)
-    pdf.add_line(60, 620, 300, 620, width=0.5, gray=0.6)
-    pdf.add_text(60, 590, "3 people I will pray for every day:", font='F5', size=12, gray=0.2)
-    for i in range(3):
-        pdf.add_text(60, 565-(i*25), f"{i+1}.", font='F4', size=11, gray=0.3)
-        pdf.add_line(80, 565-(i*25), 400, 565-(i*25), width=0.5, gray=0.6)
-    
-    pdf.add_filled_rect(50, 380, 512, 60, gray=0.92)
-    pdf.add_centered_text(420, "Remember: God ALWAYS hears you!", font='F2', size=14, gray=0.2)
-    pdf.add_centered_text(395, "He loves when you talk to Him!", font='F5', size=12, gray=0.3)
 
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Book282_Kids_Prayer_Stories.pdf")
-    pdf.save(output_path)
-    print(f"Created: {output_path}")
-
-if __name__ == "__main__":
-    create_book()
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 1",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    qs=[("1. What did Hannah pray for?","a) Money  b) A son  c) Health"),
+        ("2. What did Solomon ask God for?","a) Gold  b) Power  c) Wisdom"),
+        ("3. How many jars of water did Elijah pour?","a) 4  b) 8  c) 12"),
+        ("4. How many years did God add to Hezekiah?","a) 5  b) 15  c) 25"),
+        ("5. How many times a day did Daniel pray?","a) 1  b) 3  c) 7")]
+    y=700
+    for q,o in qs: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"QUIZ TIME! - Part 2",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    qs2=[("6. Where did Jonah pray from?","a) Temple  b) Inside fish  c) Mountain"),
+         ("7. Where did Jesus pray before the cross?","a) Temple  b) Gethsemane  c) Mount Sinai"),
+         ("8. What happened when the church prayed for Peter?","a) Nothing  b) Angel freed him  c) Earthquake"),
+         ("9. What did Paul and Silas do at midnight?","a) Slept  b) Cried  c) Sang"),
+         ("10. The Lord's Prayer starts with...","a) Dear God  b) Our Father  c) Help me")]
+    y=700
+    for q,o in qs2: pdf.add_text(72,y,q,'F2',11,0.1); y-=22; pdf.add_text(100,y,o,'F4',10,0.2); y-=35
+    pdf.add_text(72,y-20,"Answers: 1b, 2c, 3c, 4b, 5b, 6b, 7b, 8b, 9c, 10b",'F3',9,0.4)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"VOCABULARY & WORD LIST",'F2',18,0); pdf.add_line(150,740,462,740,1,0.3)
+    vocab=[("Petition","A formal request made to God in prayer"),("Intercession","Praying on behalf of someone else"),
+           ("Supplication","Humbly asking God for what you need"),("Repentance","Turning from sin back to God"),
+           ("Surrender","Giving control to God completely"),("Worship","Expressing love and honor to God"),
+           ("Discipline","Regular practice of spiritual habits"),("Thanksgiving","Expressing gratitude to God"),
+           ("Confession","Admitting wrongs to God honestly"),("Amen","So be it - agreement with prayer")]
+    y=710
+    for w,d in vocab: pdf.add_text(72,y,f"{w}:",'F2',11,0.1); pdf.add_text(200,y,d,'F4',10,0.2); y-=28
+    prompts=["My prayer for my family today...","Something I need to say sorry to God about...",
+             "What I am thankful for right now...","My biggest prayer request this week..."]
+    for j in range(4):
+        pdf.new_page(); pc+=1
+        pdf.add_centered_text(750,f"MY PRAYER JOURNAL - Page {j+1}",'F2',16,0)
+        pdf.add_text(72,710,prompts[j],'F5',12,0.2); y=680
+        for _ in range(24): pdf.add_line(72,y,540,y,0.5,0.7); y-=25
+    pdf.new_page(); pc+=1
+    pdf.add_rect(50,50,512,692,3,0.2); pdf.add_rect(60,60,492,672,1.5,0.4)
+    pdf.add_centered_text(680,"CERTIFICATE OF COMPLETION",'F2',22,0)
+    pdf.add_centered_text(640,"This certifies that",'F4',14,0.2)
+    pdf.add_line(180,600,432,600,1,0.3)
+    pdf.add_centered_text(540,"has completed all 10 prayer stories in",'F4',12,0.2)
+    pdf.add_centered_text(510,TITLE,'F2',16,0)
+    pdf.add_centered_text(400,"Date: _______________",'F4',12,0.3)
+    pdf.add_centered_text(280,"\"Pray without ceasing\" - 1 Thessalonians 5:17",'F5',14,0.1)
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS",'F2',18,0); y=690
+    for i,s in enumerate(stories[:5]):
+        pdf.add_rect(72,y-55,468,55,1,0.3); pdf.add_text(80,y-15,f"Card {i+1}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MEMORY VERSE CARDS (cont.)",'F2',18,0); y=700
+    for i,s in enumerate(stories[5:]):
+        pdf.add_rect(72,y-55,468,55,1,0.3); pdf.add_text(80,y-15,f"Card {i+6}: {s['title']}",'F2',9,0.1)
+        pdf.add_text(80,y-35,s['verse'],'F4',9,0.2); y-=65
+    pdf.new_page(); pc+=1
+    pdf.add_centered_text(750,"MY 10-DAY PRAYER CHALLENGE",'F2',18,0)
+    pdf.add_text(72,710,"Try a different prayer type each day for 10 days!",'F4',11,0.2); y=680
+    for i,s in enumerate(stories):
+        pdf.add_text(72,y,f"Day {i+1}: {s['prayer_type'].split(' - ')[0]}",'F2',9,0.1)
+        pdf.add_rect(520,y-3,15,15,0.5,0.3); y-=28
+    out=os.path.join(os.path.dirname(os.path.abspath(__file__)),FILENAME)
+    pdf.save(out); print(f"Generated {FILENAME} with {pc} pages"); return pc
+if __name__=="__main__": build_pdf()
