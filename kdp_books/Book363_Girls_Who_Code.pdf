@@ -1,0 +1,4646 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R 70 0 R 72 0 R 74 0 R 76 0 R 78 0 R 80 0 R 82 0 R 84 0 R 86 0 R 88 0 R 90 0 R 92 0 R 94 0 R 96 0 R 98 0 R 100 0 R 102 0 R 104 0 R 106 0 R 108 0 R 110 0 R 112 0 R 114 0 R 116 0 R 118 0 R 120 0 R 122 0 R 124 0 R 126 0 R 128 0 R 130 0 R 132 0 R 134 0 R 136 0 R 138 0 R 140 0 R 142 0 R 144 0 R 146 0 R 148 0 R 150 0 R 152 0 R 154 0 R 156 0 R 158 0 R 160 0 R 162 0 R 164 0 R 166 0 R 168 0 R 170 0 R 172 0 R 174 0 R 176 0 R 178 0 R 180 0 R 182 0 R 184 0 R 186 0 R 188 0 R 190 0 R 192 0 R 194 0 R 196 0 R 198 0 R 200 0 R 202 0 R 204 0 R 206 0 R 208 0 R 210 0 R 212 0 R 214 0 R 216 0 R 218 0 R 220 0 R 222 0 R 224 0 R 226 0 R 228 0 R 230 0 R 232 0 R 234 0 R 236 0 R 238 0 R 240 0 R 242 0 R 244 0 R 246 0 R 248 0 R 250 0 R 252 0 R 254 0 R 256 0 R 258 0 R 260 0 R 262 0 R 264 0 R 266 0 R 268 0 R 270 0 R 272 0 R 274 0 R 276 0 R 278 0 R 280 0 R 282 0 R 284 0 R 286 0 R 288 0 R 290 0 R 292 0 R 294 0 R 296 0 R 298 0 R 300 0 R 302 0 R 304 0 R 306 0 R 308 0 R 310 0 R] /Count 152 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 344 >>
+stream
+q 0.95 g 0 0 612 792 re f Q
+BT 0.1 g /F2 30 Tf 205.2 640 Td (GIRLS WHO CODE) Tj ET
+q 0.3 G 2 w 150 620 m 462 620 l S Q
+BT 0.3 g /F4 15 Tf 169.20000000000002 585 Td (A Beginner's Guide to Computer Science) Tj ET
+BT 0.3 g /F4 15 Tf 237.60000000000002 560 Td (for Girls Ages 9-14) Tj ET
+BT 0.2 g /F2 14 Tf 245.52 100 Td (Daniel Tesfamariam) Tj ET
+
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 11 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 260 >>
+stream
+BT 0.2 g /F2 14 Tf 258.96 700 Td (GIRLS WHO CODE) Tj ET
+BT 0.3 g /F1 11 Tf 72 650 Td (Author: Daniel Tesfamariam) Tj ET
+BT 0.4 g /F1 10 Tf 72 630 Td (Format: 8.5 x 11 inches | Kindle & Paperback) Tj ET
+BT 0.4 g /F1 10 Tf 72 600 Td (All rights reserved.) Tj ET
+
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 13 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+13 0 obj
+<< /Length 1117 >>
+stream
+BT 0.1 g /F2 18 Tf 232.56 720 Td (TABLE OF CONTENTS) Tj ET
+q 0.3 G 1 w 72 705 m 540 705 l S Q
+BT 0.2 g /F1 10 Tf 72 680 Td (Ch 1: Why Coding Matters for Girls) Tj ET
+BT 0.2 g /F1 10 Tf 72 660 Td (Ch 2: What Programmers Actually Do) Tj ET
+BT 0.2 g /F1 10 Tf 72 640 Td (Ch 3: Thinking Like a Coder \(Computational Thinking\)) Tj ET
+BT 0.2 g /F1 10 Tf 72 620 Td (Ch 4: Algorithms in Everyday Life) Tj ET
+BT 0.2 g /F1 10 Tf 72 600 Td (Ch 5: Loops and Patterns) Tj ET
+BT 0.2 g /F1 10 Tf 72 580 Td (Ch 6: If/Then Decisions) Tj ET
+BT 0.2 g /F1 10 Tf 72 560 Td (Ch 7: Variables and Data) Tj ET
+BT 0.2 g /F1 10 Tf 72 540 Td (Ch 8: Debugging \(Finding and Fixing\)) Tj ET
+BT 0.2 g /F1 10 Tf 72 520 Td (Ch 9: Simple Game Design) Tj ET
+BT 0.2 g /F1 10 Tf 72 500 Td (Ch 10: Web Basics \(HTML/CSS Intro\)) Tj ET
+BT 0.2 g /F1 10 Tf 72 480 Td (Ch 11: App Thinking) Tj ET
+BT 0.2 g /F1 10 Tf 72 460 Td (Ch 12: AI Basics) Tj ET
+BT 0.2 g /F1 10 Tf 72 440 Td (Ch 13: Women in Tech \(Role Models\)) Tj ET
+BT 0.2 g /F1 10 Tf 72 420 Td (Ch 14: Coding Careers) Tj ET
+BT 0.2 g /F1 10 Tf 72 400 Td (Ch 15: Your Coding Journey Starts Now) Tj ET
+
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 15 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+15 0 obj
+<< /Length 1168 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 284.4 740 Td (Chapter 1) Tj ET
+BT 0.1 g /F2 14 Tf 211.92000000000002 720 Td (WHY CODING MATTERS FOR GIRLS) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Grace Hopper invented the first compiler and coined the term) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td ('debugging.' She proved that women belong at the forefront of computer science.) Tj ET
+BT 0.25 g /F4 10 Tf 72 634 Td (Today only 26% of computing jobs are held by women. You can change that.) Tj ET
+BT 0.2 g /F2 11 Tf 72 605 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (Coding is not just about computers. It teaches logical thinking, creative) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (problem-solving, persistence through debugging, and the power to build anything) Tj ET
+BT 0.2 g /F1 10 Tf 72 562 Td (you can imagine. Girls who code become women who change the world.) Tj ET
+BT 0.2 g /F2 11 Tf 72 533 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (Think of 3 apps you use daily. Someone CODED those. You could build the next) Tj ET
+BT 0.3 g /F4 10 Tf 82 504 Td (one!) Tj ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 17 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+17 0 obj
+<< /Length 1020 >>
+stream
+BT 0.2 g /F2 14 Tf 158.16 740 Td (Why Coding Matters for Girls - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach why) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (coding matters for girls? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see why coding matters for girls in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 19 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+19 0 obj
+<< /Length 834 >>
+stream
+BT 0.2 g /F2 14 Tf 174.96 740 Td (Why Coding Matters for Girls - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 21 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+21 0 obj
+<< /Length 800 >>
+stream
+BT 0.2 g /F2 14 Tf 144.72 740 Td (Why Coding Matters for Girls - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 23 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+23 0 obj
+<< /Length 1076 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 284.4 740 Td (Chapter 2) Tj ET
+BT 0.1 g /F2 14 Tf 211.92000000000002 720 Td (WHAT PROGRAMMERS ACTUALLY DO) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Susan Wojcicki was the 16th Google employee and later ran YouTube.) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (She saw problems and built solutions that billions of people use every day.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (Programmers are problem-solvers who speak the language of computers. They build) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (apps, design games, create websites, analyze data, make robots move, and even) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (help doctors save lives. Programming is in EVERY industry.) Tj ET
+BT 0.2 g /F2 11 Tf 72 547 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 532 Td (List 10 things in your daily life that require code to work. You will be) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (surprised how many there are!) Tj ET
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 25 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+25 0 obj
+<< /Length 1020 >>
+stream
+BT 0.2 g /F2 14 Tf 158.16 740 Td (What Programmers Actually Do - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach what) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (programmers actually do? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see what programmers actually do in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 27 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+27 0 obj
+<< /Length 834 >>
+stream
+BT 0.2 g /F2 14 Tf 174.96 740 Td (What Programmers Actually Do - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 29 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+29 0 obj
+<< /Length 800 >>
+stream
+BT 0.2 g /F2 14 Tf 144.72 740 Td (What Programmers Actually Do - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 31 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+31 0 obj
+<< /Length 1098 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 284.4 740 Td (Chapter 3) Tj ET
+BT 0.1 g /F2 14 Tf 151.44 720 Td (THINKING LIKE A CODER \(COMPUTATIONAL THINKING\)) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Reshma Saujani founded Girls Who Code to close the gender gap in) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (technology. She teaches millions of girls to think computationally.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (Computational thinking has 4 parts: decomposition \(breaking big problems into) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (small ones\), pattern recognition \(finding similarities\), abstraction \(removing) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (unnecessary details\), and algorithm design \(creating step-by-step solutions\).) Tj ET
+BT 0.2 g /F2 11 Tf 72 547 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 532 Td (Practice decomposition: break 'clean your room' into the smallest possible) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (steps. Write at least 15.) Tj ET
+
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 33 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+33 0 obj
+<< /Length 1116 >>
+stream
+BT 0.2 g /F2 14 Tf 97.68 740 Td (Thinking Like a Coder \(Computational Thinking\) - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (thinking like a coder \(computational thinking\)? Break it into the smallest) Tj ET
+BT 0.3 g /F4 10 Tf 72 652 Td (possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 628 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 613 m 540 613 l S Q
+q 0.7 G 0.5 w 72 591 m 540 591 l S Q
+q 0.7 G 0.5 w 72 569 m 540 569 l S Q
+q 0.7 G 0.5 w 72 547 m 540 547 l S Q
+q 0.7 G 0.5 w 72 525 m 540 525 l S Q
+q 0.7 G 0.5 w 72 503 m 540 503 l S Q
+q 0.7 G 0.5 w 72 481 m 540 481 l S Q
+BT 0.2 g /F2 10 Tf 72 449 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 434 Td (Where do you see thinking like a coder \(computational thinking\) in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 419 m 540 419 l S Q
+q 0.7 G 0.5 w 72 397 m 540 397 l S Q
+q 0.7 G 0.5 w 72 375 m 540 375 l S Q
+q 0.7 G 0.5 w 72 353 m 540 353 l S Q
+
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 35 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+35 0 obj
+<< /Length 866 >>
+stream
+BT 0.2 g /F2 14 Tf 114.48000000000002 740 Td (Thinking Like a Coder \(Computational Thinking\) - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 37 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+37 0 obj
+<< /Length 831 >>
+stream
+BT 0.2 g /F2 14 Tf 84.24000000000001 740 Td (Thinking Like a Coder \(Computational Thinking\) - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 39 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+39 0 obj
+<< /Length 1081 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 284.4 740 Td (Chapter 4) Tj ET
+BT 0.1 g /F2 14 Tf 215.28 720 Td (ALGORITHMS IN EVERYDAY LIFE) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Fei-Fei Li is a leading AI researcher who created ImageNet, teaching) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (computers to recognize images. Her algorithms power visual AI worldwide.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (An algorithm is a set of step-by-step instructions to solve a problem. Your) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (morning routine is an algorithm. A recipe is an algorithm. Getting dressed) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (involves an algorithm \(you would not put socks over shoes!\).) Tj ET
+BT 0.2 g /F2 11 Tf 72 547 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 532 Td (Write an algorithm for making a peanut butter sandwich with EVERY step. Now) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (follow it literally \(computers cannot guess!\).) Tj ET
+
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 41 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+41 0 obj
+<< /Length 1017 >>
+stream
+BT 0.2 g /F2 14 Tf 161.52 740 Td (Algorithms in Everyday Life - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (algorithms in everyday life? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see algorithms in everyday life in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 43 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+43 0 obj
+<< /Length 833 >>
+stream
+BT 0.2 g /F2 14 Tf 178.32 740 Td (Algorithms in Everyday Life - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 45 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+45 0 obj
+<< /Length 799 >>
+stream
+BT 0.2 g /F2 14 Tf 148.08 740 Td (Algorithms in Everyday Life - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 47 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+47 0 obj
+<< /Length 1062 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 284.4 740 Td (Chapter 5) Tj ET
+BT 0.1 g /F2 14 Tf 245.52 720 Td (LOOPS AND PATTERNS) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Megan Smith was the US Chief Technology Officer and VP at Google.) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (She used pattern recognition to solve problems at massive scale.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (Loops let computers repeat actions without rewriting code. Instead of writing) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td ('draw star' 100 times, you write 'repeat 100 times: draw star.' Loops are) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (everywhere: playlists on repeat, daily alarms, even seasons cycling.) Tj ET
+BT 0.2 g /F2 11 Tf 72 547 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 532 Td (Find 5 examples of loops in your real life. For each, write how many times it) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (repeats and what the repeated action is.) Tj ET
+
+endstream
+endobj
+48 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 49 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+49 0 obj
+<< /Length 990 >>
+stream
+BT 0.2 g /F2 14 Tf 191.76 740 Td (Loops and Patterns - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (loops and patterns? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see loops and patterns in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+50 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 51 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+51 0 obj
+<< /Length 824 >>
+stream
+BT 0.2 g /F2 14 Tf 208.56 740 Td (Loops and Patterns - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 53 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+53 0 obj
+<< /Length 790 >>
+stream
+BT 0.2 g /F2 14 Tf 178.32 740 Td (Loops and Patterns - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+54 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 55 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+55 0 obj
+<< /Length 1056 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 284.4 740 Td (Chapter 6) Tj ET
+BT 0.1 g /F2 14 Tf 248.88 720 Td (IF/THEN DECISIONS) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Kimberly Bryant founded Black Girls CODE to increase diversity in) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (tech by teaching coding to African-American girls ages 7-17.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (Computers make decisions using IF/THEN logic: IF button pressed THEN play sound.) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (IF password correct THEN open account. IF temperature below 32 THEN display) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (frost warning. Every app is built on thousands of these decisions.) Tj ET
+BT 0.2 g /F2 11 Tf 72 547 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 532 Td (Write 10 IF/THEN rules for your daily life. Example: IF alarm rings THEN get) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (out of bed. IF hungry THEN eat snack.) Tj ET
+
+endstream
+endobj
+56 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 57 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+57 0 obj
+<< /Length 987 >>
+stream
+BT 0.2 g /F2 14 Tf 195.12 740 Td (If/Then Decisions - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (if/then decisions? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see if/then decisions in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+58 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 59 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+59 0 obj
+<< /Length 835 >>
+stream
+BT 0.2 g /F2 14 Tf 211.92000000000002 740 Td (If/Then Decisions - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+60 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 61 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+61 0 obj
+<< /Length 789 >>
+stream
+BT 0.2 g /F2 14 Tf 181.68 740 Td (If/Then Decisions - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+62 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 63 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+63 0 obj
+<< /Length 1071 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 284.4 740 Td (Chapter 7) Tj ET
+BT 0.1 g /F2 14 Tf 245.52 720 Td (VARIABLES AND DATA) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Radia Perlman invented the spanning tree protocol that makes the) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (internet work. She is sometimes called the Mother of the Internet.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (Variables are containers that hold information. Think of them as labeled boxes:) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (playerName holds your name, score holds your points, livesLeft holds how many) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (tries remain. Programs manipulate variables to create dynamic experiences.) Tj ET
+BT 0.2 g /F2 11 Tf 72 547 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 532 Td (Create variables for a game about yourself: myName, myAge, favoriteColor,) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (highScore, level. Assign values to each.) Tj ET
+
+endstream
+endobj
+64 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 65 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+65 0 obj
+<< /Length 990 >>
+stream
+BT 0.2 g /F2 14 Tf 191.76 740 Td (Variables and Data - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (variables and data? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see variables and data in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+66 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 67 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+67 0 obj
+<< /Length 824 >>
+stream
+BT 0.2 g /F2 14 Tf 208.56 740 Td (Variables and Data - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+68 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 69 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+69 0 obj
+<< /Length 790 >>
+stream
+BT 0.2 g /F2 14 Tf 178.32 740 Td (Variables and Data - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+70 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 71 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+71 0 obj
+<< /Length 1086 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 284.4 740 Td (Chapter 8) Tj ET
+BT 0.1 g /F2 14 Tf 205.2 720 Td (DEBUGGING \(FINDING AND FIXING\)) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Margaret Hamilton led the software team for NASA's Apollo missions.) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (Her code \(and debugging skills\) helped land humans on the moon.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (Bugs are errors in code. Debugging is detective work: finding where the code) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (does something unexpected and fixing it. Every programmer spends more time) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (debugging than writing new code. It is not failure - it is the job!) Tj ET
+BT 0.2 g /F2 11 Tf 72 547 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 532 Td (Find the bug: in the sequence 'put on socks, put on shoes, put on pants, walk) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (outside' - what is wrong? How would you debug it?) Tj ET
+
+endstream
+endobj
+72 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 73 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+73 0 obj
+<< /Length 1032 >>
+stream
+BT 0.2 g /F2 14 Tf 151.44 740 Td (Debugging \(Finding and Fixing\) - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (debugging \(finding and fixing\)? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see debugging \(finding and fixing\) in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+74 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 75 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+75 0 obj
+<< /Length 838 >>
+stream
+BT 0.2 g /F2 14 Tf 168.24 740 Td (Debugging \(Finding and Fixing\) - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+76 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 77 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+77 0 obj
+<< /Length 803 >>
+stream
+BT 0.2 g /F2 14 Tf 138.0 740 Td (Debugging \(Finding and Fixing\) - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+78 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 79 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+79 0 obj
+<< /Length 1101 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 284.4 740 Td (Chapter 9) Tj ET
+BT 0.1 g /F2 14 Tf 245.52 720 Td (SIMPLE GAME DESIGN) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Kim Swift designed Portal, one of the most celebrated video games) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (ever. She started as a student and her thesis project became a hit game.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (Games are built on: game loop \(check input, update state, draw screen, repeat\),) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (win/lose conditions, player feedback \(sounds, visuals\), increasing difficulty,) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (and reward systems. Every game from Tetris to Fortnite uses these elements.) Tj ET
+BT 0.2 g /F2 11 Tf 72 547 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 532 Td (Design a simple game on paper: What are the rules? How do you win? How does) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (difficulty increase? What feedback does the player get?) Tj ET
+
+endstream
+endobj
+80 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 81 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+81 0 obj
+<< /Length 990 >>
+stream
+BT 0.2 g /F2 14 Tf 191.76 740 Td (Simple Game Design - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (simple game design? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see simple game design in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+82 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 83 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+83 0 obj
+<< /Length 824 >>
+stream
+BT 0.2 g /F2 14 Tf 208.56 740 Td (Simple Game Design - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+84 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 85 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+85 0 obj
+<< /Length 790 >>
+stream
+BT 0.2 g /F2 14 Tf 178.32 740 Td (Simple Game Design - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+86 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 87 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+87 0 obj
+<< /Length 1133 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 282.0 740 Td (Chapter 10) Tj ET
+BT 0.1 g /F2 14 Tf 215.28 720 Td (WEB BASICS \(HTML/CSS INTRO\)) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Limor Fried founded Adafruit Industries, making open-source hardware) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (and teaching millions to build electronics and code.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (Websites are built with HTML \(the structure/content\) and CSS \(the) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (style/appearance\). HTML uses tags like <h1> for headings and <p> for paragraphs.) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (CSS changes colors, fonts, sizes, and layouts. Together they create everything) Tj ET
+BT 0.2 g /F1 10 Tf 72 562 Td (you see online.) Tj ET
+BT 0.2 g /F2 11 Tf 72 533 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (Draw a webpage design on paper. Label which parts are HTML structure and which) Tj ET
+BT 0.3 g /F4 10 Tf 82 504 Td (are CSS styling \(colors, fonts, positions\).) Tj ET
+
+endstream
+endobj
+88 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 89 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+89 0 obj
+<< /Length 1023 >>
+stream
+BT 0.2 g /F2 14 Tf 161.52 740 Td (Web Basics \(HTML/CSS Intro\) - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach web) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (basics \(html/css intro\)? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see web basics \(html/css intro\) in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+90 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 91 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+91 0 obj
+<< /Length 835 >>
+stream
+BT 0.2 g /F2 14 Tf 178.32 740 Td (Web Basics \(HTML/CSS Intro\) - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+92 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 93 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+93 0 obj
+<< /Length 801 >>
+stream
+BT 0.2 g /F2 14 Tf 148.08 740 Td (Web Basics \(HTML/CSS Intro\) - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+94 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 95 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+95 0 obj
+<< /Length 1069 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 282.0 740 Td (Chapter 11) Tj ET
+BT 0.1 g /F2 14 Tf 265.68 720 Td (APP THINKING) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Whitney Wolfe Herd created Bumble, an app that empowered women to) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (make the first move. She identified a problem and coded a solution.) Tj ET
+BT 0.2 g /F2 11 Tf 72 619 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 604 Td (App development starts with a problem: What frustration do people have? Then:) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (How can technology solve it? Great apps are simple, solve one problem well, and) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (are delightful to use. You can design an app before knowing how to code it!) Tj ET
+BT 0.2 g /F2 11 Tf 72 547 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 532 Td (Identify a problem in your daily life. Design an app to solve it: name it,) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (sketch 5 screens, explain how it works.) Tj ET
+
+endstream
+endobj
+96 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 97 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+97 0 obj
+<< /Length 984 >>
+stream
+BT 0.2 g /F2 14 Tf 211.92000000000002 740 Td (App Thinking - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach app) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (thinking? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see app thinking in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+98 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 99 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+99 0 obj
+<< /Length 818 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (App Thinking - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+100 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 101 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+101 0 obj
+<< /Length 796 >>
+stream
+BT 0.2 g /F2 14 Tf 198.48000000000002 740 Td (App Thinking - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+102 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 103 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+103 0 obj
+<< /Length 1209 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 282.0 740 Td (Chapter 12) Tj ET
+BT 0.1 g /F2 14 Tf 275.76 720 Td (AI BASICS) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Role Model: Timnit Gebru is a leading AI ethics researcher who works to ensure) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (artificial intelligence is fair and does not discriminate against women and) Tj ET
+BT 0.25 g /F4 10 Tf 72 634 Td (minorities.) Tj ET
+BT 0.2 g /F2 11 Tf 72 605 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (Artificial Intelligence means teaching computers to learn from data instead of) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (following rigid rules. AI recognizes faces in photos, suggests songs you might) Tj ET
+BT 0.2 g /F1 10 Tf 72 562 Td (like, translates languages, and drives cars. It learns from examples like you) Tj ET
+BT 0.2 g /F1 10 Tf 72 548 Td (learn from experience.) Tj ET
+BT 0.2 g /F2 11 Tf 72 519 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 504 Td (Think about AI you interact with daily \(Siri, recommendations, filters\). How) Tj ET
+BT 0.3 g /F4 10 Tf 82 490 Td (does it know what you want? What data does it learn from?) Tj ET
+
+endstream
+endobj
+104 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 105 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+105 0 obj
+<< /Length 962 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (AI Basics - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach ai) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (basics? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see ai basics in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+106 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 107 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+107 0 obj
+<< /Length 814 >>
+stream
+BT 0.2 g /F2 14 Tf 238.8 740 Td (AI Basics - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+108 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 109 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+109 0 obj
+<< /Length 781 >>
+stream
+BT 0.2 g /F2 14 Tf 208.56 740 Td (AI Basics - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+110 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 111 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+111 0 obj
+<< /Length 1191 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 282.0 740 Td (Chapter 13) Tj ET
+BT 0.1 g /F2 14 Tf 215.28 720 Td (WOMEN IN TECH \(ROLE MODELS\)) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (Across tech history, women have been pioneers: Ada Lovelace \(first programmer\),) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (Grace Hopper \(compiler inventor\), Hedy Lamarr \(WiFi predecessor\), Katherine) Tj ET
+BT 0.25 g /F4 10 Tf 72 634 Td (Johnson \(NASA calculations\), and today's leaders at every major tech company.) Tj ET
+BT 0.2 g /F2 11 Tf 72 605 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (Women in tech face unique challenges: being outnumbered, imposter syndrome, bias) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (in hiring. But the women who persist change the world. The tech industry NEEDS) Tj ET
+BT 0.2 g /F1 10 Tf 72 562 Td (your perspective, creativity, and problem-solving approach.) Tj ET
+BT 0.2 g /F2 11 Tf 72 533 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (Research one woman in tech who inspires you. What specifically about her) Tj ET
+BT 0.3 g /F4 10 Tf 82 504 Td (career path interests you?) Tj ET
+
+endstream
+endobj
+112 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 113 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+113 0 obj
+<< /Length 1023 >>
+stream
+BT 0.2 g /F2 14 Tf 161.52 740 Td (Women in Tech \(Role Models\) - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (women in tech \(role models\)? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see women in tech \(role models\) in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+114 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 115 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+115 0 obj
+<< /Length 835 >>
+stream
+BT 0.2 g /F2 14 Tf 178.32 740 Td (Women in Tech \(Role Models\) - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+116 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 117 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+117 0 obj
+<< /Length 801 >>
+stream
+BT 0.2 g /F2 14 Tf 148.08 740 Td (Women in Tech \(Role Models\) - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+118 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 119 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+119 0 obj
+<< /Length 1189 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 282.0 740 Td (Chapter 14) Tj ET
+BT 0.1 g /F2 14 Tf 258.96 720 Td (CODING CAREERS) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (The tech industry offers incredible career diversity: game developer,) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (cybersecurity analyst, data scientist, web developer, AI researcher, robotics) Tj ET
+BT 0.25 g /F4 10 Tf 72 634 Td (engineer, UX designer, app developer, tech entrepreneur, and many more.) Tj ET
+BT 0.2 g /F2 11 Tf 72 605 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (Coding careers offer: high salaries, flexible schedules, remote work options,) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (creative problem-solving, constant learning, and the ability to build things) Tj ET
+BT 0.2 g /F1 10 Tf 72 562 Td (that millions of people use. Starting to learn NOW gives you years of advantage.) Tj ET
+BT 0.2 g /F2 11 Tf 72 533 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (Choose 3 coding careers that interest you. Research: what do they do daily?) Tj ET
+BT 0.3 g /F4 10 Tf 82 504 Td (What do they earn? What skills are needed?) Tj ET
+
+endstream
+endobj
+120 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 121 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+121 0 obj
+<< /Length 977 >>
+stream
+BT 0.2 g /F2 14 Tf 205.2 740 Td (Coding Careers - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (coding careers? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see coding careers in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+122 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 123 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+123 0 obj
+<< /Length 819 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (Coding Careers - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+124 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 125 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+125 0 obj
+<< /Length 786 >>
+stream
+BT 0.2 g /F2 14 Tf 191.76 740 Td (Coding Careers - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+126 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 127 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+127 0 obj
+<< /Length 1210 >>
+stream
+q 0.92 g 50 710 512 50 re f Q
+BT 0.5 g /F1 10 Tf 282.0 740 Td (Chapter 15) Tj ET
+BT 0.1 g /F2 14 Tf 205.2 720 Td (YOUR CODING JOURNEY STARTS NOW) Tj ET
+BT 0.2 g /F2 11 Tf 72 680 Td (FEMALE CODER ROLE MODEL) Tj ET
+BT 0.25 g /F4 10 Tf 72 662 Td (This is not the end - it is the beginning. You now understand how coders think) Tj ET
+BT 0.25 g /F4 10 Tf 72 648 Td (and what programming can do. The next step is to actually start coding! Free) Tj ET
+BT 0.25 g /F4 10 Tf 72 634 Td (resources abound: Scratch, Code.org, Khan Academy, freeCodeCamp, and more.) Tj ET
+BT 0.2 g /F2 11 Tf 72 605 Td (THE CONCEPT) Tj ET
+BT 0.2 g /F1 10 Tf 72 590 Td (Your 30-day coding challenge: Week 1 - Complete a Scratch project. Week 2 - Try) Tj ET
+BT 0.2 g /F1 10 Tf 72 576 Td (HTML/CSS on freeCodeCamp. Week 3 - Solve puzzles on Code.org. Week 4 - Start) Tj ET
+BT 0.2 g /F1 10 Tf 72 562 Td (learning Python basics. Track your progress and celebrate milestones!) Tj ET
+BT 0.2 g /F2 11 Tf 72 533 Td (UNPLUGGED ACTIVITY / CHALLENGE) Tj ET
+BT 0.3 g /F4 10 Tf 82 518 Td (Set up your coding environment today. Choose one free platform and complete) Tj ET
+BT 0.3 g /F4 10 Tf 82 504 Td (your first lesson. You are officially a coder!) Tj ET
+
+endstream
+endobj
+128 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 129 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+129 0 obj
+<< /Length 1026 >>
+stream
+BT 0.2 g /F2 14 Tf 151.44 740 Td (Your Coding Journey Starts Now - Practice Zone) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (PUZZLE/CHALLENGE:) Tj ET
+BT 0.3 g /F4 10 Tf 72 680 Td (Apply computational thinking to solve this: How would a computer approach your) Tj ET
+BT 0.3 g /F4 10 Tf 72 666 Td (coding journey starts now? Break it into the smallest possible steps.) Tj ET
+BT 0.3 g /F1 10 Tf 72 642 Td (My solution:) Tj ET
+q 0.7 G 0.5 w 72 627 m 540 627 l S Q
+q 0.7 G 0.5 w 72 605 m 540 605 l S Q
+q 0.7 G 0.5 w 72 583 m 540 583 l S Q
+q 0.7 G 0.5 w 72 561 m 540 561 l S Q
+q 0.7 G 0.5 w 72 539 m 540 539 l S Q
+q 0.7 G 0.5 w 72 517 m 540 517 l S Q
+q 0.7 G 0.5 w 72 495 m 540 495 l S Q
+BT 0.2 g /F2 10 Tf 72 463 Td (REAL-WORLD CONNECTION:) Tj ET
+BT 0.3 g /F4 10 Tf 72 448 Td (Where do you see your coding journey starts now in apps/games you use?) Tj ET
+q 0.7 G 0.5 w 72 433 m 540 433 l S Q
+q 0.7 G 0.5 w 72 411 m 540 411 l S Q
+q 0.7 G 0.5 w 72 389 m 540 389 l S Q
+q 0.7 G 0.5 w 72 367 m 540 367 l S Q
+
+endstream
+endobj
+130 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 131 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+131 0 obj
+<< /Length 836 >>
+stream
+BT 0.2 g /F2 14 Tf 168.24 740 Td (Your Coding Journey Starts Now - Code It!) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (WRITE YOUR PSEUDOCODE:) Tj ET
+BT 0.4 g /F4 9 Tf 72 682 Td (\(Pseudocode = instructions in plain English before real code\)) Tj ET
+q 0.7 G 0.5 w 72 660 m 540 660 l S Q
+q 0.7 G 0.5 w 72 640 m 540 640 l S Q
+q 0.7 G 0.5 w 72 620 m 540 620 l S Q
+q 0.7 G 0.5 w 72 600 m 540 600 l S Q
+q 0.7 G 0.5 w 72 580 m 540 580 l S Q
+q 0.7 G 0.5 w 72 560 m 540 560 l S Q
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 520 m 540 520 l S Q
+q 0.7 G 0.5 w 72 500 m 540 500 l S Q
+q 0.7 G 0.5 w 72 480 m 540 480 l S Q
+q 0.7 G 0.5 w 72 460 m 540 460 l S Q
+q 0.7 G 0.5 w 72 440 m 540 440 l S Q
+q 0.93 g 72 405 468 25 re f Q
+BT 0.2 g /F5 10 Tf 202.8 415 Td (Remember: Every expert was once a beginner!) Tj ET
+
+endstream
+endobj
+132 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 133 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+133 0 obj
+<< /Length 801 >>
+stream
+BT 0.2 g /F2 14 Tf 138.0 740 Td (Your Coding Journey Starts Now - My Coding Journal) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (What I learned in this chapter:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+BT 0.3 g /F4 11 Tf 72 442 Td (How I will use this skill:) Tj ET
+q 0.7 G 0.5 w 72 424 m 540 424 l S Q
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+
+endstream
+endobj
+134 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 135 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+135 0 obj
+<< /Length 140 >>
+stream
+BT 0.1 g /F2 20 Tf 210.0 600 Td (YOU ARE A CODER NOW.) Tj ET
+BT 0.3 g /F4 13 Tf 190.56 560 Td (Build the future. It needs YOUR code.) Tj ET
+
+endstream
+endobj
+136 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 137 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+137 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+138 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 139 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+139 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+140 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 141 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+141 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+142 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 143 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+143 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+144 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 145 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+145 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+146 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 147 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+147 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+148 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 149 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+149 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+150 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 151 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+151 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+152 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 153 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+153 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+154 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 155 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+155 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+156 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 157 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+157 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+158 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 159 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+159 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+160 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 161 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+161 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+162 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 163 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+163 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+164 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 165 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+165 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+166 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 167 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+167 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+168 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 169 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+169 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+170 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 171 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+171 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+172 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 173 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+173 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+174 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 175 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+175 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+176 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 177 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+177 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+178 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 179 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+179 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+180 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 181 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+181 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+182 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 183 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+183 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+184 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 185 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+185 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+186 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 187 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+187 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+188 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 189 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+189 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+190 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 191 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+191 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+192 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 193 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+193 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+194 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 195 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+195 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+196 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 197 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+197 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+198 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 199 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+199 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+200 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 201 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+201 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+202 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 203 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+203 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+204 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 205 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+205 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+206 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 207 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+207 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+208 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 209 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+209 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+210 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 211 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+211 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+212 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 213 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+213 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+214 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 215 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+215 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+216 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 217 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+217 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+218 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 219 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+219 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+220 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 221 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+221 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+222 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 223 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+223 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+224 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 225 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+225 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+226 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 227 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+227 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+228 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 229 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+229 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+230 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 231 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+231 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+232 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 233 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+233 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+234 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 235 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+235 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+236 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 237 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+237 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+238 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 239 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+239 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+240 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 241 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+241 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+242 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 243 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+243 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+244 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 245 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+245 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+246 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 247 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+247 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+248 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 249 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+249 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+250 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 251 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+251 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+252 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 253 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+253 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+254 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 255 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+255 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+256 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 257 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+257 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+258 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 259 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+259 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+260 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 261 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+261 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+262 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 263 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+263 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+264 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 265 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+265 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+266 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 267 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+267 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+268 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 269 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+269 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+270 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 271 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+271 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+272 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 273 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+273 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+274 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 275 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+275 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for additional thoughts and ideas:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+276 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 277 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+277 0 obj
+<< /Length 868 >>
+stream
+BT 0.2 g /F2 14 Tf 228.72 740 Td (PERSONAL GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.2 g /F2 11 Tf 72 700 Td (What resonated with me most:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+q 0.7 G 0.5 w 72 568 m 540 568 l S Q
+BT 0.2 g /F2 11 Tf 72 536 Td (Actions I will take:) Tj ET
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+q 0.7 G 0.5 w 72 430 m 540 430 l S Q
+q 0.7 G 0.5 w 72 408 m 540 408 l S Q
+BT 0.2 g /F2 11 Tf 72 376 Td (My commitment:) Tj ET
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+q 0.7 G 0.5 w 72 314 m 540 314 l S Q
+q 0.7 G 0.5 w 72 292 m 540 292 l S Q
+
+endstream
+endobj
+278 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 279 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+279 0 obj
+<< /Length 816 >>
+stream
+BT 0.2 g /F2 14 Tf 222.0 740 Td (REFLECTION & ACTION STEPS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Key takeaways from this section:) Tj ET
+q 0.7 G 0.5 w 72 678 m 540 678 l S Q
+q 0.7 G 0.5 w 72 656 m 540 656 l S Q
+q 0.7 G 0.5 w 72 634 m 540 634 l S Q
+q 0.7 G 0.5 w 72 612 m 540 612 l S Q
+q 0.7 G 0.5 w 72 590 m 540 590 l S Q
+BT 0.3 g /F4 11 Tf 72 558 Td (How this applies to my life:) Tj ET
+q 0.7 G 0.5 w 72 540 m 540 540 l S Q
+q 0.7 G 0.5 w 72 518 m 540 518 l S Q
+q 0.7 G 0.5 w 72 496 m 540 496 l S Q
+q 0.7 G 0.5 w 72 474 m 540 474 l S Q
+q 0.7 G 0.5 w 72 452 m 540 452 l S Q
+BT 0.3 g /F4 11 Tf 72 420 Td (Questions I still have:) Tj ET
+q 0.7 G 0.5 w 72 402 m 540 402 l S Q
+q 0.7 G 0.5 w 72 380 m 540 380 l S Q
+q 0.7 G 0.5 w 72 358 m 540 358 l S Q
+q 0.7 G 0.5 w 72 336 m 540 336 l S Q
+
+endstream
+endobj
+280 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 281 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+281 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+282 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 283 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+283 0 obj
+<< /Length 942 >>
+stream
+BT 0.2 g /F2 14 Tf 245.52 740 Td (DEEPER EXPLORATION) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+284 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 285 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+285 0 obj
+<< /Length 938 >>
+stream
+BT 0.2 g /F2 14 Tf 258.96 740 Td (MY ACTION PLAN) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+286 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 287 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+287 0 obj
+<< /Length 941 >>
+stream
+BT 0.2 g /F2 14 Tf 248.88 740 Td (CREATIVE RESPONSE) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+288 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 289 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+289 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (ADDITIONAL THOUGHTS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+290 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 291 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+291 0 obj
+<< /Length 938 >>
+stream
+BT 0.2 g /F2 14 Tf 258.96 740 Td (GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+292 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 293 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+293 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+294 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 295 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+295 0 obj
+<< /Length 942 >>
+stream
+BT 0.2 g /F2 14 Tf 245.52 740 Td (DEEPER EXPLORATION) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+296 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 297 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+297 0 obj
+<< /Length 938 >>
+stream
+BT 0.2 g /F2 14 Tf 258.96 740 Td (MY ACTION PLAN) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+298 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 299 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+299 0 obj
+<< /Length 941 >>
+stream
+BT 0.2 g /F2 14 Tf 248.88 740 Td (CREATIVE RESPONSE) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+300 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 301 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+301 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (ADDITIONAL THOUGHTS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+302 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 303 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+303 0 obj
+<< /Length 938 >>
+stream
+BT 0.2 g /F2 14 Tf 258.96 740 Td (GROWTH JOURNAL) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+304 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 305 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+305 0 obj
+<< /Length 943 >>
+stream
+BT 0.2 g /F2 14 Tf 242.16 740 Td (NOTES & REFLECTIONS) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+306 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 307 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+307 0 obj
+<< /Length 942 >>
+stream
+BT 0.2 g /F2 14 Tf 245.52 740 Td (DEEPER EXPLORATION) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+308 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 309 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+309 0 obj
+<< /Length 938 >>
+stream
+BT 0.2 g /F2 14 Tf 258.96 740 Td (MY ACTION PLAN) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+310 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 311 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> >>
+endobj
+311 0 obj
+<< /Length 941 >>
+stream
+BT 0.2 g /F2 14 Tf 248.88 740 Td (CREATIVE RESPONSE) Tj ET
+q 0.3 G 1 w 72 725 m 540 725 l S Q
+BT 0.3 g /F4 11 Tf 72 700 Td (Use this space for your thoughts and reflections:) Tj ET
+q 0.75 G 0.5 w 72 678 m 540 678 l S Q
+q 0.75 G 0.5 w 72 653 m 540 653 l S Q
+q 0.75 G 0.5 w 72 628 m 540 628 l S Q
+q 0.75 G 0.5 w 72 603 m 540 603 l S Q
+q 0.75 G 0.5 w 72 578 m 540 578 l S Q
+q 0.75 G 0.5 w 72 553 m 540 553 l S Q
+q 0.75 G 0.5 w 72 528 m 540 528 l S Q
+q 0.75 G 0.5 w 72 503 m 540 503 l S Q
+q 0.75 G 0.5 w 72 478 m 540 478 l S Q
+q 0.75 G 0.5 w 72 453 m 540 453 l S Q
+q 0.75 G 0.5 w 72 428 m 540 428 l S Q
+q 0.75 G 0.5 w 72 403 m 540 403 l S Q
+q 0.75 G 0.5 w 72 378 m 540 378 l S Q
+q 0.75 G 0.5 w 72 353 m 540 353 l S Q
+q 0.75 G 0.5 w 72 328 m 540 328 l S Q
+q 0.75 G 0.5 w 72 303 m 540 303 l S Q
+q 0.75 G 0.5 w 72 278 m 540 278 l S Q
+q 0.75 G 0.5 w 72 253 m 540 253 l S Q
+q 0.75 G 0.5 w 72 228 m 540 228 l S Q
+q 0.75 G 0.5 w 72 203 m 540 203 l S Q
+
+endstream
+endobj
+xref
+0 312
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000001280 00000 n 
+0000001350 00000 n 
+0000001425 00000 n 
+0000001493 00000 n 
+0000001565 00000 n 
+0000001636 00000 n 
+0000001802 00000 n 
+0000002197 00000 n 
+0000002365 00000 n 
+0000002677 00000 n 
+0000002845 00000 n 
+0000004015 00000 n 
+0000004183 00000 n 
+0000005404 00000 n 
+0000005572 00000 n 
+0000006645 00000 n 
+0000006813 00000 n 
+0000007699 00000 n 
+0000007867 00000 n 
+0000008719 00000 n 
+0000008887 00000 n 
+0000010016 00000 n 
+0000010184 00000 n 
+0000011257 00000 n 
+0000011425 00000 n 
+0000012311 00000 n 
+0000012479 00000 n 
+0000013331 00000 n 
+0000013499 00000 n 
+0000014650 00000 n 
+0000014818 00000 n 
+0000015987 00000 n 
+0000016155 00000 n 
+0000017073 00000 n 
+0000017241 00000 n 
+0000018124 00000 n 
+0000018292 00000 n 
+0000019426 00000 n 
+0000019594 00000 n 
+0000020664 00000 n 
+0000020832 00000 n 
+0000021717 00000 n 
+0000021885 00000 n 
+0000022736 00000 n 
+0000022904 00000 n 
+0000024019 00000 n 
+0000024187 00000 n 
+0000025229 00000 n 
+0000025397 00000 n 
+0000026273 00000 n 
+0000026441 00000 n 
+0000027283 00000 n 
+0000027451 00000 n 
+0000028560 00000 n 
+0000028728 00000 n 
+0000029767 00000 n 
+0000029935 00000 n 
+0000030822 00000 n 
+0000030990 00000 n 
+0000031831 00000 n 
+0000031999 00000 n 
+0000033123 00000 n 
+0000033291 00000 n 
+0000034333 00000 n 
+0000034501 00000 n 
+0000035377 00000 n 
+0000035545 00000 n 
+0000036387 00000 n 
+0000036555 00000 n 
+0000037694 00000 n 
+0000037862 00000 n 
+0000038947 00000 n 
+0000039115 00000 n 
+0000040005 00000 n 
+0000040173 00000 n 
+0000041028 00000 n 
+0000041196 00000 n 
+0000042350 00000 n 
+0000042518 00000 n 
+0000043560 00000 n 
+0000043728 00000 n 
+0000044604 00000 n 
+0000044772 00000 n 
+0000045614 00000 n 
+0000045782 00000 n 
+0000046968 00000 n 
+0000047136 00000 n 
+0000048212 00000 n 
+0000048380 00000 n 
+0000049267 00000 n 
+0000049435 00000 n 
+0000050288 00000 n 
+0000050456 00000 n 
+0000051578 00000 n 
+0000051746 00000 n 
+0000052782 00000 n 
+0000052950 00000 n 
+0000053820 00000 n 
+0000053990 00000 n 
+0000054839 00000 n 
+0000055009 00000 n 
+0000056272 00000 n 
+0000056442 00000 n 
+0000057457 00000 n 
+0000057627 00000 n 
+0000058494 00000 n 
+0000058664 00000 n 
+0000059498 00000 n 
+0000059668 00000 n 
+0000060913 00000 n 
+0000061083 00000 n 
+0000062160 00000 n 
+0000062330 00000 n 
+0000063218 00000 n 
+0000063388 00000 n 
+0000064242 00000 n 
+0000064412 00000 n 
+0000065655 00000 n 
+0000065825 00000 n 
+0000066855 00000 n 
+0000067025 00000 n 
+0000067897 00000 n 
+0000068067 00000 n 
+0000068906 00000 n 
+0000069076 00000 n 
+0000070340 00000 n 
+0000070510 00000 n 
+0000071590 00000 n 
+0000071760 00000 n 
+0000072649 00000 n 
+0000072819 00000 n 
+0000073673 00000 n 
+0000073843 00000 n 
+0000074036 00000 n 
+0000074206 00000 n 
+0000075202 00000 n 
+0000075372 00000 n 
+0000076293 00000 n 
+0000076463 00000 n 
+0000077332 00000 n 
+0000077502 00000 n 
+0000078498 00000 n 
+0000078668 00000 n 
+0000079589 00000 n 
+0000079759 00000 n 
+0000080628 00000 n 
+0000080798 00000 n 
+0000081794 00000 n 
+0000081964 00000 n 
+0000082885 00000 n 
+0000083055 00000 n 
+0000083924 00000 n 
+0000084094 00000 n 
+0000085090 00000 n 
+0000085260 00000 n 
+0000086181 00000 n 
+0000086351 00000 n 
+0000087220 00000 n 
+0000087390 00000 n 
+0000088386 00000 n 
+0000088556 00000 n 
+0000089477 00000 n 
+0000089647 00000 n 
+0000090516 00000 n 
+0000090686 00000 n 
+0000091682 00000 n 
+0000091852 00000 n 
+0000092773 00000 n 
+0000092943 00000 n 
+0000093812 00000 n 
+0000093982 00000 n 
+0000094978 00000 n 
+0000095148 00000 n 
+0000096069 00000 n 
+0000096239 00000 n 
+0000097108 00000 n 
+0000097278 00000 n 
+0000098274 00000 n 
+0000098444 00000 n 
+0000099365 00000 n 
+0000099535 00000 n 
+0000100404 00000 n 
+0000100574 00000 n 
+0000101570 00000 n 
+0000101740 00000 n 
+0000102661 00000 n 
+0000102831 00000 n 
+0000103700 00000 n 
+0000103870 00000 n 
+0000104866 00000 n 
+0000105036 00000 n 
+0000105957 00000 n 
+0000106127 00000 n 
+0000106996 00000 n 
+0000107166 00000 n 
+0000108162 00000 n 
+0000108332 00000 n 
+0000109253 00000 n 
+0000109423 00000 n 
+0000110292 00000 n 
+0000110462 00000 n 
+0000111458 00000 n 
+0000111628 00000 n 
+0000112549 00000 n 
+0000112719 00000 n 
+0000113588 00000 n 
+0000113758 00000 n 
+0000114754 00000 n 
+0000114924 00000 n 
+0000115845 00000 n 
+0000116015 00000 n 
+0000116884 00000 n 
+0000117054 00000 n 
+0000118050 00000 n 
+0000118220 00000 n 
+0000119141 00000 n 
+0000119311 00000 n 
+0000120180 00000 n 
+0000120350 00000 n 
+0000121346 00000 n 
+0000121516 00000 n 
+0000122437 00000 n 
+0000122607 00000 n 
+0000123476 00000 n 
+0000123646 00000 n 
+0000124642 00000 n 
+0000124812 00000 n 
+0000125733 00000 n 
+0000125903 00000 n 
+0000126772 00000 n 
+0000126942 00000 n 
+0000127938 00000 n 
+0000128108 00000 n 
+0000129029 00000 n 
+0000129199 00000 n 
+0000130068 00000 n 
+0000130238 00000 n 
+0000131234 00000 n 
+0000131404 00000 n 
+0000132325 00000 n 
+0000132495 00000 n 
+0000133364 00000 n 
+0000133534 00000 n 
+0000134530 00000 n 
+0000134700 00000 n 
+0000135621 00000 n 
+0000135791 00000 n 
+0000136660 00000 n 
+0000136830 00000 n 
+0000137826 00000 n 
+0000137996 00000 n 
+0000138917 00000 n 
+0000139087 00000 n 
+0000139956 00000 n 
+0000140126 00000 n 
+0000141122 00000 n 
+0000141292 00000 n 
+0000142213 00000 n 
+0000142383 00000 n 
+0000143252 00000 n 
+0000143422 00000 n 
+0000144418 00000 n 
+0000144588 00000 n 
+0000145509 00000 n 
+0000145679 00000 n 
+0000146548 00000 n 
+0000146718 00000 n 
+0000147714 00000 n 
+0000147884 00000 n 
+0000148805 00000 n 
+0000148975 00000 n 
+0000149844 00000 n 
+0000150014 00000 n 
+0000151010 00000 n 
+0000151180 00000 n 
+0000152101 00000 n 
+0000152271 00000 n 
+0000153140 00000 n 
+0000153310 00000 n 
+0000154306 00000 n 
+0000154476 00000 n 
+0000155471 00000 n 
+0000155641 00000 n 
+0000156632 00000 n 
+0000156802 00000 n 
+0000157796 00000 n 
+0000157966 00000 n 
+0000158962 00000 n 
+0000159132 00000 n 
+0000160123 00000 n 
+0000160293 00000 n 
+0000161289 00000 n 
+0000161459 00000 n 
+0000162454 00000 n 
+0000162624 00000 n 
+0000163615 00000 n 
+0000163785 00000 n 
+0000164779 00000 n 
+0000164949 00000 n 
+0000165945 00000 n 
+0000166115 00000 n 
+0000167106 00000 n 
+0000167276 00000 n 
+0000168272 00000 n 
+0000168442 00000 n 
+0000169437 00000 n 
+0000169607 00000 n 
+0000170598 00000 n 
+0000170768 00000 n 
+trailer
+<< /Size 312 /Root 1 0 R >>
+startxref
+171762
+%%EOF
